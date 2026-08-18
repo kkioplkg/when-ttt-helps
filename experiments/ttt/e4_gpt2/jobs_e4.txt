@@ -1,0 +1,14 @@
+pip install -q transformers datasets huggingface_hub
+python e4_gpt2/prepare_data.py --out-dir workdir/data/e4 --n-docs 1000
+python e4_gpt2/run_e4.py --domain wikitext --seed 0 --n-docs 500 --adapt-params ln
+python e4_gpt2/run_e4.py --domain wikitext --seed 1 --n-docs 500 --adapt-params ln
+python e4_gpt2/run_e4.py --domain wikitext --seed 2 --n-docs 500 --adapt-params ln
+python e4_gpt2/run_e4.py --domain pubmed --seed 0 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s0.json
+python e4_gpt2/run_e4.py --domain pubmed --seed 1 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s1.json
+python e4_gpt2/run_e4.py --domain pubmed --seed 2 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s2.json
+python e4_gpt2/run_e4.py --domain code --seed 0 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s0.json
+python e4_gpt2/run_e4.py --domain code --seed 1 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s1.json
+python e4_gpt2/run_e4.py --domain code --seed 2 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s2.json
+python e4_gpt2/run_e4.py --domain legal --seed 0 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s0.json
+python e4_gpt2/run_e4.py --domain legal --seed 1 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s1.json
+python e4_gpt2/run_e4.py --domain legal --seed 2 --n-docs 500 --adapt-params ln --ref-file workdir/ttt/results/e4/wikitext_ref_s2.json

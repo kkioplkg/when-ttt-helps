@@ -1,0 +1,4 @@
+# This repository ships sha256 manifests (MANIFEST.json, MANIFEST_*.sha256).
+# Any end-of-line translation would change file bytes and break those digests,
+# so disable it everywhere: files are stored and checked out verbatim.
+* -text
