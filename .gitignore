@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Local run output — the default working root used by the experiment runners
+workdir/
+
+# Archives: the record sets and release bundles live in the DOI deposit (DATA.md)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Raw record sets and model payloads — see DATA.md
+*.jsonl.gz
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+experiments/results/e2/
+experiments/results/e4/
+experiments/results/e5/
+experiments/results/is_fresh/closure/records/
+
+# LaTeX build artifacts (the manuscript is not tracked here)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
