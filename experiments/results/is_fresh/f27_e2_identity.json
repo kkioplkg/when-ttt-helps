@@ -1,0 +1,137 @@
+{
+ "arms": {
+  "pl/phase_feat": {
+   "abs_shift": 0.00047,
+   "cross_share_identities_per_seed": [
+    175,
+    165,
+    177,
+    176,
+    188
+   ],
+   "cross_share_rows_per_seed": [
+    350,
+    330,
+    354,
+    352,
+    376
+   ],
+   "rho_mean_final": 0.87654,
+   "rho_mean_final_identity_pruned": 0.87701
+  },
+  "tent/phase_feat": {
+   "abs_shift": 0.00058,
+   "cross_share_identities_per_seed": [
+    175,
+    165,
+    177,
+    176,
+    188
+   ],
+   "cross_share_rows_per_seed": [
+    350,
+    330,
+    354,
+    352,
+    376
+   ],
+   "rho_mean_final": 0.86775,
+   "rho_mean_final_identity_pruned": 0.86717
+  },
+  "ttt_mask/phase_feat": {
+   "abs_shift": 0.00189,
+   "cross_share_identities_per_seed": [
+    175,
+    165,
+    177,
+    176,
+    188
+   ],
+   "cross_share_rows_per_seed": [
+    350,
+    330,
+    354,
+    352,
+    376
+   ],
+   "rho_mean_final": 0.53966,
+   "rho_mean_final_identity_pruned": 0.53777
+  },
+  "ttt_mask/phase_loss": {
+   "abs_shift": 0.00781,
+   "cross_share_identities_per_seed": [
+    175,
+    165,
+    177,
+    176,
+    188
+   ],
+   "cross_share_rows_per_seed": [
+    350,
+    330,
+    354,
+    352,
+    376
+   ],
+   "rho_mean_final": 0.50426,
+   "rho_mean_final_identity_pruned": 0.49645
+  },
+  "ttt_rot/phase_feat": {
+   "abs_shift": 0.00171,
+   "cross_share_identities_per_seed": [
+    256,
+    248,
+    258,
+    252,
+    268
+   ],
+   "cross_share_rows_per_seed": [
+    512,
+    496,
+    516,
+    504,
+    536
+   ],
+   "rho_mean_final": 0.54601,
+   "rho_mean_final_identity_pruned": 0.54771
+  },
+  "ttt_rot/phase_loss": {
+   "abs_shift": 0.00288,
+   "cross_share_identities_per_seed": [
+    256,
+    248,
+    258,
+    252,
+    268
+   ],
+   "cross_share_rows_per_seed": [
+    512,
+    496,
+    516,
+    504,
+    536
+   ],
+   "rho_mean_final": 0.068,
+   "rho_mean_final_identity_pruned": 0.07088
+  }
+ },
+ "commission": 0.5,
+ "identities_per_seed_range": [
+  165,
+  268
+ ],
+ "max_abs_rho_shift": 0.00781,
+ "n_cells": 390,
+ "n_episode_records": 134400,
+ "rows_per_seed_range": [
+  330,
+  536
+ ],
+ "seeds": [
+  20260801,
+  20260802,
+  20260803,
+  20260804,
+  20260805
+ ]
+}

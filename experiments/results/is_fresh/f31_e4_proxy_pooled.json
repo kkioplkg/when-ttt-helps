@@ -1,0 +1,1045 @@
+{
+ "audit_vs_f12": {
+  "f12_favourable_side_count": 1,
+  "max_endpoint_gap_vs_f12_per_stream": 0.0,
+  "max_endpoint_shift_location": "pubmed.partial_rho_delta_v2_given_alignment.lo",
+  "max_endpoint_shift_vs_f12": 0.001035192208973017,
+  "max_point_estimate_gap": 0.0,
+  "note": "per_stream gap ~0 proves f31 replays f12's exact draws; shift is therefore attributable to the endpoint rule alone"
+ },
+ "bootstrap_seeds": [
+  20260806,
+  20260807,
+  20260808,
+  20260809,
+  20260810
+ ],
+ "correction": "the five B = 2000 streams are pooled into one 10,000-draw empirical distribution per quantity and one 2.5/97.5 percentile pair is read off it",
+ "finding": "f12's held-out brackets were the arithmetic mean of five per-stream percentile endpoints while the manuscript described them as a document bootstrap interval",
+ "folds": {
+  "code": {
+   "heldout_partial_rho_delta_v2_given_alignment": -0.2867160676853068,
+   "heldout_partial_rho_phase_v2_given_alignment": -0.2505579579419053,
+   "heldout_rho_alignment_only": 0.7025436741746967,
+   "heldout_rho_difficulty_baseline_frozen_ce": 0.44208445633782534,
+   "heldout_rho_phase_v2": 0.6064360577442309,
+   "heldout_rho_selected": 0.7025436741746967,
+   "heldout_rho_selected_by_rank": 0.7025436741746967,
+   "n_heldout_documents": 500,
+   "pooled_ci_partial_rho_delta_v2_given_alignment": {
+    "hi": -0.20294539916392268,
+    "lo": -0.36763121763807416,
+    "mc_endpoint_range": {
+     "hi": [
+      -0.20771489791352313,
+      -0.19951393385629806
+     ],
+     "lo": [
+      -0.37000978005452895,
+      -0.36520462318407954
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.36631911086098534,
+      -0.20771489791352313
+     ],
+     [
+      -0.36740120241481666,
+      -0.19951393385629806
+     ],
+     [
+      -0.37000978005452895,
+      -0.20199572905623758
+     ],
+     [
+      -0.36520462318407954,
+      -0.20015241608236697
+     ],
+     [
+      -0.36905319273536447,
+      -0.20493989539487106
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": -0.20286337446065933,
+     "lo": -0.36759758184995495
+    },
+    "width": 0.16468581847415148
+   },
+   "pooled_ci_phase_v2": {
+    "hi": 0.66645766207278,
+    "lo": 0.5399716040930651,
+    "mc_endpoint_range": {
+     "hi": [
+      0.6657809553357625,
+      0.6671893459221816
+     ],
+     "lo": [
+      0.5374327402957385,
+      0.5411860367235041
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.5410141563794658,
+      0.6664073217235503
+     ],
+     [
+      0.5402432334708581,
+      0.6664314387528868
+     ],
+     [
+      0.5374327402957385,
+      0.6657809553357625
+     ],
+     [
+      0.5411860367235041,
+      0.66645766207278
+     ],
+     [
+      0.5400834129888825,
+      0.6671893459221816
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.6664533447614323,
+     "lo": 0.5399919159716898
+    },
+    "width": 0.1264860579797149
+   },
+   "pooled_ci_phase_v2_minus_alignment_only": {
+    "hi": -0.070138337739723,
+    "lo": -0.12391477132589733,
+    "mc_endpoint_range": {
+     "hi": [
+      -0.07161031054268263,
+      -0.06955884790795455
+     ],
+     "lo": [
+      -0.12451994150422534,
+      -0.12350534163891999
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.12434433658457707,
+      -0.07161031054268263
+     ],
+     [
+      -0.12364944312012273,
+      -0.06996944263902981
+     ],
+     [
+      -0.12451994150422534,
+      -0.0699087870705561
+     ],
+     [
+      -0.12376991254557135,
+      -0.06955884790795455
+     ],
+     [
+      -0.12350534163891999,
+      -0.07023899419154685
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": -0.07025727647035399,
+     "lo": -0.12395779507868329
+    },
+    "width": 0.05377643358617433
+   },
+   "pooled_ci_selected": {
+    "hi": 0.7510977478686752,
+    "lo": 0.6472508875526456,
+    "mc_endpoint_range": {
+     "hi": [
+      0.7493470631905289,
+      0.7541801588480278
+     ],
+     "lo": [
+      0.6461314440208529,
+      0.6487381347387762
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.6481880049600228,
+      0.7508285819149341
+     ],
+     [
+      0.6487381347387762,
+      0.7541801588480278
+     ],
+     [
+      0.6465393704209939,
+      0.7502056363597083
+     ],
+     [
+      0.6486213612359554,
+      0.750341487591325
+     ],
+     [
+      0.6461314440208529,
+      0.7493470631905289
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.7509805855809047,
+     "lo": 0.6476436630753202
+    },
+    "width": 0.10384686031602963
+   },
+   "pooled_ci_selected_minus_phase_v2": {
+    "hi": 0.12391477132589733,
+    "lo": 0.070138337739723,
+    "mc_endpoint_range": {
+     "hi": [
+      0.12350534163891998,
+      0.12451994150422531
+     ],
+     "lo": [
+      0.06955884790795452,
+      0.07161031054268262
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.07161031054268262,
+      0.12434433658457707
+     ],
+     [
+      0.06996944263902981,
+      0.12364944312012273
+     ],
+     [
+      0.06990878707055609,
+      0.12451994150422531
+     ],
+     [
+      0.06955884790795452,
+      0.12376991254557135
+     ],
+     [
+      0.07023899419154683,
+      0.12350534163891998
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.12395779507868329,
+     "lo": 0.07025727647035397
+    },
+    "width": 0.05377643358617433
+   },
+   "selected_by_mean_rank": "alpha_only",
+   "selected_by_mean_rho": "alpha_only",
+   "selected_is_delta_v2_family": false,
+   "selected_is_papers_exact_proxy": false,
+   "train_domains": [
+    "legal",
+    "pubmed",
+    "wikitext"
+   ]
+  },
+  "legal": {
+   "heldout_partial_rho_delta_v2_given_alignment": 0.0033303590403279005,
+   "heldout_partial_rho_phase_v2_given_alignment": 0.038466434979559906,
+   "heldout_rho_alignment_only": 0.941507926031704,
+   "heldout_rho_difficulty_baseline_frozen_ce": -0.3847309469237877,
+   "heldout_rho_phase_v2": 0.9281649286597147,
+   "heldout_rho_selected": 0.9270925083700333,
+   "heldout_rho_selected_by_rank": 0.941507926031704,
+   "n_heldout_documents": 500,
+   "pooled_ci_partial_rho_delta_v2_given_alignment": {
+    "hi": 0.09020135280022444,
+    "lo": -0.081859539233458,
+    "mc_endpoint_range": {
+     "hi": [
+      0.08530084220993255,
+      0.09550707123686528
+     ],
+     "lo": [
+      -0.08489979947294497,
+      -0.07964342811673104
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.08489979947294497,
+      0.08530084220993255
+     ],
+     [
+      -0.08272261938769891,
+      0.09073399966379385
+     ],
+     [
+      -0.07964342811673104,
+      0.09550707123686528
+     ],
+     [
+      -0.08119489781408461,
+      0.08672675535225136
+     ],
+     [
+      -0.08153678560719577,
+      0.09212898716613013
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.09007953112579463,
+     "lo": -0.08199950607973105
+    },
+    "width": 0.17206089203368244
+   },
+   "pooled_ci_phase_v2": {
+    "hi": 0.9418287640215617,
+    "lo": 0.9103465049518716,
+    "mc_endpoint_range": {
+     "hi": [
+      0.9412149713765134,
+      0.9427531203038164
+     ],
+     "lo": [
+      0.9096849241076945,
+      0.9105105997105617
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.9096849241076945,
+      0.9412829417234392
+     ],
+     [
+      0.9104067496835637,
+      0.9412149713765134
+     ],
+     [
+      0.9102390574707477,
+      0.9421550473032277
+     ],
+     [
+      0.9105105997105617,
+      0.941644157472316
+     ],
+     [
+      0.910438883881036,
+      0.9427531203038164
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.9418100476358626,
+     "lo": 0.9102560429707207
+    },
+    "width": 0.031482259069690044
+   },
+   "pooled_ci_phase_v2_minus_alignment_only": {
+    "hi": -0.0066552802986497555,
+    "lo": -0.02079493607251003,
+    "mc_endpoint_range": {
+     "hi": [
+      -0.006951388230727649,
+      -0.006415942486350734
+     ],
+     "lo": [
+      -0.020914284215131775,
+      -0.020336988006177954
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.020914284215131775,
+      -0.006951388230727649
+     ],
+     [
+      -0.020897795323135883,
+      -0.006688265909929245
+     ],
+     [
+      -0.020336988006177954,
+      -0.006585546504830514
+     ],
+     [
+      -0.020905644588534385,
+      -0.00669568896668955
+     ],
+     [
+      -0.02063734981267469,
+      -0.006415942486350734
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": -0.006667366419705538,
+     "lo": -0.020738412389130937
+    },
+    "width": 0.014139655773860274
+   },
+   "pooled_ci_selected": {
+    "hi": 0.940570273484879,
+    "lo": 0.9095580757540024,
+    "mc_endpoint_range": {
+     "hi": [
+      0.9399446499523469,
+      0.9419115463894953
+     ],
+     "lo": [
+      0.9093586796709554,
+      0.9099655742037545
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.909439895411273,
+      0.9399446499523469
+     ],
+     [
+      0.9095580757540024,
+      0.940021845186817
+     ],
+     [
+      0.9093586796709554,
+      0.9407587574777928
+     ],
+     [
+      0.9099655742037545,
+      0.9409664744939188
+     ],
+     [
+      0.9097650364083028,
+      0.9419115463894953
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.9407206547000742,
+     "lo": 0.9096174522896575
+    },
+    "width": 0.0310121977308766
+   },
+   "pooled_ci_selected_minus_phase_v2": {
+    "hi": 0.002221252739423162,
+    "lo": -0.004280989665231422,
+    "mc_endpoint_range": {
+     "hi": [
+      0.002104781986207829,
+      0.00228508151397479
+     ],
+     "lo": [
+      -0.00431531352583836,
+      -0.004232926132585304
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.00431531352583836,
+      0.0022338288689996142
+     ],
+     [
+      -0.0042438253793646045,
+      0.0022551668646861238
+     ],
+     [
+      -0.004276148600878399,
+      0.00228508151397479
+     ],
+     [
+      -0.004280386723946805,
+      0.002216611420756173
+     ],
+     [
+      -0.004232926132585304,
+      0.002104781986207829
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.002219094130924906,
+     "lo": -0.004269720072522696
+    },
+    "width": 0.006502242404654584
+   },
+   "selected_by_mean_rank": "alpha_only",
+   "selected_by_mean_rho": "phase_v2_gnorm",
+   "selected_is_delta_v2_family": true,
+   "selected_is_papers_exact_proxy": false,
+   "train_domains": [
+    "code",
+    "pubmed",
+    "wikitext"
+   ]
+  },
+  "pubmed": {
+   "heldout_partial_rho_delta_v2_given_alignment": 0.09129840490547661,
+   "heldout_partial_rho_phase_v2_given_alignment": 0.15474548969753835,
+   "heldout_rho_alignment_only": 0.8983284893139571,
+   "heldout_rho_difficulty_baseline_frozen_ce": 0.10047102588410353,
+   "heldout_rho_phase_v2": 0.8902168408673634,
+   "heldout_rho_selected": 0.8983284893139571,
+   "heldout_rho_selected_by_rank": 0.8983284893139571,
+   "n_heldout_documents": 500,
+   "pooled_ci_partial_rho_delta_v2_given_alignment": {
+    "hi": 0.18291483333224634,
+    "lo": 0.0004401361146426461,
+    "mc_endpoint_range": {
+     "hi": [
+      0.17956545561245243,
+      0.1871131965915295
+     ],
+     "lo": [
+      -0.0036158716895535823,
+      0.005681777304126887
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.002425756224732557,
+      0.17956545561245243
+     ],
+     [
+      -0.0010464954576193054,
+      0.18176372762784387
+     ],
+     [
+      0.005681777304126887,
+      0.1836720664833888
+     ],
+     [
+      -0.0036158716895535823,
+      0.18291949386004439
+     ],
+     [
+      0.003931475236391759,
+      0.1871131965915295
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.1830067880350518,
+     "lo": 0.001475328323615663
+    },
+    "width": 0.1824746972176037
+   },
+   "pooled_ci_phase_v2": {
+    "hi": 0.9139370931824429,
+    "lo": 0.8612561848737232,
+    "mc_endpoint_range": {
+     "hi": [
+      0.9134011586277737,
+      0.9143342687085514
+     ],
+     "lo": [
+      0.8596105568782,
+      0.8621676926756341
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.8621676926756341,
+      0.9140135083513652
+     ],
+     [
+      0.8596105568782,
+      0.9143342687085514
+     ],
+     [
+      0.8612107036550292,
+      0.9137669527981123
+     ],
+     [
+      0.8620057227755937,
+      0.9134011586277737
+     ],
+     [
+      0.8609977941661003,
+      0.9139217256477518
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.9138875228267109,
+     "lo": 0.8611984940301115
+    },
+    "width": 0.05268090830871963
+   },
+   "pooled_ci_phase_v2_minus_alignment_only": {
+    "hi": 0.0030506010316099555,
+    "lo": -0.018933358411082648,
+    "mc_endpoint_range": {
+     "hi": [
+      0.0027364430980692236,
+      0.0036704602585718596
+     ],
+     "lo": [
+      -0.019026935678869417,
+      -0.018675775725765502
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.018675775725765502,
+      0.0028023070493145476
+     ],
+     [
+      -0.018993656958619105,
+      0.003150203040218802
+     ],
+     [
+      -0.018755438150806634,
+      0.0036704602585718596
+     ],
+     [
+      -0.019026935678869417,
+      0.0027364430980692236
+     ],
+     [
+      -0.018771105664033092,
+      0.0027808572081949264
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.003028054130873872,
+     "lo": -0.018844582435618748
+    },
+    "width": 0.021983959442692602
+   },
+   "pooled_ci_selected": {
+    "hi": 0.9211581375222094,
+    "lo": 0.8697841083542266,
+    "mc_endpoint_range": {
+     "hi": [
+      0.9204771833001795,
+      0.9219671389137223
+     ],
+     "lo": [
+      0.8681623584438678,
+      0.8706713404732899
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.8706413179022787,
+      0.9214677242592573
+     ],
+     [
+      0.8681623584438678,
+      0.9219671389137223
+     ],
+     [
+      0.8693643134174025,
+      0.9206062479885
+     ],
+     [
+      0.8699398228316512,
+      0.9211551215142516
+     ],
+     [
+      0.8706713404732899,
+      0.9204771833001795
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.9211346831951822,
+     "lo": 0.8697558306136981
+    },
+    "width": 0.05137402916798284
+   },
+   "pooled_ci_selected_minus_phase_v2": {
+    "hi": 0.01893335841108264,
+    "lo": -0.0030506010316099564,
+    "mc_endpoint_range": {
+     "hi": [
+      0.018675775725765495,
+      0.01902693567886941
+     ],
+     "lo": [
+      -0.0036704602585718752,
+      -0.0027364430980692245
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.0028023070493145507,
+      0.018675775725765495
+     ],
+     [
+      -0.003150203040218802,
+      0.018993656958619102
+     ],
+     [
+      -0.0036704602585718752,
+      0.01875543815080661
+     ],
+     [
+      -0.0027364430980692245,
+      0.01902693567886941
+     ],
+     [
+      -0.0027808572081949477,
+      0.018771105664033085
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.01884458243561874,
+     "lo": -0.00302805413087388
+    },
+    "width": 0.0219839594426926
+   },
+   "selected_by_mean_rank": "alpha_only",
+   "selected_by_mean_rho": "alpha_only",
+   "selected_is_delta_v2_family": false,
+   "selected_is_papers_exact_proxy": false,
+   "train_domains": [
+    "code",
+    "legal",
+    "wikitext"
+   ]
+  },
+  "wikitext": {
+   "heldout_partial_rho_delta_v2_given_alignment": 0.028296208739864086,
+   "heldout_partial_rho_phase_v2_given_alignment": 0.046183648292543705,
+   "heldout_rho_alignment_only": 0.912620834483338,
+   "heldout_rho_difficulty_baseline_frozen_ce": -0.28791244764979057,
+   "heldout_rho_phase_v2": 0.8616715106860426,
+   "heldout_rho_selected": 0.8689903879615518,
+   "heldout_rho_selected_by_rank": 0.912620834483338,
+   "n_heldout_documents": 500,
+   "pooled_ci_partial_rho_delta_v2_given_alignment": {
+    "hi": 0.11388946983236156,
+    "lo": -0.055816247621279826,
+    "mc_endpoint_range": {
+     "hi": [
+      0.10954161716612958,
+      0.11812089830577456
+     ],
+     "lo": [
+      -0.05857609274565897,
+      -0.052256568051159254
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.05857609274565897,
+      0.10954161716612958
+     ],
+     [
+      -0.05248495026712027,
+      0.11440964332277648
+     ],
+     [
+      -0.052256568051159254,
+      0.11812089830577456
+     ],
+     [
+      -0.05584171528700744,
+      0.11425624069930354
+     ],
+     [
+      -0.05737119408036216,
+      0.11360026794554291
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.11398573348790542,
+     "lo": -0.05530610408626162
+    },
+    "width": 0.16970571745364138
+   },
+   "pooled_ci_phase_v2": {
+    "hi": 0.8866464094132358,
+    "lo": 0.8306502477288324,
+    "mc_endpoint_range": {
+     "hi": [
+      0.8856792961821425,
+      0.8879227543162856
+     ],
+     "lo": [
+      0.828748077799364,
+      0.8327076212869697
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.8309995277247575,
+      0.8856792961821425
+     ],
+     [
+      0.8316580793787762,
+      0.8879227543162856
+     ],
+     [
+      0.8327076212869697,
+      0.8877151478696412
+     ],
+     [
+      0.828748077799364,
+      0.8856821064522512
+     ],
+     [
+      0.8305236268998833,
+      0.8859574895689354
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.8865913588778511,
+     "lo": 0.8309273866179501
+    },
+    "width": 0.055996161684403356
+   },
+   "pooled_ci_phase_v2_minus_alignment_only": {
+    "hi": -0.034788558760617434,
+    "lo": -0.06945265207377217,
+    "mc_endpoint_range": {
+     "hi": [
+      -0.03504606406614088,
+      -0.03462695179518268
+     ],
+     "lo": [
+      -0.06992205754116235,
+      -0.06908022042354162
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      -0.06992205754116235,
+      -0.03504606406614088
+     ],
+     [
+      -0.06908022042354162,
+      -0.035040537704682934
+     ],
+     [
+      -0.06908317232362568,
+      -0.03482480445904923
+     ],
+     [
+      -0.06948682034184166,
+      -0.03462695179518268
+     ],
+     [
+      -0.06953477805357704,
+      -0.034666590406026154
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": -0.03484098968621638,
+     "lo": -0.06942140973674968
+    },
+    "width": 0.03466409331315474
+   },
+   "pooled_ci_selected": {
+    "hi": 0.8922500755415769,
+    "lo": 0.83972052025696,
+    "mc_endpoint_range": {
+     "hi": [
+      0.8916426441742813,
+      0.8930944064072138
+     ],
+     "lo": [
+      0.8383152253443523,
+      0.8412677912736812
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.83938364027323,
+      0.8917126916056596
+     ],
+     [
+      0.8401854692569224,
+      0.8930944064072138
+     ],
+     [
+      0.8412677912736812,
+      0.8930253327260199
+     ],
+     [
+      0.8383152253443523,
+      0.8916426441742813
+     ],
+     [
+      0.8397107993576565,
+      0.8917941111841323
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.8922538372194614,
+     "lo": 0.8397725851011684
+    },
+    "width": 0.05252955528461689
+   },
+   "pooled_ci_selected_minus_phase_v2": {
+    "hi": 0.01372356241626472,
+    "lo": 0.0010979270736173497,
+    "mc_endpoint_range": {
+     "hi": [
+      0.013468126973220865,
+      0.013957943484337827
+     ],
+     "lo": [
+      0.0007599643000623491,
+      0.001407095351238319
+     ]
+    },
+    "n_draws": 10000,
+    "n_draws_finite": 10000,
+    "per_stream_endpoints": [
+     [
+      0.0010465102868750576,
+      0.013468126973220865
+     ],
+     [
+      0.001407095351238319,
+      0.013957943484337827
+     ],
+     [
+      0.0007599643000623491,
+      0.013542695794200001
+     ],
+     [
+      0.0011482543292334058,
+      0.013906455297582571
+     ],
+     [
+      0.0010734520536707095,
+      0.013639430781299073
+     ]
+    ],
+    "superseded_mean_of_stream_endpoints": {
+     "hi": 0.013702930466128069,
+     "lo": 0.001087055264215968
+    },
+    "width": 0.01262563534264737
+   },
+   "selected_by_mean_rank": "alpha_only",
+   "selected_by_mean_rho": "phase_v2_gnorm",
+   "selected_is_delta_v2_family": true,
+   "selected_is_papers_exact_proxy": false,
+   "train_domains": [
+    "code",
+    "legal",
+    "pubmed"
+   ]
+  }
+ },
+ "kind": "re-analysis of the ORIGINAL E4/E5 records; no new experiment",
+ "n_bootstrap_per_stream": 2000,
+ "n_pooled_draws": 10000,
+ "protocol": "document-clustered percentile bootstrap on the 500 seed-averaged documents of the held-out domain; the five RNG streams are pooled into one distribution and the reported endpoints are genuine percentiles of it, with no averaging of endpoints",
+ "script": "f31_e4_proxy_pooled.py",
+ "source_records": [
+  "experiments/results/e4/*_ln_s{0,1,2}.json",
+  "experiments/results/e5/delta_v2_*.json"
+ ],
+ "summary": {
+  "exclusion_verdicts_unchanged_by_pooling": true,
+  "folds_partial_rho_delta_v2_ci_excludes_zero_adverse": [
+   "code"
+  ],
+  "folds_partial_rho_delta_v2_ci_excludes_zero_favourable": [
+   "pubmed"
+  ],
+  "heldout_partial_rho_delta_v2_given_alignment": {
+   "max": 0.09129840490547661,
+   "mean": -0.040947773749909544,
+   "min": -0.2867160676853068,
+   "n": 4,
+   "values": [
+    -0.2867160676853068,
+    0.0033303590403279005,
+    0.09129840490547661,
+    0.028296208739864086
+   ]
+  },
+  "heldout_rho_alignment_only": {
+   "max": 0.941507926031704,
+   "mean": 0.863750231000924,
+   "min": 0.7025436741746967,
+   "n": 4,
+   "values": [
+    0.7025436741746967,
+    0.941507926031704,
+    0.8983284893139571,
+    0.912620834483338
+   ]
+  },
+  "heldout_rho_difficulty_baseline": {
+   "max": 0.44208445633782534,
+   "mean": -0.032521978087912344,
+   "min": -0.3847309469237877,
+   "n": 4,
+   "values": [
+    0.44208445633782534,
+    -0.3847309469237877,
+    0.10047102588410353,
+    -0.28791244764979057
+   ]
+  },
+  "heldout_rho_phase_v2": {
+   "max": 0.9281649286597147,
+   "mean": 0.821622334489338,
+   "min": 0.6064360577442309,
+   "n": 4,
+   "values": [
+    0.6064360577442309,
+    0.9281649286597147,
+    0.8902168408673634,
+    0.8616715106860426
+   ]
+  },
+  "heldout_rho_selected": {
+   "max": 0.9270925083700333,
+   "mean": 0.8492387649550598,
+   "min": 0.7025436741746967,
+   "n": 4,
+   "values": [
+    0.7025436741746967,
+    0.9270925083700333,
+    0.8983284893139571,
+    0.8689903879615518
+   ]
+  },
+  "loss_proxy_equals_difficulty_baseline_within_domain": true,
+  "n_folds": 4,
+  "n_folds_partial_rho_delta_v2_ci_excludes_zero": 1,
+  "n_folds_partial_rho_delta_v2_ci_excludes_zero_adverse": 1,
+  "n_folds_partial_rho_delta_v2_ci_excludes_zero_superseded_averaged": 1,
+  "n_folds_selecting_delta_v2_family": 2,
+  "n_folds_selecting_papers_exact_proxy": 0,
+  "verdict": "PARTIAL: the frozen proxy transfers to every untouched domain and beats the document-difficulty baseline in every fold, so the correlations are NOT a post-selection artefact of the four domains; but the shift term delta_v2 is not what carries them -- the alignment/noise factor alpha|alpha|/sigma^2 alone matches or exceeds the full statistic, and delta_v2 adds NO CONSISTENT incremental within-domain signal once alignment is held fixed: its pooled partial-Spearman interval excludes zero on the favourable side in 1 of 4 folds (pubmed) and on the ADVERSE side in 1 of 4 (code)"
+ },
+ "supersedes": "f12_e4_proxy_loo.py (interval endpoints only)",
+ "unit_of_analysis": "document (3 adaptation seeds averaged)"
+}

@@ -1,0 +1,9 @@
+[f31] hold out code     : selected=alpha_only        -> held-out rho=+0.703 [+0.647251, +0.751098]; partial rho of delta_v2 given alignment =-0.286716 [-0.367631, -0.202945]
+[f31] hold out legal    : selected=phase_v2_gnorm    -> held-out rho=+0.927 [+0.909558, +0.940570]; partial rho of delta_v2 given alignment =+0.003330 [-0.081860, +0.090201]
+[f31] hold out pubmed   : selected=alpha_only        -> held-out rho=+0.898 [+0.869784, +0.921158]; partial rho of delta_v2 given alignment =+0.091298 [+0.000440, +0.182915]  EXCLUDES ZERO (+)
+[f31] hold out wikitext : selected=phase_v2_gnorm    -> held-out rho=+0.869 [+0.839721, +0.892250]; partial rho of delta_v2 given alignment =+0.028296 [-0.055816, +0.113889]
+[f31] audit vs f12: points 0.00e+00, per-stream endpoints 0.00e+00, max pooled-vs-averaged endpoint shift 0.001035 at pubmed.partial_rho_delta_v2_given_alignment.lo
+[is_fresh] wrote experiments/results/is_fresh/f31_e4_proxy_pooled.json
+[f31] PARTIAL: the frozen proxy transfers to every untouched domain and beats the document-difficulty baseline in every fold, so the correlations are NOT a post-selection artefact of the four domains; but the shift term delta_v2 is not what carries them -- the alignment/noise factor alpha|alpha|/sigma^2 alone matches or exceeds the full statistic, and delta_v2 adds NO CONSISTENT incremental within-domain signal once alignment is held fixed: its pooled partial-Spearman interval excludes zero on the favourable side in 1 of 4 folds (pubmed) and on the ADVERSE side in 1 of 4 (code)
+[f31] partial-rho interval excludes zero on the FAVOURABLE side in 1/4 folds (pubmed) and on the ADVERSE side in 1/4 (code)
+[f31] DONE

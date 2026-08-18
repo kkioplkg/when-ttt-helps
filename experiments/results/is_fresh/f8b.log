@@ -1,0 +1,16 @@
+[f8b] loaded 390 cells
+[f8b] same-sample reproduction of the negative regime: OK
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_tent_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_tent_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_tent_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_tent_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_tent_seed20260805.json
+[f8b] tent: same-sample -0.686 -> cross-fit -0.676 (range -0.687..-0.664)
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_pl_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_pl_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_pl_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_pl_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_pl_seed20260805.json
+[f8b] pl: same-sample -0.868 -> cross-fit -0.849 (range -0.870..-0.836)
+[is_fresh] wrote experiments/results/is_fresh/f8b_e2_crossfit_det_summary.json
+[f8b] DONE

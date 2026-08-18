@@ -1,0 +1,153 @@
+{
+ "by_objective": {
+  "tent": {
+   "kappa_crit": {
+    "max": 1.0345454400736585,
+    "mean": 1.0015816887607865,
+    "min": 1.000000761432004,
+    "n": 2950,
+    "p5": 1.0000047915108095,
+    "p50": 1.0000625908934335,
+    "p95": 1.0114021904928516
+   },
+   "kappa_literal": {
+    "max": 20.695070474383186,
+    "mean": 4.989885897929593,
+    "min": 1.6685503378653068,
+    "n": 3900,
+    "p5": 2.472490118849645,
+    "p50": 4.421201160646509,
+    "p95": 9.346199789942279
+   },
+   "kappa_restricted": {
+    "max": 10.00664702863978,
+    "mean": 2.393285549488057,
+    "min": 1.1134172656949173,
+    "n": 3900,
+    "p5": 1.428101119281144,
+    "p50": 2.146748518832993,
+    "p95": 4.198224252659252
+   },
+   "ratio": {
+    "max": 8.687545103394992,
+    "mean": 2.1585577856610576,
+    "min": 1.0524557240542736,
+    "n": 3900,
+    "p5": 1.2670999524518662,
+    "p50": 1.9265874479024132,
+    "p95": 3.828292518081528
+   },
+   "separation": {
+    "disjoint": true,
+    "max_kappa_crit": 1.0345454400736585,
+    "min_kappa_restricted": 1.0954303188874732,
+    "n_kappa_crit": 14903,
+    "n_kappa_restricted": 19500,
+    "note": "the smallest measured kappa_J under the restricted (most favourable) reading still exceeds the largest kappa_crit anywhere in the suite, which is why LB > 0 fires on no instance.",
+    "over": "all measured steps"
+   }
+  },
+  "ttt_rot": {
+   "kappa_crit": {
+    "max": 1.0315773105725805,
+    "mean": 1.0015590487365809,
+    "min": 1.0000010033954616,
+    "n": 2956,
+    "p5": 1.0000050904169118,
+    "p50": 1.0000607073511165,
+    "p95": 1.0115260132168589
+   },
+   "kappa_literal": {
+    "max": 41.431966115427244,
+    "mean": 6.713745440122118,
+    "min": 1.8322176719618966,
+    "n": 3900,
+    "p5": 3.120937627902882,
+    "p50": 5.770715677659277,
+    "p95": 13.145761135006511
+   },
+   "kappa_restricted": {
+    "max": 11.870788405438315,
+    "mean": 2.673689891910763,
+    "min": 1.1028301087426973,
+    "n": 3900,
+    "p5": 1.4785542841521806,
+    "p50": 2.359958579472567,
+    "p95": 4.89074988777851
+   },
+   "ratio": {
+    "max": 20.391442217208986,
+    "mean": 2.6483504464273024,
+    "min": 1.1130900931737917,
+    "n": 3900,
+    "p5": 1.4222254818531912,
+    "p50": 2.292920433339841,
+    "p95": 4.996378325239219
+   },
+   "separation": {
+    "disjoint": true,
+    "max_kappa_crit": 1.0327591115730668,
+    "min_kappa_restricted": 1.0791522919223089,
+    "n_kappa_crit": 14903,
+    "n_kappa_restricted": 19500,
+    "note": "the smallest measured kappa_J under the restricted (most favourable) reading still exceeds the largest kappa_crit anywhere in the suite, which is why LB > 0 fires on no instance.",
+    "over": "all measured steps"
+   }
+  }
+ },
+ "definitions": {
+  "kappa_crit": "the largest kappa_J at which the Proposition 5.5 lower bound would still be positive at this instance; defined only where the logit-space bracket Z >= 0.",
+  "kappa_literal": "L_J / mu_J(literal), mu_J(literal)^2 = lambda_min of the Schur complement of J J^T onto span{grad_z H, p - q}; the reading DESIGN.md froze for the measurement suite.",
+  "kappa_restricted": "L_J / mu_J(restricted), mu_J(restricted)^2 = lambda_min(Pi J J^T Pi) on range(Pi); the reading the Proposition 5.5 proof consumes in its pullback step."
+ },
+ "inputs": [
+  "records/p2_tent_s20260921_lr0.001_mom0.jsonl.gz",
+  "records/p2_tent_s20260922_lr0.001_mom0.jsonl.gz",
+  "records/p2_tent_s20260923_lr0.001_mom0.jsonl.gz",
+  "records/p2_ttt_rot_s20260921_lr0.001_mom0.jsonl.gz",
+  "records/p2_ttt_rot_s20260922_lr0.001_mom0.jsonl.gz",
+  "records/p2_ttt_rot_s20260923_lr0.001_mom0.jsonl.gz"
+ ],
+ "max_relative_median_move_across_steps": {
+  "by_objective": {
+   "tent": 0.03150326454624593,
+   "ttt_rot": 0.001591560783482261
+  },
+  "definition": "(max - min) / max of the per-step medians, per objective; the reported figure is the larger of the two.",
+  "max": 0.03150326454624593
+ },
+ "median_kappa_restricted_by_step": {
+  "tent": {
+   "0": 2.146748518832993,
+   "1": 2.126328836399547,
+   "5": 2.106898469995476,
+   "10": 2.096790998022427,
+   "20": 2.0791189323299357
+  },
+  "ttt_rot": {
+   "0": 2.359958579472567,
+   "1": 2.358659172204355,
+   "5": 2.360154831122208,
+   "10": 2.3622752945507566,
+   "20": 2.3585155898321606
+  }
+ },
+ "optimizer": "plain SGD (momentum 0), the recursion Supplement S2 assumes",
+ "separation_all_steps_both_objectives": {
+  "disjoint": true,
+  "max_kappa_crit": 1.0345454400736585,
+  "min_kappa_restricted": 1.0791522919223089,
+  "n_kappa_crit": 29806,
+  "n_kappa_restricted": 39000,
+  "note": "this is the pair the manuscript prints. kappa_crit is defined only where the logit-space bracket Z >= 0, which is why its count is smaller than the condition number's.",
+  "over": "all measured steps, both objectives, plain SGD"
+ },
+ "step": 0,
+ "steps_measured": [
+  0,
+  1,
+  5,
+  10,
+  20
+ ]
+}

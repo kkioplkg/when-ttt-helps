@@ -1,0 +1,42 @@
+{
+ "meta": {
+  "argv": {
+   "arch": "resnet26gn",
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "dtype": "float32",
+   "heartbeat": "logs/hb_bnd.json",
+   "instances": 40,
+   "out_dir": "experiments/results/closure",
+   "pair": "cat_dog",
+   "seed": 20260901,
+   "subset": "norm"
+  },
+  "code": "experiments/ttt/closure",
+  "deltas": [
+   0.1,
+   0.01,
+   0.001,
+   0.0001,
+   1e-05,
+   1e-06,
+   1e-07,
+   1e-08,
+   1e-09,
+   1e-10,
+   1e-11,
+   1e-12
+  ],
+  "device": "NVIDIA GeForce RTX 3080",
+  "n_records": 160,
+  "temperatures": [
+   1.0,
+   10.0,
+   100.0,
+   1000.0
+  ],
+  "time": "2026-08-09T17:35:37",
+  "torch": "2.11.0+cu128"
+ },
+ "records": "experiments/results/closure/bnd_cat_dog_resnet26gn_s20260901_norm_float32.jsonl.gz"
+}

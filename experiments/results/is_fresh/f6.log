@@ -1,0 +1,27 @@
+[f6 seed 20260801] shift rep 1/3 done
+[f6 seed 20260801] shift rep 2/3 done
+[f6 seed 20260801] shift rep 3/3 done
+[is_fresh] wrote experiments/results/is_fresh/f6_relu_multiseed_seed20260801.json
+[f6] seed 20260801: alpha0_harm=0.1673 margin=0.5133 monotone=True
+[f6 seed 20260802] shift rep 1/3 done
+[f6 seed 20260802] shift rep 2/3 done
+[f6 seed 20260802] shift rep 3/3 done
+[is_fresh] wrote experiments/results/is_fresh/f6_relu_multiseed_seed20260802.json
+[f6] seed 20260802: alpha0_harm=-0.0236 margin=0.2224 monotone=True
+[f6 seed 20260803] shift rep 1/3 done
+[f6 seed 20260803] shift rep 2/3 done
+[f6 seed 20260803] shift rep 3/3 done
+[is_fresh] wrote experiments/results/is_fresh/f6_relu_multiseed_seed20260803.json
+[f6] seed 20260803: alpha0_harm=0.0003 margin=0.2978 monotone=True
+[f6 seed 20260804] shift rep 1/3 done
+[f6 seed 20260804] shift rep 2/3 done
+[f6 seed 20260804] shift rep 3/3 done
+[is_fresh] wrote experiments/results/is_fresh/f6_relu_multiseed_seed20260804.json
+[f6] seed 20260804: alpha0_harm=0.0526 margin=0.3656 monotone=True
+[f6 seed 20260805] shift rep 1/3 done
+[f6 seed 20260805] shift rep 2/3 done
+[f6 seed 20260805] shift rep 3/3 done
+[is_fresh] wrote experiments/results/is_fresh/f6_relu_multiseed_seed20260805.json
+[f6] seed 20260805: alpha0_harm=0.0197 margin=0.4062 monotone=True
+[is_fresh] wrote experiments/results/is_fresh/f6_relu_multiseed_summary.json
+[f6] DONE

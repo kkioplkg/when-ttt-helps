@@ -1,0 +1,23 @@
+{
+ "wikitext_ref_s0.json": {
+  "new": 3.148176995754242,
+  "retained": 3.1481769404411315,
+  "abs_diff": 5.531311053630361e-08,
+  "n_docs_new": 500,
+  "n_docs_retained": 500
+ },
+ "wikitext_ref_s1.json": {
+  "new": 3.148176995754242,
+  "retained": 3.1481769404411315,
+  "abs_diff": 5.531311053630361e-08,
+  "n_docs_new": 500,
+  "n_docs_retained": 500
+ },
+ "wikitext_ref_s2.json": {
+  "new": 3.148176995754242,
+  "retained": 3.1481769404411315,
+  "abs_diff": 5.531311053630361e-08,
+  "n_docs_new": 500,
+  "n_docs_retained": 500
+ }
+}

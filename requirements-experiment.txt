@@ -1,0 +1,100 @@
+# Recorded dependency set of the ORIGINAL GPU EXPERIMENTS.
+#
+# READ THIS BEFORE RUNNING pip.  This file is a RECORD of the
+# environment in which the CIFAR-10/100-C, ImageNet-C and GPT-2
+# experiments were executed.  It is NOT a lock that pip can
+# reconstruct, and `pip install -r requirements-experiment.txt`
+# is EXPECTED TO FAIL with ResolutionImpossible.  To recompute the
+# manuscript numbers you do not need this file at all -- install
+# requirements-analysis.txt instead.
+#
+# WHY IT DOES NOT RESOLVE.  The recorded environment contains
+# numpy 1.23.5 and opencv-python 4.12.0.88 simultaneously, and the
+# metadata of that OpenCV release requires numpy >= 2 on any Python
+# >= 3.9.  WHICH INSTALLER WROTE WHICH TARGET, as recorded by the
+# installer metadata: numpy 1.23.5 was installed by conda into the
+# Anaconda prefix (INSTALLER=conda, and a conda-meta/history
+# transaction); opencv-python 4.12.0.88 was installed by pip
+# into the PER-USER site directory (INSTALLER=pip), which pip
+# treats as a separate installation target.  This is a statement
+# about installer and location only -- the metadata does NOT
+# record installation ORDER, so no claim is made that either was
+# installed before or after the other.  The interpreter
+# imports numpy from the prefix and cv2 from the user site, so an
+# environment no single pip resolution would produce can and does
+# exist on disk.  pip-freeze-full.txt therefore lists a
+# combination pip will not install; that is a property of the
+# machine, not a transcription error.  The evidence is archived in
+# experiments/ttt/is_fresh/RESOLVER_TRANSCRIPT.md, which also
+# records why this is a property of the on-disk installation
+# layout and not of conda's own solver.
+#
+# A RESOLVABLE APPROXIMATION.  Substituting
+# opencv-python==4.9.0.80 -- a tested release whose metadata is
+# compatible with the pinned numpy 1.23.5 -- makes the whole set
+# below resolve on Python 3.10.9, verified with
+# `pip install --dry-run` in a clean virtual environment; the
+# transcript is in RESOLVER_TRANSCRIPT.md section 2.
+#
+# SCOPE OF THAT EVIDENCE.  The transcript establishes exactly one
+# thing: that the set resolves with this pin and does not resolve
+# with 4.12.0.88.  It tests no other release, so nothing here
+# claims that 4.9.0.80 is the LAST, the newest or the only
+# opencv-python release whose metadata accepts numpy 1.x.  A
+# superlative such as "the last release whose metadata accepts
+# numpy 1.x" is not supported by the archived evidence and is
+# therefore not stated.
+# Establishing it would require a
+# release-by-release metadata sweep, which is not performed and
+# is not needed: any pin that resolves is sufficient here.
+#
+# OpenCV is used only by
+# experiments/ttt/e3_imagenet/generate_imagenet_c.py, for corruption
+# generation, and no manuscript number depends on the OpenCV
+# version.  We record the version that actually ran rather than
+# silently substituting one that installs.
+#
+# ADDITIONAL PREREQUISITES, none of which pip provides:
+#   * an NVIDIA GPU with a CUDA runtime matching the torch build;
+#     the archive was assembled on a CPU-only interpreter, so the
+#     torch pin below is the CPU wheel and the experiments were run
+#     with the corresponding CUDA build on separate machines;
+#   * the external datasets: CIFAR-10-C and CIFAR-100-C, an
+#     ImageNet-C-compatible validation subset, and the four E4
+#     corpora (code, legal, PubMed, WikiText);
+#   * regenerated source checkpoints (*.pt) and generated corruption
+#     tensors, both excluded from this archive by size; the training,
+#     data-preparation and corruption-generation scripts that produce
+#     them all ship.
+
+# shared with the analysis lock -- pinned again here so this file stands alone as a record of the experiment environment
+numpy==1.23.5
+scipy==1.15.3
+matplotlib==3.7.0
+torch==2.3.0
+
+# original GPU experiment runners under experiments/ttt/{e2_cifar,e3_imagenet,e4_gpt2}, plus the two function-local imports in is_fresh/f15_e2_entropy_gn.py (Pillow) and is_fresh/f_scope_bench.py (torchvision) -- NOT needed to recompute any manuscript number from the shipped records
+torchvision==0.18.0
+transformers==4.24.0
+tokenizers==0.11.4
+safetensors==0.7.0
+huggingface-hub==0.10.1
+Pillow==9.4.0
+scikit-image==0.19.3
+opencv-python==4.12.0.88
+pandas==1.5.3
+tqdm==4.64.1
+requests==2.28.1
+filelock==3.9.0
+fsspec==2022.11.0
+
+# --------------------------------------------------------------
+# Needed only by the original data-preparation scripts, and NOT
+# installed in the build interpreter: the corrupted-image and
+# corpus tensors were prepared on separate GPU machines, and those
+# tensors are excluded from this archive by size.  No manuscript
+# number is recomputed from them.  Left commented out rather than
+# pinned to a version this build never saw.
+# --------------------------------------------------------------
+# datasets    # experiments/ttt/e4_gpt2/prepare_data.py (corpus download)
+# imagenet_c    # experiments/ttt/e3_imagenet/prepare_data.py (corruption generation)

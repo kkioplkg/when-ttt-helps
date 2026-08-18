@@ -1,0 +1,85 @@
+{
+ "frac_that_equals_T_at_gamma_1e-4": 1.419e-05,
+ "model": {
+  "C_prime": 1.0,
+  "K": 3,
+  "T": 2,
+  "a": 0.5,
+  "beta": 3.0,
+  "c_psi": 1.0,
+  "eta": 0.25,
+  "m_bound": 1.3218021521667294,
+  "sigma": 1.0,
+  "variance_profile": [
+   0.0,
+   0.0625,
+   0.078125
+  ],
+  "x_m": 0.5773502691896257
+ },
+ "ratios": {
+  "1e-04": {
+   "gamma": 0.0001,
+   "kappa_gamma_psi": 9.790987322723266,
+   "mc_standard_error_of_ratio": 0.011685090986654746,
+   "n_exceedances": 13656,
+   "per_seed_max": 1.3965,
+   "per_seed_min": 1.3444999999999998,
+   "per_seed_ratio": [
+    1.3689999999999998,
+    1.3965,
+    1.3499999999999999,
+    1.3444999999999998,
+    1.3679999999999999
+   ],
+   "prob": 0.00013656,
+   "ratio_prob_over_gamma": 1.3656,
+   "rhs": 1.4442586014115186
+  },
+  "1e-05": {
+   "gamma": 1e-05,
+   "kappa_gamma_psi": 10.690374806230139,
+   "mc_standard_error_of_ratio": 0.10184264337059402,
+   "n_exceedances": 10373,
+   "per_seed_max": 10.52,
+   "per_seed_min": 10.27,
+   "per_seed_ratio": [
+    10.354999999999999,
+    10.52,
+    10.29,
+    10.27,
+    10.43
+   ],
+   "prob": 0.00010373,
+   "ratio_prob_over_gamma": 10.373,
+   "rhs": 1.7800522608064837
+  },
+  "1e-06": {
+   "gamma": 1e-06,
+   "kappa_gamma_psi": 11.519756691945904,
+   "mc_standard_error_of_ratio": 0.90864284620031,
+   "n_exceedances": 8257,
+   "per_seed_max": 83.5,
+   "per_seed_min": 80.9,
+   "per_seed_ratio": [
+    82.10000000000001,
+    83.45,
+    80.9,
+    82.9,
+    83.5
+   ],
+   "prob": 8.257e-05,
+   "ratio_prob_over_gamma": 82.57000000000001,
+   "rhs": 2.1158459202014486
+  }
+ },
+ "reps_per_seed": 20000000,
+ "reps_total": 100000000,
+ "seeds": [
+  20260801,
+  20260802,
+  20260803,
+  20260804,
+  20260805
+ ]
+}

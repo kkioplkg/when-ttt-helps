@@ -1,0 +1,26 @@
+{
+ "test_acc": 0.9165,
+ "rot_acc": 0.9058,
+ "gate_acc": 0.905,
+ "gate_rot": 0.85,
+ "published_reference": [
+  {
+   "seed": 0,
+   "test_acc": 0.9203,
+   "rot_acc": 0.9121,
+   "train_source_gate_pass": false
+  },
+  {
+   "seed": 1,
+   "test_acc": 0.9152,
+   "rot_acc": 0.9061,
+   "train_source_gate_pass": false
+  },
+  {
+   "seed": 2,
+   "test_acc": 0.9216,
+   "rot_acc": 0.9064,
+   "train_source_gate_pass": false
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+[is_fresh] wrote experiments/results/is_fresh/f7_curve_match_seed20260801.json
+[f7] seed 20260801: published-norm 0.0158, pointwise 0.0262, max |err|/SE 3.61
+[is_fresh] wrote experiments/results/is_fresh/f7_curve_match_seed20260802.json
+[f7] seed 20260802: published-norm 0.0105, pointwise 0.0231, max |err|/SE 3.22
+[is_fresh] wrote experiments/results/is_fresh/f7_curve_match_seed20260803.json
+[f7] seed 20260803: published-norm 0.0102, pointwise 0.0213, max |err|/SE 3.42
+[is_fresh] wrote experiments/results/is_fresh/f7_curve_match_seed20260804.json
+[f7] seed 20260804: published-norm 0.0085, pointwise 0.0176, max |err|/SE 3.09
+[is_fresh] wrote experiments/results/is_fresh/f7_curve_match_seed20260805.json
+[f7] seed 20260805: published-norm 0.0126, pointwise 0.0232, max |err|/SE 3.40
+[is_fresh] wrote experiments/results/is_fresh/f7_curve_match_summary.json
+[f7] DONE

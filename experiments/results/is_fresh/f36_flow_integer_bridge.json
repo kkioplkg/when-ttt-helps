@@ -1,0 +1,86 @@
+{
+ "A_the_two_curves_are_different": {
+  "claim": "|Exc(tau/lambda) - F_eta(tau)| <= eta^2 sigma^2 (1+tau) on eta in (0,1/2]",
+  "largest_absolute_difference_between_the_two_curves": 26.68042810890323,
+  "n_grid_points": 2074032,
+  "note": "the bound holds and the difference is not identically zero, which is exactly why nondecrease of one curve is not nondecrease of the other",
+  "worst_signed_excess_over_the_bound": -2.5e-05
+ },
+ "B_a_fortiori_is_false": {
+  "search": {
+   "B2_n_where_flow_is_nondecreasing_AND_exact_dips": 861,
+   "B2_n_where_the_EXACT_curve_dips_below_delta2": 861,
+   "B2_n_with_flow_nondecreasing": 231764,
+   "B2_note": "every draw in the last count refutes the a fortiori step: the flow curve is nondecreasing there and the exact curve is not",
+   "C1_claim": "2 a2 d2 <= eta s2  =>  a2 d2 (2 - eta a2) <= eta s2, so criterion (I) fails",
+   "C1_n_violations": 0,
+   "C1_worst_signed_lhs_minus_rhs": -1.7922772900042745e-08,
+   "C2_claim": "Exc(t) >= delta^2 at every integer 0 <= t <= T",
+   "C2_n_pairs_checked": 92937364,
+   "C2_n_violations": 0,
+   "C2_worst_signed_slack": -3.637978807091713e-12,
+   "hypotheses": "sigma > 0, eta in (0,1/2], alpha in (0,1), delta > 0, and the corollary's part-(b) hypothesis 2 alpha^2 delta^2 <= eta sigma^2",
+   "n_drawn": 400000,
+   "n_inside_part_b": 231764
+  },
+  "worked_instance": {
+   "2_alpha2_delta2": 0.19468800000000006,
+   "EXACT_CURVE_DIPS_BELOW_Exc0": true,
+   "G_1": -0.0016854015999999917,
+   "alpha": 0.4,
+   "criterion_I_holds": false,
+   "criterion_I_lhs": 0.19157299200000005,
+   "delta": 0.78,
+   "eta": 0.2,
+   "eta_sigma2": 0.2,
+   "exact_Exc_0": 0.6084,
+   "exact_interpolated_gain": 0.00024083035634969718,
+   "exact_interpolated_minimizer_t_star": 0.254537,
+   "exact_interpolated_minimum": 0.6081591696436504,
+   "flow_is_nondecreasing": true,
+   "flow_min_minus_F0": 0.0,
+   "flow_part_b_hypothesis_holds": true,
+   "min_integer_Exc_minus_Exc0": 0.0,
+   "no_integer_step_gains": true,
+   "reading": "F_eta is nondecreasing here and the exact curve is NOT: the a fortiori step is invalid.  The conclusion survives only through the exact criterion (I), which fails here",
+   "sigma": 1.0
+  }
+ },
+ "C_endpoints": {
+  "alpha_0": {
+   "n_implication_violations": 0,
+   "n_inside_part_b_hypothesis": 50000,
+   "n_integer_violations": 0,
+   "worst_signed_slack": 0.0
+  },
+  "alpha_1": {
+   "n_implication_violations": 0,
+   "n_inside_part_b_hypothesis": 24935,
+   "n_integer_violations": 0,
+   "worst_signed_slack": 0.0
+  }
+ },
+ "D_zero_noise_is_a_value_of_sigma": {
+  "n_with_criterion_I_satisfied": 200000,
+  "n_with_finite_exact_curve": 200000,
+  "n_with_strictly_positive_one_step_gain": 200000,
+  "n_with_undefined_ratio_alpha2delta2_over_sigma2": 200000,
+  "n_zero_noise_draws": 200000,
+  "reading": "sigma = 0 is an admissible value of the exact model's noise scale: the recursion, the curve and the one-step gain are all defined and nontrivial there.  Only the RATIO alpha^2 delta^2/sigma^2 in which the flow boundary is written has a zero denominator",
+  "worked_instance": {
+   "G_1_closed_form": 0.049375,
+   "G_1_exact_rational": 0.049375,
+   "G_1_from_the_curve": 0.04937500000000006,
+   "alpha": 0.5,
+   "delta": 1.0,
+   "eta": 0.1,
+   "is_strictly_positive": true,
+   "ratio_alpha2delta2_over_sigma2_denominator": 0.0,
+   "ratio_is_a_real_number": false,
+   "sigma": 0.0
+  }
+ },
+ "finding": "(A) the flow corollary's integer clause is TRUE but does not follow 'a fortiori' from the monotonicity of the flow curve, and an instance inside the corollary's own hypotheses shows the implication is false; it follows from the exact integer criterion instead.  (B) sigma = 0 is a value of the exact model's noise scale, so the entropy result must be separated from the exact model structurally and not by calling zero 'no value at all'",
+ "kind": "closed-form audit of the exact model's algebra; nothing simulated, no record read",
+ "script": "f36_flow_integer_bridge.py"
+}

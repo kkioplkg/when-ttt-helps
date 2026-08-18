@@ -1,0 +1,47 @@
+[f5 seed 20260801] N=1 done
+[f5 seed 20260801] N=2 done
+[f5 seed 20260801] N=4 done
+[f5 seed 20260801] N=8 done
+[f5 seed 20260801] N=16 done
+[f5 seed 20260801] N=32 done
+[f5 seed 20260801] N=64 done
+[is_fresh] wrote experiments/results/is_fresh/f5_batch_variance_seed20260801.json
+[f5] seed 20260801: max var rel err 0.00517 (MC SE ~0.00224); N*Var max/min 1.00707
+[f5 seed 20260802] N=1 done
+[f5 seed 20260802] N=2 done
+[f5 seed 20260802] N=4 done
+[f5 seed 20260802] N=8 done
+[f5 seed 20260802] N=16 done
+[f5 seed 20260802] N=32 done
+[f5 seed 20260802] N=64 done
+[is_fresh] wrote experiments/results/is_fresh/f5_batch_variance_seed20260802.json
+[f5] seed 20260802: max var rel err 0.00478 (MC SE ~0.00224); N*Var max/min 1.00676
+[f5 seed 20260803] N=1 done
+[f5 seed 20260803] N=2 done
+[f5 seed 20260803] N=4 done
+[f5 seed 20260803] N=8 done
+[f5 seed 20260803] N=16 done
+[f5 seed 20260803] N=32 done
+[f5 seed 20260803] N=64 done
+[is_fresh] wrote experiments/results/is_fresh/f5_batch_variance_seed20260803.json
+[f5] seed 20260803: max var rel err 0.00685 (MC SE ~0.00224); N*Var max/min 1.01128
+[f5 seed 20260804] N=1 done
+[f5 seed 20260804] N=2 done
+[f5 seed 20260804] N=4 done
+[f5 seed 20260804] N=8 done
+[f5 seed 20260804] N=16 done
+[f5 seed 20260804] N=32 done
+[f5 seed 20260804] N=64 done
+[is_fresh] wrote experiments/results/is_fresh/f5_batch_variance_seed20260804.json
+[f5] seed 20260804: max var rel err 0.00634 (MC SE ~0.00224); N*Var max/min 1.00856
+[f5 seed 20260805] N=1 done
+[f5 seed 20260805] N=2 done
+[f5 seed 20260805] N=4 done
+[f5 seed 20260805] N=8 done
+[f5 seed 20260805] N=16 done
+[f5 seed 20260805] N=32 done
+[f5 seed 20260805] N=64 done
+[is_fresh] wrote experiments/results/is_fresh/f5_batch_variance_seed20260805.json
+[f5] seed 20260805: max var rel err 0.00552 (MC SE ~0.00224); N*Var max/min 1.00725
+[is_fresh] wrote experiments/results/is_fresh/f5_batch_variance_summary.json
+[f5] DONE

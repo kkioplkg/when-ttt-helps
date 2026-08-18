@@ -1,0 +1,51 @@
+[f20] e2_gn: 45 cells, 11520 episodes
+[f20] original E2 matched subset: 180 cells per method
+[f20] entropy_gn_loss   n= 45 full +0.882  LOCO min +0.861 (gaussian_noise)  median +0.882  max +0.896 (frost)  maxdev 0.021  sign-flip: False  CI-crosses-0: fold False / full False
+[f20] entropy_bn_loss   n= 45 full +0.926  LOCO min +0.917 (impulse_noise)  median +0.924  max +0.937 (defocus_blur)  maxdev 0.011  sign-flip: False  CI-crosses-0: fold False / full False
+[f20] ttt_rot_loss      n= 45 full +0.273  LOCO min +0.219 (shot_noise)  median +0.279  max +0.327 (glass_blur)  maxdev 0.054  sign-flip: False  CI-crosses-0: fold True / full True
+[f20] ttt_mask_loss     n= 45 full +0.591  LOCO min +0.538 (gaussian_noise)  median +0.582  max +0.672 (frost)  maxdev 0.081  sign-flip: False  CI-crosses-0: fold False / full False
+[f20] entropy_gn_feat   n= 45 full +0.092  LOCO min +0.055 (brightness)  median +0.086  max +0.186 (pixelate)  maxdev 0.094  sign-flip: False  CI-crosses-0: fold True / full True
+[f20] ttt_rot_feat      n= 45 full +0.418  LOCO min +0.328 (gaussian_noise)  median +0.425  max +0.466 (fog)  maxdev 0.090  sign-flip: False  CI-crosses-0: fold True / full True
+[f20] ttt_mask_feat     n= 45 full +0.610  LOCO min +0.554 (pixelate)  median +0.610  max +0.686 (frost)  maxdev 0.076  sign-flip: False  CI-crosses-0: fold False / full False
+[f20] pl_bn_loss        n= 45 full +0.888  LOCO min +0.880 (impulse_noise)  median +0.886  max +0.902 (defocus_blur)  maxdev 0.014  sign-flip: False  CI-crosses-0: fold False / full False
+[is_fresh] wrote experiments/results/is_fresh/f24_e2gn_loco_sensitivity.json
+[f20] verdict: {
+ "entropy_gn_loss": {
+  "full": 0.882292490118577,
+  "loco_min": 0.8612754233854633,
+  "loco_min_held_out": "gaussian_noise",
+  "loco_median": 0.8823758204359453,
+  "loco_max": 0.8956972692650516,
+  "loco_max_held_out": "frost",
+  "max_abs_deviation": 0.021017066733113765
+ },
+ "entropy_bn_loss": {
+  "full": 0.925691699604743,
+  "loco_min": 0.9169597277368122,
+  "loco_min_held_out": "impulse_noise",
+  "loco_median": 0.9243497285471195,
+  "loco_max": 0.9367636334170651,
+  "loco_max_held_out": "defocus_blur",
+  "max_abs_deviation": 0.011071933812322188
+ },
+ "ttt_rot_loss": {
+  "full": 0.2728063241106719,
+  "loco_min": 0.21905842314237098,
+  "loco_min_held_out": "shot_noise",
+  "loco_median": 0.27895632444696544,
+  "loco_max": 0.32728304027226324,
+  "loco_max_held_out": "glass_blur",
+  "max_abs_deviation": 0.05447671616159133
+ },
+ "ttt_mask_loss": {
+  "full": 0.5910144927536232,
+  "loco_min": 0.5381249493558059,
+  "loco_min_held_out": "gaussian_noise",
+  "loco_median": 0.5822380682278585,
+  "loco_max": 0.6718580341949598,
+  "loco_max_held_out": "frost",
+  "max_abs_deviation": 0.08084354144133665
+ }
+}
+[f20] any headline fold flips sign: False
+[f20] DONE

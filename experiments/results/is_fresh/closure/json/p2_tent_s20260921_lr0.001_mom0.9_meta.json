@@ -1,0 +1,31 @@
+{
+ "meta": {
+  "argv": {
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "heartbeat": "logs/hb_p2.json",
+   "instances": 50,
+   "lr": 0.001,
+   "momentum": 0.9,
+   "objective": "tent",
+   "out_dir": "experiments/results/closure",
+   "seed": 20260921,
+   "smoke": false,
+   "steps": 20
+  },
+  "code": "experiments/ttt/closure",
+  "device": "NVIDIA GeForce RTX 3080",
+  "jacobian_steps": [
+   0,
+   1,
+   5,
+   10,
+   20
+  ],
+  "n_episodes": 650,
+  "source_acc": 0.9163,
+  "time": "2026-08-10T02:02:11",
+  "torch": "2.11.0+cu128"
+ },
+ "records": "experiments/results/closure/p2_tent_s20260921_lr0.001_mom0.9.jsonl.gz"
+}

@@ -1,0 +1,52 @@
+{
+ "meta": {
+  "argv": {
+   "arch": "resnet26gn",
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "dtype": "float64",
+   "heartbeat": "logs/hb_p1.json",
+   "instances": 200,
+   "out_dir": "experiments/results/closure",
+   "pair": "auto_frog",
+   "resume": false,
+   "seed": 20260902,
+   "smoke": false,
+   "subsample_frac": 0.25,
+   "subset": "norm",
+   "temperatures": "1.0,2.0,4.0"
+  },
+  "cd_steps": [
+   0.001,
+   0.0001,
+   1e-05,
+   1e-06,
+   1e-07
+  ],
+  "ckpt_test_acc": 0.987,
+  "code": "experiments/ttt/closure",
+  "device": "NVIDIA GeForce RTX 3080",
+  "eps_grid": [
+   0.0,
+   0.1,
+   0.25,
+   0.4
+  ],
+  "eta_grid": [
+   1e-06,
+   1e-05,
+   0.0001,
+   0.001,
+   0.01
+  ],
+  "n_records": 1950,
+  "temperatures": [
+   1.0,
+   2.0,
+   4.0
+  ],
+  "time": "2026-08-09T19:23:37",
+  "torch": "2.11.0+cu128"
+ },
+ "records": "experiments/results/closure/p1_auto_frog_resnet26gn_s20260902_norm_float64_sub0.25.jsonl.gz"
+}

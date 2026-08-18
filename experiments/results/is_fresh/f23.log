@@ -1,0 +1,77 @@
+[f16] e2_gn: 45 cells, 11520 episodes
+[f16] original E2 matched subset (cifar10, sev (1, 3, 5)): 180 cells per method
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_loss_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_loss_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_loss_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_loss_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_loss_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_wrn_loss_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_wrn_loss_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_wrn_loss_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_wrn_loss_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_wrn_loss_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_pl_wrn_loss_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_pl_wrn_loss_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_pl_wrn_loss_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_pl_wrn_loss_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_pl_wrn_loss_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_loss_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_loss_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_loss_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_loss_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_loss_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_loss_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_loss_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_loss_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_loss_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_loss_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_feat_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_feat_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_feat_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_feat_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_tent_gn_feat_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_feat_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_feat_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_feat_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_feat_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_rot_feat_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_feat_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_feat_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_feat_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_feat_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_ttt_mask_feat_seed20260805.json
+[is_fresh] wrote experiments/results/is_fresh/f23_e2_gn_summary.json
+[f16] tent_gn_loss     n= 45 same-sample +0.962  cross-fit +0.882 [+0.845, +0.895]  split-avg clustered endpoints [+0.744, +0.941]
+[f16] tent_wrn_loss    n= 45 same-sample +0.958  cross-fit +0.926 [+0.912, +0.935]  split-avg clustered endpoints [+0.862, +0.958]
+[f16] pl_wrn_loss      n= 45 same-sample +0.911  cross-fit +0.888 [+0.833, +0.929]  split-avg clustered endpoints [+0.808, +0.937]
+[f16] ttt_rot_loss     n= 45 same-sample +0.171  cross-fit +0.273 [+0.052, +0.492]  split-avg clustered endpoints [-0.048, +0.553]
+[f16] ttt_mask_loss    n= 45 same-sample +0.734  cross-fit +0.591 [+0.573, +0.612]  split-avg clustered endpoints [+0.293, +0.803]
+[f16] tent_gn_feat     n= 45 same-sample +0.071  cross-fit +0.092 [-0.030, +0.347]  split-avg clustered endpoints [-0.211, +0.375]
+[f16] ttt_rot_feat     n= 45 same-sample +0.516  cross-fit +0.418 [+0.353, +0.449]  split-avg clustered endpoints [+0.067, +0.677]
+[f16] ttt_mask_feat    n= 45 same-sample +0.690  cross-fit +0.610 [+0.561, +0.718]  split-avg clustered endpoints [+0.297, +0.817]
+[f16] verdict: {
+ "question": "holding the cell population fixed, how does the phase-statistic/gain rank correlation move when the ARCHITECTURE changes at fixed objective, and when the OBJECTIVE changes at fixed architecture?",
+ "tent_gn_rho_mean_final_crossfit": 0.882292490118577,
+ "tent_wrn_rho_mean_final_crossfit_matched_subset": 0.925691699604743,
+ "tent_gn_clustered_ci_mean_final": [
+  0.7437322561118578,
+  0.9411794545841573
+ ],
+ "tent_gn_ci_excludes_zero": true,
+ "architecture_contrast_same_objective_abs_gap": 0.043399209486165935,
+ "same_sign_across_architectures": true,
+ "statistic_control_stochastic_same_loss_proxy": {
+  "ttt_rot": 0.2728063241106719,
+  "ttt_mask": 0.5910144927536232
+ },
+ "objective_contrast_same_arch_same_loss_proxy": {
+  "tent_gn": 0.882292490118577,
+  "ttt_rot": 0.2728063241106719,
+  "ttt_mask": 0.5910144927536232
+ },
+ "objective_contrast_same_arch_same_feat_proxy": {
+  "tent_gn": 0.09201651062116178,
+  "ttt_rot": 0.41818181818181815,
+  "ttt_mask": 0.6096706192358365
+ }
+}

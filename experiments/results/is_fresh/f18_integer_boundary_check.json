@@ -1,0 +1,577 @@
+{
+ "A_curve_equality_f10_emitted": {
+  "max_abs_deviation": 9.883354401551969e-08,
+  "max_rel_deviation": 1.2501501824643912e-08,
+  "n_alphas": 25,
+  "note": "boundary_oracle_exact is found by bisection on min_{t=0..T} Exc(t) = Exc(0) and never uses the one-step formula; boundary_onestep_exact is the closed-form G(1)=0 locus.  Equality is the integer-criterion theorem."
+ },
+ "A_curve_equality_recomputed_over_eta": {
+  "eta=0.01": {
+   "eta": 0.01,
+   "max_rel_deviation_integer_oracle_vs_onestep": 9.999817902643901e-09,
+   "n_alphas": 40,
+   "sliver_rel_width_delta_over_sigma": {
+    "at_alpha_1": 0.0,
+    "at_alpha_min": 0.0025072627362006106,
+    "max": 0.0025072627362006106,
+    "min": 0.0
+   }
+  },
+  "eta=0.02": {
+   "eta": 0.02,
+   "max_rel_deviation_integer_oracle_vs_onestep": 5.00047214594747e-09,
+   "n_alphas": 40,
+   "sliver_rel_width_delta_over_sigma": {
+    "at_alpha_1": 0.0,
+    "at_alpha_min": 0.005041919018123231,
+    "max": 0.005041919018123231,
+    "min": 0.0
+   }
+  },
+  "eta=0.05": {
+   "eta": 0.05,
+   "max_rel_deviation_integer_oracle_vs_onestep": 2.000129958026316e-09,
+   "n_alphas": 40,
+   "sliver_rel_width_delta_over_sigma": {
+    "at_alpha_1": 0.0,
+    "at_alpha_min": 0.012815984541323377,
+    "max": 0.012815984541323377,
+    "min": 0.0
+   }
+  },
+  "eta=0.1": {
+   "eta": 0.1,
+   "max_rel_deviation_integer_oracle_vs_onestep": 1.000125075515659e-09,
+   "n_alphas": 40,
+   "sliver_rel_width_delta_over_sigma": {
+    "at_alpha_1": 0.0,
+    "at_alpha_min": 0.02637695597145706,
+    "max": 0.02637695597145706,
+    "min": 0.0
+   }
+  },
+  "eta=0.2": {
+   "eta": 0.2,
+   "max_rel_deviation_integer_oracle_vs_onestep": 5.000652571859157e-10,
+   "n_alphas": 40,
+   "sliver_rel_width_delta_over_sigma": {
+    "at_alpha_1": 0.0,
+    "at_alpha_min": 0.05609111024012803,
+    "max": 0.05609111024012803,
+    "min": 0.0
+   }
+  },
+  "eta=0.4": {
+   "eta": 0.4,
+   "max_rel_deviation_integer_oracle_vs_onestep": 2.5015562978566067e-10,
+   "n_alphas": 40,
+   "sliver_rel_width_delta_over_sigma": {
+    "at_alpha_1": 0.0,
+    "at_alpha_min": 0.12951357439157052,
+    "max": 0.12951357439157052,
+    "min": 0.0
+   }
+  }
+ },
+ "B_measured_integer_criterion": {
+  "agreement_all_cells": {
+   "max": 0.9936,
+   "mean": 0.9878399999999999,
+   "min": 0.984,
+   "n": 5,
+   "values": [
+    0.9856,
+    0.9872,
+    0.9888,
+    0.9936,
+    0.984
+   ]
+  },
+  "agreement_resolved_3se": {
+   "max": 1.0,
+   "mean": 1.0,
+   "min": 1.0,
+   "n": 5,
+   "values": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "labels": {
+   "onestep_positive": "delta^2 - E_B[u_1^2] > 0 (measured)",
+   "oracle_adapts": "argmin_{0<=t<=T} E_B[u_t^2] > 0 and its gain > 1e-9 relative floor (measured)"
+  },
+  "max_abs_z_among_disagreements": {
+   "max": 2.160845275705577,
+   "mean": 1.416712253448838,
+   "min": 0.7131125755006196,
+   "n": 5,
+   "values": [
+    0.893806155204537,
+    1.3237823240415385,
+    0.7131125755006196,
+    1.992014936791919,
+    2.160845275705577
+   ]
+  },
+  "n_disagree": {
+   "max": 10.0,
+   "mean": 7.6,
+   "min": 4.0,
+   "n": 5,
+   "values": [
+    9.0,
+    8.0,
+    7.0,
+    4.0,
+    10.0
+   ]
+  },
+  "n_disagree_resolved_3se": {
+   "max": 0.0,
+   "mean": 0.0,
+   "min": 0.0,
+   "n": 5,
+   "values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "per_seed": [
+   {
+    "agreement_all_cells": 0.9856,
+    "agreement_resolved_3se": 1.0,
+    "disagreements_all_have_oracle_adapt_and_onestep_negative": true,
+    "max_abs_z_among_disagreements": 0.893806155204537,
+    "n_cells": 625,
+    "n_cells_resolved_3se": 543,
+    "n_disagree": 9,
+    "n_disagree_resolved_3se": 0,
+    "n_onestep_positive": 439,
+    "n_oracle_adapts": 448,
+    "seed": 20260801
+   },
+   {
+    "agreement_all_cells": 0.9872,
+    "agreement_resolved_3se": 1.0,
+    "disagreements_all_have_oracle_adapt_and_onestep_negative": true,
+    "max_abs_z_among_disagreements": 1.3237823240415385,
+    "n_cells": 625,
+    "n_cells_resolved_3se": 543,
+    "n_disagree": 8,
+    "n_disagree_resolved_3se": 0,
+    "n_onestep_positive": 450,
+    "n_oracle_adapts": 458,
+    "seed": 20260802
+   },
+   {
+    "agreement_all_cells": 0.9888,
+    "agreement_resolved_3se": 1.0,
+    "disagreements_all_have_oracle_adapt_and_onestep_negative": true,
+    "max_abs_z_among_disagreements": 0.7131125755006196,
+    "n_cells": 625,
+    "n_cells_resolved_3se": 545,
+    "n_disagree": 7,
+    "n_disagree_resolved_3se": 0,
+    "n_onestep_positive": 441,
+    "n_oracle_adapts": 448,
+    "seed": 20260803
+   },
+   {
+    "agreement_all_cells": 0.9936,
+    "agreement_resolved_3se": 1.0,
+    "disagreements_all_have_oracle_adapt_and_onestep_negative": true,
+    "max_abs_z_among_disagreements": 1.992014936791919,
+    "n_cells": 625,
+    "n_cells_resolved_3se": 551,
+    "n_disagree": 4,
+    "n_disagree_resolved_3se": 0,
+    "n_onestep_positive": 444,
+    "n_oracle_adapts": 448,
+    "seed": 20260804
+   },
+   {
+    "agreement_all_cells": 0.984,
+    "agreement_resolved_3se": 1.0,
+    "disagreements_all_have_oracle_adapt_and_onestep_negative": true,
+    "max_abs_z_among_disagreements": 2.160845275705577,
+    "n_cells": 625,
+    "n_cells_resolved_3se": 547,
+    "n_disagree": 10,
+    "n_disagree_resolved_3se": 0,
+    "n_onestep_positive": 442,
+    "n_oracle_adapts": 452,
+    "seed": 20260805
+   }
+  ]
+ },
+ "C_fitted_thresholds": {
+  "exact_onestep_boundary_in_phase_units": {
+   "expression": "eta / (2 - eta alpha^2)",
+   "flow_boundary": 0.025,
+   "max": 0.025641025641025644,
+   "max_relative_gap_vs_flow": 0.025641025641025772,
+   "min": 0.025000250002500026
+  },
+  "fixed_criterion_accuracy_exact_onestep": {
+   "max": 0.9872,
+   "mean": 0.9830400000000001,
+   "min": 0.976,
+   "n": 5,
+   "values": [
+    0.984,
+    0.976,
+    0.9872,
+    0.9856,
+    0.9824
+   ]
+  },
+  "fixed_criterion_accuracy_flow": {
+   "max": 0.9872,
+   "mean": 0.9827199999999999,
+   "min": 0.9744,
+   "n": 5,
+   "values": [
+    0.9856,
+    0.9744,
+    0.9856,
+    0.9872,
+    0.9808
+   ]
+  },
+  "holdout_accuracy_exact": {
+   "max": 0.9871794871794872,
+   "mean": 0.9788461538461538,
+   "min": 0.9647435897435898,
+   "n": 5,
+   "values": [
+    0.9839743589743589,
+    0.9647435897435898,
+    0.9807692307692307,
+    0.9775641025641025,
+    0.9871794871794872
+   ]
+  },
+  "holdout_accuracy_exact_resolved": {
+   "max": 1.0,
+   "mean": 0.9992673992673993,
+   "min": 0.9963369963369964,
+   "n": 5,
+   "values": [
+    1.0,
+    0.9963369963369964,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "holdout_accuracy_phase": {
+   "max": 0.9871794871794872,
+   "mean": 0.9794871794871796,
+   "min": 0.9647435897435898,
+   "n": 5,
+   "values": [
+    0.9839743589743589,
+    0.9647435897435898,
+    0.9839743589743589,
+    0.9775641025641025,
+    0.9871794871794872
+   ]
+  },
+  "holdout_accuracy_phase_resolved": {
+   "max": 1.0,
+   "mean": 0.9992673992673993,
+   "min": 0.9963369963369964,
+   "n": 5,
+   "values": [
+    1.0,
+    0.9963369963369964,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "per_seed": [
+   {
+    "fit_accuracy_even_exact": 0.987220447284345,
+    "fit_accuracy_even_phase": 0.987220447284345,
+    "fitted_threshold_exact_statistic": 0.04851465667485455,
+    "fitted_threshold_phase_stat": 0.02453542373466878,
+    "fixed_criterion_accuracy_exact_onestep": 0.984,
+    "fixed_criterion_accuracy_exact_onestep_resolved": 1.0,
+    "fixed_criterion_accuracy_flow": 0.9856,
+    "fixed_criterion_accuracy_flow_resolved": 1.0,
+    "holdout_accuracy_odd_exact": 0.9839743589743589,
+    "holdout_accuracy_odd_exact_resolved": 1.0,
+    "holdout_accuracy_odd_phase": 0.9839743589743589,
+    "holdout_accuracy_odd_phase_resolved": 1.0,
+    "n_holdout_resolved": 270,
+    "ratio_vs_exact_onestep_boundary_eta": 0.970293133497091,
+    "ratio_vs_flow_boundary_eta_over_2": 0.9814169493867512,
+    "seed": 20260801
+   },
+   {
+    "fit_accuracy_even_exact": 0.9776357827476039,
+    "fit_accuracy_even_phase": 0.9776357827476039,
+    "fitted_threshold_exact_statistic": 0.03840988891643737,
+    "fitted_threshold_phase_stat": 0.019618570685914116,
+    "fixed_criterion_accuracy_exact_onestep": 0.976,
+    "fixed_criterion_accuracy_exact_onestep_resolved": 1.0,
+    "fixed_criterion_accuracy_flow": 0.9744,
+    "fixed_criterion_accuracy_flow_resolved": 1.0,
+    "holdout_accuracy_odd_exact": 0.9647435897435898,
+    "holdout_accuracy_odd_exact_resolved": 0.9963369963369964,
+    "holdout_accuracy_odd_phase": 0.9647435897435898,
+    "holdout_accuracy_odd_phase_resolved": 0.9963369963369964,
+    "n_holdout_resolved": 273,
+    "ratio_vs_exact_onestep_boundary_eta": 0.7681977783287472,
+    "ratio_vs_flow_boundary_eta_over_2": 0.7847428274365645,
+    "seed": 20260802
+   },
+   {
+    "fit_accuracy_even_exact": 0.9904153354632588,
+    "fit_accuracy_even_phase": 0.9904153354632588,
+    "fitted_threshold_exact_statistic": 0.04970844975613254,
+    "fitted_threshold_phase_stat": 0.025044195974408885,
+    "fixed_criterion_accuracy_exact_onestep": 0.9872,
+    "fixed_criterion_accuracy_exact_onestep_resolved": 1.0,
+    "fixed_criterion_accuracy_flow": 0.9856,
+    "fixed_criterion_accuracy_flow_resolved": 1.0,
+    "holdout_accuracy_odd_exact": 0.9807692307692307,
+    "holdout_accuracy_odd_exact_resolved": 1.0,
+    "holdout_accuracy_odd_phase": 0.9839743589743589,
+    "holdout_accuracy_odd_phase_resolved": 1.0,
+    "n_holdout_resolved": 273,
+    "ratio_vs_exact_onestep_boundary_eta": 0.9941689951226508,
+    "ratio_vs_flow_boundary_eta_over_2": 1.0017678389763554,
+    "seed": 20260803
+   },
+   {
+    "fit_accuracy_even_exact": 0.9904153354632588,
+    "fit_accuracy_even_phase": 0.9904153354632588,
+    "fitted_threshold_exact_statistic": 0.04851465667485455,
+    "fitted_threshold_phase_stat": 0.02453542373466878,
+    "fixed_criterion_accuracy_exact_onestep": 0.9856,
+    "fixed_criterion_accuracy_exact_onestep_resolved": 1.0,
+    "fixed_criterion_accuracy_flow": 0.9872,
+    "fixed_criterion_accuracy_flow_resolved": 1.0,
+    "holdout_accuracy_odd_exact": 0.9775641025641025,
+    "holdout_accuracy_odd_exact_resolved": 1.0,
+    "holdout_accuracy_odd_phase": 0.9775641025641025,
+    "holdout_accuracy_odd_phase_resolved": 1.0,
+    "n_holdout_resolved": 273,
+    "ratio_vs_exact_onestep_boundary_eta": 0.970293133497091,
+    "ratio_vs_flow_boundary_eta_over_2": 0.9814169493867512,
+    "seed": 20260804
+   },
+   {
+    "fit_accuracy_even_exact": 0.9808306709265175,
+    "fit_accuracy_even_phase": 0.9808306709265175,
+    "fitted_threshold_exact_statistic": 0.05358984409086057,
+    "fitted_threshold_phase_stat": 0.02732085272935358,
+    "fixed_criterion_accuracy_exact_onestep": 0.9824,
+    "fixed_criterion_accuracy_exact_onestep_resolved": 1.0,
+    "fixed_criterion_accuracy_flow": 0.9808,
+    "fixed_criterion_accuracy_flow_resolved": 1.0,
+    "holdout_accuracy_odd_exact": 0.9871794871794872,
+    "holdout_accuracy_odd_exact_resolved": 1.0,
+    "holdout_accuracy_odd_phase": 0.9871794871794872,
+    "holdout_accuracy_odd_phase_resolved": 1.0,
+    "n_holdout_resolved": 271,
+    "ratio_vs_exact_onestep_boundary_eta": 1.0717968818172112,
+    "ratio_vs_flow_boundary_eta_over_2": 1.0928341091741431,
+    "seed": 20260805
+   }
+  ],
+  "protocol": "threshold fitted on the EVEN-indexed cells and scored on the disjoint ODD-indexed cells, labels from the measured one-step gain; identical to f10",
+  "ratio_vs_exact_onestep_boundary": {
+   "max": 1.0717968818172112,
+   "mean": 0.9549499844525583,
+   "min": 0.7681977783287472,
+   "n": 5,
+   "values": [
+    0.970293133497091,
+    0.7681977783287472,
+    0.9941689951226508,
+    0.970293133497091,
+    1.0717968818172112
+   ]
+  },
+  "ratio_vs_flow_boundary": {
+   "max": 1.0928341091741431,
+   "mean": 0.9684357348721131,
+   "min": 0.7847428274365645,
+   "n": 5,
+   "values": [
+    0.9814169493867512,
+    0.7847428274365645,
+    1.0017678389763554,
+    0.9814169493867512,
+    1.0928341091741431
+   ]
+  }
+ },
+ "D_sliver": {
+  "cells": [
+   {
+    "alpha": 0.10166666666666667,
+    "closed_form_gain": -2.0814958942151456e-06,
+    "condition_P": true,
+    "delta_over_sigma": 1.5547718420411742,
+    "flow": false,
+    "i": 2,
+    "j": 13,
+    "max_abs_z": 2.6426314419791876,
+    "measured_gain_by_seed": [
+     0.001051394203281042,
+     -0.0002826421662178724,
+     -0.004129338801609261,
+     -0.0002693666399147254,
+     0.001365577993484024
+    ],
+    "measured_z_by_seed": [
+     0.6742451626200129,
+     -0.18205555404110732,
+     -2.6426314419791876,
+     -0.17261420255252505,
+     0.8698373234531603
+    ],
+    "onestep": false,
+    "phase": 0.02498564140020022,
+    "resolved_at_3se_in_any_seed": false
+   },
+   {
+    "alpha": 0.5508333333333333,
+    "closed_form_gain": -1.457751219337321e-05,
+    "condition_P": true,
+    "delta_over_sigma": 0.2872984833353665,
+    "flow": true,
+    "i": 13,
+    "j": 5,
+    "max_abs_z": 1.8024095245104739,
+    "measured_gain_by_seed": [
+     0.0003806914697805919,
+     -0.00021091116267185628,
+     -6.767344645892959e-05,
+     0.0005080166522315466,
+     -0.00013931601389850778
+    ],
+    "measured_z_by_seed": [
+     1.3478744270330674,
+     -0.7354637199693141,
+     -0.23392772612712623,
+     1.8024095245104739,
+     -0.48412321144542536
+    ],
+    "onestep": false,
+    "phase": 0.025044195974408885,
+    "resolved_at_3se_in_any_seed": false
+   }
+  ],
+  "definition": "cells where the continuous condition (P) fires but the integer one-step criterion does not -- the region in which 'TTT helps iff (P)' is false",
+  "geometry_note": "in delta/sigma the sliver is the band between the (P) curve and the one-step curve; its relative width is reported per eta in A_curve_equality_recomputed_over_eta",
+  "n_cells_condition_P_true": 443,
+  "n_cells_flow_true": 442,
+  "n_cells_onestep_true": 441,
+  "n_cells_onestep_vs_flow_disagree": 1,
+  "n_cells_sliver_P_and_not_onestep": 2,
+  "n_cells_total": 625,
+  "n_sliver_cells_resolved_at_3se_any_seed": 0
+ },
+ "E_counterexample_audit": {
+  "alpha": 0.4,
+  "argmin_integer_step_ge_1": 1,
+  "best_gain_over_integer_steps_ge_1": -0.0016854016000000804,
+  "condition_P_holds": true,
+  "condition_P_lhs_2lam_a2_(d2-nu)": 0.035509378782644534,
+  "condition_P_rhs_(1-a2)eta2sigma2": 0.033600000000000005,
+  "delta": 0.78,
+  "eta": 0.2,
+  "gain_at_integer_steps_0_to_20": [
+   0.0,
+   -0.0016854016000000804,
+   -0.009626845184000032,
+   -0.02261879832575997,
+   -0.03968039173488647,
+   -0.06001640623544724,
+   -0.0829839312907823,
+   -0.10806432794617749,
+   -0.1348399263016149,
+   -0.16297482484588288,
+   -0.1921991723916444,
+   -0.22229636480287596,
+   -0.25309265593161934,
+   -0.2844487526424593,
+   -0.31625303084815237,
+   -0.34841606994840046,
+   -0.3808662558114424,
+   -0.4135462474348961,
+   -0.44641014021079184,
+   -0.47942119009687345,
+   -0.5125499888315725
+  ],
+  "gain_at_t_equals_0_is_exactly_zero": 0.0,
+  "gain_at_t_star_continuous": 0.00024083035143962483,
+  "onestep_boundary_eta_sigma2": 0.2,
+  "onestep_criterion_holds": false,
+  "onestep_statistic_a2d2(2-eta a2)": 0.19157299200000005,
+  "sigma": 1.0,
+  "t_star_continuous": 0.2545
+ },
+ "F_containment_strictness_witness": {
+  "agreement_window_delta2_with_tstar_lt_1": [
+   10.000625039064941,
+   10.260897603326836
+  ],
+  "agreement_window_is_nonempty": true,
+  "alpha": 0.05,
+  "boundary_delta2_I": 10.000625039064941,
+  "boundary_delta2_P": 9.749134241570104,
+  "boundary_delta2_where_tstar_eq_1": 10.260897603326836,
+  "condition_P_holds": true,
+  "condition_P_margin": 9.787455070753293e-05,
+  "construction": "three bisections at fixed (eta, alpha, sigma): the (P) boundary, the (I) boundary, and the delta^2 at which t* reaches 1.  The witness is the midpoint of [(I) boundary, t*=1 boundary].  No constant is chosen by hand.",
+  "criteria_agree_here": true,
+  "delta2": 10.130761321195887,
+  "eta": 0.05,
+  "gain_at_t_star_continuous_closed_form": 3.6494510991857965e-05,
+  "onestep_criterion_I_holds": true,
+  "onestep_gain_G1": 3.2532037153328726e-05,
+  "purpose": "certifies that the containment {(P) and not (I)} subset {t* < 1} is STRICT: on the whole interval reported below (P) holds, t* < 1, and the exact one-step gain is positive, so (I) holds as well and the two criteria AGREE -- which the withdrawn set-equality forbids",
+  "sigma": 1.0,
+  "sliver_delta2_interval_P_and_not_I": [
+   9.749134241570104,
+   10.000625039064941
+  ],
+  "t_star_continuous": 0.7505560236876102
+ },
+ "finding": "the exact 'if and only if' is a statement about the continuous interpolation; the executable criterion is the integer one-step condition alpha^2 delta^2 (2 - eta alpha^2) > eta sigma^2",
+ "grid": {
+  "T": 400,
+  "eta": 0.05,
+  "n_alpha": 25,
+  "n_cells": 625,
+  "n_ratio": 25,
+  "n_rep_per_cell": 20000,
+  "seeds": [
+   20260801,
+   20260802,
+   20260803,
+   20260804,
+   20260805
+  ],
+  "sigma": 1.0
+ },
+ "kind": "re-analysis of existing f10 records; no simulation was run",
+ "script": "f18_integer_boundary_check.py",
+ "source_records": [
+  "experiments/results/is_fresh/f10_oracle_grid_summary.json",
+  "experiments/results/is_fresh/f10_oracle_grid_seed{20260801..05}.json"
+ ]
+}

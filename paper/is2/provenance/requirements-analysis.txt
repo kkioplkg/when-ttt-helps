@@ -1,0 +1,55 @@
+# Dependency lock for RECOMPUTING THE MANUSCRIPT NUMBERS.
+#
+#     python -m pip install -r requirements-analysis.txt
+#
+# This is the file to install.  It contains exactly the
+# distributions that the CPU re-analysis imports, directly or
+# transitively: the CPU re-analysis, reconciliation and
+# figure-generation commands of COMMANDS.md -- every script in
+# experiments/ttt/is_fresh and figures/scripts EXCEPT the two
+# GPU-requiring ones -- run with these and nothing else.  It is
+# dependency-resolvable: `pip install --dry-run -r` against a clean
+# Python 3.10.9 virtual environment resolves it with no conflict.
+#
+# THE TWO EXCEPTIONS, which these pins do NOT cover and which the
+# no-GPU rerun must skip:
+#   is_fresh/f15_e2_entropy_gn.py  trains and samples on a GPU;
+#                                  function-local Pillow and
+#                                  torchvision; needs CUDA and the
+#                                  unshipped CIFAR tensors.  Its
+#                                  records ship, and f16 recomputes
+#                                  the matched-architecture numbers
+#                                  from them on CPU.
+#   is_fresh/f_scope_bench.py      wall-clock scoping only; imports
+#                                  torchvision, requires CUDA,
+#                                  recomputes no manuscript number.
+# Both are listed under the fix-forward GPU section of COMMANDS.md,
+# and their extra distributions are pinned in
+# requirements-experiment.txt.
+#
+# Every line below is a comment or a plain `name==version` pin, so
+# pip accepts the file as supplied.  Interpreter, OS and hardware
+# metadata are in BUILD_INTERPRETER.md.  The dependencies of the
+# ORIGINAL GPU experiments -- which recompute no manuscript number
+# and which pip cannot reconstruct -- are in
+# requirements-experiment.txt, and the complete freeze of the build
+# machine is in pip-freeze-full.txt.
+#
+# Versions are those of the build interpreter recorded in
+# BUILD_INTERPRETER.md.  Nothing here is platform-specific except
+# the PyTorch wheel, which pip resolves per platform.
+#
+# NOTE ON PYTHON.  These pins were taken from, and are tested on,
+# Python 3.10.9 only.  Other interpreter versions are UNTESTED: in
+# particular scipy 1.15.3 declares Requires-Python >= 3.10, which
+# excludes 3.9, and numpy 1.23.5 publishes no wheel for 3.12.
+
+# core re-analysis -- needed by every script in experiments/ttt/is_fresh and by figures/scripts
+numpy==1.23.5
+matplotlib==3.7.0
+
+# torch is a HARD dependency of the CPU-only re-analyses too: is_fresh/common.py imports run_e1, which imports core.utils, which does `import torch` at module scope.  See COMMANDS.md.
+torch==2.3.0
+
+# scipy reaches the re-analysis transitively through e1_synthetic/run_e1.py and analysis/aggregate.py
+scipy==1.15.3

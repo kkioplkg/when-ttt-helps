@@ -1,0 +1,18 @@
+[f8] loaded 390 (dataset, method, corruption, severity) cells; 134400 episodes
+[f8] noise regime per arm: {'cifar10/pl': 'zero-noise limit (**)', 'cifar10/tent': 'zero-noise limit (**)', 'cifar10/ttt_mask': 'ratio (*)', 'cifar10/ttt_rot': 'ratio (*)', 'cifar100/tent': 'zero-noise limit (**)', 'cifar100/ttt_mask': 'ratio (*)', 'cifar100/ttt_rot': 'ratio (*)'}
+[f8] same-sample reproduction of published rho (phase_feat): OK
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_reproduction_check.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_mask_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_mask_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_mask_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_mask_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_mask_seed20260805.json
+[f8] ttt_mask: cross-fit rho_mean_final=0.540 (range 0.483-0.610), best_crossfit=0.524
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_rot_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_rot_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_rot_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_rot_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_ttt_rot_seed20260805.json
+[f8] ttt_rot: cross-fit rho_mean_final=0.546 (range 0.511-0.592), best_crossfit=0.223
+[is_fresh] wrote experiments/results/is_fresh/f22_e2_crossfit_feat_summary.json
+[f8] DONE

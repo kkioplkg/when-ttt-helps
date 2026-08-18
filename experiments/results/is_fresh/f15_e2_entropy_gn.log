@@ -1,0 +1,312 @@
+[f15] launch pid=40660 CUDA_VISIBLE_DEVICES=1 seed=20260806 epochs=200 episodes=256
+[f15] offline CIFAR-10 clean loaders installed (integrity OK)
+[f15] source training start: cifar10_resnet26ttt_s20260806, 200 epochs
+[f15] train epoch 1/200 lr=0.10000
+[f15] train epoch 1/200 lr=0.09999
+[f15] train epoch 2/200 lr=0.09998
+[f15] train epoch 3/200 lr=0.09994
+[f15] train epoch 4/200 lr=0.09990
+[f15] train epoch 5/200 lr=0.09985
+[f15] train epoch 6/200 lr=0.09978
+[f15] train epoch 7/200 lr=0.09970
+[f15] train epoch 8/200 lr=0.09961
+[f15] train epoch 9/200 lr=0.09950
+[f15] train epoch 10/200 lr=0.09938
+[f15] train eval ep10 acc=0.7070 rot=0.6758
+[cifar10_resnet26ttt_s20260806] ep10 acc=0.7070 rot=0.6758 (4.7 min)
+[f15] train epoch 11/200 lr=0.09926
+[f15] train epoch 12/200 lr=0.09911
+[f15] train epoch 13/200 lr=0.09896
+[f15] train epoch 14/200 lr=0.09880
+[f15] train epoch 15/200 lr=0.09862
+[f15] train epoch 16/200 lr=0.09843
+[f15] train epoch 17/200 lr=0.09823
+[f15] train epoch 18/200 lr=0.09801
+[f15] train epoch 19/200 lr=0.09779
+[f15] train epoch 20/200 lr=0.09755
+[f15] train eval ep20 acc=0.7634 rot=0.7295
+[cifar10_resnet26ttt_s20260806] ep20 acc=0.7634 rot=0.7295 (8.7 min)
+[f15] train epoch 21/200 lr=0.09730
+[f15] train epoch 22/200 lr=0.09704
+[f15] train epoch 23/200 lr=0.09677
+[f15] train epoch 24/200 lr=0.09649
+[f15] train epoch 25/200 lr=0.09619
+[f15] train epoch 26/200 lr=0.09589
+[f15] train epoch 27/200 lr=0.09557
+[f15] train epoch 28/200 lr=0.09524
+[f15] train epoch 29/200 lr=0.09490
+[f15] train epoch 30/200 lr=0.09455
+[f15] train eval ep30 acc=0.7599 rot=0.7445
+[cifar10_resnet26ttt_s20260806] ep30 acc=0.7599 rot=0.7445 (12.7 min)
+[f15] train epoch 31/200 lr=0.09419
+[f15] train epoch 32/200 lr=0.09382
+[f15] train epoch 33/200 lr=0.09343
+[f15] train epoch 34/200 lr=0.09304
+[f15] train epoch 35/200 lr=0.09263
+[f15] train epoch 36/200 lr=0.09222
+[f15] train epoch 37/200 lr=0.09179
+[f15] train epoch 38/200 lr=0.09135
+[f15] train epoch 39/200 lr=0.09091
+[f15] train epoch 40/200 lr=0.09045
+[f15] train eval ep40 acc=0.8217 rot=0.7706
+[cifar10_resnet26ttt_s20260806] ep40 acc=0.8217 rot=0.7706 (16.7 min)
+[f15] train epoch 41/200 lr=0.08998
+[f15] train epoch 42/200 lr=0.08951
+[f15] train epoch 43/200 lr=0.08902
+[f15] train epoch 44/200 lr=0.08853
+[f15] train epoch 45/200 lr=0.08802
+[f15] train epoch 46/200 lr=0.08751
+[f15] train epoch 47/200 lr=0.08698
+[f15] train epoch 48/200 lr=0.08645
+[f15] train epoch 49/200 lr=0.08591
+[f15] train epoch 50/200 lr=0.08536
+[f15] train eval ep50 acc=0.8219 rot=0.7706
+[cifar10_resnet26ttt_s20260806] ep50 acc=0.8219 rot=0.7706 (20.7 min)
+[f15] train epoch 51/200 lr=0.08480
+[f15] train epoch 52/200 lr=0.08423
+[f15] train epoch 53/200 lr=0.08365
+[f15] train epoch 54/200 lr=0.08307
+[f15] train epoch 55/200 lr=0.08247
+[f15] train epoch 56/200 lr=0.08187
+[f15] train epoch 57/200 lr=0.08126
+[f15] train epoch 58/200 lr=0.08065
+[f15] train epoch 59/200 lr=0.08002
+[f15] train epoch 60/200 lr=0.07939
+[f15] train eval ep60 acc=0.7964 rot=0.7666
+[cifar10_resnet26ttt_s20260806] ep60 acc=0.7964 rot=0.7666 (24.7 min)
+[f15] train epoch 61/200 lr=0.07875
+[f15] train epoch 62/200 lr=0.07810
+[f15] train epoch 63/200 lr=0.07745
+[f15] train epoch 64/200 lr=0.07679
+[f15] train epoch 65/200 lr=0.07612
+[f15] train epoch 66/200 lr=0.07545
+[f15] train epoch 67/200 lr=0.07477
+[f15] train epoch 68/200 lr=0.07409
+[f15] train epoch 69/200 lr=0.07340
+[f15] train epoch 70/200 lr=0.07270
+[f15] train eval ep70 acc=0.8249 rot=0.8
+[cifar10_resnet26ttt_s20260806] ep70 acc=0.8249 rot=0.8 (28.7 min)
+[f15] train epoch 71/200 lr=0.07200
+[f15] train epoch 72/200 lr=0.07129
+[f15] train epoch 73/200 lr=0.07058
+[f15] train epoch 74/200 lr=0.06986
+[f15] train epoch 75/200 lr=0.06913
+[f15] train epoch 76/200 lr=0.06841
+[f15] train epoch 77/200 lr=0.06767
+[f15] train epoch 78/200 lr=0.06694
+[f15] train epoch 79/200 lr=0.06620
+[f15] train epoch 80/200 lr=0.06545
+[f15] train eval ep80 acc=0.8299 rot=0.8167
+[cifar10_resnet26ttt_s20260806] ep80 acc=0.8299 rot=0.8167 (32.9 min)
+[f15] train epoch 81/200 lr=0.06470
+[f15] train epoch 82/200 lr=0.06395
+[f15] train epoch 83/200 lr=0.06319
+[f15] train epoch 84/200 lr=0.06243
+[f15] train epoch 85/200 lr=0.06167
+[f15] train epoch 86/200 lr=0.06091
+[f15] train epoch 87/200 lr=0.06014
+[f15] train epoch 88/200 lr=0.05937
+[f15] train epoch 89/200 lr=0.05860
+[f15] train epoch 90/200 lr=0.05782
+[f15] train eval ep90 acc=0.8174 rot=0.7875
+[cifar10_resnet26ttt_s20260806] ep90 acc=0.8174 rot=0.7875 (37.0 min)
+[f15] train epoch 91/200 lr=0.05705
+[f15] train epoch 92/200 lr=0.05627
+[f15] train epoch 93/200 lr=0.05549
+[f15] train epoch 94/200 lr=0.05471
+[f15] train epoch 95/200 lr=0.05392
+[f15] train epoch 96/200 lr=0.05314
+[f15] train epoch 97/200 lr=0.05236
+[f15] train epoch 98/200 lr=0.05157
+[f15] train epoch 99/200 lr=0.05079
+[f15] train epoch 100/200 lr=0.05000
+[f15] train eval ep100 acc=0.8269 rot=0.8195
+[cifar10_resnet26ttt_s20260806] ep100 acc=0.8269 rot=0.8195 (41.0 min)
+[f15] train epoch 101/200 lr=0.04921
+[f15] train epoch 102/200 lr=0.04843
+[f15] train epoch 103/200 lr=0.04764
+[f15] train epoch 104/200 lr=0.04686
+[f15] train epoch 105/200 lr=0.04608
+[f15] train epoch 106/200 lr=0.04529
+[f15] train epoch 107/200 lr=0.04451
+[f15] train epoch 108/200 lr=0.04373
+[f15] train epoch 109/200 lr=0.04295
+[f15] train epoch 110/200 lr=0.04218
+[f15] train eval ep110 acc=0.8338 rot=0.8252
+[cifar10_resnet26ttt_s20260806] ep110 acc=0.8338 rot=0.8252 (45.1 min)
+[f15] train epoch 111/200 lr=0.04140
+[f15] train epoch 112/200 lr=0.04063
+[f15] train epoch 113/200 lr=0.03986
+[f15] train epoch 114/200 lr=0.03909
+[f15] train epoch 115/200 lr=0.03833
+[f15] train epoch 116/200 lr=0.03757
+[f15] train epoch 117/200 lr=0.03681
+[f15] train epoch 118/200 lr=0.03605
+[f15] train epoch 119/200 lr=0.03530
+[f15] train epoch 120/200 lr=0.03455
+[f15] train eval ep120 acc=0.8600 rot=0.8394
+[cifar10_resnet26ttt_s20260806] ep120 acc=0.8600 rot=0.8394 (49.2 min)
+[f15] train epoch 121/200 lr=0.03380
+[f15] train epoch 122/200 lr=0.03306
+[f15] train epoch 123/200 lr=0.03233
+[f15] train epoch 124/200 lr=0.03159
+[f15] train epoch 125/200 lr=0.03087
+[f15] train epoch 126/200 lr=0.03014
+[f15] train epoch 127/200 lr=0.02942
+[f15] train epoch 128/200 lr=0.02871
+[f15] train epoch 129/200 lr=0.02800
+[f15] train epoch 130/200 lr=0.02730
+[f15] train eval ep130 acc=0.8658 rot=0.8361
+[cifar10_resnet26ttt_s20260806] ep130 acc=0.8658 rot=0.8361 (53.3 min)
+[f15] train epoch 131/200 lr=0.02660
+[f15] train epoch 132/200 lr=0.02591
+[f15] train epoch 133/200 lr=0.02523
+[f15] train epoch 134/200 lr=0.02455
+[f15] train epoch 135/200 lr=0.02388
+[f15] train epoch 136/200 lr=0.02321
+[f15] train epoch 137/200 lr=0.02255
+[f15] train epoch 138/200 lr=0.02190
+[f15] train epoch 139/200 lr=0.02125
+[f15] train epoch 140/200 lr=0.02061
+[f15] train eval ep140 acc=0.8741 rot=0.8504
+[cifar10_resnet26ttt_s20260806] ep140 acc=0.8741 rot=0.8504 (57.3 min)
+[f15] train epoch 141/200 lr=0.01998
+[f15] train epoch 142/200 lr=0.01935
+[f15] train epoch 143/200 lr=0.01874
+[f15] train epoch 144/200 lr=0.01813
+[f15] train epoch 145/200 lr=0.01753
+[f15] train epoch 146/200 lr=0.01693
+[f15] train epoch 147/200 lr=0.01635
+[f15] train epoch 148/200 lr=0.01577
+[f15] train epoch 149/200 lr=0.01520
+[f15] train epoch 150/200 lr=0.01464
+[f15] train eval ep150 acc=0.8901 rot=0.8594
+[cifar10_resnet26ttt_s20260806] ep150 acc=0.8901 rot=0.8594 (61.4 min)
+[f15] train epoch 151/200 lr=0.01409
+[f15] train epoch 152/200 lr=0.01355
+[f15] train epoch 153/200 lr=0.01302
+[f15] train epoch 154/200 lr=0.01249
+[f15] train epoch 155/200 lr=0.01198
+[f15] train epoch 156/200 lr=0.01147
+[f15] train epoch 157/200 lr=0.01098
+[f15] train epoch 158/200 lr=0.01049
+[f15] train epoch 159/200 lr=0.01002
+[f15] train epoch 160/200 lr=0.00955
+[f15] train eval ep160 acc=0.8881 rot=0.8665
+[cifar10_resnet26ttt_s20260806] ep160 acc=0.8881 rot=0.8665 (65.4 min)
+[f15] train epoch 161/200 lr=0.00909
+[f15] train epoch 162/200 lr=0.00865
+[f15] train epoch 163/200 lr=0.00821
+[f15] train epoch 164/200 lr=0.00778
+[f15] train epoch 165/200 lr=0.00737
+[f15] train epoch 166/200 lr=0.00696
+[f15] train epoch 167/200 lr=0.00657
+[f15] train epoch 168/200 lr=0.00618
+[f15] train epoch 169/200 lr=0.00581
+[f15] train epoch 170/200 lr=0.00545
+[f15] train eval ep170 acc=0.9012 rot=0.8845
+[cifar10_resnet26ttt_s20260806] ep170 acc=0.9012 rot=0.8845 (69.3 min)
+[f15] train epoch 171/200 lr=0.00510
+[f15] train epoch 172/200 lr=0.00476
+[f15] train epoch 173/200 lr=0.00443
+[f15] train epoch 174/200 lr=0.00411
+[f15] train epoch 175/200 lr=0.00381
+[f15] train epoch 176/200 lr=0.00351
+[f15] train epoch 177/200 lr=0.00323
+[f15] train epoch 178/200 lr=0.00296
+[f15] train epoch 179/200 lr=0.00270
+[f15] train epoch 180/200 lr=0.00245
+[f15] train eval ep180 acc=0.9106 rot=0.893
+[cifar10_resnet26ttt_s20260806] ep180 acc=0.9106 rot=0.893 (73.4 min)
+[f15] train epoch 181/200 lr=0.00221
+[f15] train epoch 182/200 lr=0.00199
+[f15] train epoch 183/200 lr=0.00177
+[f15] train epoch 184/200 lr=0.00157
+[f15] train epoch 185/200 lr=0.00138
+[f15] train epoch 186/200 lr=0.00120
+[f15] train epoch 187/200 lr=0.00104
+[f15] train epoch 188/200 lr=0.00089
+[f15] train epoch 189/200 lr=0.00074
+[f15] train epoch 190/200 lr=0.00062
+[f15] train eval ep190 acc=0.9126 rot=0.9016
+[cifar10_resnet26ttt_s20260806] ep190 acc=0.9126 rot=0.9016 (77.3 min)
+[f15] train epoch 191/200 lr=0.00050
+[f15] train epoch 192/200 lr=0.00039
+[f15] train epoch 193/200 lr=0.00030
+[f15] train epoch 194/200 lr=0.00022
+[f15] train epoch 195/200 lr=0.00015
+[f15] train epoch 196/200 lr=0.00010
+[f15] train epoch 197/200 lr=0.00006
+[f15] train epoch 198/200 lr=0.00002
+[f15] train epoch 199/200 lr=0.00001
+[f15] train epoch 200/200 lr=0.00000
+[f15] train eval ep200 acc=0.9165 rot=0.9058
+[cifar10_resnet26ttt_s20260806] ep200 acc=0.9165 rot=0.9058 (81.3 min)
+[cifar10_resnet26ttt_s20260806] DONE acc=0.9165 gate=False
+[f15] source training done: experiments/results/is_fresh/e2_gn/cifar10_resnet26ttt_s20260806.pt
+[f15] published source models: test acc 0.9152-0.9216 (train_source gate_pass=[False, False, False])
+[f15] source gate OK: acc=0.9165 (>= 0.905, published 0.9152-0.9216)  rot=0.9058 (>= 0.85)
+[f15] offline CIFAR-10 clean loaders installed (integrity OK)
+[f15] adaptation start: tent @ resnet26ttt, 256 episodes, 20 steps, severities 1,3,5
+[e2] tent gaussian_noise s1: done (256 episodes)
+[e2] tent gaussian_noise s3: done (256 episodes)
+[e2] tent gaussian_noise s5: done (256 episodes)
+[f15] adapt corruption 1/15 gaussian_noise done in 5.0 min (3 cells persisted)
+[e2] tent shot_noise s1: done (256 episodes)
+[e2] tent shot_noise s3: done (256 episodes)
+[e2] tent shot_noise s5: done (256 episodes)
+[f15] adapt corruption 2/15 shot_noise done in 5.0 min (6 cells persisted)
+[e2] tent impulse_noise s1: done (256 episodes)
+[e2] tent impulse_noise s3: done (256 episodes)
+[e2] tent impulse_noise s5: done (256 episodes)
+[f15] adapt corruption 3/15 impulse_noise done in 5.0 min (9 cells persisted)
+[e2] tent defocus_blur s1: done (256 episodes)
+[e2] tent defocus_blur s3: done (256 episodes)
+[e2] tent defocus_blur s5: done (256 episodes)
+[f15] adapt corruption 4/15 defocus_blur done in 5.0 min (12 cells persisted)
+[e2] tent glass_blur s1: done (256 episodes)
+[e2] tent glass_blur s3: done (256 episodes)
+[e2] tent glass_blur s5: done (256 episodes)
+[f15] adapt corruption 5/15 glass_blur done in 5.0 min (15 cells persisted)
+[e2] tent motion_blur s1: done (256 episodes)
+[e2] tent motion_blur s3: done (256 episodes)
+[e2] tent motion_blur s5: done (256 episodes)
+[f15] adapt corruption 6/15 motion_blur done in 5.0 min (18 cells persisted)
+[e2] tent zoom_blur s1: done (256 episodes)
+[e2] tent zoom_blur s3: done (256 episodes)
+[e2] tent zoom_blur s5: done (256 episodes)
+[f15] adapt corruption 7/15 zoom_blur done in 5.0 min (21 cells persisted)
+[e2] tent snow s1: done (256 episodes)
+[e2] tent snow s3: done (256 episodes)
+[e2] tent snow s5: done (256 episodes)
+[f15] adapt corruption 8/15 snow done in 5.0 min (24 cells persisted)
+[e2] tent frost s1: done (256 episodes)
+[e2] tent frost s3: done (256 episodes)
+[e2] tent frost s5: done (256 episodes)
+[f15] adapt corruption 9/15 frost done in 5.0 min (27 cells persisted)
+[e2] tent fog s1: done (256 episodes)
+[e2] tent fog s3: done (256 episodes)
+[e2] tent fog s5: done (256 episodes)
+[f15] adapt corruption 10/15 fog done in 5.0 min (30 cells persisted)
+[e2] tent brightness s1: done (256 episodes)
+[e2] tent brightness s3: done (256 episodes)
+[e2] tent brightness s5: done (256 episodes)
+[f15] adapt corruption 11/15 brightness done in 5.0 min (33 cells persisted)
+[e2] tent contrast s1: done (256 episodes)
+[e2] tent contrast s3: done (256 episodes)
+[e2] tent contrast s5: done (256 episodes)
+[f15] adapt corruption 12/15 contrast done in 5.0 min (36 cells persisted)
+[e2] tent elastic_transform s1: done (256 episodes)
+[e2] tent elastic_transform s3: done (256 episodes)
+[e2] tent elastic_transform s5: done (256 episodes)
+[f15] adapt corruption 13/15 elastic_transform done in 5.0 min (39 cells persisted)
+[e2] tent pixelate s1: done (256 episodes)
+[e2] tent pixelate s3: done (256 episodes)
+[e2] tent pixelate s5: done (256 episodes)
+[f15] adapt corruption 14/15 pixelate done in 5.0 min (42 cells persisted)
+[e2] tent jpeg_compression s1: done (256 episodes)
+[e2] tent jpeg_compression s3: done (256 episodes)
+[e2] tent jpeg_compression s5: done (256 episodes)
+[f15] adapt corruption 15/15 jpeg_compression done in 5.0 min (45 cells persisted)
+[e2] DONE cifar10_tent_main_s20260806
+[f15] DONE in 156.2 min

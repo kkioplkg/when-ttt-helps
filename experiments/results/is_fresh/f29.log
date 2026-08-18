@@ -1,0 +1,7 @@
+[f29] code      rho=+0.582  pooled clustered [+0.516845, +0.638704]  (f11 mean-of-5 [+0.517157, +0.638743])  x1.657 wider;  impr [0.711783, 1.265968]
+[f29] legal     rho=+0.905  pooled clustered [+0.884506, +0.921159]  (f11 mean-of-5 [+0.884481, +0.921133])  x1.568 wider;  impr [0.062590, 0.070515]
+[f29] pubmed    rho=+0.868  pooled clustered [+0.836965, +0.892322]  (f11 mean-of-5 [+0.837049, +0.892290])  x1.566 wider;  impr [0.308669, 1.075096]
+[f29] wikitext  rho=+0.834  pooled clustered [+0.801933, +0.860930]  (f11 mean-of-5 [+0.802308, +0.860854])  x1.552 wider;  impr [0.200215, 0.219700]
+[f29] audit vs f11: points 0.00e+00, per-stream endpoints 0.00e+00, max pooled-vs-averaged endpoint shift 0.002248 at pubmed.impr_ci.cluster_seedavg.hi
+[is_fresh] wrote experiments/results/is_fresh/f29_e4_pooled_ci.json
+[f29] DONE

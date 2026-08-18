@@ -1,0 +1,18 @@
+[f11] code      rho=+0.582 (published +0.582)
+        naive  1500 rows  [+0.544, +0.617] (published [+0.550, +0.620])
+        nested  500 docs  [+0.517, +0.639]  x1.65 wider
+        seedavg 500 docs  [+0.542, +0.667]  rho_avg=+0.606
+[f11] legal     rho=+0.905 (published +0.905)
+        naive  1500 rows  [+0.892, +0.916] (published [+0.890, +0.920])
+        nested  500 docs  [+0.884, +0.921]  x1.57 wider
+        seedavg 500 docs  [+0.910, +0.942]  rho_avg=+0.928
+[f11] pubmed    rho=+0.868 (published +0.868)
+        naive  1500 rows  [+0.849, +0.884] (published [+0.850, +0.880])
+        nested  500 docs  [+0.837, +0.892]  x1.57 wider
+        seedavg 500 docs  [+0.861, +0.914]  rho_avg=+0.890
+[f11] wikitext  rho=+0.834 (published +0.834)
+        naive  1500 rows  [+0.814, +0.852] (published [+0.810, +0.850])
+        nested  500 docs  [+0.802, +0.861]  x1.55 wider
+        seedavg 500 docs  [+0.831, +0.886]  rho_avg=+0.862
+[is_fresh] wrote experiments/results/is_fresh/f11_e4_cluster_ci.json
+[f11] DONE

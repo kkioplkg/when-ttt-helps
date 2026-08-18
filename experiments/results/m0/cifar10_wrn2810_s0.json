@@ -1,0 +1,102 @@
+{
+ "meta": {
+  "argv": {
+   "dataset": "cifar10",
+   "arch": "wrn2810",
+   "seed": 0,
+   "epochs": 120,
+   "lr": 0.1,
+   "wd": 0.0005,
+   "batch_size": 128,
+   "data_root": "<RUN_ROOT>/data",
+   "out_dir": "<RUN_ROOT>/ttt/results/m0",
+   "ckpt_dir": "<RUN_ROOT>/ttt/ckpt"
+  },
+  "time": "2026-07-02T09:24:52",
+  "torch": "2.8.0+cu128",
+  "cuda": "NVIDIA GeForce RTX 2080 Ti"
+ },
+ "history": [
+  {
+   "epoch": 10,
+   "test_acc": 0.8237,
+   "rot_acc": null,
+   "minutes": 12.427410666147868
+  },
+  {
+   "epoch": 20,
+   "test_acc": 0.8606,
+   "rot_acc": null,
+   "minutes": 24.872013501326244
+  },
+  {
+   "epoch": 30,
+   "test_acc": 0.8466,
+   "rot_acc": null,
+   "minutes": 36.84686855872472
+  },
+  {
+   "epoch": 40,
+   "test_acc": 0.8451,
+   "rot_acc": null,
+   "minutes": 48.799969780445096
+  },
+  {
+   "epoch": 50,
+   "test_acc": 0.9025,
+   "rot_acc": null,
+   "minutes": 60.74544873634974
+  },
+  {
+   "epoch": 60,
+   "test_acc": 0.8847,
+   "rot_acc": null,
+   "minutes": 72.68142944574356
+  },
+  {
+   "epoch": 70,
+   "test_acc": 0.9084,
+   "rot_acc": null,
+   "minutes": 84.60997070074082
+  },
+  {
+   "epoch": 80,
+   "test_acc": 0.9251,
+   "rot_acc": null,
+   "minutes": 96.52253326972325
+  },
+  {
+   "epoch": 90,
+   "test_acc": 0.9379,
+   "rot_acc": null,
+   "minutes": 108.43102431297302
+  },
+  {
+   "epoch": 100,
+   "test_acc": 0.9593,
+   "rot_acc": null,
+   "minutes": 120.33715186516444
+  },
+  {
+   "epoch": 110,
+   "test_acc": 0.961,
+   "rot_acc": null,
+   "minutes": 132.23105684518814
+  },
+  {
+   "epoch": 120,
+   "test_acc": 0.962,
+   "rot_acc": null,
+   "minutes": 144.11639380455017
+  }
+ ],
+ "final": {
+  "epoch": 120,
+  "test_acc": 0.962,
+  "rot_acc": null,
+  "minutes": 144.11639380455017
+ },
+ "acc_gate": true,
+ "rot_gate": true,
+ "gate_pass": true
+}

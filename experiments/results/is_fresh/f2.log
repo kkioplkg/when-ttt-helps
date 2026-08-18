@@ -1,0 +1,137 @@
+[f2 seed 20260801] alpha row 1/25
+[f2 seed 20260801] alpha row 2/25
+[f2 seed 20260801] alpha row 3/25
+[f2 seed 20260801] alpha row 4/25
+[f2 seed 20260801] alpha row 5/25
+[f2 seed 20260801] alpha row 6/25
+[f2 seed 20260801] alpha row 7/25
+[f2 seed 20260801] alpha row 8/25
+[f2 seed 20260801] alpha row 9/25
+[f2 seed 20260801] alpha row 10/25
+[f2 seed 20260801] alpha row 11/25
+[f2 seed 20260801] alpha row 12/25
+[f2 seed 20260801] alpha row 13/25
+[f2 seed 20260801] alpha row 14/25
+[f2 seed 20260801] alpha row 15/25
+[f2 seed 20260801] alpha row 16/25
+[f2 seed 20260801] alpha row 17/25
+[f2 seed 20260801] alpha row 18/25
+[f2 seed 20260801] alpha row 19/25
+[f2 seed 20260801] alpha row 20/25
+[f2 seed 20260801] alpha row 21/25
+[f2 seed 20260801] alpha row 22/25
+[f2 seed 20260801] alpha row 23/25
+[f2 seed 20260801] alpha row 24/25
+[f2 seed 20260801] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f2_boundary_stopped_seed20260801.json
+[f2] seed 20260801: thr=0.025044 (ratio 1.0018) holdout=0.9840 neg_cells=74 min_gain=-0.2804
+[f2 seed 20260802] alpha row 1/25
+[f2 seed 20260802] alpha row 2/25
+[f2 seed 20260802] alpha row 3/25
+[f2 seed 20260802] alpha row 4/25
+[f2 seed 20260802] alpha row 5/25
+[f2 seed 20260802] alpha row 6/25
+[f2 seed 20260802] alpha row 7/25
+[f2 seed 20260802] alpha row 8/25
+[f2 seed 20260802] alpha row 9/25
+[f2 seed 20260802] alpha row 10/25
+[f2 seed 20260802] alpha row 11/25
+[f2 seed 20260802] alpha row 12/25
+[f2 seed 20260802] alpha row 13/25
+[f2 seed 20260802] alpha row 14/25
+[f2 seed 20260802] alpha row 15/25
+[f2 seed 20260802] alpha row 16/25
+[f2 seed 20260802] alpha row 17/25
+[f2 seed 20260802] alpha row 18/25
+[f2 seed 20260802] alpha row 19/25
+[f2 seed 20260802] alpha row 20/25
+[f2 seed 20260802] alpha row 21/25
+[f2 seed 20260802] alpha row 22/25
+[f2 seed 20260802] alpha row 23/25
+[f2 seed 20260802] alpha row 24/25
+[f2 seed 20260802] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f2_boundary_stopped_seed20260802.json
+[f2] seed 20260802: thr=0.025044 (ratio 1.0018) holdout=0.9872 neg_cells=74 min_gain=-0.1588
+[f2 seed 20260803] alpha row 1/25
+[f2 seed 20260803] alpha row 2/25
+[f2 seed 20260803] alpha row 3/25
+[f2 seed 20260803] alpha row 4/25
+[f2 seed 20260803] alpha row 5/25
+[f2 seed 20260803] alpha row 6/25
+[f2 seed 20260803] alpha row 7/25
+[f2 seed 20260803] alpha row 8/25
+[f2 seed 20260803] alpha row 9/25
+[f2 seed 20260803] alpha row 10/25
+[f2 seed 20260803] alpha row 11/25
+[f2 seed 20260803] alpha row 12/25
+[f2 seed 20260803] alpha row 13/25
+[f2 seed 20260803] alpha row 14/25
+[f2 seed 20260803] alpha row 15/25
+[f2 seed 20260803] alpha row 16/25
+[f2 seed 20260803] alpha row 17/25
+[f2 seed 20260803] alpha row 18/25
+[f2 seed 20260803] alpha row 19/25
+[f2 seed 20260803] alpha row 20/25
+[f2 seed 20260803] alpha row 21/25
+[f2 seed 20260803] alpha row 22/25
+[f2 seed 20260803] alpha row 23/25
+[f2 seed 20260803] alpha row 24/25
+[f2 seed 20260803] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f2_boundary_stopped_seed20260803.json
+[f2] seed 20260803: thr=0.024535 (ratio 0.9814) holdout=0.9744 neg_cells=77 min_gain=-0.05826
+[f2 seed 20260804] alpha row 1/25
+[f2 seed 20260804] alpha row 2/25
+[f2 seed 20260804] alpha row 3/25
+[f2 seed 20260804] alpha row 4/25
+[f2 seed 20260804] alpha row 5/25
+[f2 seed 20260804] alpha row 6/25
+[f2 seed 20260804] alpha row 7/25
+[f2 seed 20260804] alpha row 8/25
+[f2 seed 20260804] alpha row 9/25
+[f2 seed 20260804] alpha row 10/25
+[f2 seed 20260804] alpha row 11/25
+[f2 seed 20260804] alpha row 12/25
+[f2 seed 20260804] alpha row 13/25
+[f2 seed 20260804] alpha row 14/25
+[f2 seed 20260804] alpha row 15/25
+[f2 seed 20260804] alpha row 16/25
+[f2 seed 20260804] alpha row 17/25
+[f2 seed 20260804] alpha row 18/25
+[f2 seed 20260804] alpha row 19/25
+[f2 seed 20260804] alpha row 20/25
+[f2 seed 20260804] alpha row 21/25
+[f2 seed 20260804] alpha row 22/25
+[f2 seed 20260804] alpha row 23/25
+[f2 seed 20260804] alpha row 24/25
+[f2 seed 20260804] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f2_boundary_stopped_seed20260804.json
+[f2] seed 20260804: thr=0.024535 (ratio 0.9814) holdout=0.9776 neg_cells=77 min_gain=-0.03856
+[f2 seed 20260805] alpha row 1/25
+[f2 seed 20260805] alpha row 2/25
+[f2 seed 20260805] alpha row 3/25
+[f2 seed 20260805] alpha row 4/25
+[f2 seed 20260805] alpha row 5/25
+[f2 seed 20260805] alpha row 6/25
+[f2 seed 20260805] alpha row 7/25
+[f2 seed 20260805] alpha row 8/25
+[f2 seed 20260805] alpha row 9/25
+[f2 seed 20260805] alpha row 10/25
+[f2 seed 20260805] alpha row 11/25
+[f2 seed 20260805] alpha row 12/25
+[f2 seed 20260805] alpha row 13/25
+[f2 seed 20260805] alpha row 14/25
+[f2 seed 20260805] alpha row 15/25
+[f2 seed 20260805] alpha row 16/25
+[f2 seed 20260805] alpha row 17/25
+[f2 seed 20260805] alpha row 18/25
+[f2 seed 20260805] alpha row 19/25
+[f2 seed 20260805] alpha row 20/25
+[f2 seed 20260805] alpha row 21/25
+[f2 seed 20260805] alpha row 22/25
+[f2 seed 20260805] alpha row 23/25
+[f2 seed 20260805] alpha row 24/25
+[f2 seed 20260805] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f2_boundary_stopped_seed20260805.json
+[f2] seed 20260805: thr=0.025044 (ratio 1.0018) holdout=0.9872 neg_cells=73 min_gain=-0.0491
+[is_fresh] wrote experiments/results/is_fresh/f2_boundary_stopped_summary.json
+[f2] DONE

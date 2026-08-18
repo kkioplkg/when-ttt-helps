@@ -1,0 +1,8 @@
+[f12] hold out code     : selected=alpha_only        (rank-criterion alpha_only) -> held-out rho=+0.703 [+0.648, +0.751]; phase_v2=+0.606; difficulty baseline=+0.442
+[f12] hold out legal    : selected=phase_v2_gnorm    (rank-criterion alpha_only) -> held-out rho=+0.927 [+0.910, +0.941]; phase_v2=+0.928; difficulty baseline=-0.385
+[f12] hold out pubmed   : selected=alpha_only        (rank-criterion alpha_only) -> held-out rho=+0.898 [+0.870, +0.921]; phase_v2=+0.890; difficulty baseline=+0.100
+[f12] hold out wikitext : selected=phase_v2_gnorm    (rank-criterion alpha_only) -> held-out rho=+0.869 [+0.840, +0.892]; phase_v2=+0.862; difficulty baseline=-0.288
+[is_fresh] wrote experiments/results/is_fresh/f12_e4_proxy_loo.json
+[f12] PARTIAL: the frozen proxy transfers to every untouched domain and beats the document-difficulty baseline in every fold, so the correlations are NOT a post-selection artefact of the four domains; but the shift term delta_v2 is not what carries them -- the alignment/noise factor alpha|alpha|/sigma^2 alone matches or exceeds the full statistic, and delta_v2 adds no resolved within-domain signal once alignment is held fixed
+[f12] delta_v2 family selected in 2/4 folds (paper's exact phase_v2 in 0/4); held-out rho +0.703..+0.927 vs difficulty baseline -0.385..+0.442
+[f12] DONE

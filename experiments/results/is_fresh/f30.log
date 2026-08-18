@@ -1,0 +1,7 @@
+[f30] code      align rho=+0.679 [+0.624542, +0.727149]  full [+0.517242, +0.639968]  paired [+0.073315, +0.122483]
+[f30] legal     align rho=+0.918 [+0.900349, +0.931044]  full [+0.884874, +0.920172]  paired [+0.006627, +0.019740]
+[f30] pubmed    align rho=+0.875 [+0.845322, +0.898566]  full [+0.837819, +0.892001]  paired [-0.002430, +0.017475] (contains 0)
+[f30] wikitext  align rho=+0.881 [+0.857908, +0.898054]  full [+0.801654, +0.860809]  paired [+0.030527, +0.063480]
+[f30] audit vs f17: points 0.00e+00, per-stream endpoints 0.00e+00, max pooled-vs-averaged endpoint shift 0.001107 at legal.ci_cluster_seedavg.delta_v2_only.lo; verdict counts unchanged
+[is_fresh] wrote experiments/results/is_fresh/f30_e4_alignment_pooled.json
+[f30] DONE

@@ -1,0 +1,150 @@
+{
+ "meta": {
+  "argv": {
+   "dataset": "cifar10",
+   "arch": "resnet26ttt",
+   "seed": 2,
+   "epochs": 200,
+   "lr": 0.1,
+   "wd": 0.0005,
+   "batch_size": 128,
+   "data_root": "<RUN_ROOT>/data",
+   "out_dir": "<RUN_ROOT>/ttt/results/m0",
+   "ckpt_dir": "<RUN_ROOT>/ttt/ckpt"
+  },
+  "time": "2026-07-02T16:06:47",
+  "torch": "2.8.0+cu128",
+  "cuda": "NVIDIA GeForce RTX 2080 Ti"
+ },
+ "history": [
+  {
+   "epoch": 10,
+   "test_acc": 0.6431,
+   "rot_acc": 0.6334,
+   "minutes": 2.5775193413098654
+  },
+  {
+   "epoch": 20,
+   "test_acc": 0.7729,
+   "rot_acc": 0.7329,
+   "minutes": 5.240640779336293
+  },
+  {
+   "epoch": 30,
+   "test_acc": 0.771,
+   "rot_acc": 0.7437,
+   "minutes": 7.681159722805023
+  },
+  {
+   "epoch": 40,
+   "test_acc": 0.829,
+   "rot_acc": 0.7725,
+   "minutes": 10.140376663208007
+  },
+  {
+   "epoch": 50,
+   "test_acc": 0.7591,
+   "rot_acc": 0.725,
+   "minutes": 12.54935274918874
+  },
+  {
+   "epoch": 60,
+   "test_acc": 0.8064,
+   "rot_acc": 0.7878,
+   "minutes": 15.079503361384074
+  },
+  {
+   "epoch": 70,
+   "test_acc": 0.8191,
+   "rot_acc": 0.7925,
+   "minutes": 17.583558626969655
+  },
+  {
+   "epoch": 80,
+   "test_acc": 0.8379,
+   "rot_acc": 0.7865,
+   "minutes": 20.09671698411306
+  },
+  {
+   "epoch": 90,
+   "test_acc": 0.8237,
+   "rot_acc": 0.8114,
+   "minutes": 22.69676515261332
+  },
+  {
+   "epoch": 100,
+   "test_acc": 0.8406,
+   "rot_acc": 0.8154,
+   "minutes": 25.24002231756846
+  },
+  {
+   "epoch": 110,
+   "test_acc": 0.844,
+   "rot_acc": 0.8063,
+   "minutes": 27.75086169242859
+  },
+  {
+   "epoch": 120,
+   "test_acc": 0.8524,
+   "rot_acc": 0.8315,
+   "minutes": 30.247040621439616
+  },
+  {
+   "epoch": 130,
+   "test_acc": 0.8798,
+   "rot_acc": 0.8474,
+   "minutes": 32.736894404888154
+  },
+  {
+   "epoch": 140,
+   "test_acc": 0.8864,
+   "rot_acc": 0.8549,
+   "minutes": 35.18867043654124
+  },
+  {
+   "epoch": 150,
+   "test_acc": 0.8826,
+   "rot_acc": 0.8571,
+   "minutes": 37.624408372243245
+  },
+  {
+   "epoch": 160,
+   "test_acc": 0.8889,
+   "rot_acc": 0.8715,
+   "minutes": 40.132022420565285
+  },
+  {
+   "epoch": 170,
+   "test_acc": 0.9086,
+   "rot_acc": 0.8812,
+   "minutes": 42.62767417033513
+  },
+  {
+   "epoch": 180,
+   "test_acc": 0.9173,
+   "rot_acc": 0.8981,
+   "minutes": 45.16292088429133
+  },
+  {
+   "epoch": 190,
+   "test_acc": 0.9179,
+   "rot_acc": 0.9002,
+   "minutes": 47.57425459623337
+  },
+  {
+   "epoch": 200,
+   "test_acc": 0.9216,
+   "rot_acc": 0.9064,
+   "minutes": 50.009711062908174
+  }
+ ],
+ "final": {
+  "epoch": 200,
+  "test_acc": 0.9216,
+  "rot_acc": 0.9064,
+  "minutes": 50.009711062908174
+ },
+ "acc_gate": false,
+ "rot_gate": true,
+ "gate_pass": false
+}

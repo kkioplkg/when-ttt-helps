@@ -1,0 +1,50 @@
+{
+ "meta": {
+  "argv": {
+   "arch": "wrn2810",
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "dtype": "float32",
+   "heartbeat": "logs/hb_p1.json",
+   "instances": 100,
+   "out_dir": "experiments/results/closure",
+   "pair": "cat_dog",
+   "resume": false,
+   "seed": 20260901,
+   "smoke": false,
+   "subsample_frac": 1.0,
+   "subset": "norm",
+   "temperatures": "1.0"
+  },
+  "cd_steps": [
+   0.001,
+   0.0001,
+   1e-05,
+   1e-06,
+   1e-07
+  ],
+  "ckpt_test_acc": 0.898,
+  "code": "experiments/ttt/closure",
+  "device": "NVIDIA GeForce RTX 3080",
+  "eps_grid": [
+   0.0,
+   0.1,
+   0.25,
+   0.4
+  ],
+  "eta_grid": [
+   1e-06,
+   1e-05,
+   0.0001,
+   0.001,
+   0.01
+  ],
+  "n_records": 1300,
+  "temperatures": [
+   1.0
+  ],
+  "time": "2026-08-09T20:39:21",
+  "torch": "2.11.0+cu128"
+ },
+ "records": "experiments/results/closure/p1_cat_dog_wrn2810_s20260901_norm_float32.jsonl.gz"
+}

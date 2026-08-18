@@ -1,0 +1,150 @@
+{
+ "acc_gate": false,
+ "final": {
+  "epoch": 200,
+  "minutes": 81.34345058997472,
+  "rot_acc": 0.9058,
+  "test_acc": 0.9165
+ },
+ "gate_pass": false,
+ "history": [
+  {
+   "epoch": 10,
+   "minutes": 4.677361154556275,
+   "rot_acc": 0.6758,
+   "test_acc": 0.707
+  },
+  {
+   "epoch": 20,
+   "minutes": 8.721816090742747,
+   "rot_acc": 0.7295,
+   "test_acc": 0.7634
+  },
+  {
+   "epoch": 30,
+   "minutes": 12.733419557412466,
+   "rot_acc": 0.7445,
+   "test_acc": 0.7599
+  },
+  {
+   "epoch": 40,
+   "minutes": 16.73320508400599,
+   "rot_acc": 0.7706,
+   "test_acc": 0.8217
+  },
+  {
+   "epoch": 50,
+   "minutes": 20.733574263254802,
+   "rot_acc": 0.7706,
+   "test_acc": 0.8219
+  },
+  {
+   "epoch": 60,
+   "minutes": 24.732956846555073,
+   "rot_acc": 0.7666,
+   "test_acc": 0.7964
+  },
+  {
+   "epoch": 70,
+   "minutes": 28.72861349185308,
+   "rot_acc": 0.8,
+   "test_acc": 0.8249
+  },
+  {
+   "epoch": 80,
+   "minutes": 32.905659302075705,
+   "rot_acc": 0.8167,
+   "test_acc": 0.8299
+  },
+  {
+   "epoch": 90,
+   "minutes": 36.95526676575343,
+   "rot_acc": 0.7875,
+   "test_acc": 0.8174
+  },
+  {
+   "epoch": 100,
+   "minutes": 41.03682930469513,
+   "rot_acc": 0.8195,
+   "test_acc": 0.8269
+  },
+  {
+   "epoch": 110,
+   "minutes": 45.1153341293335,
+   "rot_acc": 0.8252,
+   "test_acc": 0.8338
+  },
+  {
+   "epoch": 120,
+   "minutes": 49.22296243906021,
+   "rot_acc": 0.8394,
+   "test_acc": 0.86
+  },
+  {
+   "epoch": 130,
+   "minutes": 53.28317056894302,
+   "rot_acc": 0.8361,
+   "test_acc": 0.8658
+  },
+  {
+   "epoch": 140,
+   "minutes": 57.32960038185119,
+   "rot_acc": 0.8504,
+   "test_acc": 0.8741
+  },
+  {
+   "epoch": 150,
+   "minutes": 61.37013155221939,
+   "rot_acc": 0.8594,
+   "test_acc": 0.8901
+  },
+  {
+   "epoch": 160,
+   "minutes": 65.35026006698608,
+   "rot_acc": 0.8665,
+   "test_acc": 0.8881
+  },
+  {
+   "epoch": 170,
+   "minutes": 69.34021892944972,
+   "rot_acc": 0.8845,
+   "test_acc": 0.9012
+  },
+  {
+   "epoch": 180,
+   "minutes": 73.35323383410771,
+   "rot_acc": 0.893,
+   "test_acc": 0.9106
+  },
+  {
+   "epoch": 190,
+   "minutes": 77.34474200805029,
+   "rot_acc": 0.9016,
+   "test_acc": 0.9126
+  },
+  {
+   "epoch": 200,
+   "minutes": 81.34345058997472,
+   "rot_acc": 0.9058,
+   "test_acc": 0.9165
+  }
+ ],
+ "meta": {
+  "argv": {
+   "arch": "resnet26ttt",
+   "batch_size": 128,
+   "ckpt_dir": "experiments/results/is_fresh/e2_gn",
+   "data_root": "experiments/data",
+   "dataset": "cifar10",
+   "epochs": 200,
+   "lr": 0.1,
+   "out_dir": "experiments/results/is_fresh/e2_gn",
+   "seed": 20260806,
+   "wd": 0.0005
+  },
+  "cuda": "NVIDIA GeForce RTX 3080",
+  "time": "2026-08-03T15:33:33",
+  "torch": "2.12.0+cu126"
+ },
+ "rot_gate": true
+}

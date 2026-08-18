@@ -1,0 +1,12 @@
+[is_fresh] wrote experiments/results/is_fresh/f3_optimal_stopping_seed20260801.json
+[f3] seed 20260801: risk<=1.05x measured oracle in 1.00; time within 2x in 0.96
+[is_fresh] wrote experiments/results/is_fresh/f3_optimal_stopping_seed20260802.json
+[f3] seed 20260802: risk<=1.05x measured oracle in 1.00; time within 2x in 0.92
+[is_fresh] wrote experiments/results/is_fresh/f3_optimal_stopping_seed20260803.json
+[f3] seed 20260803: risk<=1.05x measured oracle in 1.00; time within 2x in 0.96
+[is_fresh] wrote experiments/results/is_fresh/f3_optimal_stopping_seed20260804.json
+[f3] seed 20260804: risk<=1.05x measured oracle in 1.00; time within 2x in 1.00
+[is_fresh] wrote experiments/results/is_fresh/f3_optimal_stopping_seed20260805.json
+[f3] seed 20260805: risk<=1.05x measured oracle in 1.00; time within 2x in 0.96
+[is_fresh] wrote experiments/results/is_fresh/f3_optimal_stopping_summary.json
+[f3] DONE

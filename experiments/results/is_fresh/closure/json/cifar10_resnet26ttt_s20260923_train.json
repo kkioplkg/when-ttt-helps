@@ -1,0 +1,86 @@
+{
+ "ckpt": "experiments/ckpt/closure/cifar10_resnet26ttt_s20260923.pt",
+ "final": {
+  "rot_acc": 0.9055,
+  "test_acc": 0.916
+ },
+ "gate_pass": false,
+ "history": [
+  {
+   "epoch": 10,
+   "minutes": 1.942692013581594,
+   "rot_acc": 0.669,
+   "test_acc": 0.675
+  },
+  {
+   "epoch": 20,
+   "minutes": 3.8640553673108418,
+   "rot_acc": 0.7351,
+   "test_acc": 0.7596
+  },
+  {
+   "epoch": 30,
+   "minutes": 5.770443312327067,
+   "rot_acc": 0.7811,
+   "test_acc": 0.7916
+  },
+  {
+   "epoch": 40,
+   "minutes": 7.688170087337494,
+   "rot_acc": 0.79,
+   "test_acc": 0.8317
+  },
+  {
+   "epoch": 50,
+   "minutes": 9.60748481353124,
+   "rot_acc": 0.8197,
+   "test_acc": 0.8444
+  },
+  {
+   "epoch": 60,
+   "minutes": 11.523016611735025,
+   "rot_acc": 0.8023,
+   "test_acc": 0.856
+  },
+  {
+   "epoch": 70,
+   "minutes": 13.422501095136006,
+   "rot_acc": 0.8561,
+   "test_acc": 0.8842
+  },
+  {
+   "epoch": 80,
+   "minutes": 15.333870367209117,
+   "rot_acc": 0.8731,
+   "test_acc": 0.8947
+  },
+  {
+   "epoch": 90,
+   "minutes": 17.238761126995087,
+   "rot_acc": 0.8902,
+   "test_acc": 0.9109
+  },
+  {
+   "epoch": 100,
+   "minutes": 19.154358863830566,
+   "rot_acc": 0.9036,
+   "test_acc": 0.916
+  }
+ ],
+ "meta": {
+  "argv": {
+   "batch_size": 128,
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "epochs": 100,
+   "heartbeat": "logs/hb_p2.json",
+   "lr": 0.1,
+   "seed": 20260923,
+   "wd": 0.0005
+  },
+  "code": "experiments/ttt/closure",
+  "device": "NVIDIA GeForce RTX 3080",
+  "time": "2026-08-09T21:41:16",
+  "torch": "2.11.0+cu128"
+ }
+}

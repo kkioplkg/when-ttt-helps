@@ -1,0 +1,33 @@
+{
+ "note": "no-split recomputation of the published same-sample Spearman values from the original E2/E5 records",
+ "published": {
+  "ttt_mask/mean_best": 0.762,
+  "ttt_mask/mean_final": 0.686,
+  "ttt_mask/median_best": 0.84,
+  "ttt_mask/median_final": 0.694,
+  "ttt_rot/mean_final": 0.622,
+  "ttt_rot/median_final": 0.742
+ },
+ "recomputed": {
+  "ttt_mask": {
+   "n_cells_mean": 105,
+   "n_cells_median": 105,
+   "rho_mean_best_crossfit": 0.8020422973253162,
+   "rho_mean_best_in_sample": 0.8020422973253162,
+   "rho_mean_final": 0.6530789964752229,
+   "rho_median_best_crossfit": 0.2599029670591645,
+   "rho_median_best_in_sample": 0.2599029670591645,
+   "rho_median_final": 0.20315156541571636
+  },
+  "ttt_rot": {
+   "n_cells_mean": 105,
+   "n_cells_median": 105,
+   "rho_mean_best_crossfit": 0.4989010989010989,
+   "rho_mean_best_in_sample": 0.4989010989010989,
+   "rho_mean_final": 0.07258967447646693,
+   "rho_median_best_crossfit": 0.6658614969935724,
+   "rho_median_best_in_sample": 0.6658614969935724,
+   "rho_median_final": -0.3380157578270786
+  }
+ }
+}

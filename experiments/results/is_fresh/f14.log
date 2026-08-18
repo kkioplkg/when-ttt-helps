@@ -1,0 +1,9 @@
+[is_fresh] wrote experiments/results/is_fresh/f14_deltafeat_check.json
+[f14] severity monotonicity: 23/60 (dataset, arch, corruption) triples have mean delta_feat strictly increasing across severities 1-5; rho(severity, mean)=+1 in 7/60
+[f14] episode-level rho(severity, delta_feat): median -0.015 (min -0.502, max +0.663)
+[f14] within-cell rho(delta_feat, frozen labelled loss): median -0.144, 20% positive, 1% above +0.3 (390 cells)
+[f14]   pl        (wrn2810    ) cell-level rho vs frozen loss -0.921, vs error rate -0.932, vs severity -0.519
+[f14]   tent      (wrn2810    ) cell-level rho vs frozen loss -0.543, vs error rate -0.536, vs severity -0.378
+[f14]   ttt_mask  (resnet26ttt) cell-level rho vs frozen loss +0.784, vs error rate +0.773, vs severity +0.434
+[f14]   ttt_rot   (resnet26ttt) cell-level rho vs frozen loss +0.764, vs error rate +0.747, vs severity +0.429
+[f14] DONE

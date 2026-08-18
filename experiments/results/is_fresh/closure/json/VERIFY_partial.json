@@ -1,0 +1,176 @@
+{
+ "all_routes_clean": true,
+ "inputs": {
+  "p1": [
+   "experiments/results/closure/p1_auto_frog_resnet26gn_s20260901_norm_float32.jsonl.gz"
+  ],
+  "p2": [],
+  "qsweep": [
+   "experiments/results/closure/qsweep_auto_frog_resnet26gn_s20260901_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_auto_frog_resnet26gn_s20260902_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_auto_frog_resnet26gn_s20260903_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_cat_dog_resnet26gn_s20260901_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_cat_dog_resnet26gn_s20260902_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_cat_dog_resnet26gn_s20260903_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_plane_ship_resnet26gn_s20260901_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_plane_ship_resnet26gn_s20260902_norm_float64.jsonl.gz",
+   "experiments/results/closure/qsweep_plane_ship_resnet26gn_s20260903_norm_float64.jsonl.gz"
+  ]
+ },
+ "qsweep": {
+  "bad_examples": [],
+  "max_abs_qflip_minus_p": 0.0,
+  "n": 675,
+  "n_exactly_one_flip": 675,
+  "n_modal_pred_constant": 675
+ },
+ "route1_logit_examples": [
+  {
+   "dtype": "float32",
+   "logit_p": 9.208287999602309,
+   "p": 0.9998998045921326,
+   "s": 9.207343101501465
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.208287999602309,
+   "p": 0.9998998045921326,
+   "s": 9.207343101501465
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.208287999602309,
+   "p": 0.9998998045921326,
+   "s": 9.207343101501465
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.208287999602309,
+   "p": 0.9998998045921326,
+   "s": 9.207343101501465
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.362353843457262,
+   "p": 0.9999141097068787,
+   "s": 9.36134147644043
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.362353843457262,
+   "p": 0.9999141097068787,
+   "s": 9.36134147644043
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.362353843457262,
+   "p": 0.9999141097068787,
+   "s": 9.36134147644043
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.362353843457262,
+   "p": 0.9999141097068787,
+   "s": 9.36134147644043
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.464566306276511,
+   "p": 0.9999224543571472,
+   "s": 9.463279724121094
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.464566306276511,
+   "p": 0.9999224543571472,
+   "s": 9.463279724121094
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.464566306276511,
+   "p": 0.9999224543571472,
+   "s": 9.463279724121094
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.464566306276511,
+   "p": 0.9999224543571472,
+   "s": 9.463279724121094
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.511785576134045,
+   "p": 0.9999260306358337,
+   "s": 9.510425567626953
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.511785576134045,
+   "p": 0.9999260306358337,
+   "s": 9.510425567626953
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.511785576134045,
+   "p": 0.9999260306358337,
+   "s": 9.510425567626953
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.511785576134045,
+   "p": 0.9999260306358337,
+   "s": 9.510425567626953
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.703023345238924,
+   "p": 0.9999389052391052,
+   "s": 9.701333999633789
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.703023345238924,
+   "p": 0.9999389052391052,
+   "s": 9.701333999633789
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.703023345238924,
+   "p": 0.9999389052391052,
+   "s": 9.701333999633789
+  },
+  {
+   "dtype": "float32",
+   "logit_p": 9.703023345238924,
+   "p": 0.9999389052391052,
+   "s": 9.701333999633789
+  }
+ ],
+ "route1_logit_vs_s_mismatches": 1296,
+ "route1_rhs_mismatch_examples": [],
+ "route1_rhs_mismatches": 0,
+ "route2": {
+  "bad_examples": [],
+  "n": 120,
+  "n_bad": 0,
+  "n_ok": 120,
+  "tolerances": {
+   "alpha": {
+    "float32": 2e-05,
+    "float64": 1e-11
+   },
+   "p": {
+    "float32": 2e-05,
+    "float64": 1e-12
+   }
+  },
+  "worst_abs_diff": {
+   "alpha": 1.5882253912025135e-07,
+   "p": 0.0,
+   "s": 0.0
+  }
+ },
+ "route3_excluded": 0,
+ "route3_n_tested": 12420,
+ "route3_violations_recomputed": 0
+}

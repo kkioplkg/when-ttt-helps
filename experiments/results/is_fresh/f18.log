@@ -1,0 +1,5 @@
+[is_fresh] wrote experiments/results/is_fresh/f18_integer_boundary_check.json
+[f18] 1/3 integer criterion: measured oracle-adapts and measured one-step-positive labels agree on 98.8% of 625 cells (4-10 disagreements per seed) and on 100.0% of the 543-551 cells resolved at 3 SE (0 disagreements in all 5 seeds; every disagreement has |z| <= 2.2).
+[f18] 2/3 boundaries: the integer-oracle boundary and the exact one-step boundary coincide to 1.3e-08 relative on f10's alphas and to <1e-5 over eta in [0.01, 0.02, 0.05, 0.1, 0.2, 0.4]; fitted threshold / flow boundary = 0.968 [0.785, 1.093], fitted threshold / exact one-step boundary = 0.955 [0.768, 1.072].
+[f18] 3/3 sliver: (P) fires without the integer criterion on 2/625 cells at eta=0.05 (none resolved at 3 SE, |z| <= 2.6); the band is 1.28% wide in delta/sigma at eta=0.05 but 13.0% at eta=0.4, and the worked counterexample (eta=0.2) reproduces with the repository's closed form: continuous gain +2.41e-04 at t*=0.255, best gain over integer steps >= 1 -1.69e-03.
+[f18] DONE

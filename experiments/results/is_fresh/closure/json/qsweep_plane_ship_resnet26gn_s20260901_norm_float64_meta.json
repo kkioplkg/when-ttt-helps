@@ -1,0 +1,24 @@
+{
+ "meta": {
+  "argv": {
+   "arch": "resnet26gn",
+   "cells": "clean,gaussian_noise:3,contrast:5",
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "dtype": "float64",
+   "heartbeat": "logs/hb_p1.json",
+   "instances": 25,
+   "out_dir": "experiments/results/closure",
+   "pair": "plane_ship",
+   "seed": 20260901,
+   "smoke": false,
+   "subset": "norm"
+  },
+  "code": "experiments/ttt/closure",
+  "device": "NVIDIA GeForce RTX 3080",
+  "n_records": 75,
+  "time": "2026-08-09T17:16:49",
+  "torch": "2.11.0+cu128"
+ },
+ "records": "experiments/results/closure/qsweep_plane_ship_resnet26gn_s20260901_norm_float64.jsonl.gz"
+}

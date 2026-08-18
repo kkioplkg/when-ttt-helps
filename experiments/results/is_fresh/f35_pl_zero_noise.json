@@ -1,0 +1,111 @@
+{
+ "A_zero_noise_is_admissible": {
+  "A1_PL_holds": true,
+  "A1_PL_worst_slack": 0.0,
+  "A1_holds": true,
+  "A1_measured_gradient_Lipschitz_constant": 1.0,
+  "A2_alignment_worst_slack": 0.0,
+  "A2_holds": true,
+  "A2_relative_scale_worst_slacks": [
+   0.0,
+   0.0
+  ],
+  "A3_holds": true,
+  "A3_slack_sigtot2_minus_noise": 0.0,
+  "A4_holds": true,
+  "A4_why": "theta_{t+1} = (1-eta) theta_t and Theta_loc = R, so the whole path is contained by construction",
+  "C_g": 1.0,
+  "L": 1.0,
+  "Phi_denominator_c2": 0.0,
+  "Phi_is_a_real_number": false,
+  "R": "theta^2/2 on Theta_loc = R",
+  "alpha": 1.0,
+  "c1": 0.5,
+  "c2": 0.0,
+  "c5_noise_floor": 0.0,
+  "c_g": 1.0,
+  "delta2": 1.0000000000000002,
+  "eta": 0.5,
+  "eta_max": 1.0,
+  "g": "g(theta, xi) = theta",
+  "mu": 1.0,
+  "sigtot": 0.0,
+  "step_condition_holds": true,
+  "theta_0": 1.4142135623730951
+ },
+ "B_c5_is_defined_and_zero": {
+  "claim": "at sigtot = 0 one has c2 = 0 and c1 > 0, so the noise floor c5 = c2/c1 = 0 is DEFINED; only the ratio Phi = c1 delta^2/c2 and its logarithm leave the definitions",
+  "n_with_Phi_denominator_zero": 200000,
+  "n_with_c1_strictly_positive": 200000,
+  "n_with_c2_exactly_zero": 200000,
+  "n_with_c5_exactly_zero": 200000,
+  "n_with_c5_not_finite": 0,
+  "n_zero_noise_draws": 200000
+ },
+ "C_restricting_to_positive_noise_loses_nothing": {
+  "C1_n_early_criterion_failures": 0,
+  "C1_n_resolvable_pairs_checked": 40000000,
+  "C1_n_resolvable_pairs_not_strictly_decreasing": 0,
+  "C2_n_draws_satisfying_Phi_le_1_i_e_delta2_le_c5": 0,
+  "C3_max_abs_difference_from_pure_geometric_decay": 0.0,
+  "claim": "clauses (ii)-(iii) may be restricted to sigtot > 0 without losing a single zero-noise instance: at sigtot = 0 with delta^2 > 0 the early-branch criterion holds at every t (so (ii)'s content is the strict decrease the zero-noise remark already states) and (iii)'s hypothesis Phi <= 1 is unsatisfiable"
+ },
+ "D_strict_inequality_defect_and_repair": {
+  "D1_admissible_constants_witness": {
+   "C_g": 1.0,
+   "L": 1.0,
+   "alpha": 1.0,
+   "c1": 0.5,
+   "c_g": 1.0,
+   "delta2": 1.0,
+   "eta": 0.5,
+   "eta_max": 1.0,
+   "mu": 1.0,
+   "reproduces_the_counterexample": true,
+   "sigtot": 0.0,
+   "step_condition_holds": true
+  },
+  "D1_counterexample": {
+   "bound_at_t": 0.5,
+   "bound_equals_epsilon": true,
+   "bound_is_AT_MOST_epsilon": true,
+   "bound_is_BELOW_epsilon": false,
+   "c1": 0.5,
+   "delta2": 1.0,
+   "epsilon": 0.5,
+   "t": 1,
+   "t_meets_printed_threshold": true,
+   "threshold": 1.0
+  },
+  "D2_claim": "t >= ln(delta^2/eps)/ln(1/(1-c1))  =>  B(t) <= eps",
+  "D2_n_pairs_checked": 21837768,
+  "D2_n_violations": 0,
+  "D3_claim": "t >  ln(delta^2/eps)/ln(1/(1-c1))  =>  B(t) <  eps",
+  "D3_n_pairs_checked": 21837768,
+  "D3_n_violations": 0,
+  "D4_construction": "eps := (1-c1)^t delta^2 at an integer t in {1,...,5}, so the printed threshold is exactly t",
+  "D4_max_abs_log_transform_error_threshold_minus_t": 2.4317666533768545e-06,
+  "D4_n_draws_constructed": 200000,
+  "D4_n_meeting_the_printed_threshold": 200000,
+  "D4_n_where_the_bound_is_NOT_below_eps": 200000,
+  "D4_n_where_the_bound_is_at_most_eps": 200000,
+  "D4_note": "the equality case is reachable at EVERY admissible draw, so the false strict wording is not confined to the worked instance; the repaired 'at most' holds at all of them"
+ },
+ "E_c1_equals_one_endpoint": {
+  "B_0_to_4": [
+   3.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "c1": 1.0,
+  "delta2": 3.0,
+  "remark_clause": "at c1 = 1 the bound is 0 <= epsilon at every t >= 1 for every epsilon > 0, which is the separate sentence the zero-noise remark already carries and which needs no threshold at all",
+  "why_admissible": "c1 = eta mu alpha c_g reaches 1 when mu = L and alpha = c_g = C_g = 1 with eta = eta_max = 1, which A1 and the step cap both permit",
+  "zero_from_t_ge_1": true
+ },
+ "finding": "A3 permits sigtot = 0; there c2 = c5 = 0 and the phase ratio Phi = c1 delta^2/c2 has a zero denominator.  The envelope's Phi-dependent clauses therefore need a local positive-noise hypothesis (they lose no instance by getting one), the corollary's boundary paragraph was wrong to call c5 undefined, and the zero-noise remark's 'below epsilon' is false at the threshold and must read 'at most epsilon'",
+ "kind": "closed-form audit of the local-PL envelope at sigtot = 0; nothing simulated, no record read",
+ "script": "f35_pl_zero_noise.py"
+}

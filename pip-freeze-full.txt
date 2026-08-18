@@ -1,0 +1,757 @@
+# Complete `pip freeze` of the interpreter that built this archive.
+#
+# This is the exact build record, not a recommended install: it is a
+# Windows/Anaconda environment and most of it is unrelated to this
+# project.  For running the analyses use
+# `requirements-analysis.txt`.
+#
+# It is nevertheless valid `pip install -r` input: every line is a
+# comment or a plain name==version pin.  pip emits a direct
+# reference (`name @ file:///...`) for any distribution installed
+# from a local path, naming a directory that exists on no other
+# machine; every such line has been rewritten to the plain
+# name==version pin read back from the installed distribution's
+# metadata.
+#
+# rewritten:
+#   alabaster: rewritten from a non-portable direct reference (file:///home/ktietz/src/ci/alabaster_1611921544520/work) to alabaster==0.7.12
+#   anaconda-project: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_91fu4tfkih/croots/recipe/anaconda-project_1660339890874/work) to anaconda-project==0.11.1
+#   anyio: rewritten from a non-portable direct reference (file:///C:/ci/anyio_1644481856696/work/dist) to anyio==3.5.0
+#   argon2-cffi: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work) to argon2-cffi==21.3.0
+#   argon2-cffi-bindings: rewritten from a non-portable direct reference (file:///C:/ci/argon2-cffi-bindings_1644569876605/work) to argon2-cffi-bindings==21.2.0
+#   arrow: rewritten from a non-portable direct reference (file:///C:/b/abs_cal7u12ktb/croot/arrow_1676588147908/work) to arrow==1.2.3
+#   astroid: rewritten from a non-portable direct reference (file:///C:/b/abs_d4lg3_taxn/croot/astroid_1676904351456/work) to astroid==2.14.2
+#   astropy: rewritten from a non-portable direct reference (file:///C:/ci/astropy_1657719642921/work) to astropy==5.1
+#   asttokens: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/asttokens_1646925590279/work) to asttokens==2.0.5
+#   attrs: rewritten from a non-portable direct reference (file:///C:/b/abs_09s3y775ra/croot/attrs_1668696195628/work) to attrs==22.1.0
+#   Automat: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/automat_1600298431173/work) to Automat==20.2.0
+#   autopep8: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/autopep8_1650463822033/work) to autopep8==1.6.0
+#   Babel: rewritten from a non-portable direct reference (file:///C:/b/abs_a2shv_3tqi/croot/babel_1671782804377/work) to Babel==2.11.0
+#   backcall: rewritten from a non-portable direct reference (file:///home/ktietz/src/ci/backcall_1611930011877/work) to backcall==0.2.0
+#   backports.functools-lru-cache: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/backports.functools_lru_cache_1618170165463/work) to backports.functools-lru-cache==1.6.4
+#   backports.tempfile: rewritten from a non-portable direct reference (file:///home/linux1/recipes/ci/backports.tempfile_1610991236607/work) to backports.tempfile==1.0
+#   bcrypt: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_36kl66t_aw/croots/recipe/bcrypt_1659554334050/work) to bcrypt==3.2.0
+#   beautifulsoup4: rewritten from a non-portable direct reference (file:///C:/ci/beautifulsoup4_1650293028159/work) to beautifulsoup4==4.11.1
+#   binaryornot: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/binaryornot_1617751525010/work) to binaryornot==0.4.4
+#   black: rewritten from a non-portable direct reference (file:///C:/ci/black_1660221726201/work) to black==22.6.0
+#   bleach: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/bleach_1641577558959/work) to bleach==4.1.0
+#   bokeh: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_4a259bc2-ed05-4a1f-808e-ac712cc0900cddqp8sp7/croots/recipe/bokeh_1658136660686/work) to bokeh==2.4.3
+#   boltons: rewritten from a non-portable direct reference (file:///C:/b/abs_707eo7c09t/croot/boltons_1677628723117/work) to boltons==23.0.0
+#   Bottleneck: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_3198ca53-903d-42fd-87b4-03e6d03a8381yfwsuve8/croots/recipe/bottleneck_1657175565403/work) to Bottleneck==1.3.5
+#   certifi: rewritten from a non-portable direct reference (file:///C:/b/abs_3beajm7umk/croot/certifi_1745939228545/work/certifi) to certifi==2025.4.26
+#   cffi: rewritten from a non-portable direct reference (file:///C:/b/abs_49n3v2hyhr/croot/cffi_1670423218144/work) to cffi==1.15.1
+#   chardet: rewritten from a non-portable direct reference (file:///C:/ci_310/chardet_1642114080098/work) to chardet==4.0.0
+#   click: rewritten from a non-portable direct reference (file:///C:/ci/click_1646056762388/work) to click==8.0.4
+#   cloudpickle: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/cloudpickle_1632508026186/work) to cloudpickle==2.0.0
+#   colorama: rewritten from a non-portable direct reference (file:///C:/b/abs_a9ozq0l032/croot/colorama_1672387194846/work) to colorama==0.4.6
+#   colorcet: rewritten from a non-portable direct reference (file:///C:/b/abs_46vyu0rpdl/croot/colorcet_1668084513237/work) to colorcet==3.0.1
+#   comm: rewritten from a non-portable direct reference (file:///C:/b/abs_1419earm7u/croot/comm_1671231131638/work) to comm==0.1.2
+#   conda-content-trust: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_4589313d-fc62-4ccc-81c0-b801b4449e833j1ajrwu/croots/recipe/conda-content-trust_1658126379362/work) to conda-content-trust==0.1.3
+#   conda-pack: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/conda-pack_1611163042455/work) to conda-pack==0.6.0
+#   conda-package-handling: rewritten from a non-portable direct reference (file:///C:/b/abs_fcga8w0uem/croot/conda-package-handling_1672865024290/work) to conda-package-handling==2.0.2
+#   conda-token: rewritten from a non-portable direct reference (file:///Users/paulyim/miniconda3/envs/c3i/conda-bld/conda-token_1662660369760/work) to conda-token==0.4.0
+#   conda_package_streaming: rewritten from a non-portable direct reference (file:///C:/b/abs_0e5n5hdal3/croot/conda-package-streaming_1670508162902/work) to conda_package_streaming==0.7.0
+#   contourpy: rewritten from a non-portable direct reference (file:///C:/b/abs_d5rpy288vc/croots/recipe/contourpy_1663827418189/work) to contourpy==1.0.5
+#   cookiecutter: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/cookiecutter_1649151442564/work) to cookiecutter==1.7.3
+#   cryptography: rewritten from a non-portable direct reference (file:///C:/b/abs_8ecplyc3n2/croot/cryptography_1677533105000/work) to cryptography==39.0.1
+#   cycler: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/cycler_1637851556182/work) to cycler==0.11.0
+#   cytoolz: rewritten from a non-portable direct reference (file:///C:/b/abs_61m9vzb4qh/croot/cytoolz_1667465938275/work) to cytoolz==0.12.0
+#   dask: rewritten from a non-portable direct reference (file:///C:/ci/dask-core_1658497112560/work) to dask==2022.7.0
+#   datashader: rewritten from a non-portable direct reference (file:///C:/b/abs_e80f3d7ac0/croot/datashader_1676023254070/work) to datashader==0.14.4
+#   debugpy: rewritten from a non-portable direct reference (file:///C:/ci_310/debugpy_1642079916595/work) to debugpy==1.5.1
+#   decorator: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/decorator_1643638310831/work) to decorator==5.1.1
+#   defusedxml: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/defusedxml_1615228127516/work) to defusedxml==0.7.1
+#   diff-match-patch: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/diff-match-patch_1630511840874/work) to diff-match-patch==20200713
+#   distributed: rewritten from a non-portable direct reference (file:///C:/ci/distributed_1658523963030/work) to distributed==2022.7.0
+#   docstring-to-markdown: rewritten from a non-portable direct reference (file:///C:/b/abs_cf10j8nr4q/croot/docstring-to-markdown_1673447652942/work) to docstring-to-markdown==0.11
+#   docutils: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_24e5e278-4d1c-47eb-97b9-f761d871f482dy2vg450/croots/recipe/docutils_1657175444608/work) to docutils==0.18.1
+#   entrypoints: rewritten from a non-portable direct reference (file:///C:/ci/entrypoints_1649926676279/work) to entrypoints==0.4
+#   executing: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/executing_1646925071911/work) to executing==0.8.3
+#   fastjsonschema: rewritten from a non-portable direct reference (file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_ebruxzvd08/croots/recipe/python-fastjsonschema_1661376484940/work) to fastjsonschema==2.16.2
+#   filelock: rewritten from a non-portable direct reference (file:///C:/b/abs_c7yrhs9uz2/croot/filelock_1672387617533/work) to filelock==3.9.0
+#   flake8: rewritten from a non-portable direct reference (file:///C:/b/abs_9f6_n1jlpc/croot/flake8_1674581816810/work) to flake8==6.0.0
+#   Flask: rewritten from a non-portable direct reference (file:///C:/b/abs_ef16l83sif/croot/flask_1671217367534/work) to Flask==2.2.2
+#   flit_core: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/flit-core_1644941570762/work/source/flit_core) to flit_core==3.6.0
+#   fsspec: rewritten from a non-portable direct reference (file:///C:/b/abs_5bjz6v0w_f/croot/fsspec_1670336608940/work) to fsspec==2022.11.0
+#   future: rewritten from a non-portable direct reference (file:///C:/b/abs_3dcibf18zi/croot/future_1677599891380/work) to future==0.18.3
+#   gensim: rewritten from a non-portable direct reference (file:///C:/b/abs_a5vat69tv8/croot/gensim_1674853640591/work) to gensim==4.3.0
+#   glob2: rewritten from a non-portable direct reference (file:///home/linux1/recipes/ci/glob2_1610991677669/work) to glob2==0.7
+#   greenlet: rewritten from a non-portable direct reference (file:///C:/b/abs_47lk_w2ajq/croot/greenlet_1670513248400/work) to greenlet==2.0.1
+#   h5py: rewritten from a non-portable direct reference (file:///C:/ci/h5py_1659089830381/work) to h5py==3.7.0
+#   HeapDict: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/heapdict_1630598515714/work) to HeapDict==1.0.1
+#   holoviews: rewritten from a non-portable direct reference (file:///C:/b/abs_bbf97_0kcd/croot/holoviews_1676372911083/work) to holoviews==1.15.4
+#   huggingface-hub: rewritten from a non-portable direct reference (file:///C:/b/abs_8d8wo2z8c6/croot/huggingface_hub_1667490298905/work) to huggingface-hub==0.10.1
+#   hvplot: rewritten from a non-portable direct reference (file:///C:/b/abs_13un17_4x_/croot/hvplot_1670508919193/work) to hvplot==0.8.2
+#   hyperlink: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/hyperlink_1610130746837/work) to hyperlink==21.0.0
+#   idna: rewritten from a non-portable direct reference (file:///C:/b/abs_bdhbebrioa/croot/idna_1666125572046/work) to idna==3.4
+#   imagecodecs: rewritten from a non-portable direct reference (file:///C:/b/abs_f0cr12h73p/croot/imagecodecs_1677576746499/work) to imagecodecs==2021.8.26
+#   imageio: rewritten from a non-portable direct reference (file:///C:/b/abs_27kq2gy1us/croot/imageio_1677879918708/work) to imageio==2.26.0
+#   imagesize: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_3cecd249-3fc4-4bfc-b80b-bb227b0d701en12vqzot/croots/recipe/imagesize_1657179501304/work) to imagesize==1.4.1
+#   imbalanced-learn: rewritten from a non-portable direct reference (file:///C:/b/abs_1911ryuksz/croot/imbalanced-learn_1677191585237/work) to imbalanced-learn==0.10.1
+#   importlib-metadata: rewritten from a non-portable direct reference (file:///C:/ci/importlib-metadata_1648544469310/work) to importlib-metadata==4.11.3
+#   incremental: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/incremental_1636629750599/work) to incremental==21.3.0
+#   iniconfig: rewritten from a non-portable direct reference (file:///home/linux1/recipes/ci/iniconfig_1610983019677/work) to iniconfig==1.1.1
+#   intake: rewritten from a non-portable direct reference (file:///C:/b/abs_42yyb2lhwx/croot/intake_1676619887779/work) to intake==0.6.7
+#   intervaltree: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/intervaltree_1630511889664/work) to intervaltree==3.1.0
+#   ipykernel: rewritten from a non-portable direct reference (file:///C:/b/abs_b4f07tbsyd/croot/ipykernel_1672767104060/work) to ipykernel==6.19.2
+#   ipython: rewritten from a non-portable direct reference (file:///C:/b/abs_d3h279dv3h/croot/ipython_1676582236558/work) to ipython==8.10.0
+#   ipython-genutils: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/ipython_genutils_1606773439826/work) to ipython-genutils==0.2.0
+#   ipywidgets: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/ipywidgets_1634143127070/work) to ipywidgets==7.6.5
+#   isort: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/isort_1628603791788/work) to isort==5.9.3
+#   itemadapter: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/itemadapter_1626442940632/work) to itemadapter==0.3.0
+#   itemloaders: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/itemloaders_1646805235997/work) to itemloaders==1.0.4
+#   itsdangerous: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/itsdangerous_1621432558163/work) to itsdangerous==2.0.1
+#   jedi: rewritten from a non-portable direct reference (file:///C:/ci/jedi_1644315428305/work) to jedi==0.18.1
+#   jellyfish: rewritten from a non-portable direct reference (file:///C:/ci/jellyfish_1647962737334/work) to jellyfish==0.9.0
+#   Jinja2: rewritten from a non-portable direct reference (file:///C:/b/abs_7cdis66kl9/croot/jinja2_1666908141852/work) to Jinja2==3.1.2
+#   jinja2-time: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/jinja2-time_1649251842261/work) to jinja2-time==0.2.0
+#   jmespath: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/jmespath_1630583964805/work) to jmespath==0.10.0
+#   joblib: rewritten from a non-portable direct reference (file:///C:/b/abs_e60_bwl1v6/croot/joblib_1666298845728/work) to joblib==1.1.1
+#   json5: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/json5_1624432770122/work) to json5==0.9.6
+#   jsonpatch: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/jsonpatch_1615747632069/work) to jsonpatch==1.32
+#   jsonschema: rewritten from a non-portable direct reference (file:///C:/b/abs_6ccs97j_l8/croot/jsonschema_1676558690963/work) to jsonschema==4.17.3
+#   jupyter: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_56xfdi__li/croots/recipe/jupyter_1659349053177/work) to jupyter==1.0.0
+#   jupyter-console: rewritten from a non-portable direct reference (file:///C:/b/abs_68ttzd5p9c/croot/jupyter_console_1677674667636/work) to jupyter-console==6.6.2
+#   jupyter-server: rewritten from a non-portable direct reference (file:///C:/b/abs_1cfi3__jl8/croot/jupyter_server_1671707636383/work) to jupyter-server==1.23.4
+#   jupyter_client: rewritten from a non-portable direct reference (file:///C:/ci/jupyter_client_1661834530766/work) to jupyter_client==7.3.4
+#   jupyter_core: rewritten from a non-portable direct reference (file:///C:/b/abs_bd7elvu3w2/croot/jupyter_core_1676538600510/work) to jupyter_core==5.2.0
+#   jupyterlab: rewritten from a non-portable direct reference (file:///C:/b/abs_513jt6yy74/croot/jupyterlab_1675354138043/work) to jupyterlab==3.5.3
+#   jupyterlab-pygments: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/jupyterlab_pygments_1601490720602/work) to jupyterlab-pygments==0.1.2
+#   jupyterlab-widgets: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/jupyterlab_widgets_1609884341231/work) to jupyterlab-widgets==1.0.0
+#   jupyterlab_server: rewritten from a non-portable direct reference (file:///C:/b/abs_d1z_g1swc8/croot/jupyterlab_server_1677153204814/work) to jupyterlab_server==2.19.0
+#   keyring: rewritten from a non-portable direct reference (file:///C:/ci_310/keyring_1642165564669/work) to keyring==23.4.0
+#   kiwisolver: rewritten from a non-portable direct reference (file:///C:/b/abs_88mdhvtahm/croot/kiwisolver_1672387921783/work) to kiwisolver==1.4.4
+#   lazy-object-proxy: rewritten from a non-portable direct reference (file:///C:/ci_310/lazy-object-proxy_1642083437654/work) to lazy-object-proxy==1.6.0
+#   libarchive-c: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work) to libarchive-c==2.9
+#   locket: rewritten from a non-portable direct reference (file:///C:/ci/locket_1652904090946/work) to locket==1.0.0
+#   lz4: rewritten from a non-portable direct reference (file:///C:/ci_310/lz4_1643300078932/work) to lz4==3.1.3
+#   MarkupSafe: rewritten from a non-portable direct reference (file:///C:/ci/markupsafe_1654508036328/work) to MarkupSafe==2.1.1
+#   matplotlib: rewritten from a non-portable direct reference (file:///C:/b/abs_b2d7uv90hg/croot/matplotlib-suite_1677674332463/work) to matplotlib==3.7.0
+#   matplotlib-inline: rewritten from a non-portable direct reference (file:///C:/ci/matplotlib-inline_1661934094726/work) to matplotlib-inline==0.1.6
+#   mccabe: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/mccabe_1644221741721/work) to mccabe==0.7.0
+#   menuinst: rewritten from a non-portable direct reference (file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_455sf5o0ct/croots/recipe/menuinst_1661805970842/work) to menuinst==1.4.19
+#   mistune: rewritten from a non-portable direct reference (file:///C:/ci_310/mistune_1642084168466/work) to mistune==0.8.4
+#   mkl-random: rewritten from a non-portable direct reference (file:///C:/ci_310/mkl_random_1643050563308/work) to mkl-random==1.2.2
+#   mock: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/mock_1607622725907/work) to mock==4.0.3
+#   msgpack: rewritten from a non-portable direct reference (file:///C:/ci/msgpack-python_1652348582618/work) to msgpack==1.0.3
+#   multipledispatch: rewritten from a non-portable direct reference (file:///C:/ci_310/multipledispatch_1642084438481/work) to multipledispatch==0.6.0
+#   nbclassic: rewritten from a non-portable direct reference (file:///C:/b/abs_d0_ze5q0j2/croot/nbclassic_1676902914817/work) to nbclassic==0.5.2
+#   nbclient: rewritten from a non-portable direct reference (file:///C:/ci/nbclient_1650308592199/work) to nbclient==0.5.13
+#   nbconvert: rewritten from a non-portable direct reference (file:///C:/b/abs_4av3q4okro/croot/nbconvert_1668450658054/work) to nbconvert==6.5.4
+#   nbformat: rewritten from a non-portable direct reference (file:///C:/b/abs_85_3g7dkt4/croot/nbformat_1670352343720/work) to nbformat==5.7.0
+#   networkx: rewritten from a non-portable direct reference (file:///C:/ci/networkx_1657716953747/work) to networkx==2.8.4
+#   nltk: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/nltk_1645628263994/work) to nltk==3.7
+#   notebook: rewritten from a non-portable direct reference (file:///C:/b/abs_ca13hqvuzw/croot/notebook_1668179888546/work) to notebook==6.5.2
+#   notebook_shim: rewritten from a non-portable direct reference (file:///C:/b/abs_ebfczttg6x/croot/notebook-shim_1668160590914/work) to notebook_shim==0.2.2
+#   numba: rewritten from a non-portable direct reference (file:///C:/b/abs_e53pp2e4k7/croot/numba_1670258349527/work) to numba==0.56.4
+#   numexpr: rewritten from a non-portable direct reference (file:///C:/b/abs_a7kbak88hk/croot/numexpr_1668713882979/work) to numexpr==2.8.4
+#   numpy: rewritten from a non-portable direct reference (file:///C:/b/abs_datssh7cer/croot/numpy_and_numpy_base_1672336199388/work) to numpy==1.23.5
+#   numpydoc: rewritten from a non-portable direct reference (file:///C:/b/abs_cfdd4zxbga/croot/numpydoc_1668085912100/work) to numpydoc==1.5.0
+#   packaging: rewritten from a non-portable direct reference (file:///C:/b/abs_cfsup8ur87/croot/packaging_1671697442297/work) to packaging==22.0
+#   pandas: rewritten from a non-portable direct reference (file:///C:/b/abs_b9kefbuby2/croot/pandas_1677835593760/work) to pandas==1.5.3
+#   pandocfilters: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/pandocfilters_1643405455980/work) to pandocfilters==1.5.0
+#   panel: rewritten from a non-portable direct reference (file:///C:/b/abs_55ujq2fpyh/croot/panel_1676379705003/work) to panel==0.14.3
+#   param: rewritten from a non-portable direct reference (file:///C:/b/abs_d799n8xz_7/croot/param_1671697759755/work) to param==1.12.3
+#   paramiko: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/paramiko_1640109032755/work) to paramiko==2.8.1
+#   parsel: rewritten from a non-portable direct reference (file:///C:/ci/parsel_1646722035970/work) to parsel==1.6.0
+#   parso: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/parso_1641458642106/work) to parso==0.8.3
+#   partd: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/partd_1647245470509/work) to partd==1.2.0
+#   pathlib: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/pathlib_1629713961906/work) to pathlib==1.0.1
+#   pathspec: rewritten from a non-portable direct reference (file:///C:/b/abs_9cu5_2yb3i/croot/pathspec_1674681579249/work) to pathspec==0.10.3
+#   pexpect: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/pexpect_1605563209008/work) to pexpect==4.8.0
+#   pickleshare: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/pickleshare_1606932040724/work) to pickleshare==0.7.5
+#   pkginfo: rewritten from a non-portable direct reference (file:///C:/b/abs_d18srtr68x/croot/pkginfo_1679431192239/work) to pkginfo==1.9.6
+#   platformdirs: rewritten from a non-portable direct reference (file:///C:/b/abs_73cc5cz_1u/croots/recipe/platformdirs_1662711386458/work) to platformdirs==2.5.2
+#   plotly: rewritten from a non-portable direct reference (file:///C:/ci/plotly_1658160673416/work) to plotly==5.9.0
+#   pluggy: rewritten from a non-portable direct reference (file:///C:/ci/pluggy_1648042746254/work) to pluggy==1.0.0
+#   pooch: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/pooch_1623324770023/work) to pooch==1.4.0
+#   poyo: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/poyo_1617751526755/work) to poyo==0.5.0
+#   prometheus-client: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_ab9nx8qb08/croots/recipe/prometheus_client_1659455104602/work) to prometheus-client==0.14.1
+#   prompt-toolkit: rewritten from a non-portable direct reference (file:///C:/b/abs_6coz5_9f2s/croot/prompt-toolkit_1672387908312/work) to prompt-toolkit==3.0.36
+#   Protego: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/protego_1598657180827/work) to Protego==0.1.16
+#   psutil: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_b2c2fd7f-9fd5-4756-95ea-8aed74d0039flsd9qufz/croots/recipe/psutil_1656431277748/work) to psutil==5.9.0
+#   ptyprocess: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl) to ptyprocess==0.7.0
+#   pure-eval: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/pure_eval_1646925070566/work) to pure-eval==0.2.2
+#   py: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/py_1644396412707/work) to py==1.11.0
+#   pyasn1: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work) to pyasn1==0.4.8
+#   pycodestyle: rewritten from a non-portable direct reference (file:///C:/b/abs_d77nxvklcq/croot/pycodestyle_1674267231034/work) to pycodestyle==2.10.0
+#   pycosat: rewritten from a non-portable direct reference (file:///C:/b/abs_4b1rrw8pn9/croot/pycosat_1666807711599/work) to pycosat==0.6.4
+#   pycparser: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/pycparser_1636541352034/work) to pycparser==2.21
+#   pyct: rewritten from a non-portable direct reference (file:///C:/b/abs_92z17k7ig2/croot/pyct_1675450330889/work) to pyct==0.5.0
+#   pydocstyle: rewritten from a non-portable direct reference (file:///C:/b/abs_6dz687_5i3/croot/pydocstyle_1675221688656/work) to pydocstyle==6.3.0
+#   pyerfa: rewritten from a non-portable direct reference (file:///C:/ci_310/pyerfa_1642088497201/work) to pyerfa==2.0.0
+#   pyflakes: rewritten from a non-portable direct reference (file:///C:/b/abs_6dve6e13zh/croot/pyflakes_1674165143327/work) to pyflakes==3.0.1
+#   Pygments: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/pygments_1644249106324/work) to Pygments==2.11.2
+#   PyHamcrest: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/pyhamcrest_1615748656804/work) to PyHamcrest==2.0.2
+#   pylint: rewritten from a non-portable direct reference (file:///C:/b/abs_83sq99jc8i/croot/pylint_1676919922167/work) to pylint==2.16.2
+#   pylint-venv: rewritten from a non-portable direct reference (file:///C:/b/abs_bf0lepsbij/croot/pylint-venv_1673990138593/work) to pylint-venv==2.3.0
+#   PyNaCl: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_d5c3ajcm87/croots/recipe/pynacl_1659620667490/work) to PyNaCl==1.5.0
+#   pyodbc: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_61e3jz3u05/croots/recipe/pyodbc_1659513801402/work) to pyodbc==4.0.34
+#   pyOpenSSL: rewritten from a non-portable direct reference (file:///C:/b/abs_552w85x1jz/croot/pyopenssl_1677607703691/work) to pyOpenSSL==23.0.0
+#   pyparsing: rewritten from a non-portable direct reference (file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_7f_7lba6rl/croots/recipe/pyparsing_1661452540662/work) to pyparsing==3.0.9
+#   PyQt5-sip: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_d7gmd2jg8i/croots/recipe/pyqt-split_1659273064801/work/pyqt_sip) to PyQt5-sip==12.11.0
+#   pyrsistent: rewritten from a non-portable direct reference (file:///C:/ci_310/pyrsistent_1642117077485/work) to pyrsistent==0.18.0
+#   PySocks: rewritten from a non-portable direct reference (file:///C:/ci_310/pysocks_1642089375450/work) to PySocks==1.7.1
+#   python-dateutil: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/python-dateutil_1626374649649/work) to python-dateutil==2.8.2
+#   python-lsp-black: rewritten from a non-portable direct reference (file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_dddk9lhpp1/croots/recipe/python-lsp-black_1661852041405/work) to python-lsp-black==1.2.1
+#   python-lsp-server: rewritten from a non-portable direct reference (file:///C:/b/abs_e44khh1wya/croot/python-lsp-server_1677296772730/work) to python-lsp-server==1.7.1
+#   python-slugify: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/python-slugify_1620405669636/work) to python-slugify==5.0.2
+#   python-snappy: rewritten from a non-portable direct reference (file:///C:/b/abs_61b1fmzxcn/croot/python-snappy_1670943932513/work) to python-snappy==0.6.1
+#   pytoolconfig: rewritten from a non-portable direct reference (file:///C:/b/abs_18sf9z_iwl/croot/pytoolconfig_1676315065270/work) to pytoolconfig==1.2.5
+#   pytz: rewritten from a non-portable direct reference (file:///C:/b/abs_22fofvpn1x/croot/pytz_1671698059864/work) to pytz==2022.7
+#   pyviz-comms: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/pyviz_comms_1623747165329/work) to pyviz-comms==2.0.2
+#   PyWavelets: rewritten from a non-portable direct reference (file:///C:/b/abs_a8r4b1511a/croot/pywavelets_1670425185881/work) to PyWavelets==1.4.1
+#   pywin32-ctypes: rewritten from a non-portable direct reference (file:///C:/ci_310/pywin32-ctypes_1642657835512/work) to pywin32-ctypes==0.2.0
+#   pywinpty: rewritten from a non-portable direct reference (file:///C:/b/abs_73vshmevwq/croot/pywinpty_1677609966356/work/target/wheels/pywinpty-2.0.10-cp310-none-win_amd64.whl) to pywinpty==2.0.10
+#   PyYAML: rewritten from a non-portable direct reference (file:///C:/b/abs_d0g7dqt2xw/croot/pyyaml_1670514768165/work) to PyYAML==6.0
+#   pyzmq: rewritten from a non-portable direct reference (file:///C:/ci/pyzmq_1657616000714/work) to pyzmq==23.2.0
+#   QDarkStyle: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/qdarkstyle_1617386714626/work) to QDarkStyle==3.0.2
+#   qstylizer: rewritten from a non-portable direct reference (file:///C:/b/abs_ef86cgllby/croot/qstylizer_1674008538857/work/dist/qstylizer-0.2.2-py2.py3-none-any.whl) to qstylizer==0.2.2
+#   QtAwesome: rewritten from a non-portable direct reference (file:///C:/b/abs_c5evilj98g/croot/qtawesome_1674008690220/work) to QtAwesome==1.2.2
+#   qtconsole: rewritten from a non-portable direct reference (file:///C:/b/abs_5bap7f8n0t/croot/qtconsole_1674008444833/work) to qtconsole==5.4.0
+#   QtPy: rewritten from a non-portable direct reference (file:///C:/ci/qtpy_1662015130233/work) to QtPy==2.2.0
+#   regex: rewritten from a non-portable direct reference (file:///C:/ci/regex_1658258299320/work) to regex==2022.7.9
+#   requests: rewritten from a non-portable direct reference (file:///C:/ci/requests_1657735340829/work) to requests==2.28.1
+#   requests-file: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/requests-file_1629455781986/work) to requests-file==1.5.1
+#   rope: rewritten from a non-portable direct reference (file:///C:/b/abs_55g_tm_6ff/croot/rope_1676675029164/work) to rope==1.7.0
+#   Rtree: rewritten from a non-portable direct reference (file:///C:/b/abs_e116ltblik/croot/rtree_1675157871717/work) to Rtree==1.0.1
+#   ruamel-yaml-conda: rewritten from a non-portable direct reference (file:///C:/b/abs_6ejaexx82s/croot/ruamel_yaml_1667489767827/work) to ruamel-yaml-conda==0.17.21
+#   ruamel.yaml: rewritten from a non-portable direct reference (file:///C:/b/abs_30ee5qbthd/croot/ruamel.yaml_1666304562000/work) to ruamel.yaml==0.17.21
+#   ruamel.yaml.clib: rewritten from a non-portable direct reference (file:///C:/b/abs_aarblxbilo/croot/ruamel.yaml.clib_1666302270884/work) to ruamel.yaml.clib==0.2.6
+#   scikit-image: rewritten from a non-portable direct reference (file:///C:/b/abs_63r0vmx78u/croot/scikit-image_1669241746873/work) to scikit-image==0.19.3
+#   scikit-learn: rewritten from a non-portable direct reference (file:///C:/b/abs_7ck_bnw91r/croot/scikit-learn_1676911676133/work) to scikit-learn==1.2.1
+#   Scrapy: rewritten from a non-portable direct reference (file:///C:/b/abs_9fn69i_d86/croot/scrapy_1677738199744/work) to Scrapy==2.8.0
+#   seaborn: rewritten from a non-portable direct reference (file:///C:/b/abs_68ltdkoyoo/croot/seaborn_1673479199997/work) to seaborn==0.12.2
+#   Send2Trash: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/send2trash_1632406701022/work) to Send2Trash==1.8.0
+#   service-identity: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/service_identity_1629460757137/work) to service-identity==18.1.0
+#   sip: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_b8fxd17m2u/croots/recipe/sip_1659012372737/work) to sip==6.6.2
+#   six: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/six_1644875935023/work) to six==1.16.0
+#   smart-open: rewritten from a non-portable direct reference (file:///C:/ci/smart_open_1651235038100/work) to smart-open==5.2.1
+#   sniffio: rewritten from a non-portable direct reference (file:///C:/ci_310/sniffio_1642092172680/work) to sniffio==1.2.0
+#   snowballstemmer: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/snowballstemmer_1637937080595/work) to snowballstemmer==2.2.0
+#   sortedcontainers: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/sortedcontainers_1623949099177/work) to sortedcontainers==2.4.0
+#   soupsieve: rewritten from a non-portable direct reference (file:///C:/b/abs_fasraqxhlv/croot/soupsieve_1666296394662/work) to soupsieve==2.3.2.post1
+#   Sphinx: rewritten from a non-portable direct reference (file:///C:/ci/sphinx_1657617157451/work) to Sphinx==5.0.2
+#   sphinxcontrib-applehelp: rewritten from a non-portable direct reference (file:///home/ktietz/src/ci/sphinxcontrib-applehelp_1611920841464/work) to sphinxcontrib-applehelp==1.0.2
+#   sphinxcontrib-devhelp: rewritten from a non-portable direct reference (file:///home/ktietz/src/ci/sphinxcontrib-devhelp_1611920923094/work) to sphinxcontrib-devhelp==1.0.2
+#   sphinxcontrib-htmlhelp: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/sphinxcontrib-htmlhelp_1623945626792/work) to sphinxcontrib-htmlhelp==2.0.0
+#   sphinxcontrib-jsmath: rewritten from a non-portable direct reference (file:///home/ktietz/src/ci/sphinxcontrib-jsmath_1611920942228/work) to sphinxcontrib-jsmath==1.0.1
+#   sphinxcontrib-qthelp: rewritten from a non-portable direct reference (file:///home/ktietz/src/ci/sphinxcontrib-qthelp_1611921055322/work) to sphinxcontrib-qthelp==1.0.3
+#   sphinxcontrib-serializinghtml: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/sphinxcontrib-serializinghtml_1624451540180/work) to sphinxcontrib-serializinghtml==1.1.5
+#   spyder: rewritten from a non-portable direct reference (file:///C:/b/abs_93s9xkw3pn/croot/spyder_1677776163871/work) to spyder==5.4.1
+#   spyder-kernels: rewritten from a non-portable direct reference (file:///C:/b/abs_feh4xo1mrn/croot/spyder-kernels_1673292245176/work) to spyder-kernels==2.4.1
+#   SQLAlchemy: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_f8661157-660b-49bb-a790-69ab9f3b8f7c8a8s2psb/croots/recipe/sqlalchemy_1657867864564/work) to SQLAlchemy==1.4.39
+#   stack-data: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/stack_data_1646927590127/work) to stack-data==0.2.0
+#   statsmodels: rewritten from a non-portable direct reference (file:///C:/b/abs_bdqo3zaryj/croot/statsmodels_1676646249859/work) to statsmodels==0.13.5
+#   sympy: rewritten from a non-portable direct reference (file:///C:/b/abs_95fbf1z7n6/croot/sympy_1668202411612/work) to sympy==1.11.1
+#   tabulate: rewritten from a non-portable direct reference (file:///C:/ci/tabulate_1657600805799/work) to tabulate==0.8.10
+#   tblib: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work) to tblib==1.7.0
+#   tenacity: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_980d07a6-8e21-4174-9c17-7296219678ads7dhdov_/croots/recipe/tenacity_1657899108023/work) to tenacity==8.0.1
+#   terminado: rewritten from a non-portable direct reference (file:///C:/b/abs_25nakickad/croot/terminado_1671751845491/work) to terminado==0.17.1
+#   text-unidecode: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/text-unidecode_1629401354553/work) to text-unidecode==1.3
+#   textdistance: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/textdistance_1612461398012/work) to textdistance==4.2.1
+#   threadpoolctl: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work) to threadpoolctl==2.2.0
+#   three-merge: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/three-merge_1607553261110/work) to three-merge==0.1.1
+#   tifffile: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/tifffile_1627275862826/work) to tifffile==2021.7.2
+#   tinycss2: rewritten from a non-portable direct reference (file:///C:/b/abs_52w5vfuaax/croot/tinycss2_1668168823131/work) to tinycss2==1.2.1
+#   tldextract: rewritten from a non-portable direct reference (file:///opt/conda/conda-bld/tldextract_1646638314385/work) to tldextract==3.2.0
+#   tokenizers: rewritten from a non-portable direct reference (file:///C:/ci/tokenizers_1651821358528/work) to tokenizers==0.11.4
+#   toml: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/toml_1616166611790/work) to toml==0.10.2
+#   tomli: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_ac109f85-a7b3-4b4d-bcfd-52622eceddf0hy332ojo/croots/recipe/tomli_1657175513137/work) to tomli==2.0.1
+#   tomlkit: rewritten from a non-portable direct reference (file:///C:/Windows/TEMP/abs_3296qo9v6b/croots/recipe/tomlkit_1658946894808/work) to tomlkit==0.11.1
+#   toolz: rewritten from a non-portable direct reference (file:///C:/b/abs_cfvk6rc40d/croot/toolz_1667464080130/work) to toolz==0.12.0
+#   tornado: rewritten from a non-portable direct reference (file:///C:/ci_310/tornado_1642093111997/work) to tornado==6.1
+#   tqdm: rewritten from a non-portable direct reference (file:///C:/b/abs_0axbz66qik/croots/recipe/tqdm_1664392691071/work) to tqdm==4.64.1
+#   traitlets: rewritten from a non-portable direct reference (file:///C:/b/abs_e5m_xjjl94/croot/traitlets_1671143896266/work) to traitlets==5.7.1
+#   transformers: rewritten from a non-portable direct reference (file:///C:/b/abs_8byf5_j714/croot/transformers_1667919454001/work) to transformers==4.24.0
+#   Twisted: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_ccblv2rzfa/croots/recipe/twisted_1659592764512/work) to Twisted==22.2.0
+#   twisted-iocpsupport: rewritten from a non-portable direct reference (file:///C:/ci/twisted-iocpsupport_1646817083730/work) to twisted-iocpsupport==1.0.2
+#   Unidecode: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/unidecode_1614712377438/work) to Unidecode==1.2.0
+#   urllib3: rewritten from a non-portable direct reference (file:///C:/b/abs_9bcwxczrvm/croot/urllib3_1673575521331/work) to urllib3==1.26.14
+#   w3lib: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work) to w3lib==1.21.0
+#   watchdog: rewritten from a non-portable direct reference (file:///C:/ci_310/watchdog_1642113443984/work) to watchdog==2.1.6
+#   wcwidth: rewritten from a non-portable direct reference (file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work) to wcwidth==0.2.5
+#   websocket-client: rewritten from a non-portable direct reference (file:///C:/ci_310/websocket-client_1642093970919/work) to websocket-client==0.58.0
+#   Werkzeug: rewritten from a non-portable direct reference (file:///C:/b/abs_17q5kgb8bo/croot/werkzeug_1671216014857/work) to Werkzeug==2.2.2
+#   whatthepatch: rewritten from a non-portable direct reference (file:///C:/Users/BUILDE~1/AppData/Local/Temp/abs_e7bihs8grh/croots/recipe/whatthepatch_1661796085215/work) to whatthepatch==1.0.2
+#   widgetsnbextension: rewritten from a non-portable direct reference (file:///C:/ci/widgetsnbextension_1645009839917/work) to widgetsnbextension==3.5.2
+#   win-inet-pton: rewritten from a non-portable direct reference (file:///C:/ci_310/win_inet_pton_1642658466512/work) to win-inet-pton==1.1.0
+#   wrapt: rewritten from a non-portable direct reference (file:///C:/Windows/Temp/abs_7c3dd407-1390-477a-b542-fd15df6a24085_diwiza/croots/recipe/wrapt_1657814452175/work) to wrapt==1.14.1
+#   xarray: rewritten from a non-portable direct reference (file:///C:/b/abs_2fi_umrauo/croot/xarray_1668776806973/work) to xarray==2022.11.0
+#   xlwings: rewritten from a non-portable direct reference (file:///C:/b/abs_1ejhh6s00l/croot/xlwings_1677024180629/work) to xlwings==0.29.1
+#   yapf: rewritten from a non-portable direct reference (file:///tmp/build/80754af9/yapf_1615749224965/work) to yapf==0.31.0
+#   zipp: rewritten from a non-portable direct reference (file:///C:/b/abs_b9jfdr908q/croot/zipp_1672387552360/work) to zipp==3.11.0
+#   zope.interface: rewritten from a non-portable direct reference (file:///C:/ci_310/zope.interface_1642113633904/work) to zope.interface==5.4.0
+
+aiofiles==25.1.0
+aiosqlite==0.21.0
+alabaster==0.7.12
+anaconda-client==1.11.2
+anaconda-navigator==2.4.0
+anaconda-project==0.11.1
+annotated-types==0.7.0
+antlr4-python3-runtime==4.9.3
+anyio==3.5.0
+appdirs==1.4.4
+APScheduler==3.11.1
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+arrow==1.2.3
+astroid==2.14.2
+astropy==5.1
+asttokens==2.0.5
+atomicwrites==1.4.0
+attrs==22.1.0
+Automat==20.2.0
+autopep8==1.6.0
+azure-core==1.36.0
+azure-identity==1.25.1
+Babel==2.11.0
+backcall==0.2.0
+backoff==2.2.1
+backports.functools-lru-cache==1.6.4
+backports.tempfile==1.0
+backports.weakref==1.0.post1
+banks==2.2.0
+bcrypt==3.2.0
+beautifulsoup4==4.11.1
+bilibili-api-python==17.3.0
+binaryornot==0.4.4
+black==22.6.0
+bleach==4.1.0
+bokeh==2.4.3
+boltons==23.0.0
+Bottleneck==1.3.5
+Brotli==1.1.0
+brotlipy==0.7.0
+cachetools==6.2.2
+certifi==2025.4.26
+cffi==1.15.1
+chardet==4.0.0
+charset-normalizer==2.1.1
+click==8.0.4
+cloudpickle==2.0.0
+clyent==1.2.2
+cohere==5.20.0
+colorama==0.4.6
+colorcet==3.0.1
+coloredlogs==15.0.1
+comm==0.1.2
+conda==23.3.1
+conda-build==3.24.0
+conda-content-trust==0.1.3
+conda-pack==0.6.0
+conda-package-handling==2.0.2
+conda-repo-cli==1.0.41
+conda-token==0.4.0
+conda-verify==3.4.2
+conda_package_streaming==0.7.0
+constantly==15.1.0
+contourpy==1.0.5
+cookiecutter==1.7.3
+cryptography==39.0.1
+cssselect==1.1.0
+cycler==0.11.0
+cytoolz==0.12.0
+daal4py==2023.0.2
+dask==2022.7.0
+dataclasses-json==0.6.7
+datashader==0.14.4
+datashape==0.5.4
+debugpy==1.5.1
+decorator==5.1.1
+defusedxml==0.7.1
+Deprecated==1.3.1
+diff-match-patch==20200713
+dill==0.3.8
+dirtyjson==1.0.8
+distributed==2022.7.0
+docstring-to-markdown==0.11
+docutils==0.18.1
+duckdb==1.4.2
+effdet==0.4.1
+einops==0.8.1
+emoji==2.15.0
+entrypoints==0.4
+et_xmlfile==2.0.0
+eval_type_backport==0.3.1
+executing==0.8.3
+faiss-cpu==1.13.1
+fastavro==1.12.1
+fastjsonschema==2.16.2
+filelock==3.9.0
+filetype==1.2.0
+flake8==6.0.0
+Flask==2.2.2
+flatbuffers==25.9.23
+flit_core==3.6.0
+fonttools==4.25.0
+fsspec==2022.11.0
+ftfy==6.3.1
+future==0.18.3
+gensim==4.3.0
+glob2==0.7
+google-api-core==2.28.1
+google-auth==2.43.0
+google-cloud-vision==3.11.0
+googleapis-common-protos==1.72.0
+greenlet==2.0.1
+griffe==1.15.0
+grpcio==1.67.1
+grpcio-status==1.67.1
+h11==0.16.0
+h5py==3.7.0
+HeapDict==1.0.1
+holoviews==1.15.4
+html5lib==1.1
+httpcore==1.0.9
+httpx==0.28.1
+httpx-sse==0.4.0
+huggingface-hub==0.10.1
+humanfriendly==10.0
+hvplot==0.8.2
+hyperlink==21.0.0
+idna==3.4
+imagecodecs==2021.8.26
+imageio==2.26.0
+imagesize==1.4.1
+imbalanced-learn==0.10.1
+importlib-metadata==4.11.3
+incremental==21.3.0
+inflection==0.5.1
+iniconfig==1.1.1
+intake==0.6.7
+intel-openmp==2021.4.0
+intervaltree==3.1.0
+invoke==2.2.1
+ipykernel==6.19.2
+ipython==8.10.0
+ipython-genutils==0.2.0
+ipywidgets==7.6.5
+isort==5.9.3
+itemadapter==0.3.0
+itemloaders==1.0.4
+itsdangerous==2.0.1
+jedi==0.18.1
+jellyfish==0.9.0
+Jinja2==3.1.2
+jinja2-time==0.2.0
+jmespath==0.10.0
+joblib==1.1.1
+json5==0.9.6
+jsonpatch==1.32
+jsonpointer==2.1
+jsonschema==4.17.3
+jupyter==1.0.0
+jupyter-console==6.6.2
+jupyter-server==1.23.4
+jupyter_client==7.3.4
+jupyter_core==5.2.0
+jupyterlab==3.5.3
+jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.0.0
+jupyterlab_server==2.19.0
+keyring==23.4.0
+kiwisolver==1.4.4
+langchain==0.3.26
+langchain-community==0.3.27
+langchain-core==0.3.71
+langchain-deepseek==0.1.4
+langchain-experimental==0.3.4
+langchain-huggingface==0.3.1
+langchain-openai==0.3.28
+langchain-text-splitters==0.3.8
+langdetect==1.0.9
+langgraph==1.0.4
+langgraph-checkpoint==3.0.1
+langgraph-prebuilt==1.0.5
+langgraph-sdk==0.2.12
+lark==1.2.2
+lazy-object-proxy==1.6.0
+lazy_loader==0.4
+libarchive-c==2.9
+llama-cloud==0.1.35
+llama-cloud-services==0.6.54
+llama-index==0.12.51
+llama-index-agent-openai==0.4.12
+llama-index-cli==0.4.4
+llama-index-core==0.12.52
+llama-index-embeddings-adapter==0.3.0
+llama-index-embeddings-huggingface==0.5.5
+llama-index-embeddings-openai==0.3.1
+llama-index-experimental==0.5.6
+llama-index-finetuning==0.3.2
+llama-index-indices-managed-llama-cloud==0.8.0
+llama-index-instrumentation==0.4.2
+llama-index-llms-azure-openai==0.3.4
+llama-index-llms-deepseek==0.1.2
+llama-index-llms-mistralai==0.4.0
+llama-index-llms-openai==0.4.7
+llama-index-llms-openai-like==0.4.0
+llama-index-multi-modal-llms-openai==0.5.3
+llama-index-postprocessor-cohere-rerank==0.3.0
+llama-index-program-openai==0.3.2
+llama-index-question-gen-openai==0.3.1
+llama-index-readers-file==0.4.11
+llama-index-readers-llama-parse==0.4.0
+llama-index-workflows==1.3.0
+llama-parse==0.6.54
+llvmlite==0.39.1
+locket==1.0.0
+lxml==5.4.0
+lz4==3.1.3
+Markdown==3.8.2
+MarkupSafe==2.1.1
+marshmallow==3.26.1
+matplotlib==3.7.0
+matplotlib-inline==0.1.6
+mccabe==0.7.0
+menuinst==1.4.19
+mistralai==1.9.11
+mistune==0.8.4
+mkl==2021.4.0
+mkl-fft==1.3.1
+mkl-random==1.2.2
+mkl-service==2.4.0
+ml_dtypes==0.5.4
+mock==4.0.3
+mpmath==1.2.1
+msal==1.34.0
+msal-extensions==1.3.1
+msgpack==1.0.3
+msoffcrypto-tool==5.4.2
+multipledispatch==0.6.0
+multiprocess==0.70.16
+munkres==1.1.4
+mypy-extensions==0.4.3
+navigator-updater==0.3.0
+nbclassic==0.5.2
+nbclient==0.5.13
+nbconvert==6.5.4
+nbformat==5.7.0
+nest-asyncio==1.6.0
+networkx==2.8.4
+nltk==3.7
+notebook==6.5.2
+notebook_shim==0.2.2
+numba==0.56.4
+numexpr==2.8.4
+numpy==1.23.5
+numpydoc==1.5.0
+olefile==0.47
+omegaconf==2.3.0
+onnx==1.20.0
+onnxruntime==1.23.2
+openai==1.109.1
+opencv-python==4.12.0.88
+opencv-python-headless==4.12.0.88
+openpyxl==3.1.5
+ormsgpack==1.12.0
+packaging==22.0
+pandas==1.5.3
+pandocfilters==1.5.0
+panel==0.14.3
+param==1.12.3
+paramiko==2.8.1
+parsel==1.6.0
+parso==0.8.3
+partd==1.2.0
+pathlib==1.0.1
+pathspec==0.10.3
+patsy==0.5.3
+pdf2image==1.17.0
+pdfminer.six==20251107
+pep8==1.7.1
+pexpect==4.8.0
+pi_heif==1.1.1
+pickleshare==0.7.5
+pikepdf==10.0.2
+Pillow==9.4.0
+pkginfo==1.9.6
+platformdirs==2.5.2
+plotly==5.9.0
+pluggy==1.0.0
+ply==3.11
+pooch==1.4.0
+poyo==0.5.0
+prometheus-client==0.14.1
+prompt-toolkit==3.0.36
+Protego==0.1.16
+proto-plus==1.26.1
+protobuf==5.29.5
+psutil==5.9.0
+ptyprocess==0.7.0
+pure-eval==0.2.2
+py==1.11.0
+pyarrow==20.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.10
+pycodestyle==2.10.0
+pycosat==0.6.4
+pycparser==2.21
+pycryptodomex==3.23.0
+pyct==0.5.0
+pycurl==7.45.1
+pydantic==2.12.5
+pydantic_core==2.41.5
+PyDispatcher==2.0.5
+pydocstyle==6.3.0
+pyerfa==2.0.0
+pyflakes==3.0.1
+Pygments==2.11.2
+PyHamcrest==2.0.2
+PyJWT==2.10.1
+pylint==2.16.2
+pylint-venv==2.3.0
+pyls-spyder==0.4.0
+pymilvus==2.5.11
+pymilvus.model==0.3.2
+PyNaCl==1.5.0
+pyodbc==4.0.34
+pyOpenSSL==23.0.0
+pypandoc==1.16.2
+pyparsing==3.0.9
+pypdf==5.9.0
+pypdfium2==5.1.0
+PyQt5==5.15.7
+PyQt5-sip==12.11.0
+PyQtWebEngine==5.15.4
+pyreadline3==3.5.4
+pyrsistent==0.18.0
+PySocks==1.7.1
+pytest==7.1.2
+python-dateutil==2.8.2
+python-docx==1.2.0
+python-iso639==2025.11.16
+python-lsp-black==1.2.1
+python-lsp-jsonrpc==1.0.0
+python-lsp-server==1.7.1
+python-magic==0.4.27
+python-multipart==0.0.20
+python-oxmsg==0.0.2
+python-pptx==1.0.2
+python-slugify==5.0.2
+python-snappy==0.6.1
+pytoolconfig==1.2.5
+pytz==2022.7
+pyviz-comms==2.0.2
+PyWavelets==1.4.1
+pywin32==305.1
+pywin32-ctypes==0.2.0
+pywinpty==2.0.10
+PyYAML==6.0
+pyzmq==23.2.0
+QDarkStyle==3.0.2
+qrcode==8.2
+qrcode-terminal==0.8
+qstylizer==0.2.2
+QtAwesome==1.2.2
+qtconsole==5.4.0
+QtPy==2.2.0
+queuelib==1.5.0
+RapidFuzz==3.14.3
+regex==2022.7.9
+requests==2.28.1
+requests-file==1.5.1
+requests-toolbelt==1.0.0
+rope==1.7.0
+rsa==4.9.1
+Rtree==1.0.1
+ruamel-yaml-conda==0.17.21
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+safetensors==0.7.0
+scikit-image==0.19.3
+scikit-learn==1.2.1
+scikit-learn-intelex==20230228.214818
+scipy==1.15.3
+Scrapy==2.8.0
+seaborn==0.12.2
+Send2Trash==1.8.0
+sentence-transformers==5.1.2
+service-identity==18.1.0
+sip==6.6.2
+six==1.16.0
+smart-open==5.2.1
+sniffio==1.2.0
+snowballstemmer==2.2.0
+sortedcontainers==2.4.0
+soupsieve==2.3.2.post1
+Sphinx==5.0.2
+sphinxcontrib-applehelp==1.0.2
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-jsmath==1.0.1
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
+spyder==5.4.1
+spyder-kernels==2.4.1
+SQLAlchemy==1.4.39
+stack-data==0.2.0
+statsmodels==0.13.5
+striprtf==0.0.26
+sympy==1.11.1
+tables==3.7.0
+tabulate==0.8.10
+tbb==2021.13.1
+tblib==1.7.0
+tenacity==8.0.1
+terminado==0.17.1
+text-unidecode==1.3
+textdistance==4.2.1
+threadpoolctl==2.2.0
+three-merge==0.1.1
+tifffile==2021.7.2
+timm==1.0.22
+tinycss2==1.2.1
+tldextract==3.2.0
+tokenizers==0.11.4
+toml==0.10.2
+tomli==2.0.1
+tomlkit==0.11.1
+toolz==0.12.0
+torch==2.3.0
+torchaudio==2.3.0
+torchvision==0.18.0
+tornado==6.1
+tqdm==4.64.1
+traitlets==5.7.1
+transformers==4.24.0
+Twisted==22.2.0
+twisted-iocpsupport==1.0.2
+types-requests==2.32.4.20250913
+typing-inspect==0.9.0
+typing-inspection==0.4.2
+typing_extensions==4.15.0
+tzdata==2025.2
+tzlocal==5.3.1
+ujson==5.11.0
+Unidecode==1.2.0
+unstructured==0.18.11
+unstructured-client==0.41.0
+unstructured-inference==1.0.5
+unstructured.pytesseract==0.3.15
+urllib3==1.26.14
+w3lib==1.21.0
+watchdog==2.1.6
+wcwidth==0.2.5
+webencodings==0.5.1
+websocket-client==0.58.0
+Werkzeug==2.2.2
+whatthepatch==1.0.2
+widgetsnbextension==3.5.2
+win-inet-pton==1.1.0
+wincertstore==0.2
+wrapt==1.14.1
+xarray==2022.11.0
+xlrd==2.0.2
+xlsxwriter==3.2.9
+xlwings==0.29.1
+xxhash==3.6.0
+yapf==0.31.0
+yarl==1.20.1
+zict==2.1.0
+zipp==3.11.0
+zope.interface==5.4.0
+zstandard==0.19.0

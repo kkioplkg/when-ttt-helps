@@ -1,0 +1,17 @@
+[f8b] loaded 390 cells
+[f8b] noise regime per arm: {'cifar10/pl': 'zero-noise limit (**)', 'cifar10/tent': 'zero-noise limit (**)', 'cifar10/ttt_mask': 'ratio (*)', 'cifar10/ttt_rot': 'ratio (*)', 'cifar100/tent': 'zero-noise limit (**)', 'cifar100/ttt_mask': 'ratio (*)', 'cifar100/ttt_rot': 'ratio (*)'}
+[f8b] audit: the unsigned numerator reproduces the archived negative regime: OK
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_tent_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_tent_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_tent_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_tent_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_tent_seed20260805.json
+[f8b] tent: same-sample +0.851 -> cross-fit +0.844 (range +0.832..+0.854)
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_pl_seed20260801.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_pl_seed20260802.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_pl_seed20260803.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_pl_seed20260804.json
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_pl_seed20260805.json
+[f8b] pl: same-sample +0.858 -> cross-fit +0.828 (range +0.806..+0.849)
+[is_fresh] wrote experiments/results/is_fresh/f22b_e2_crossfit_det_summary.json
+[f8b] DONE

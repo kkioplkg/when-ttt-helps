@@ -1,0 +1,212 @@
+{
+ "A_records_agree_with_the_summary": {
+  "claim": "the per-seed records and the summary carry the same mean relative gains, so recounting from the records audits the summary rather than assuming it",
+  "largest_absolute_difference": 0.0,
+  "n_values_compared": 25,
+  "summary_seed_order_matches_record_seeds": true
+ },
+ "B_C_D_per_seed": [
+  {
+   "adjacent_differences": [
+    0.49794096036927843,
+    0.015307920668911734,
+    1.5427506756982012e-05,
+    -7.861940725772953e-06
+   ],
+   "exactly_nondecreasing": false,
+   "flag_recorded_in_the_record": true,
+   "mean_relgain_by_alpha": {
+    "0.0": 0.4867281438914179,
+    "0.25": 0.9846691042606963,
+    "0.5": 0.999977024929608,
+    "0.75": 0.999992452436365,
+    "1.0": 0.9999845904956393
+   },
+   "nondecreasing_to_tolerance_0p02": true,
+   "seed": 20260801,
+   "worst_adjacent_difference": -7.861940725772953e-06,
+   "worst_adjacent_pair": [
+    "0.75",
+    "1.0"
+   ]
+  },
+  {
+   "adjacent_differences": [
+    0.22057500550373876,
+    0.0018338009714660153,
+    -3.48595594602541e-05,
+    4.848707410454178e-05
+   ],
+   "exactly_nondecreasing": false,
+   "flag_recorded_in_the_record": true,
+   "mean_relgain_by_alpha": {
+    "0.0": 0.7775611985400925,
+    "0.25": 0.9981362040438313,
+    "0.5": 0.9999700050152973,
+    "0.75": 0.9999351454558371,
+    "1.0": 0.9999836325299416
+   },
+   "nondecreasing_to_tolerance_0p02": true,
+   "seed": 20260802,
+   "worst_adjacent_difference": -3.48595594602541e-05,
+   "worst_adjacent_pair": [
+    "0.5",
+    "0.75"
+   ]
+  },
+  {
+   "adjacent_differences": [
+    0.2928093265998345,
+    0.004957999639026767,
+    3.401049571671866e-05,
+    1.0987634741388419e-05
+   ],
+   "exactly_nondecreasing": true,
+   "flag_recorded_in_the_record": true,
+   "mean_relgain_by_alpha": {
+    "0.0": 0.7021845132084318,
+    "0.25": 0.9949938398082663,
+    "0.5": 0.999951839447293,
+    "0.75": 0.9999858499430098,
+    "1.0": 0.9999968375777512
+   },
+   "nondecreasing_to_tolerance_0p02": true,
+   "seed": 20260803,
+   "worst_adjacent_difference": 1.0987634741388419e-05,
+   "worst_adjacent_pair": [
+    "0.75",
+    "1.0"
+   ]
+  },
+  {
+   "adjacent_differences": [
+    0.35823418915005945,
+    0.00692397773436626,
+    0.0004121371041110322,
+    -2.495591299389588e-06
+   ],
+   "exactly_nondecreasing": false,
+   "flag_recorded_in_the_record": true,
+   "mean_relgain_by_alpha": {
+    "0.0": 0.6344143913626132,
+    "0.25": 0.9926485805126727,
+    "0.5": 0.999572558247039,
+    "0.75": 0.99998469535115,
+    "1.0": 0.9999821997598506
+   },
+   "nondecreasing_to_tolerance_0p02": true,
+   "seed": 20260804,
+   "worst_adjacent_difference": -2.495591299389588e-06,
+   "worst_adjacent_pair": [
+    "0.75",
+    "1.0"
+   ]
+  },
+  {
+   "adjacent_differences": [
+    0.3603376633068033,
+    0.04587156639114043,
+    -2.7762442368350904e-06,
+    7.310045778807783e-06
+   ],
+   "exactly_nondecreasing": false,
+   "flag_recorded_in_the_record": true,
+   "mean_relgain_by_alpha": {
+    "0.0": 0.5937835238500687,
+    "0.25": 0.954121187156872,
+    "0.5": 0.9999927535480124,
+    "0.75": 0.9999899773037756,
+    "1.0": 0.9999972873495544
+   },
+   "nondecreasing_to_tolerance_0p02": true,
+   "seed": 20260805,
+   "worst_adjacent_difference": -2.7762442368350904e-06,
+   "worst_adjacent_pair": [
+    "0.5",
+    "0.75"
+   ]
+  }
+ ],
+ "E_tolerance_profile": {
+  "ladder": [
+   {
+    "n_seeds_passing": 1,
+    "tolerance": 0.0
+   },
+   {
+    "n_seeds_passing": 1,
+    "tolerance": 1e-06
+   },
+   {
+    "n_seeds_passing": 4,
+    "tolerance": 1e-05
+   },
+   {
+    "n_seeds_passing": 4,
+    "tolerance": 2e-05
+   },
+   {
+    "n_seeds_passing": 5,
+    "tolerance": 3.5e-05
+   },
+   {
+    "n_seeds_passing": 5,
+    "tolerance": 0.0001
+   },
+   {
+    "n_seeds_passing": 5,
+    "tolerance": 0.001
+   },
+   {
+    "n_seeds_passing": 5,
+    "tolerance": 0.01
+   },
+   {
+    "n_seeds_passing": 5,
+    "tolerance": 0.02
+   }
+  ],
+  "ratio_code_tolerance_to_largest_reversal": 573.7307157539798,
+  "reading": "0.02 is far above every observed reversal, so the flag certifies the ABSENCE OF A LARGE REVERSAL and says nothing about monotonicity"
+ },
+ "F_what_survives": {
+  "claim": "the alpha=1 versus alpha=0 margin is the part of the stress test that carries the scientific reading, and it is unaffected",
+  "mean_margin": 0.3610545553720225,
+  "min_margin": 0.22242243398984907,
+  "n_seeds_with_positive_margin": 5,
+  "per_seed_margin_alpha1_minus_alpha0": [
+   0.5132564466042213,
+   0.22242243398984907,
+   0.29781232436931937,
+   0.36556780839723735,
+   0.4062137634994857
+  ],
+  "ratio_min_margin_to_largest_reversal": 6380.529112636921,
+  "replacement_sentence": "relative gain nondecreasing in alpha to the code-defined tolerance 0.02 at 5 of 5 seeds; exactly nondecreasing at 1 of 5, with the largest adjacent reversal 3.49e-05"
+ },
+ "counts": {
+  "code_criterion": "f6_relu_multiseed.py sets monotone := all(g[i+1] >= g[i] - 0.02), i.e. NO DECREASE LARGER THAN 0.02 -- not monotonicity",
+  "largest_adjacent_reversal": 3.48595594602541e-05,
+  "largest_adjacent_reversal_alpha_pair": [
+   "0.5",
+   "0.75"
+  ],
+  "largest_adjacent_reversal_seed": 20260802,
+  "n_seeds_exactly_nondecreasing": 1,
+  "n_seeds_nondecreasing_to_the_code_tolerance_0p02": 5,
+  "n_seeds_whose_recorded_flag_is_true": 5,
+  "n_seeds_with_at_least_one_reversal": 4,
+  "printed_claim": "monotone in alpha at 5 of 5 seeds"
+ },
+ "finding": "'monotone in alpha at 5 of 5 seeds' is false under the ordinary meaning of monotone: the sequence is exactly nondecreasing at 1 of 5 seeds.  The producing script's flag is tolerance-monotonicity at 0.02, which 5 of 5 seeds satisfy.  The largest adjacent reversal is 3.486e-05, at seed 20260802",
+ "kind": "recount from retained per-seed records; nothing simulated, no random numbers drawn",
+ "script": "f37_relu_monotonicity_recount.py",
+ "sources": [
+  "f6_relu_multiseed_seed20260801.json",
+  "f6_relu_multiseed_seed20260802.json",
+  "f6_relu_multiseed_seed20260803.json",
+  "f6_relu_multiseed_seed20260804.json",
+  "f6_relu_multiseed_seed20260805.json",
+  "f6_relu_multiseed_summary.json (agreement check only)"
+ ]
+}

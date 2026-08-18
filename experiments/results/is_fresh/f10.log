@@ -1,0 +1,145 @@
+[f10 seed 20260801] alpha row 1/25
+[f10 seed 20260801] alpha row 2/25
+[f10 seed 20260801] alpha row 3/25
+[f10 seed 20260801] alpha row 4/25
+[f10 seed 20260801] alpha row 5/25
+[f10 seed 20260801] alpha row 6/25
+[f10 seed 20260801] alpha row 7/25
+[f10 seed 20260801] alpha row 8/25
+[f10 seed 20260801] alpha row 9/25
+[f10 seed 20260801] alpha row 10/25
+[f10 seed 20260801] alpha row 11/25
+[f10 seed 20260801] alpha row 12/25
+[f10 seed 20260801] alpha row 13/25
+[f10 seed 20260801] alpha row 14/25
+[f10 seed 20260801] alpha row 15/25
+[f10 seed 20260801] alpha row 16/25
+[f10 seed 20260801] alpha row 17/25
+[f10 seed 20260801] alpha row 18/25
+[f10 seed 20260801] alpha row 19/25
+[f10 seed 20260801] alpha row 20/25
+[f10 seed 20260801] alpha row 21/25
+[f10 seed 20260801] alpha row 22/25
+[f10 seed 20260801] alpha row 23/25
+[f10 seed 20260801] alpha row 24/25
+[f10 seed 20260801] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f10_oracle_grid_seed20260801.json
+[f10] seed 20260801: one-step neg 186/625 (resolved 137), oracle declines 177, selected neg 11, thr1/{eta/2}=0.9814, thrO/{eta/2}=0.9305
+[f10 seed 20260802] alpha row 1/25
+[f10 seed 20260802] alpha row 2/25
+[f10 seed 20260802] alpha row 3/25
+[f10 seed 20260802] alpha row 4/25
+[f10 seed 20260802] alpha row 5/25
+[f10 seed 20260802] alpha row 6/25
+[f10 seed 20260802] alpha row 7/25
+[f10 seed 20260802] alpha row 8/25
+[f10 seed 20260802] alpha row 9/25
+[f10 seed 20260802] alpha row 10/25
+[f10 seed 20260802] alpha row 11/25
+[f10 seed 20260802] alpha row 12/25
+[f10 seed 20260802] alpha row 13/25
+[f10 seed 20260802] alpha row 14/25
+[f10 seed 20260802] alpha row 15/25
+[f10 seed 20260802] alpha row 16/25
+[f10 seed 20260802] alpha row 17/25
+[f10 seed 20260802] alpha row 18/25
+[f10 seed 20260802] alpha row 19/25
+[f10 seed 20260802] alpha row 20/25
+[f10 seed 20260802] alpha row 21/25
+[f10 seed 20260802] alpha row 22/25
+[f10 seed 20260802] alpha row 23/25
+[f10 seed 20260802] alpha row 24/25
+[f10 seed 20260802] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f10_oracle_grid_seed20260802.json
+[f10] seed 20260802: one-step neg 175/625 (resolved 136), oracle declines 167, selected neg 10, thr1/{eta/2}=0.7847, thrO/{eta/2}=0.7847
+[f10 seed 20260803] alpha row 1/25
+[f10 seed 20260803] alpha row 2/25
+[f10 seed 20260803] alpha row 3/25
+[f10 seed 20260803] alpha row 4/25
+[f10 seed 20260803] alpha row 5/25
+[f10 seed 20260803] alpha row 6/25
+[f10 seed 20260803] alpha row 7/25
+[f10 seed 20260803] alpha row 8/25
+[f10 seed 20260803] alpha row 9/25
+[f10 seed 20260803] alpha row 10/25
+[f10 seed 20260803] alpha row 11/25
+[f10 seed 20260803] alpha row 12/25
+[f10 seed 20260803] alpha row 13/25
+[f10 seed 20260803] alpha row 14/25
+[f10 seed 20260803] alpha row 15/25
+[f10 seed 20260803] alpha row 16/25
+[f10 seed 20260803] alpha row 17/25
+[f10 seed 20260803] alpha row 18/25
+[f10 seed 20260803] alpha row 19/25
+[f10 seed 20260803] alpha row 20/25
+[f10 seed 20260803] alpha row 21/25
+[f10 seed 20260803] alpha row 22/25
+[f10 seed 20260803] alpha row 23/25
+[f10 seed 20260803] alpha row 24/25
+[f10 seed 20260803] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f10_oracle_grid_seed20260803.json
+[f10] seed 20260803: one-step neg 184/625 (resolved 137), oracle declines 177, selected neg 13, thr1/{eta/2}=1.0018, thrO/{eta/2}=0.9814
+[f10 seed 20260804] alpha row 1/25
+[f10 seed 20260804] alpha row 2/25
+[f10 seed 20260804] alpha row 3/25
+[f10 seed 20260804] alpha row 4/25
+[f10 seed 20260804] alpha row 5/25
+[f10 seed 20260804] alpha row 6/25
+[f10 seed 20260804] alpha row 7/25
+[f10 seed 20260804] alpha row 8/25
+[f10 seed 20260804] alpha row 9/25
+[f10 seed 20260804] alpha row 10/25
+[f10 seed 20260804] alpha row 11/25
+[f10 seed 20260804] alpha row 12/25
+[f10 seed 20260804] alpha row 13/25
+[f10 seed 20260804] alpha row 14/25
+[f10 seed 20260804] alpha row 15/25
+[f10 seed 20260804] alpha row 16/25
+[f10 seed 20260804] alpha row 17/25
+[f10 seed 20260804] alpha row 18/25
+[f10 seed 20260804] alpha row 19/25
+[f10 seed 20260804] alpha row 20/25
+[f10 seed 20260804] alpha row 21/25
+[f10 seed 20260804] alpha row 22/25
+[f10 seed 20260804] alpha row 23/25
+[f10 seed 20260804] alpha row 24/25
+[f10 seed 20260804] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f10_oracle_grid_seed20260804.json
+[f10] seed 20260804: one-step neg 181/625 (resolved 142), oracle declines 177, selected neg 13, thr1/{eta/2}=0.9814, thrO/{eta/2}=0.9814
+[f10 seed 20260805] alpha row 1/25
+[f10 seed 20260805] alpha row 2/25
+[f10 seed 20260805] alpha row 3/25
+[f10 seed 20260805] alpha row 4/25
+[f10 seed 20260805] alpha row 5/25
+[f10 seed 20260805] alpha row 6/25
+[f10 seed 20260805] alpha row 7/25
+[f10 seed 20260805] alpha row 8/25
+[f10 seed 20260805] alpha row 9/25
+[f10 seed 20260805] alpha row 10/25
+[f10 seed 20260805] alpha row 11/25
+[f10 seed 20260805] alpha row 12/25
+[f10 seed 20260805] alpha row 13/25
+[f10 seed 20260805] alpha row 14/25
+[f10 seed 20260805] alpha row 15/25
+[f10 seed 20260805] alpha row 16/25
+[f10 seed 20260805] alpha row 17/25
+[f10 seed 20260805] alpha row 18/25
+[f10 seed 20260805] alpha row 19/25
+[f10 seed 20260805] alpha row 20/25
+[f10 seed 20260805] alpha row 21/25
+[f10 seed 20260805] alpha row 22/25
+[f10 seed 20260805] alpha row 23/25
+[f10 seed 20260805] alpha row 24/25
+[f10 seed 20260805] alpha row 25/25
+[is_fresh] wrote experiments/results/is_fresh/f10_oracle_grid_seed20260805.json
+[f10] seed 20260805: one-step neg 183/625 (resolved 141), oracle declines 173, selected neg 11, thr1/{eta/2}=1.0928, thrO/{eta/2}=0.9305
+Traceback (most recent call last):
+  File "experiments/ttt/is_fresh/f10_oracle_grid.py", line 415, in <module>
+    main()
+  File "experiments/ttt/is_fresh/f10_oracle_grid.py", line 399, in main
+    out["theory_boundaries"] = theory_curves(alphas, C.SIGMA, C.ETA, ref["T"])
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "experiments/ttt/is_fresh/f10_oracle_grid.py", line 323, in theory_curves
+    assert not bad, f"exact oracle boundary below the flow boundary at {bad}"
+           ^^^^^^^
+AssertionError: exact oracle boundary below the flow boundary at [0.18333333333333332, 0.4691666666666667, 0.8366666666666667]

@@ -1,0 +1,822 @@
+{
+ "archive": "e3_vectors_replicas.zip",
+ "availability": "e3_vectors_replicas.zip is an author-side deposit held alongside the DOI release. It is NOT attached to review correspondence: at ~62 MB it would put the attached pair over the correspondence size limit. This file is the manifest of its contents and ships INSIDE the attached release, so a reader who obtains the side archive can verify it member by member and array by array without trusting a single whole-archive digest.",
+ "purpose": "The side archive is required to REGENERATE the released summary arrays from the replicas (pi_bar as the replica mean, s as the replica dispersion). It is NOT required to rerun the selector, which f39_e3_vector_selfcheck.py does from the released arrays alone, and it is not required to reproduce any number printed in either document.",
+ "archive_bytes": 62525322,
+ "archive_sha256": "22783827059b250cc5e35f4694ddb649aa3b816c3aba97006c7e8ee44004751e",
+ "n_entries": 13,
+ "n_npz_members": 12,
+ "total_uncompressed_bytes": 64498225,
+ "n_arrays": 72,
+ "members": [
+  {
+   "name": "README.md",
+   "bytes": 1184,
+   "sha256": "1467e77a67de4359ac2a2c3becd11b327afc57a4517712b1305e16754c062c4e"
+  },
+  {
+   "name": "code_ln_s0_vectors_full.npz",
+   "bytes": 5580743,
+   "sha256": "1cf3bb06462a7b4ef0ee7c9c1a881a219105e021e742859cf314d834fac86154",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "210827224ab16452ae2d6b12c6044c61db6a04d351daaa83a5d9182a8f8e98b5",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "4290aa166e7f97f1dcf2878c7905eb9385e95fe48afd389b5ed7eee5fb4d96ba",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "3fd6cf329ce893982ce08a850df7c512d640bd73be67c9a9f7020bcb42df8ea0",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "194798c847203a862dbb110e17017f8a2d320eb289742a849d7c7f53af360c8e",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U157",
+     "sha256_raw_c_order": "b959339b2cce801dcd4c221a597249cc66af41e47144004c7cda8358d1bb4c76",
+     "nbytes": 628
+    }
+   ]
+  },
+  {
+   "name": "code_ln_s1_vectors_full.npz",
+   "bytes": 5580659,
+   "sha256": "6a85c76f52c025f3c6e299f1f0899e9f970f0ab77168eb72e39ad76601e44ac5",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "210827224ab16452ae2d6b12c6044c61db6a04d351daaa83a5d9182a8f8e98b5",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "50f899e1cac4cb24db57f8b982ba18f6c8fb3d3120202d55b841b38ea24a3cbd",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "a493a319854331025924f320e8c15b6adad4dd6a6a925113e3d1886dd8ff751c",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "ce76aee31737e86f496a3fa54fc6b46563f4cd158afe2474e22e837e6ed915e3",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U157",
+     "sha256_raw_c_order": "b2e0c4adf52a1e725339ae86f0ceb056e2709d911a4264d4e46f067902bcd0d0",
+     "nbytes": 628
+    }
+   ]
+  },
+  {
+   "name": "code_ln_s2_vectors_full.npz",
+   "bytes": 5580484,
+   "sha256": "a8f68ad5c3574a69ad3377ced12d5847da96cbefd08925be33276e72fb7dc510",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "210827224ab16452ae2d6b12c6044c61db6a04d351daaa83a5d9182a8f8e98b5",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "c386d2b62f817b0057dd152a494952eda5f40d2c7142906e449e86ef13da65a0",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "1f7fda8a6d53aa665773ac71efd8884ca3b35d446b311db679985a785f89abb0",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "751cdfccb6101416af314aae2f2417c08b8810276fcc8ffcb5f3886864f05dc1",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U157",
+     "sha256_raw_c_order": "6b0d5e5f5830243d6cf7bfc2211d767a807eb2f5009d7fc8a0a25bfb344d30f7",
+     "nbytes": 628
+    }
+   ]
+  },
+  {
+   "name": "legal_ln_s0_vectors_full.npz",
+   "bytes": 5309474,
+   "sha256": "12285b957e929c6dcdad8ac2003da20c9971bfd5d91867148aef922c7f59888f",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "bbf6c08cbf565d80b5a3f588c54819be4fcea72892051ca4ec00942dfe116c35",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "385460349570a2470ba37402a4e45c312a67b26f2f6a59d3564f8f40d70700c6",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "4ccb97c358ce9196735cd9d5c9cbedbe70674570039dafadffaa75cfc791b65e",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "df6d587814bbb2e79382f7838408287603ada10591a88bc11477263105773888",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U158",
+     "sha256_raw_c_order": "faeb5112646da4d6cf3f564bf1c6af48cd8bf3ef9b7d418fae59d3e587a8c893",
+     "nbytes": 632
+    }
+   ]
+  },
+  {
+   "name": "legal_ln_s1_vectors_full.npz",
+   "bytes": 5309132,
+   "sha256": "2742db0b59364bd04bcae828b4bafdeec2c1a6d081e520c39e3207511965d447",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "bbf6c08cbf565d80b5a3f588c54819be4fcea72892051ca4ec00942dfe116c35",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "5cc87c91910832bfb75fc9ecac702ab1b295882f31018f9a479d41e0372bca5a",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "3be30ca8c08313d32c9466514ba12c2f85466b3eb2ab3f5f5def7f8f1812cfa4",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "379290906c7a218f6b148064fbe73ed071fa89842f1b99e230f5206cdbcafc30",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U158",
+     "sha256_raw_c_order": "f78833e4af73901f75fb74d0cc81cfca028fb883f2a4a7401dc7ab6a3a5a0808",
+     "nbytes": 632
+    }
+   ]
+  },
+  {
+   "name": "legal_ln_s2_vectors_full.npz",
+   "bytes": 5308921,
+   "sha256": "18d0f8c9e4e00e714643092e28ef2cac253caeee5f33a1c08626612a03f05431",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "bbf6c08cbf565d80b5a3f588c54819be4fcea72892051ca4ec00942dfe116c35",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "815fcf3cbfa43dd5ab5e8c013d85d1e0e804889c7f9bd8f8a0f4f11835fec332",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "5c09812c592a32c690e05aa2239ab97ffc1704559c8e48cac04de42c99d02dba",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "f4e9c978bdbe9499ac0106908c20a01ce317662b17285db1a0a7ff7d97fc08cf",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U158",
+     "sha256_raw_c_order": "840ab8f26eb15e4c7c4a7ed7645239e0119abcc0a596535bc51d8f75a144304e",
+     "nbytes": 632
+    }
+   ]
+  },
+  {
+   "name": "pubmed_ln_s0_vectors_full.npz",
+   "bytes": 5317336,
+   "sha256": "4949273c2431a93ac7cbc452b0d72876b103ace140c2e2a680c30456ae584cf0",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "6a719e42b9b1f249bee5b0eb390ec67dd79ff7a6ebe0a1daa04bdbaa519e3aa2",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "9088ead6257fa8c8c4878ff3810574f0a1ceed1c5c77d33a3d58b6f70e7790c6",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "fb4d896c954b27334d7d7ba10299dbbb33dc7ebd834f4983a8df4255162dd709",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "8524c9cc3ef528a938f582b93b37c57aef6580b422ddd0de754be98add8eb9a1",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U159",
+     "sha256_raw_c_order": "c6641db7ea2093cae431ff3510ad55ab705d2b128cb44220df320f95787d0b86",
+     "nbytes": 636
+    }
+   ]
+  },
+  {
+   "name": "pubmed_ln_s1_vectors_full.npz",
+   "bytes": 5317629,
+   "sha256": "928a632b82d28bb7a7684483e7c44eb718ccd24464ca7d2dea727463db626a47",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "6a719e42b9b1f249bee5b0eb390ec67dd79ff7a6ebe0a1daa04bdbaa519e3aa2",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "461679c233c49843014130d2f69d62a6198058ad1a123c0408f7e1712c9df45b",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "bf58c5ad8f36b299fc2759a513a032bbbbcef39d1e20169bf6617936043fdfae",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "59745c2ed8aca9a38ae93fb2b6465fad51acbd9b3f176f7a7f5838f58e2a5a6f",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U159",
+     "sha256_raw_c_order": "7661d7f276fa00b6776934122f1306647a5915f32af82068878ad4a122663ae5",
+     "nbytes": 636
+    }
+   ]
+  },
+  {
+   "name": "pubmed_ln_s2_vectors_full.npz",
+   "bytes": 5317437,
+   "sha256": "7a5a4a1a148612f5bce4674efca174b1c8f3228f2d5dd8cd8628122bcdc54a55",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "6a719e42b9b1f249bee5b0eb390ec67dd79ff7a6ebe0a1daa04bdbaa519e3aa2",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "6b3a0cb6bbd561f84fc4ed88e1c0b06227f5b9cd343c6c8538482ec8a1a23b74",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "8cd007270be1afd40a797f53d8013172f2646ee5f622898b5299b0cb760e0695",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "e32aa8138f9b8ae7e15f06499208109ed0ae43e0ccdf111de264374516274b7b",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U159",
+     "sha256_raw_c_order": "a0962639573cd3a1f34930d6ed41fa57f116124cafaab8c731e96278fd5e3663",
+     "nbytes": 636
+    }
+   ]
+  },
+  {
+   "name": "wikitext_ln_s0_vectors_full.npz",
+   "bytes": 5291934,
+   "sha256": "e61604b512ea657806f001a3f6dca5d8dae625e74ce51a7ed897a833eafa7080",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "dfae6ed718b8a6ab4eb55e038afaf5344afdf7f3556b7e80bcee2dccc6e5f5bb",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "c60b2dfc1a941975ea07788b71a21c3ad933bb181cf0f4ae8c001d3f601710dc",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "489f3fe32428644da8e394b8e7aefa4d8c3edeef06425b3edefb7d538cedb794",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "02b41c4a5996471fac34ffd004443b8f1dcaef20a516101738b5d3bbf7275b55",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U161",
+     "sha256_raw_c_order": "b383e5cfbcab1d2ef519b67c6296e45156b55f51b4c762857d32076ad40ad364",
+     "nbytes": 644
+    }
+   ]
+  },
+  {
+   "name": "wikitext_ln_s1_vectors_full.npz",
+   "bytes": 5291367,
+   "sha256": "b9e93838be884eb3dac1b54242426b149c996a2ee4d09e6174f97134714c89f0",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "dfae6ed718b8a6ab4eb55e038afaf5344afdf7f3556b7e80bcee2dccc6e5f5bb",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "a776b2148a55e9bf12f7ec3129f605f614b32c625a91b418488adc358d9a8ea6",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "93a86b3e9d156be0679af453b4125f40306df502d90464cf8b799edf3228991b",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0ddf446b1169746f28937be5db51a567d452efb0137bd8c3b82bf606f978b739",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U161",
+     "sha256_raw_c_order": "93ff3c0fda4933886f949cb052af4b3bce5c68d74a35233f98ce1aa86568de4e",
+     "nbytes": 644
+    }
+   ]
+  },
+  {
+   "name": "wikitext_ln_s2_vectors_full.npz",
+   "bytes": 5291925,
+   "sha256": "bf3b215d6804ff3f480b3c3eed1d19eec719b488e6eb06f7047326bb8a842d09",
+   "arrays": [
+    {
+     "array": "pred0",
+     "shape": [
+      500,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "dfae6ed718b8a6ab4eb55e038afaf5344afdf7f3556b7e80bcee2dccc6e5f5bb",
+     "nbytes": 128000
+    },
+    {
+     "array": "tails",
+     "shape": [
+      500,
+      3,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "7e4e3bb581f9afb3d7a2521c8bff9405bc73a57703acaf74a7aa0a4832cda776",
+     "nbytes": 7680000
+    },
+    {
+     "array": "pi_bar",
+     "shape": [
+      500,
+      20,
+      32
+     ],
+     "dtype": "float64",
+     "sha256_raw_c_order": "f6c3ebc8dc49ea5df1266eab0eab2b4bf34c81145eb51bec58079abc704cbeee",
+     "nbytes": 2560000
+    },
+    {
+     "array": "doc",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "0c3fc3e2e8b0514136a044efedc6d6aa32df05e1f58c8cca9cc665e1521f4c8c",
+     "nbytes": 4000
+    },
+    {
+     "array": "t_hat",
+     "shape": [
+      500
+     ],
+     "dtype": "int64",
+     "sha256_raw_c_order": "3a9953dd7a843b6d2bb832a65f31e0f628e39b6f711cae038add9e5941ef3a07",
+     "nbytes": 4000
+    },
+    {
+     "array": "meta",
+     "shape": [
+      1
+     ],
+     "dtype": "<U161",
+     "sha256_raw_c_order": "1bc36fd0a1a33f7c4cbebb682ee93da50aa561da9bbcb5d530cdd5f9a94e6539",
+     "nbytes": 644
+    }
+   ]
+  }
+ ]
+}

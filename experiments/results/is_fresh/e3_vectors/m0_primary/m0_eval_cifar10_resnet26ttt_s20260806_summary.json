@@ -1,0 +1,55 @@
+{
+ "checkpoint": "cifar10_resnet26ttt_s20260806.pt",
+ "checkpoint_sha256": "cdf63d2f079f7f3febabd4765824369ba8fffc7bc54e321fcb4f4bd347e19611",
+ "arch": "resnet26ttt",
+ "dataset": "cifar10",
+ "eval_seed": 20260806,
+ "test_set_source": "retained_npy",
+ "n_examples": 10000,
+ "n_correct": 9165,
+ "clean_test_acc": 0.9165,
+ "clean_test_acc_wilson95": [
+  0.9109167713416663,
+  0.9217633580155601
+ ],
+ "mean_ce_loss": 0.3051867141,
+ "rot_acc": 0.9013,
+ "per_class_acc": {
+  "0": 0.925,
+  "1": 0.964,
+  "2": 0.885,
+  "3": 0.807,
+  "4": 0.908,
+  "5": 0.892,
+  "6": 0.938,
+  "7": 0.951,
+  "8": 0.94,
+  "9": 0.955
+ },
+ "checkpoint_train_args": {
+  "dataset": "cifar10",
+  "arch": "resnet26ttt",
+  "seed": 20260806,
+  "epochs": 200,
+  "lr": 0.1,
+  "wd": 0.0005,
+  "batch_size": 128,
+  "data_root": "<REPO>\\experiments\\data",
+  "out_dir": "<REPO>\\experiments\\results\\is_fresh\\e2_gn",
+  "ckpt_dir": "<REPO>\\experiments\\results\\is_fresh\\e2_gn"
+ },
+ "meta": {
+  "argv": {
+   "ckpt": "<RUN_ROOT>/experiments/ckpt/cifar10_resnet26ttt_s20260806.pt",
+   "dataset": "cifar10",
+   "arch": "",
+   "seed": 20260806,
+   "data_root": "<RUN_ROOT>/experiments/data",
+   "out_dir": "<RUN_ROOT>/experiments/results/m0_primary",
+   "tag": "cifar10_resnet26ttt_s20260806"
+  },
+  "time": "2026-08-08T10:24:52",
+  "torch": "2.13.0+cu130",
+  "cuda": "NVIDIA GeForce RTX 3080"
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "all_pass": true,
+ "criterion": {
+  "gate_acc": 0.905,
+  "gate_rot": 0.85,
+  "note": "train_source_gate_pass is the training script's aspirational 0.93 assertion, which NO published model meets; comparability_gate_pass is the project's operative, documented criterion",
+  "source": "paper/is/paper/appendix/experimental_details.tex, 'Architecture-matched entropy run': the gate asserted before any adaptation runs is comparability with the published E2 source models rather than the training script's aspirational threshold -- rotation accuracy >= 0.85 and clean test accuracy >= 0.905, one point below the weakest published model"
+ },
+ "p2_source_models": [
+  {
+   "comparability_gate_pass": true,
+   "rot_acc": 0.8985,
+   "seed": 20260921,
+   "test_acc": 0.9163,
+   "train_source_gate_pass": false
+  },
+  {
+   "comparability_gate_pass": true,
+   "rot_acc": 0.8964,
+   "seed": 20260922,
+   "test_acc": 0.9202,
+   "train_source_gate_pass": false
+  },
+  {
+   "comparability_gate_pass": true,
+   "rot_acc": 0.9055,
+   "seed": 20260923,
+   "test_acc": 0.916,
+   "train_source_gate_pass": false
+  }
+ ],
+ "precedent_run": {
+  "independent_reevaluation_this_suite": {
+   "note": "the precedent checkpoint re-evaluated through this suite's pipeline reproduces the recorded 0.9165 exactly; rotation differs by 0.0012 because the rotation-accuracy estimate draws random rotations",
+   "rot_acc": 0.9046,
+   "test_acc": 0.9165
+  },
+  "record": "experiments/results/is_fresh/e2_gn/f15_source_gate.json",
+  "rot_acc": 0.9058,
+  "seed": 20260806,
+  "test_acc": 0.9165
+ },
+ "published_acc_range": [
+  0.9152,
+  0.9216
+ ],
+ "published_reference": [
+  {
+   "rot_acc": 0.9121,
+   "seed": 0,
+   "test_acc": 0.9203,
+   "train_source_gate_pass": false
+  },
+  {
+   "rot_acc": 0.9061,
+   "seed": 1,
+   "test_acc": 0.9152,
+   "train_source_gate_pass": false
+  },
+  {
+   "rot_acc": 0.9064,
+   "seed": 2,
+   "test_acc": 0.9216,
+   "train_source_gate_pass": false
+  }
+ ]
+}

@@ -1,0 +1,122 @@
+{
+ "fresh_remeasurement": {
+  "match_rate": 1.0,
+  "n_matched": 11520,
+  "per_cell_max": 256,
+  "per_cell_mean": 256.0,
+  "per_cell_median": 256.0,
+  "per_cell_min": 256,
+  "source": "e2_gn/delta_feat_fresh_cifar10_resnet26ttt_s20260806.json",
+  "source_model_seed": 20260806
+ },
+ "fresh_run": {
+  "episodes_per_cell": 256,
+  "n_cells": 45,
+  "n_episodes": 11520,
+  "records": "cifar10_tent_main_s20260806.json"
+ },
+ "gate": {
+  "clean_test_acc_f15_record": 0.9165,
+  "clean_test_acc_recomputed": 0.9164,
+  "tol": 0.002
+ },
+ "legacy_join_analysis": {
+  "cells_with_no_commissioning_proxy_obs_per_seed": [
+   1,
+   0,
+   1,
+   2,
+   1
+  ],
+  "commissioning_proxy_obs_per_cell_median_per_seed": [
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "commissioning_proxy_obs_total_per_seed": [
+   145,
+   146,
+   149,
+   159,
+   142
+  ],
+  "rho_mean_final_mean": 0.09201651062116178,
+  "rho_mean_final_per_seed": [
+   0.07695560253699787,
+   -0.0303030303030303,
+   0.04312896405919661,
+   0.34732709151313806,
+   0.022973925299506693
+  ],
+  "seeds": [
+   20260801,
+   20260802,
+   20260803,
+   20260804,
+   20260805
+  ],
+  "superseded_by": "e2_gn/delta_feat_fresh_cifar10_resnet26ttt_s20260806.json",
+  "what": "the superseded tent_gn feature-proxy arm, recomputed here so that its split-to-split instability is a retained number"
+ },
+ "old_cross_model_join": {
+  "match_rate": 0.026041666666666668,
+  "n_matched": 300,
+  "per_cell": {
+   "brightness/s1": 6,
+   "brightness/s3": 9,
+   "brightness/s5": 5,
+   "contrast/s1": 6,
+   "contrast/s3": 9,
+   "contrast/s5": 5,
+   "defocus_blur/s1": 6,
+   "defocus_blur/s3": 9,
+   "defocus_blur/s5": 5,
+   "elastic_transform/s1": 6,
+   "elastic_transform/s3": 9,
+   "elastic_transform/s5": 5,
+   "fog/s1": 6,
+   "fog/s3": 9,
+   "fog/s5": 5,
+   "frost/s1": 6,
+   "frost/s3": 9,
+   "frost/s5": 5,
+   "gaussian_noise/s1": 6,
+   "gaussian_noise/s3": 9,
+   "gaussian_noise/s5": 5,
+   "glass_blur/s1": 6,
+   "glass_blur/s3": 9,
+   "glass_blur/s5": 5,
+   "impulse_noise/s1": 6,
+   "impulse_noise/s3": 9,
+   "impulse_noise/s5": 5,
+   "jpeg_compression/s1": 6,
+   "jpeg_compression/s3": 9,
+   "jpeg_compression/s5": 5,
+   "motion_blur/s1": 6,
+   "motion_blur/s3": 9,
+   "motion_blur/s5": 5,
+   "pixelate/s1": 6,
+   "pixelate/s3": 9,
+   "pixelate/s5": 5,
+   "shot_noise/s1": 6,
+   "shot_noise/s3": 9,
+   "shot_noise/s5": 5,
+   "snow/s1": 6,
+   "snow/s3": 9,
+   "snow/s5": 5,
+   "zoom_blur/s1": 6,
+   "zoom_blur/s3": 9,
+   "zoom_blur/s5": 5
+  },
+  "per_cell_max": 9,
+  "per_cell_mean": 6.666666666666667,
+  "per_cell_median": 6.0,
+  "per_cell_min": 5,
+  "source": "results/e5/delta_feat_cifar10_resnet26ttt.json",
+  "source_model_seed": 0
+ },
+ "script": "f38_e2gn_deltafeat_fresh.py",
+ "seconds": 71.0
+}

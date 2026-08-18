@@ -1,0 +1,385 @@
+{
+ "answers": "E1 reporting audit: per-seed worst-cell excess, mean of per-seed maxima, holdout and resolved-cell accuracy, and the comparison-count census",
+ "inputs": "archived per-seed results/is_fresh/f{3,7,10}_*_seed*.json; nothing is re-simulated",
+ "item1_and_3_curve_match": {
+  "max_deviation_in_SE_units": {
+   "mean_of_per_seed_maxima": 3.3497006646536294,
+   "per_seed": [
+    3.61319154915192,
+    3.219881444754329,
+    3.4247624056131047,
+    3.0948508211083032,
+    3.3958171026404904
+   ],
+   "true_max_over_all_seeds": 3.61319154915192
+  },
+  "n_cells_per_seed": 30,
+  "n_comparisons_all_seeds": 60150,
+  "n_comparisons_per_seed": 12030,
+  "n_replicates_per_cell": 40000,
+  "n_seeds": 5,
+  "n_steps_per_cell": 401,
+  "pointwise_sup_t_absdiff_over_theory": {
+   "max": 0.02619992879971776,
+   "mean": 0.02228185565675805,
+   "per_seed": [
+    0.02619992879971776,
+    0.023143527588388686,
+    0.021275446163995432,
+    0.01759894520050448,
+    0.0231914305311839
+   ]
+  },
+  "published_normalisation_max_absdiff_over_max_theory": {
+   "max": 0.015816344961311506,
+   "mean": 0.011537402592796021,
+   "per_seed": [
+    0.015816344961311506,
+    0.010520916547820398,
+    0.010249414333530644,
+    0.008512711890830159,
+    0.012587625230487396
+   ]
+  }
+ },
+ "item2_and_6_phase_boundary": {
+  "eta_over_2": 0.025,
+  "fitted_rule_holdout_accuracy": {
+   "max": 0.9871794871794872,
+   "mean": 0.9794871794871796,
+   "min": 0.9647435897435898,
+   "per_seed": [
+    0.9839743589743589,
+    0.9647435897435898,
+    0.9839743589743589,
+    0.9775641025641025,
+    0.9871794871794872
+   ]
+  },
+  "fitted_rule_holdout_accuracy_resolved3se": {
+   "max": 1.0,
+   "mean": 0.9992673992673993,
+   "min": 0.9963369963369964,
+   "per_seed": [
+    1.0,
+    0.9963369963369964,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "fixed_rule": "predict adapt iff alpha^2 delta^2 / sigma^2 > eta/2",
+  "fixed_rule_all_cells_accuracy": {
+   "max": 0.9872,
+   "mean": 0.9827199999999999,
+   "min": 0.9744,
+   "per_seed": [
+    0.9856,
+    0.9744,
+    0.9856,
+    0.9872,
+    0.9808
+   ]
+  },
+  "fixed_rule_all_cells_accuracy_resolved3se": {
+   "max": 1.0,
+   "mean": 1.0,
+   "min": 1.0,
+   "per_seed": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "fixed_rule_holdout_accuracy": {
+   "max": 0.9871794871794872,
+   "mean": 0.9839743589743589,
+   "min": 0.9807692307692307,
+   "per_seed": [
+    0.9839743589743589,
+    0.9807692307692307,
+    0.9839743589743589,
+    0.9839743589743589,
+    0.9871794871794872
+   ]
+  },
+  "fixed_rule_holdout_accuracy_resolved3se": {
+   "max": 1.0,
+   "mean": 1.0,
+   "min": 1.0,
+   "per_seed": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  "max_abs_z_of_a_miss_fitted_holdout": {
+   "max": 3.256722254991485,
+   "mean": 1.7465612169521088,
+   "min": 0.7131125755006196,
+   "per_seed": [
+    1.2223286359357743,
+    3.256722254991485,
+    0.7131125755006196,
+    2.3113929045234816,
+    1.2292497138091827
+   ]
+  },
+  "max_abs_z_of_a_miss_fixed_all_cells": {
+   "max": 1.4965875783511275,
+   "mean": 1.1697525436715732,
+   "min": 0.7602335961040455,
+   "per_seed": [
+    0.9042042423931301,
+    1.45848758770038,
+    0.7602335961040455,
+    1.4965875783511275,
+    1.2292497138091827
+   ]
+  },
+  "n_misses_fitted_holdout_with_abs_z_gt_3": {
+   "max": 1.0,
+   "mean": 0.2,
+   "min": 0.0,
+   "per_seed": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ]
+  },
+  "n_misses_fixed_with_abs_z_gt_3": {
+   "max": 0.0,
+   "mean": 0.0,
+   "min": 0.0,
+   "per_seed": [
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "n_seeds": 5,
+  "per_seed": [
+   {
+    "fitted_rule_holdout_accuracy": 0.9839743589743589,
+    "fitted_rule_holdout_accuracy_resolved3se": 1.0,
+    "fitted_threshold_onestep": 0.02453542373466878,
+    "fixed_rule_all_cells_accuracy": 0.9856,
+    "fixed_rule_all_cells_accuracy_resolved3se": 1.0,
+    "fixed_rule_holdout_accuracy": 0.9839743589743589,
+    "fixed_rule_holdout_accuracy_resolved3se": 1.0,
+    "max_abs_z_of_a_miss_fitted_holdout": 1.2223286359357743,
+    "max_abs_z_of_a_miss_fixed_all_cells": 0.9042042423931301,
+    "n_all": 625,
+    "n_all_resolved": 543,
+    "n_cells": 625,
+    "n_holdout": 312,
+    "n_holdout_resolved": 270,
+    "n_misses_fitted_holdout": 5,
+    "n_misses_fitted_holdout_with_abs_z_gt_3": 0,
+    "n_misses_fixed_all_cells": 9,
+    "n_misses_fixed_with_abs_z_gt_3": 0,
+    "n_replicates_per_cell": 20000,
+    "seed": 20260801
+   },
+   {
+    "fitted_rule_holdout_accuracy": 0.9647435897435898,
+    "fitted_rule_holdout_accuracy_resolved3se": 0.9963369963369964,
+    "fitted_threshold_onestep": 0.019618570685914116,
+    "fixed_rule_all_cells_accuracy": 0.9744,
+    "fixed_rule_all_cells_accuracy_resolved3se": 1.0,
+    "fixed_rule_holdout_accuracy": 0.9807692307692307,
+    "fixed_rule_holdout_accuracy_resolved3se": 1.0,
+    "max_abs_z_of_a_miss_fitted_holdout": 3.256722254991485,
+    "max_abs_z_of_a_miss_fixed_all_cells": 1.45848758770038,
+    "n_all": 625,
+    "n_all_resolved": 543,
+    "n_cells": 625,
+    "n_holdout": 312,
+    "n_holdout_resolved": 273,
+    "n_misses_fitted_holdout": 11,
+    "n_misses_fitted_holdout_with_abs_z_gt_3": 1,
+    "n_misses_fixed_all_cells": 16,
+    "n_misses_fixed_with_abs_z_gt_3": 0,
+    "n_replicates_per_cell": 20000,
+    "seed": 20260802
+   },
+   {
+    "fitted_rule_holdout_accuracy": 0.9839743589743589,
+    "fitted_rule_holdout_accuracy_resolved3se": 1.0,
+    "fitted_threshold_onestep": 0.025044195974408885,
+    "fixed_rule_all_cells_accuracy": 0.9856,
+    "fixed_rule_all_cells_accuracy_resolved3se": 1.0,
+    "fixed_rule_holdout_accuracy": 0.9839743589743589,
+    "fixed_rule_holdout_accuracy_resolved3se": 1.0,
+    "max_abs_z_of_a_miss_fitted_holdout": 0.7131125755006196,
+    "max_abs_z_of_a_miss_fixed_all_cells": 0.7602335961040455,
+    "n_all": 625,
+    "n_all_resolved": 545,
+    "n_cells": 625,
+    "n_holdout": 312,
+    "n_holdout_resolved": 273,
+    "n_misses_fitted_holdout": 5,
+    "n_misses_fitted_holdout_with_abs_z_gt_3": 0,
+    "n_misses_fixed_all_cells": 9,
+    "n_misses_fixed_with_abs_z_gt_3": 0,
+    "n_replicates_per_cell": 20000,
+    "seed": 20260803
+   },
+   {
+    "fitted_rule_holdout_accuracy": 0.9775641025641025,
+    "fitted_rule_holdout_accuracy_resolved3se": 1.0,
+    "fitted_threshold_onestep": 0.02453542373466878,
+    "fixed_rule_all_cells_accuracy": 0.9872,
+    "fixed_rule_all_cells_accuracy_resolved3se": 1.0,
+    "fixed_rule_holdout_accuracy": 0.9839743589743589,
+    "fixed_rule_holdout_accuracy_resolved3se": 1.0,
+    "max_abs_z_of_a_miss_fitted_holdout": 2.3113929045234816,
+    "max_abs_z_of_a_miss_fixed_all_cells": 1.4965875783511275,
+    "n_all": 625,
+    "n_all_resolved": 551,
+    "n_cells": 625,
+    "n_holdout": 312,
+    "n_holdout_resolved": 273,
+    "n_misses_fitted_holdout": 7,
+    "n_misses_fitted_holdout_with_abs_z_gt_3": 0,
+    "n_misses_fixed_all_cells": 8,
+    "n_misses_fixed_with_abs_z_gt_3": 0,
+    "n_replicates_per_cell": 20000,
+    "seed": 20260804
+   },
+   {
+    "fitted_rule_holdout_accuracy": 0.9871794871794872,
+    "fitted_rule_holdout_accuracy_resolved3se": 1.0,
+    "fitted_threshold_onestep": 0.02732085272935358,
+    "fixed_rule_all_cells_accuracy": 0.9808,
+    "fixed_rule_all_cells_accuracy_resolved3se": 1.0,
+    "fixed_rule_holdout_accuracy": 0.9871794871794872,
+    "fixed_rule_holdout_accuracy_resolved3se": 1.0,
+    "max_abs_z_of_a_miss_fitted_holdout": 1.2292497138091827,
+    "max_abs_z_of_a_miss_fixed_all_cells": 1.2292497138091827,
+    "n_all": 625,
+    "n_all_resolved": 547,
+    "n_cells": 625,
+    "n_holdout": 312,
+    "n_holdout_resolved": 271,
+    "n_misses_fitted_holdout": 4,
+    "n_misses_fitted_holdout_with_abs_z_gt_3": 0,
+    "n_misses_fixed_all_cells": 12,
+    "n_misses_fixed_with_abs_z_gt_3": 0,
+    "n_replicates_per_cell": 20000,
+    "seed": 20260805
+   }
+  ]
+ },
+ "item4_optimal_stopping": {
+  "n_cells_per_seed": 25,
+  "n_replicates_per_cell": 60000,
+  "n_seeds": 5,
+  "worst_cell_relative_gap": {
+   "mean_of_per_seed_worst": 0.021153990940881412,
+   "per_seed": [
+    0.014984978223173441,
+    0.009599842764822644,
+    0.021488486053991635,
+    0.019510886266424526,
+    0.04018576139599481
+   ],
+   "true_worst_single_cell_run": 0.04018576139599481
+  }
+ },
+ "item7_e4_alignment_census": {
+  "note": "the manuscript's [0.24, 0.46] is the range of the four per-domain means; per-document alignments include negative values in every domain",
+  "per_domain": {
+   "code": {
+    "frac_negative": 0.0006666666666666666,
+    "max": 0.7823351918339305,
+    "mean": 0.46029659296718317,
+    "min": -0.04043881015988098,
+    "n_negative": 1,
+    "n_records": 1500
+   },
+   "legal": {
+    "frac_negative": 0.03133333333333333,
+    "max": 0.5873451963556106,
+    "mean": 0.23525503002627435,
+    "min": -0.1622082689088862,
+    "n_negative": 47,
+    "n_records": 1500
+   },
+   "pubmed": {
+    "frac_negative": 0.008666666666666666,
+    "max": 0.7504599798795717,
+    "mean": 0.29705502044737964,
+    "min": -0.08140616942332622,
+    "n_negative": 13,
+    "n_records": 1500
+   },
+   "wikitext": {
+    "frac_negative": 0.004,
+    "max": 0.5311521419810046,
+    "mean": 0.2827968864867468,
+    "min": -0.055993119557388275,
+    "n_negative": 6,
+    "n_records": 1500
+   }
+  },
+  "pooled_frac_negative": 0.011166666666666667,
+  "pooled_max": 0.7823351918339305,
+  "pooled_min": -0.1622082689088862,
+  "pooled_n_negative": 67,
+  "pooled_n_records": 6000,
+  "range_of_per_domain_means": [
+   0.23525503002627435,
+   0.46029659296718317
+  ]
+ },
+ "item9_replicate_census": {
+  "f10": {
+   "analysis": "phase boundary / one-step, oracle and selected gains (T4 b)",
+   "n_cells": 625,
+   "n_replicates_per_cell": 20000,
+   "n_seeds": 5
+  },
+  "f3": {
+   "analysis": "optimal stopping (T4 c)",
+   "n_cells": 25,
+   "n_replicates_per_cell": 60000,
+   "n_seeds": 5
+  },
+  "f4": {
+   "analysis": "ALTA vs measured oracle (T4 d)",
+   "n_alta_episodes_per_cell": 400,
+   "n_cells": 16,
+   "n_replicates_per_cell": 40000,
+   "n_seeds": 5
+  },
+  "f5": {
+   "analysis": "batch scaling (T4 f)",
+   "n_cells": null,
+   "n_replicates_per_cell": 400000,
+   "n_seeds": 5
+  },
+  "f6": {
+   "analysis": "nonconvex ReLU (T4 e)",
+   "n_cells": null,
+   "n_replicates_per_cell": null,
+   "n_rows": 90,
+   "n_seeds": 5
+  },
+  "f7": {
+   "analysis": "risk-curve identity (T4 a)",
+   "n_cells": 30,
+   "n_replicates_per_cell": 40000,
+   "n_seeds": 5
+  }
+ },
+ "script": "f26_e1_reporting_audit.py"
+}

@@ -1,0 +1,36 @@
+{
+ "meta": {
+  "argv": {
+   "arch": "resnet26gn",
+   "batches": 25,
+   "ckpt_dir": "experiments/ckpt/closure",
+   "data_root": "experiments/data",
+   "dtype": "float64",
+   "heartbeat": "logs/hb_extras.json",
+   "out_dir": "experiments/results/closure",
+   "pair": "auto_frog",
+   "seed": 20260901,
+   "smoke": false,
+   "subset": "norm"
+  },
+  "batch_sizes": [
+   1,
+   2,
+   4,
+   8,
+   16
+  ],
+  "code": "experiments/ttt/closure",
+  "device": "NVIDIA GeForce RTX 3080",
+  "eps_grid": [
+   0.0,
+   0.1,
+   0.25,
+   0.4
+  ],
+  "n_records": 1625,
+  "time": "2026-08-10T02:30:41",
+  "torch": "2.11.0+cu128"
+ },
+ "records": "experiments/results/closure/scope_auto_frog_resnet26gn_s20260901_norm_float64.jsonl.gz"
+}

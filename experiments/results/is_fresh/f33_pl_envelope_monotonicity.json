@@ -1,0 +1,177 @@
+{
+ "A_displayed_bound_relaxes_the_recursion": {
+  "claim": "S_t = (1-(1-c1)^t)/c1 <= min{t, 1/c1}, so the DISPLAYED bound over-estimates the exact geometric noise accumulation and the inequality the theorem prints is sound",
+  "n_c1_values": 4000,
+  "n_t_values": 201,
+  "n_violations": 0,
+  "worst_signed_gap_min_minus_S": -3.086420008457935e-14
+ },
+ "B_refutation": {
+  "admissible_constants_witness": {
+   "B_0_1_2": [
+    11.0,
+    10.9,
+    10.91
+   ],
+   "C_g": 1.0,
+   "INCREASES_at_t1": true,
+   "L": 1.0,
+   "alpha": 1.0,
+   "c1": 0.1,
+   "c1_in_open_unit_interval": true,
+   "c2": 1.0000000000000004,
+   "c_g": 1.0,
+   "d2": 11.0,
+   "eta": 0.1,
+   "eta_max": 1.0,
+   "mu": 1.0,
+   "sigtot": 14.142135623730951,
+   "step_condition_holds": true
+  },
+  "random_search": {
+   "fraction_with_a_strictly_increasing_step": 0.46161,
+   "horizon_T": 200,
+   "hypotheses": "0 < c1 < 1, step cap eta <= alpha c_g/(L C_g^2)",
+   "n_admissible_draws": 200000,
+   "n_monotone_nonincreasing_throughout": 107678,
+   "n_with_a_strictly_increasing_step": 92322,
+   "note": "the claim was that EVERY admissible draw is nonincreasing over 0<=t<=T; a single increasing step refutes it"
+  },
+  "worked_counterexample_delta2_0p1": {
+   "B0": 0.1,
+   "B1": 1.09,
+   "B_0_to_5": [
+    0.1,
+    1.09,
+    2.081,
+    3.0729,
+    4.06561,
+    5.059049
+   ],
+   "INCREASES_at_t0": true,
+   "c1": 0.1,
+   "c2": 1.0,
+   "c5_noise_floor": 10.0,
+   "d2": 0.1,
+   "phase_ratio_Phi": 0.010000000000000002
+  },
+  "worked_counterexample_delta2_11": {
+   "B0": 11.0,
+   "B1": 10.9,
+   "B2": 10.91,
+   "B_0_to_5": [
+    11.0,
+    10.9,
+    10.91,
+    11.019000000000002,
+    11.2171,
+    11.49539
+   ],
+   "INCREASES_at_t1": true,
+   "c1": 0.1,
+   "c2": 1.0,
+   "c5_noise_floor": 10.0,
+   "d2": 11.0,
+   "decreases_at_t0": true,
+   "increment_B2_minus_B1": 0.009999999999999787,
+   "phase_ratio_Phi": 1.1
+  }
+ },
+ "C_corrected_statement": {
+  "C1_increment_identity_max_relative_error": 8.552106514887291e-16,
+  "C2_late_branch": {
+   "n_increasing_steps": 0,
+   "n_late_pairs_checked": 19082612,
+   "n_pairs_where_geometric_term_underflows_the_floor": 1923465,
+   "n_pairs_with_resolvable_geometric_term": 17159147,
+   "n_resolvable_pairs_not_strictly_decreasing": 0,
+   "n_times_bound_reaches_or_crosses_floor_when_resolvable": 0
+  },
+  "C3_early_branch_iff": {
+   "criterion": "(1-c1)^t delta^2 > c5  <=>  B(t+1) < B(t)",
+   "equivalently": "t < ln(Phi)/ln(1/(1-c1)),  Phi = c1 delta^2/c2",
+   "n_mismatches": 0,
+   "n_pairs_checked": 20793336
+  },
+  "C4_sufficient_half_on_whole_range": {
+   "n_checked": 17358856,
+   "n_violations": 0
+  }
+ },
+ "D_certified_horizon_branch": {
+  "claim": "t_Phi = ceil(ln(Phi)/c1) >= 1/c1 exactly when ln Phi >= 1, i.e. Phi >= e; so under the corollary's Phi >= 10 the certified horizon always lies on the LATE branch, where the bound is monotone",
+  "n_with_Phi_ge_10": 94541,
+  "n_with_Phi_ge_10_and_t_Phi_ge_1_over_c1": 94541,
+  "n_with_Phi_ge_e": 105144,
+  "n_with_Phi_ge_e_and_t_Phi_ge_1_over_c1": 105144,
+  "n_with_Phi_gt_1": 113054,
+  "n_with_Phi_lt_e": 7910,
+  "n_with_Phi_lt_e_whose_t_Phi_is_on_the_EARLY_branch": 7724,
+  "why_it_matters": "the withdrawn prose said the bound keeps decreasing past t_Phi; that needs t_Phi >= 1/c1, which does NOT follow from t_Phi's definition"
+ },
+ "E_corollary_unaffected": {
+  "n_checked": 39577,
+  "n_checked_Phi_ge_10": 27874,
+  "n_violations_B_le_0p44_delta2": 0,
+  "n_violations_B_le_first_bound": 0,
+  "n_violations_first_le_second": 0,
+  "note": "the corollary evaluates the VALID bound at one horizon; it never invokes monotonicity, so the repaired statement leaves it untouched",
+  "sup_over_Phi_ge_10_of_(2+lnPhi)_over_Phi": 0.43025850929940457,
+  "worst_ratio_B_over_delta2_at_Phi_ge_10": 0.19778740632711092,
+  "worst_relative_slack_B_vs_first": 0.9999042241686272
+ },
+ "F_what_Phi_le_1_gives": {
+  "F1_admissible_constants_witness": {
+   "C_g": 1.0,
+   "L": 1.0,
+   "Phi": 0.9999999999999998,
+   "alpha": 1.0,
+   "c1": 0.25,
+   "c2": 0.25000000000000006,
+   "c_g": 1.0,
+   "d2": 1.0,
+   "eta": 0.25,
+   "eta_max": 1.0,
+   "mu": 1.0,
+   "reproduces_the_refutation": true,
+   "sigtot": 2.8284271247461903,
+   "step_condition_holds": true
+  },
+  "F1_n_admissible_draws_with_Phi_le_1": 86946,
+  "F1_n_draws_with_a_strictly_DECREASING_step": 56041,
+  "F1_n_increasing_steps_among_them": 8703515,
+  "F1_refutation": {
+   "B4": 1.31640625,
+   "B5": 1.2373046875,
+   "B_0_to_6": [
+    1.0,
+    1.0,
+    1.0625,
+    1.171875,
+    1.31640625,
+    1.2373046875,
+    1.177978515625
+   ],
+   "DECREASES_at_t4": true,
+   "c1": 0.25,
+   "c2": 0.25,
+   "c5_noise_floor": 1.0,
+   "d2": 1.0,
+   "increment_B5_minus_B4": -0.0791015625,
+   "min_over_grid_is_at_t0": true,
+   "one_over_c1": 4.0,
+   "phase_ratio_Phi": 1.0
+  },
+  "F2_early_branch_nondecreasing_violations": 0,
+  "F2_n_early_pairs_checked": 8649101,
+  "F3_n_violations": 0,
+  "F3_note": "the real-t dip is why F3 is stated at integer step counts: Bernoulli's (1-c1)^t >= 1 - c1 t needs t >= 1, and t indexes iterates",
+  "F3_real_t_dip_below_delta2_on_the_unit_interval": -0.0089797500129849,
+  "F3_surviving_claim": "B(t) >= B(0) = delta^2 at every integer 0 <= t <= T, so t = 0 minimizes the displayed envelope",
+  "F3_worst_signed_slack_B_minus_delta2": 0.0,
+  "withdrawn_claim": "at Phi <= 1 the bound is nondecreasing from t = 0 onward"
+ },
+ "finding": "the displayed local-PL bound is valid but NOT globally nonincreasing on 0 <= t <= T; the early branch (1-c1)^t delta^2 + c2 t can increase because the linear noise accumulation outruns the geometric decay.  The correct statements are: strict decrease on the late branch t >= 1/c1, and, on the early branch, strict decrease at step t IF AND ONLY IF (1-c1)^t delta^2 > c5",
+ "kind": "closed-form audit of the envelope's algebra; nothing simulated",
+ "script": "f33_pl_envelope_monotonicity.py"
+}

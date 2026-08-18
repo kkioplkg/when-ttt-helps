@@ -1,0 +1,116 @@
+{
+ "T": 400,
+ "annotations": {
+  "alpha=0.25,delta_over_sigma=1.0": {
+   "frozen_risk_delta_sq": 1.0,
+   "mean_worst_pointwise_rel_err": 0.009025022573150196,
+   "per_seed_worst_pointwise_rel_err": [
+    0.0061962510844053315,
+    0.011598219764820453,
+    0.0069008139531524125,
+    0.006981315004200154,
+    0.013448513059172629
+   ]
+  },
+  "alpha=0.25,delta_over_sigma=4.0": {
+   "frozen_risk_delta_sq": 16.0,
+   "mean_worst_pointwise_rel_err": 0.0022789553247650396,
+   "per_seed_worst_pointwise_rel_err": [
+    0.0018242254469712207,
+    0.0019452929763821153,
+    0.0024147663683715213,
+    0.0015755368928716763,
+    0.0036349549392286637
+   ]
+  },
+  "alpha=1.0,delta_over_sigma=1.0": {
+   "frozen_risk_delta_sq": 1.0,
+   "mean_worst_pointwise_rel_err": 0.02159133443847567,
+   "per_seed_worst_pointwise_rel_err": [
+    0.02619992879971776,
+    0.02061413371698837,
+    0.021275446163995432,
+    0.016675732980492887,
+    0.0231914305311839
+   ]
+  },
+  "alpha=1.0,delta_over_sigma=4.0": {
+   "frozen_risk_delta_sq": 16.0,
+   "mean_worst_pointwise_rel_err": 0.019316035388302365,
+   "per_seed_worst_pointwise_rel_err": [
+    0.01764756624359936,
+    0.020052478925445923,
+    0.01978531406355608,
+    0.01664376122405517,
+    0.02245105648485531
+   ]
+  }
+ },
+ "cells": [
+  {
+   "alpha": 0.25,
+   "delta_over_sigma": 1.0
+  },
+  {
+   "alpha": 0.25,
+   "delta_over_sigma": 4.0
+  },
+  {
+   "alpha": 1.0,
+   "delta_over_sigma": 1.0
+  },
+  {
+   "alpha": 1.0,
+   "delta_over_sigma": 4.0
+  }
+ ],
+ "f7_reproduction_check": [
+  {
+   "checked": true,
+   "n_cells": 30,
+   "n_statistics": 120,
+   "seed": 20260801,
+   "worst_relative_difference": 0.0
+  },
+  {
+   "checked": true,
+   "n_cells": 30,
+   "n_statistics": 120,
+   "seed": 20260802,
+   "worst_relative_difference": 0.0
+  },
+  {
+   "checked": true,
+   "n_cells": 30,
+   "n_statistics": 120,
+   "seed": 20260803,
+   "worst_relative_difference": 0.0
+  },
+  {
+   "checked": true,
+   "n_cells": 30,
+   "n_statistics": 120,
+   "seed": 20260804,
+   "worst_relative_difference": 0.0
+  },
+  {
+   "checked": true,
+   "n_cells": 30,
+   "n_statistics": 120,
+   "seed": 20260805,
+   "worst_relative_difference": 0.0
+  }
+ ],
+ "f7_reproduction_check_all_passed": true,
+ "figure": "paper/is/paper/figures/F1_curves.pdf",
+ "n_rep_per_cell": 40000,
+ "replaces": "figures/scripts/_superseded/fig_F1.py (single seed 42)",
+ "script": "fig_f1_curves.py",
+ "seeds": [
+  20260801,
+  20260802,
+  20260803,
+  20260804,
+  20260805
+ ]
+}

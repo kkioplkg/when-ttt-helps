@@ -1,0 +1,72 @@
+{
+ "early_steps": [
+  "1",
+  "2"
+ ],
+ "frozen_baseline_mean_loss": {
+  "change": -0.19131196737520284,
+  "raw": 2.6610898805611725,
+  "scaled": 2.4697779131859696
+ },
+ "identity_check_A_minus_B_equals_frozen_shift": -4.440892098500626e-16,
+ "mean_change_absolute_adapted_loss_steps_1_2": -0.5756117912992145,
+ "mean_change_excess_over_own_frozen_steps_1_2": -0.3842998239240112,
+ "mean_fitted_temperature": 1.192024976015091,
+ "n_episodes_per_arm": {
+  "raw": 7680,
+  "scaled": 7680
+ },
+ "note": "(A) and (B) differ by the shift in the frozen baseline that temperature scaling itself induces; neither may be printed under the other's name.",
+ "per_step": {
+  "absolute_adapted_loss": {
+   "1": {
+    "change": -0.5763855997521583,
+    "raw": 7.455659073690326,
+    "scaled": 6.879273473938167
+   },
+   "2": {
+    "change": -0.5748379828462706,
+    "raw": 9.443038676005097,
+    "scaled": 8.868200693158826
+   },
+   "20": {
+    "change": 2082.2677543064046,
+    "raw": 390.9087589909843,
+    "scaled": 2473.176513297389
+   },
+   "5": {
+    "change": -0.4873138805431765,
+    "raw": 12.59903110220494,
+    "scaled": 12.111717221661763
+   }
+  },
+  "excess_over_own_frozen_baseline": {
+   "1": {
+    "change": -0.3850736323769546,
+    "raw": 4.794569193129153,
+    "scaled": 4.409495560752198
+   },
+   "2": {
+    "change": -0.3835260154710678,
+    "raw": 6.781948795443924,
+    "scaled": 6.398422779972856
+   },
+   "20": {
+    "change": 2082.45906627378,
+    "raw": 388.24766911042315,
+    "scaled": 2470.706735384203
+   },
+   "5": {
+    "change": -0.29600191316797364,
+    "raw": 9.937941221643767,
+    "scaled": 9.641939308475793
+   }
+  }
+ },
+ "reproduction_check": "per-arm excess losses at t = 1, 2 reproduce the published adaptation step curve (4.7946 / 6.7819 raw, 4.4095 / 6.3984 scaled), the mean fitted temperature reproduces 1.19, and (A) - (B) equals the frozen-baseline shift exactly",
+ "sources": [
+  "experiments/results/e2/cifar10_tent_calib_s0.json",
+  "experiments/results/e2/cifar100_tent_calib_s0.json"
+ ],
+ "what": "the two estimands of the E2 temperature-scaling early-loss statement, computed from the original calibration records"
+}

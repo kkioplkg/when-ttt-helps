@@ -1,0 +1,104 @@
+{
+ "frac_curve_matches_theory_5se": {
+  "max": 1.0,
+  "mean": 1.0,
+  "min": 1.0,
+  "n": 5,
+  "values": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "frac_risk_within_5pct_of_measured_oracle": {
+  "max": 1.0,
+  "mean": 1.0,
+  "min": 1.0,
+  "n": 5,
+  "values": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "frac_risk_within_5pct_of_theory_reference": {
+  "max": 1.0,
+  "mean": 1.0,
+  "min": 1.0,
+  "n": 5,
+  "values": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "frac_time_within_2x_of_measured_oracle": {
+  "max": 1.0,
+  "mean": 0.96,
+  "min": 0.92,
+  "n": 5,
+  "values": [
+   0.96,
+   0.92,
+   0.96,
+   1.0,
+   0.96
+  ]
+ },
+ "frac_time_within_2x_of_theory_reference": {
+  "max": 0.96,
+  "mean": 0.9039999999999999,
+  "min": 0.88,
+  "n": 5,
+  "values": [
+   0.88,
+   0.96,
+   0.92,
+   0.88,
+   0.88
+  ]
+ },
+ "max_rel_gap_measured": {
+  "max": 0.04018576139599481,
+  "mean": 0.021153990940881412,
+  "min": 0.009599842764822644,
+  "n": 5,
+  "values": [
+   0.014984978223173441,
+   0.009599842764822644,
+   0.021488486053991635,
+   0.019510886266424526,
+   0.04018576139599481
+  ]
+ },
+ "median_rel_gap_measured": {
+  "max": 9.92073947190266e-06,
+  "mean": 1.9841478943805317e-06,
+  "min": 0.0,
+  "n": 5,
+  "values": [
+   0.0,
+   0.0,
+   9.92073947190266e-06,
+   0.0,
+   0.0
+  ]
+ },
+ "n_cells": 25,
+ "n_rep_per_cell": 60000,
+ "replaces": "run_e1.part_c (risk scored with the closed form)",
+ "script": "f3_optimal_stopping.py",
+ "seeds": [
+  20260801,
+  20260802,
+  20260803,
+  20260804,
+  20260805
+ ]
+}

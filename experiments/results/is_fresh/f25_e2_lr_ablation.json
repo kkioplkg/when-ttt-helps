@@ -1,0 +1,182 @@
+{
+ "per_rate": [
+  {
+   "audit_unsigned_rho_in_sample_best": 0.6030075187969924,
+   "lr": 0.0003,
+   "mean_best_step_gain": 0.19310076239633248,
+   "n_cells": 20,
+   "n_episodes": 1280,
+   "rho_align_crossfit_final": {
+    "max": 0.35187969924812035,
+    "mean": 0.19789473684210526,
+    "min": -0.018045112781954885,
+    "n": 5,
+    "values": [
+     0.20150375939849624,
+     0.19999999999999998,
+     -0.018045112781954885,
+     0.2541353383458646,
+     0.35187969924812035
+    ]
+   },
+   "rho_align_in_sample_best": 0.3684210526315789,
+   "rho_crossfit_best": {
+    "max": 0.6842105263157895,
+    "mean": 0.5774436090225564,
+    "min": 0.45714285714285713,
+    "n": 5,
+    "values": [
+     0.6842105263157895,
+     0.45714285714285713,
+     0.5067669172932331,
+     0.6,
+     0.6390977443609022
+    ]
+   },
+   "rho_crossfit_final": {
+    "max": 0.6060150375939849,
+    "mean": 0.4914285714285714,
+    "min": 0.437593984962406,
+    "n": 5,
+    "values": [
+     0.4977443609022556,
+     0.437593984962406,
+     0.45714285714285713,
+     0.4586466165413533,
+     0.6060150375939849
+    ]
+   },
+   "rho_final": 0.4842105263157894,
+   "rho_in_sample_best": 0.7699248120300751,
+   "source": "e5/cifar10_ttt_rot_main_s0_lr0.0003.json"
+  },
+  {
+   "audit_unsigned_rho_in_sample_best": 0.5729323308270676,
+   "lr": 0.001,
+   "mean_best_step_gain": 0.08828767275449394,
+   "n_cells": 20,
+   "n_episodes": 2560,
+   "rho_align_crossfit_final": {
+    "max": -0.12781954887218044,
+    "mean": -0.26345864661654134,
+    "min": -0.35939849624060144,
+    "n": 5,
+    "values": [
+     -0.23909774436090225,
+     -0.35939849624060144,
+     -0.28872180451127816,
+     -0.12781954887218044,
+     -0.30225563909774433
+    ]
+   },
+   "rho_align_in_sample_best": 0.35639097744360904,
+   "rho_crossfit_best": {
+    "max": 0.40451127819548865,
+    "mean": 0.015037593984962395,
+    "min": -0.3954887218045112,
+    "n": 5,
+    "values": [
+     -0.05263157894736842,
+     0.04210526315789473,
+     0.07669172932330826,
+     -0.3954887218045112,
+     0.40451127819548865
+    ]
+   },
+   "rho_crossfit_final": {
+    "max": 0.33684210526315783,
+    "mean": 0.1639097744360902,
+    "min": -0.10075187969924812,
+    "n": 5,
+    "values": [
+     0.29774436090225564,
+     0.05864661654135337,
+     -0.10075187969924812,
+     0.2270676691729323,
+     0.33684210526315783
+    ]
+   },
+   "rho_final": 0.5037593984962406,
+   "rho_in_sample_best": 0.31729323308270674,
+   "source": "e2/cifar10_ttt_rot_main_s0.json"
+  },
+  {
+   "audit_unsigned_rho_in_sample_best": 0.58796992481203,
+   "lr": 0.003,
+   "mean_best_step_gain": 0.2166328885070527,
+   "n_cells": 20,
+   "n_episodes": 1280,
+   "rho_align_crossfit_final": {
+    "max": 0.08421052631578946,
+    "mean": -0.04180451127819549,
+    "min": -0.13533834586466165,
+    "n": 5,
+    "values": [
+     0.010526315789473682,
+     -0.13533834586466165,
+     -0.09774436090225563,
+     0.08421052631578946,
+     -0.0706766917293233
+    ]
+   },
+   "rho_align_in_sample_best": 0.15789473684210525,
+   "rho_crossfit_best": {
+    "max": 0.6165413533834586,
+    "mean": 0.511578947368421,
+    "min": 0.34736842105263155,
+    "n": 5,
+    "values": [
+     0.5969924812030075,
+     0.4947368421052631,
+     0.34736842105263155,
+     0.5022556390977443,
+     0.6165413533834586
+    ]
+   },
+   "rho_crossfit_final": {
+    "max": 0.37744360902255636,
+    "mean": 0.3245112781954887,
+    "min": 0.2270676691729323,
+    "n": 5,
+    "values": [
+     0.33533834586466166,
+     0.3218045112781954,
+     0.37744360902255636,
+     0.3609022556390977,
+     0.2270676691729323
+    ]
+   },
+   "rho_final": 0.13984962406015036,
+   "rho_in_sample_best": 0.58796992481203,
+   "source": "e5/cifar10_ttt_rot_main_s0_lr0.003.json"
+  }
+ ],
+ "protocol": "20 CIFAR-10 cells per rate (gaussian_noise, fog, contrast, motion_blur x severities 1-5), source seed 0, 64 episodes per cell; cross-fit at split seeds [20260801, 20260802, 20260803, 20260804, 20260805]",
+ "replaces": "the ad-hoc learning-rate ablation numbers quoted in Section 5.5, computed with an unsigned alignment factor",
+ "script": "f25_e2_lr_ablation.py",
+ "statistic": "alpha_sgn|alpha_sgn| delta_proxy / sigma^2_rel (f8_e2_crossfit.phase_value); ratio form throughout -- every ttt_rot episode has sigma^2_rel > 0",
+ "verdict": {
+  "all_three_rates_positive_crossfit": true,
+  "all_three_rates_positive_in_sample": true,
+  "archived_claim": "rank-stable across rates: rho_s = 0.60, 0.57, 0.59",
+  "archived_values_reproduced_with_unsigned_numerator": [
+   0.6030075187969924,
+   0.5729323308270676,
+   0.58796992481203
+  ],
+  "rank_stable_claim_survives": false,
+  "signed_crossfit_final": [
+   0.4914285714285714,
+   0.1639097744360902,
+   0.3245112781954887
+  ],
+  "signed_crossfit_final_spread": 0.3275187969924812,
+  "signed_in_sample_best": [
+   0.7699248120300751,
+   0.31729323308270674,
+   0.58796992481203
+  ],
+  "signed_in_sample_best_spread": 0.4526315789473684,
+  "what_actually_holds": "the sign of the correlation is positive at all three learning rates; its magnitude is not stable across them, so the ablation supports sign stability and not rank stability"
+ }
+}
