@@ -296,14 +296,14 @@ block and the products disagree.
 | property | `paper/main.pdf` (article) | `supplement/supplement.pdf` |
 |---|---|---|
 | pages | **39** | **55** |
-| `.pdf` size | 1,449,849 bytes | 971,304 bytes |
-| `.pdf` SHA-256 | `259ee0f1e7ea7947e45242573815d07f9257236e1fd5d09dba20da07d6eeacaa` | `9256cf27f8a439d9703ad75b7c67f456f72e0ab338e57e967dbedd2a4ae1115a` |
-| `.tex` SHA-256 | `dcaf6e1cce05b07230af64e3126377f6bcd238a16524d16e6a1edd01597578f8` | `8bc18ba3ce505064049023d63d9bb81956faddad6a46d68c03230351d82058fe` |
+| `.pdf` size | 1,450,919 bytes | 971,414 bytes |
+| `.pdf` SHA-256 | `21aa250a253147d4e66dc61924dbf0674323cee7d6eb81b2dddf50717563b738` | `c460b78e5d043a7092108b5599034ff70e82ce1f9e8f62f61f47f42c16d99829` |
+| `.tex` SHA-256 | `fcd6a6e3069309078982a99d0df92864e36f2fe7206289e2b4330b0bed53e7a0` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,614 bytes / `10e33919f743e9adcb23777d613b0acf3ef19546649f37af9bfee015921ba9b3` | 27,145 bytes / `2835d9a6fed1c3f3bffa5361d8f70d73370e2a46f32d709476f6012f989ac70d` |
+| `.log` size / SHA-256 | 40,614 bytes / `6ce99ec52f58e661f7f8236e2ece6ffa01afa72bb56c90caadb8dd35699be086` | 27,275 bytes / `ea1b7c68cac5c712ef598197b619e00a32af87b1670df79a1af1d4e0d5187000` |
 | final-page footer | `Page 39 of 39` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.
@@ -388,16 +388,13 @@ carry no risk of clipping and are not tracked individually.
      count that a rebuild had moved, and a `commented out and
      restorable' description of fields the source had active. -->
 
-**A fresh build of this tree emits 1 sized overfull box in the article and 1 in the supplement.**
+**A fresh build of this tree emits 1 sized overfull box in the article and 0 in the supplement.**
 
 | document | box | size | located at |
 |---|---|---|---|
-| article | `Overfull \hbox` | 117.08 pt | detected at line 178 |
-| supplement | `Overfull \hbox` | 1.15 pt | in paragraph at lines 9--138 |
+| article | `Overfull \hbox` | 117.08 pt | detected at line 171 |
 
-1 of these is the **front-matter** box `cas-sc` emits at `\maketitle` (main.tex line 178, read from the source) out of the author block. Its size is invariant to shortening any single field and it is produced by the class's front-matter assembly rather than by a paragraph of ours; this build carries the real author metadata, so it is that build, and the box did not move: it is the same 117.08 pt under the authors' names, ORCIDs, e-mails, CRediT lists and affiliation as it was under the placeholders, which is the invariance the paragraph above predicts. The title page of both documents was rendered and inspected on this build and carries no overflow, clipping or collision, and its ink clears every physical page edge, so the box is dispositioned as producing no visible overflow rather than tolerated undispositioned.
-
-The remaining 1 box is **not** explained by the front-matter assembly and is listed above with the source lines to fix. An undispositioned sized box means a page may be clipped with nobody having looked.
+1 of these is the **front-matter** box `cas-sc` emits at `\maketitle` (main.tex line 171, read from the source) out of the author block. Its size is invariant to shortening any single field and it is produced by the class's front-matter assembly rather than by a paragraph of ours; this build carries the real author metadata, so it is that build, and the box did not move: it is the same 117.08 pt under the authors' names, ORCIDs, e-mails, CRediT lists and affiliation as it was under the placeholders, which is the invariance the paragraph above predicts. The title page of both documents was rendered and inspected on this build and carries no overflow, clipping or collision, and its ink clears every physical page edge, so the box is dispositioned as producing no visible overflow rather than tolerated undispositioned.
 
 **Placeholder status, read from the source rather than described.** `paper/main.tex` carries **no** placeholder field on a live line: the author names, ORCIDs, e-mail addresses, CRediT role lists and the affiliation are the submission values. The affiliation fields set on live lines are `city`, `country`, `organization`. Fields present only inside comments: `organization`.
 
@@ -1153,7 +1150,7 @@ item 5 of `verify()` on the extracted tree, and standalone via
      (447/247,260/135 against a gate reporting 449/247,285/140) -->
 
 On the shipped build it reports: **0 absolute paths outside the declared
-exceptions, over 384 JSON members (130,229 string leaves parsed) and 226 text
+exceptions, over 384 JSON members (130,225 string leaves parsed) and 226 text
 members; 27 binary members out of scope, 34 portable shebangs excluded; 6
 declared exceptions holding 757 matching contexts, which contain 772 absolute-path occurrences.**
 

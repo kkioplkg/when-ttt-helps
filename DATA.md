@@ -6,12 +6,21 @@ is the wrong tool for them. They are **published as versioned release assets of
 this repository**, which is public, so they download with a plain `curl` and no
 account:
 
-> **[Release `v1.0.0`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.0)** — five assets, listed below with their exact
+> **[Release `v1.0.1`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.1)** — five assets, listed below with their exact
 > sizes and SHA-256s. The release notes carry the same digests, computed from
 > the uploaded files.
 
 This is a versioned publication, not an archival preservation service, and it
 carries **no DOI**; nothing here claims otherwise.
+
+> **Cite `v1.0.1`, not `v1.0.0`.** An earlier release `v1.0.0` exists and is
+> left in place as a historical record, but it must not be used: its
+> `release_archive.zip` asset was replaced in place while the surrounding
+> documentation was still being corrected, so that one version name briefly
+> denoted two different byte objects, and its tag snapshot predates the
+> corrected data-availability wording. `v1.0.1` is the release whose assets,
+> notes, tag snapshot and this file all describe the same bytes. Every digest
+> below is `v1.0.1`'s.
 
 ## What you can do without the large data
 
@@ -37,11 +46,11 @@ this repository: supplement Tables S4 and S7 regenerate from records that ship h
 
 ## The archives
 
-Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.0/<name>`. Download and check one
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.1/<name>`. Download and check one
 with:
 
 ```bash
-curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.0/closure_records.zip
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.1/closure_records.zip
 sha256sum closure_records.zip
 ```
 
@@ -94,9 +103,9 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,935,467 bytes (60.0 MiB) |
-| sha256 | `84789459a5b67e33e22360caf6300951a2b515fac95dc110ce34759608ab28c1` |
-| contents | 637 members, of which 9 are the root files the packager generates at build time (`GENERATED_MANIFEST.json` lists exactly those 9); 234,430,596 bytes uncompressed |
+| size | 62,938,515 bytes (60.0 MiB) |
+| sha256 | `d8386b2d71843846b907be07691a29d32749746536138a2c3ad603afca217467` |
+| contents | 637 members, of which 9 are the root files the packager generates at build time (`GENERATED_MANIFEST.json` lists exactly those 9); 234,437,995 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw
@@ -122,6 +131,20 @@ README's "Layout" note gives the full prefix map.
 Small companions to each of these — source gates, progress logs, per-seed
 training summaries, reference files — **are** in this repository, so the shape
 of each set is visible even without the payloads.
+
+## The pretrained language model
+
+This file is the data-asset census and does not repeat the model-provenance
+statement; it points at it. The GPT-2 weights are **not** redistributed here or
+in any asset. Two facts about them are kept apart — the *historical* runs
+recorded only the bare name `gpt2` and no revision hash, while the
+*reproduction* loader is pinned to `openai-community/gpt2` at revision
+`607a30d783dfa663caf39e06633721c8d4cfcd7e` with the weight digest recorded, and
+the pinned rerun reproduces the retained records. The full two-part statement,
+with the agreement figures that make the pin informative, is in
+[`README.md`](README.md), in [`COMMANDS.md`](COMMANDS.md) under "External
+inputs a complete regeneration needs", in [`INDEX.md`](INDEX.md), and in
+[`results/is_fresh/e3_vectors/PROVENANCE.md`](results/is_fresh/e3_vectors/PROVENANCE.md).
 
 ## Model checkpoints
 

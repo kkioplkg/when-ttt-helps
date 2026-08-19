@@ -494,7 +494,7 @@ python r9_reconcile.py                   # 405 CURATED headline claims
 #                                          it as "405 curated headline
 #                                          and repeated numerical claims",
 #                                          never as "every number".
-#                                          It also runs 100
+#                                          It also runs 104
 #                                          CONSTRUCTION checks (PASS 1b):
 #                                          assertions that the E4 brackets are
 #                                          still built by POOLING the five

@@ -1,10 +1,10 @@
 {
- "built_utc": "2026-08-19T10:19:51.461315+00:00",
+ "built_utc": "2026-08-19T11:44:12.493437+00:00",
  "counterpart": "MANIFEST.json",
  "files": {
   "AUDIT_MAP.json": {
-   "bytes": 1077335,
-   "sha256": "6b89a86b22f557dcafd1011e95ec36c0f37ebd6992851f03cdf4b7361d325221"
+   "bytes": 1077113,
+   "sha256": "e6ae29960b03a20ec715dc5e999ea970364af38b5c74e86da7025aad072a2604"
   },
   "BUILD_INTERPRETER.md": {
    "bytes": 2037,
@@ -12,15 +12,15 @@
   },
   "COMMANDS.md": {
    "bytes": 50613,
-   "sha256": "071b7633c2844d3bf97573658a7de638c2f7c82fded8de686bf9e27849afc470"
+   "sha256": "edf1adb7eb612b8618d9cbe59a5c40b40f04033e79a16680a6821e08e48d400c"
   },
   "INDEX.md": {
    "bytes": 49674,
-   "sha256": "d51e8f4930e4ddb1df87dec62703ab774e1eb59017fed351680596bdad82f5c2"
+   "sha256": "91118ff8eb7543ca58e465e900ce7a9c2cfd84179923d2fdb49d3ab441f99ab2"
   },
   "MANIFEST.json": {
    "bytes": 106967,
-   "sha256": "1f2f61638ec109cd078ade294b048312295e691328cc4bc675691fcdecf26959"
+   "sha256": "cda61a4c0e60d4f79a1cf5c4097f9418babe6d69be8e19227bfa3a0bca252030"
   },
   "SEEDS.md": {
    "bytes": 7522,
