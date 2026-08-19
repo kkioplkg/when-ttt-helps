@@ -297,13 +297,13 @@ block and the products disagree.
 |---|---|---|
 | pages | **39** | **55** |
 | `.pdf` size | 1,450,919 bytes | 971,414 bytes |
-| `.pdf` SHA-256 | `21aa250a253147d4e66dc61924dbf0674323cee7d6eb81b2dddf50717563b738` | `c460b78e5d043a7092108b5599034ff70e82ce1f9e8f62f61f47f42c16d99829` |
+| `.pdf` SHA-256 | `f1cbb8d6094a0d1c26dad18738a7a06acbf0c7a918bb9eaf4ac4ddc243cfde90` | `ea0d9c29040fab03164c05146b2b8c56f6cfe1a7f0f20986a4b1a62293462080` |
 | `.tex` SHA-256 | `fcd6a6e3069309078982a99d0df92864e36f2fe7206289e2b4330b0bed53e7a0` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,614 bytes / `6ce99ec52f58e661f7f8236e2ece6ffa01afa72bb56c90caadb8dd35699be086` | 27,275 bytes / `ea1b7c68cac5c712ef598197b619e00a32af87b1670df79a1af1d4e0d5187000` |
+| `.log` size / SHA-256 | 40,614 bytes / `c4769b6807534881871631a5a20939f5779c51ba74445d689c2b8718815491f4` | 27,275 bytes / `c672d4b644eb337983d339ab48cd37a945310ee84019271673c5a4cc7457cae7` |
 | final-page footer | `Page 39 of 39` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.

@@ -21,11 +21,15 @@ figure and table generators, **and the analysis records behind all of them** (`r
 below). What it deliberately does not contain is the manuscript and the bulk raw record sets:
 the per-instance CIFAR/GPT-2 traces, the closure `.jsonl.gz` records, the E3 replica payloads and
 the source checkpoints are published as **versioned release assets of this repository**
-([release `v1.0.1`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.1)), described
+([release `v1.0.2`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.2)), described
 file by file with sizes and SHA-256 in [`DATA.md`](DATA.md). The split is deliberate and the
-boundary is the useful one — **every number either document prints is bound to an analysis JSON
-that ships here**, so checking a number needs nothing downloaded; only re-deriving one from raw
-records does.
+boundary is the useful one — **every printed number has its analysis JSON here**, so checking a
+number needs nothing downloaded; only re-deriving one from raw records does. Stated exactly,
+because "bound" and "traceable" are not the same guarantee: `tools/r9_reconcile.py`
+machine-binds **405 curated claims** to their records and fails on a mismatch or an orphan;
+every other printed number has an analysis JSON it is recomputable from, but is not necessarily
+in that curated binding set. `r9_reconcile.py` says so of itself, and names examples it does not
+bind.
 
 > **Paper:** *When Does Single-Instance Test-Time Adaptation Help? An Exact Phase Law in a
 > Solvable Model* (under review). The citation will be finalized on publication.
@@ -74,7 +78,7 @@ manuscript is not in this repository; run them against the reproducibility archi
 documents for the same reason and likewise runs from the archive.
 
 **Level 3 — reconstruct from raw records.** Download the
-[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.1), verify each
+[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.2), verify each
 against the per-member manifests that ship inside `release_archive.zip`, and unpack them into the
 paths [`DATA.md`](DATA.md) names. That is enough to re-derive every analysis JSON from the
 per-instance records. Re-running the *original* CIFAR-10/100-C and GPT-2 experiments on top of
@@ -188,7 +192,7 @@ feature-shift dumps (`e5/`, 12 files, 10.2 MB), the E3 replica `.npz` payloads (
 `.jsonl.gz`, 128 MB). Two source checkpoints are held back as well, and are reproducible from
 `ttt/e2_cifar/train_source.py` with the seeds in `SEEDS.md`, and are release assets in their own
 right. Every one of these is inside the five assets of
-[release `v1.0.1`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.1); `DATA.md`
+[release `v1.0.2`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.2); `DATA.md`
 gives each asset's size and SHA-256. There is no DOI, and no archival-preservation claim is
 made.
 Small companions to each held-back set — source gates, progress logs, per-seed summaries,

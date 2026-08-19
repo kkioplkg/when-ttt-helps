@@ -6,27 +6,33 @@ is the wrong tool for them. They are **published as versioned release assets of
 this repository**, which is public, so they download with a plain `curl` and no
 account:
 
-> **[Release `v1.0.1`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.1)** — five assets, listed below with their exact
+> **[Release `v1.0.2`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.2)** — five assets, listed below with their exact
 > sizes and SHA-256s. The release notes carry the same digests, computed from
 > the uploaded files.
 
 This is a versioned publication, not an archival preservation service, and it
 carries **no DOI**; nothing here claims otherwise.
 
-> **Cite `v1.0.1`, not `v1.0.0`.** An earlier release `v1.0.0` exists and is
-> left in place as a historical record, but it must not be used: its
-> `release_archive.zip` asset was replaced in place while the surrounding
-> documentation was still being corrected, so that one version name briefly
-> denoted two different byte objects, and its tag snapshot predates the
-> corrected data-availability wording. `v1.0.1` is the release whose assets,
-> notes, tag snapshot and this file all describe the same bytes. Every digest
-> below is `v1.0.1`'s.
+> **Cite `v1.0.2`.** Two earlier releases are left in place as a historical
+> record and must not be used. `v1.0.0`'s `release_archive.zip` was replaced
+> in place more than once while the surrounding documentation was still being
+> corrected, so that version name never denoted one byte object, and its tag
+> snapshot predates the corrected data-availability wording — no digest for it
+> is published anywhere. `v1.0.1` was sound when cut and is superseded only
+> because a later correction wave rebuilt the archive. Each was superseded
+> rather than edited, because editing a published asset is the defect being
+> avoided. `v1.0.2` is the release whose assets, notes, tag snapshot and this
+> file all describe the same bytes. Every digest below is `v1.0.2`'s.
 
 ## What you can do without the large data
 
-Every number printed in the paper is bound to an analysis JSON **that is in
-this repository**. Re-deriving those JSONs from scratch needs the raw records;
-*checking* them does not. Concretely:
+Every number printed in the paper has its analysis JSON **in this
+repository**. Re-deriving those JSONs from scratch needs the raw records;
+*checking* them does not. One distinction is worth keeping:
+`tools/r9_reconcile.py` **machine-binds 405 curated claims** and fails on a
+mismatch or an orphan, while the remaining printed numbers are recomputable
+from their analysis JSON without being in that curated set — so "traceable"
+is the right word for those, not "bound". Concretely:
 
 | Task | Needs a release asset? |
 |---|---|
@@ -46,11 +52,11 @@ this repository: supplement Tables S4 and S7 regenerate from records that ship h
 
 ## The archives
 
-Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.1/<name>`. Download and check one
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.2/<name>`. Download and check one
 with:
 
 ```bash
-curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.1/closure_records.zip
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.2/closure_records.zip
 sha256sum closure_records.zip
 ```
 
@@ -91,7 +97,7 @@ Per-token adaptation vectors for the GPT-2 domain-shift replicas.
 |---|---|
 | size | 62,525,322 bytes (59.6 MiB) |
 | sha256 | `22783827059b250cc5e35f4694ddb649aa3b816c3aba97006c7e8ee44004751e` |
-| contents | 12 `.npz` vector payloads (`{code,legal,pubmed,wikitext}_ln_s{0,1,2}_vectors.npz`, ~1.6 MB each) and their 12 matching per-example `.json` (~1.38 MB each) |
+| contents | **13 members**: 12 full-replica `.npz` payloads (`{code,legal,pubmed,wikitext}_ln_s{0,1,2}_vectors_full.npz`, 72 arrays in all) and one `README.md`. This is the archive's own census, from `REPLICAS_MANIFEST.json`; the per-example `.json` records and the reduced `*_vectors.npz` arrays are **not** here — they ship inside `release_archive.zip` |
 | unpacks to | `results/is_fresh/e3_vectors/` |
 
 The manifests and provenance for this set **do** ship here:
@@ -103,9 +109,9 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,938,515 bytes (60.0 MiB) |
-| sha256 | `d8386b2d71843846b907be07691a29d32749746536138a2c3ad603afca217467` |
-| contents | 637 members, of which 9 are the root files the packager generates at build time (`GENERATED_MANIFEST.json` lists exactly those 9); 234,437,995 bytes uncompressed |
+| size | 62,939,164 bytes (60.0 MiB) |
+| sha256 | `1effd18f52399a385a50f330ca7c4f2e53051520567892ce1bfcc846fae8c63b` |
+| contents | 637 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 234,439,210 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw

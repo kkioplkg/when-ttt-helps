@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-08-19T11:44:12.493437+00:00",
+ "built_utc": "2026-08-19T12:59:28.930266+00:00",
  "files": {
   "experiments/results/e2/cifar100_tent_batch_sweep_s0.json": {
    "bytes": 4445566,
@@ -210,8 +210,8 @@
    "sha256": "123e91ae73979a83d4243912803d1651893f8f9f0fe65e195af5b38e35079e66"
   },
   "experiments/results/is_fresh/closure/CLOSURE_RECORDS_MANIFEST.json": {
-   "bytes": 22735,
-   "sha256": "5be188a6cd4ca5559417b86c239207c64b88b95955b2d58a600c80cf55eb107b"
+   "bytes": 22893,
+   "sha256": "1f476b2bad2914417ba3a14deaad8f88afc737ad8fcabde4d6d76f5f9a329847"
   },
   "experiments/results/is_fresh/closure/DESIGN.md": {
    "bytes": 29494,
@@ -690,8 +690,8 @@
    "sha256": "40634c5c050df42b90b678740e298f44a6ff8f79ff45618a454e9cb115f3a5bf"
   },
   "experiments/results/is_fresh/e3_vectors/REPLICAS_MANIFEST.json": {
-   "bytes": 19894,
-   "sha256": "b74d65605a1c30ba1cf76ae29e02035fc850e75dc0caeeb73d34d6cf036e8a50"
+   "bytes": 20052,
+   "sha256": "21d60196f0c262339d055a0a6f01c470c87c4c9e9e730f319b1f9d2904fc3080"
   },
   "experiments/results/is_fresh/e3_vectors/VERIFY_SUMMARY.md": {
    "bytes": 6803,
@@ -2054,12 +2054,12 @@
    "sha256": "9e752ea9cb8deb72fa1729378296159c28cfaca47d9379e57b7679995f14a58e"
   },
   "experiments/ttt/is_fresh/f40_e3_replicas_manifest.py": {
-   "bytes": 6880,
-   "sha256": "e0b55d2660e66e3d1cd5bc7bb090e0ffcefeb9751b5404b8a91123ee125222e2"
+   "bytes": 7059,
+   "sha256": "5202cd2babd86626ee4fd542e51c0c9ba7dea3774637fef95dfc62d92d637ab1"
   },
   "experiments/ttt/is_fresh/f41_closure_records_manifest.py": {
-   "bytes": 12039,
-   "sha256": "f5fa3630ec57500515c7d0ef6562755d1b0691a19f1b31c6a62658359c9ce9ad"
+   "bytes": 12242,
+   "sha256": "9834230cf33b0de013da1a0822657f5235ae7d2df38ff069b94d78b21086574d"
   },
   "experiments/ttt/is_fresh/f4_alta_measured_oracle.py": {
    "bytes": 8560,
@@ -2078,8 +2078,8 @@
    "sha256": "cb48b762bc2232a45d990e3de623d95452cdaef01901e6788fd62ca6b8c407eb"
   },
   "experiments/ttt/is_fresh/f8_e2_crossfit.py": {
-   "bytes": 21062,
-   "sha256": "3ed90e771b93e0af292ae57da90230484fa1e3674bb37d4c119de0da1ca2f8b3"
+   "bytes": 21579,
+   "sha256": "d160c6dc2e6ab0eec3e9a199d037d6be8b31adc0e745a180ad00b63d81a23e2c"
   },
   "experiments/ttt/is_fresh/f8b_e2_crossfit_det.py": {
    "bytes": 6719,
@@ -2223,7 +2223,7 @@
   },
   "paper/is2/paper/BUILD_ENVIRONMENT.md": {
    "bytes": 74460,
-   "sha256": "f8d41b3d5171eaab8f2ee406b8fed32ecaac9143ab253c5b712fc1436742e1de"
+   "sha256": "172a0cd15534bd19906222b8223c12b9849a49840a919a6fe6f7af670d2a21ce"
   },
   "paper/is2/paper/Highlights.txt": {
    "bytes": 407,
@@ -2291,11 +2291,11 @@
   },
   "paper/is2/paper/main.log": {
    "bytes": 40614,
-   "sha256": "6ce99ec52f58e661f7f8236e2ece6ffa01afa72bb56c90caadb8dd35699be086"
+   "sha256": "c4769b6807534881871631a5a20939f5779c51ba74445d689c2b8718815491f4"
   },
   "paper/is2/paper/main.pdf": {
    "bytes": 1450919,
-   "sha256": "21aa250a253147d4e66dc61924dbf0674323cee7d6eb81b2dddf50717563b738"
+   "sha256": "f1cbb8d6094a0d1c26dad18738a7a06acbf0c7a918bb9eaf4ac4ddc243cfde90"
   },
   "paper/is2/paper/main.tex": {
    "bytes": 11547,
@@ -2427,11 +2427,11 @@
   },
   "paper/is2/supplement/supplement.log": {
    "bytes": 27275,
-   "sha256": "ea1b7c68cac5c712ef598197b619e00a32af87b1670df79a1af1d4e0d5187000"
+   "sha256": "c672d4b644eb337983d339ab48cd37a945310ee84019271673c5a4cc7457cae7"
   },
   "paper/is2/supplement/supplement.pdf": {
    "bytes": 971414,
-   "sha256": "c460b78e5d043a7092108b5599034ff70e82ce1f9e8f62f61f47f42c16d99829"
+   "sha256": "ea0d9c29040fab03164c05146b2b8c56f6cfe1a7f0f20986a4b1a62293462080"
   },
   "paper/is2/supplement/supplement.tex": {
    "bytes": 24873,
@@ -2463,7 +2463,7 @@
   },
   "paper/is2/tools/make_release_zip.py": {
    "bytes": 266496,
-   "sha256": "692e2eca0a06228b2b7984efe7460a30be08efcc8b2beb7570d8c9029c68efc1"
+   "sha256": "d53fc3a0f5bf5cf3a9b5e76123c016c838092a6f16eb6b4505674f2d46f45e23"
   },
   "paper/is2/tools/r9_reconcile.py": {
    "bytes": 184101,
@@ -2512,5 +2512,5 @@
  },
  "n_files": 627,
  "repo_relative_paths": true,
- "total_bytes_uncompressed": 233084742
+ "total_bytes_uncompressed": 233085957
 }
