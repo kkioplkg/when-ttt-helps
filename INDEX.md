@@ -233,7 +233,7 @@ release asset of the code repository and is not attached to review
 correspondence**: at 62.5 MB it would put the
 attached pair over the correspondence size limit.  It downloads without an
 account from
-`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.2/e3_vectors_replicas.zip`.
+`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.3/e3_vectors_replicas.zip`.
 Naming it and printing a single whole-archive digest is not enough for a
 reader to check anything, so this archive also ships that archive's own
 per-member manifest:

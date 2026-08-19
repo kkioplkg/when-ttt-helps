@@ -6,23 +6,26 @@ is the wrong tool for them. They are **published as versioned release assets of
 this repository**, which is public, so they download with a plain `curl` and no
 account:
 
-> **[Release `v1.0.2`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.2)** — five assets, listed below with their exact
+> **[Release `v1.0.3`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.3)** — five assets, listed below with their exact
 > sizes and SHA-256s. The release notes carry the same digests, computed from
 > the uploaded files.
 
 This is a versioned publication, not an archival preservation service, and it
 carries **no DOI**; nothing here claims otherwise.
 
-> **Cite `v1.0.2`.** Two earlier releases are left in place as a historical
+> **Cite `v1.0.3`.** Three earlier releases are left in place as a historical
 > record and must not be used. `v1.0.0`'s `release_archive.zip` was replaced
 > in place more than once while the surrounding documentation was still being
 > corrected, so that version name never denoted one byte object, and its tag
 > snapshot predates the corrected data-availability wording — no digest for it
-> is published anywhere. `v1.0.1` was sound when cut and is superseded only
-> because a later correction wave rebuilt the archive. Each was superseded
-> rather than edited, because editing a published asset is the defect being
-> avoided. `v1.0.2` is the release whose assets, notes, tag snapshot and this
-> file all describe the same bytes. Every digest below is `v1.0.2`'s.
+> is published anywhere. `v1.0.1` and `v1.0.2` were each sound in their assets
+> and are superseded only because a later correction wave moved something:
+> `v1.0.1` because the archive was rebuilt, `v1.0.2` because two published
+> side manifests in its tag snapshot still carried superseded availability
+> text. Every one was superseded rather than edited, because editing a
+> published release is the defect being avoided. `v1.0.3` is the release whose
+> assets, notes, tag snapshot and this file all describe the same bytes. Every
+> digest below is `v1.0.3`'s.
 
 ## What you can do without the large data
 
@@ -52,11 +55,11 @@ this repository: supplement Tables S4 and S7 regenerate from records that ship h
 
 ## The archives
 
-Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.2/<name>`. Download and check one
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.3/<name>`. Download and check one
 with:
 
 ```bash
-curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.2/closure_records.zip
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.3/closure_records.zip
 sha256sum closure_records.zip
 ```
 
@@ -109,8 +112,8 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,939,164 bytes (60.0 MiB) |
-| sha256 | `1effd18f52399a385a50f330ca7c4f2e53051520567892ce1bfcc846fae8c63b` |
+| size | 62,939,165 bytes (60.0 MiB) |
+| sha256 | `5b1b3144474a73176984633522efd62341e8491b53235f655047903ce0049501` |
 | contents | 637 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 234,439,210 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational

@@ -2463,7 +2463,7 @@
   },
   "paper/is2/tools/make_release_zip.py": {
    "bytes": 266496,
-   "sha256": "d53fc3a0f5bf5cf3a9b5e76123c016c838092a6f16eb6b4505674f2d46f45e23"
+   "sha256": "233a60950d49c9f7bfe3145bf4255c449f37677143d9d523daf281c1f878e50b"
   },
   "paper/is2/tools/r9_reconcile.py": {
    "bytes": 184101,
