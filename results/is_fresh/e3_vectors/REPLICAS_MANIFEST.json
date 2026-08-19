@@ -1,6 +1,6 @@
 {
  "archive": "e3_vectors_replicas.zip",
- "availability": "e3_vectors_replicas.zip is an author-side deposit held alongside the DOI release. It is NOT attached to review correspondence: at ~62 MB it would put the attached pair over the correspondence size limit. This file is the manifest of its contents and ships INSIDE the attached release, so a reader who obtains the side archive can verify it member by member and array by array without trusting a single whole-archive digest.",
+ "availability": "e3_vectors_replicas.zip is published as a versioned release asset of the public code repository and downloads without an account from https://github.com/kkioplkg/when-ttt-helps/releases . There is no DOI and no archival-preservation claim. It is NOT attached to review correspondence: at ~62 MB it would put the attached pair over the correspondence size limit. This file is the manifest of its contents and ships INSIDE the attached release, so a reader who obtains the side archive can verify it member by member and array by array without trusting a single whole-archive digest.",
  "purpose": "The side archive is required to REGENERATE the released summary arrays from the replicas (pi_bar as the replica mean, s as the replica dispersion). It is NOT required to rerun the selector, which f39_e3_vector_selfcheck.py does from the released arrays alone, and it is not required to reproduce any number printed in either document.",
  "archive_bytes": 62525322,
  "archive_sha256": "22783827059b250cc5e35f4694ddb649aa3b816c3aba97006c7e8ee44004751e",
