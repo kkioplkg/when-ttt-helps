@@ -6,14 +6,14 @@ is the wrong tool for them. They are **published as versioned release assets of
 this repository**, which is public, so they download with a plain `curl` and no
 account:
 
-> **[Release `v1.0.4`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.4)** — five assets, listed below with their exact
+> **[Release `v1.0.5`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.5)** — five assets, listed below with their exact
 > sizes and SHA-256s. The release notes carry the same digests, computed from
 > the uploaded files.
 
 This is a versioned publication, not an archival preservation service, and it
 carries **no DOI**; nothing here claims otherwise.
 
-> **Cite `v1.0.4`.** Four earlier releases are left in place as a historical
+> **Cite `v1.0.5`.** Five earlier releases are left in place as a historical
 > record and must not be used. `v1.0.0`'s `release_archive.zip` was replaced
 > in place more than once while the surrounding documentation was still being
 > corrected, so that version name never denoted one byte object, and its tag
@@ -23,14 +23,17 @@ carries **no DOI**; nothing here claims otherwise.
 > `v1.0.1` because the archive was rebuilt, `v1.0.2` because two published
 > side manifests in its tag snapshot still carried superseded availability
 > text; `v1.0.3` because its release note still described
-> `e3_vectors_replicas.zip` by the wrong census. Every one was superseded
+> `e3_vectors_replicas.zip` by the wrong census; `v1.0.4` because two
+> generated documents still carried a superseded one-line description of what
+> the historical runs recorded, and because the reconciler's own
+> cross-environment claim count was one too high. Every one was superseded
 > rather than edited, because editing a published release is the defect being
 > avoided — with one narrow exception, stated so it is not mistaken for
 > silence: **release *notes* are corrigible metadata and are corrected in
 > place when they state something false**, with the correction disclosed on
-> the release itself. Assets and tags are never touched. `v1.0.4` is the release whose
+> the release itself. Assets and tags are never touched. `v1.0.5` is the release whose
 > assets, notes, tag snapshot and this file all describe the same bytes. Every
-> digest below is `v1.0.4`'s.
+> digest below is `v1.0.5`'s.
 
 ## What you can do without the large data
 
@@ -60,11 +63,11 @@ this repository: supplement Tables S4 and S7 regenerate from records that ship h
 
 ## The archives
 
-Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.4/<name>`. Download and check one
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.5/<name>`. Download and check one
 with:
 
 ```bash
-curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.4/closure_records.zip
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.5/closure_records.zip
 sha256sum closure_records.zip
 ```
 
@@ -117,9 +120,9 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,940,173 bytes (60.0 MiB) |
-| sha256 | `9b94457d565224d9c8823036e0531e36e6279447f7f0b21fff9dc973ab76612d` |
-| contents | 637 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 234,441,680 bytes uncompressed |
+| size | 62,940,681 bytes (60.0 MiB) |
+| sha256 | `1901d648e873fafcd97664823ee515a3d39ca176701b90da1fba9df39acb3059` |
+| contents | 637 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 234,443,356 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw
@@ -151,7 +154,8 @@ of each set is visible even without the payloads.
 This file is the data-asset census and does not repeat the model-provenance
 statement; it points at it. The GPT-2 weights are **not** redistributed here or
 in any asset. Two facts about them are kept apart — the *historical* runs
-recorded only the bare name `gpt2` and no revision hash, while the
+recorded **no model field at all** in their retained per-document JSON, the
+bare name `gpt2` coming from the shipped runner source, while the
 *reproduction* loader is pinned to `openai-community/gpt2` at revision
 `607a30d783dfa663caf39e06633721c8d4cfcd7e` with the weight digest recorded, and
 the pinned rerun reproduces the retained records. The full two-part statement,

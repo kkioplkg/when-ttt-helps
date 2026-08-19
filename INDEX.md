@@ -1,6 +1,6 @@
 # Auditability archive -- index
 
-Built 2026-08-19 15:08 UTC for the
+Built 2026-08-19 17:08 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
 Adaptation Help?  An Exact Phase Law in a Solvable Model".
 It exists so that the submission is independently auditable rather than
@@ -120,7 +120,7 @@ row is checkable against.  `COMMANDS.md` prints the same table.
 | dataset (torchvision download) | `CIFAR10` | `experiments/ttt/e2_cifar/data.py` | third-party dataset fetched by the runner at first use |
 | dataset (torchvision download) | `CIFAR100` | `experiments/ttt/e2_cifar/data.py` | third-party dataset fetched by the runner at first use |
 | distribution absent from the build interpreter | `datasets` | `experiments/ttt/e4_gpt2/prepare_data.py` | needed only by the original data-preparation scripts, which ran on separate machines; left unpinned rather than pinned to a version this build never saw |
-| pretrained weights and tokenizer | `gpt2` | `experiments/ttt/e4_gpt2/delta_proxy_v2.py, experiments/ttt/e4_gpt2/prepare_data.py (+more)` | third-party model weights and tokenizer resolved from the hub by name at run time; the ORIGINAL runs recorded the NAME and no revision hash, so a bare re-fetch is not guaranteed to obtain the same weights.  The REPRODUCTION loader is pinned to revision 607a30d783dfa663caf39e06633721c8d4cfcd7e and the weight digest, and the pinned rerun reproduces the retained records -- see the two-part statement below the table |
+| pretrained weights and tokenizer | `gpt2` | `experiments/ttt/e4_gpt2/delta_proxy_v2.py, experiments/ttt/e4_gpt2/prepare_data.py (+more)` | third-party model weights and tokenizer resolved from the hub by name at run time; the ORIGINAL runs recorded NEITHER the name nor a revision -- the retained per-document JSON has no model field at all, and the bare name comes from the shipped runner source -- so a re-fetch is not guaranteed to obtain the same weights.  The REPRODUCTION loader is pinned to revision 607a30d783dfa663caf39e06633721c8d4cfcd7e and the weight digest, and the pinned rerun reproduces the retained records -- see the two-part statement below the table |
 | source checkpoints (*.pt) | `written by the shipped training scripts` | `experiments/ttt/e2_cifar/train_recon_head.py, experiments/ttt/e2_cifar/train_source.py` | excluded by size; regenerable with the shipped training scripts given the datasets above, but not bit-identically |
 
 Two facts about the pretrained model are distinct and are stated apart.  The
@@ -235,7 +235,7 @@ release asset of the code repository and is not attached to review
 correspondence**: at 62.5 MB it would put the
 attached pair over the correspondence size limit.  It downloads without an
 account from
-`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.4/e3_vectors_replicas.zip`.
+`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.5/e3_vectors_replicas.zip`.
 Naming it and printing a single whole-archive digest is not enough for a
 reader to check anything, so this archive also ships that archive's own
 per-member manifest:

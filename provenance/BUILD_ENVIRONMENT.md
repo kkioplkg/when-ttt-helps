@@ -297,13 +297,13 @@ block and the products disagree.
 |---|---|---|
 | pages | **39** | **55** |
 | `.pdf` size | 1,451,130 bytes | 971,745 bytes |
-| `.pdf` SHA-256 | `36369c9d61985bf1a97f0fb236775bd2e76d2fca523a8a97d0154387e2c9f1ae` | `a203de389b191b6d0f4a9319ef35973fbe5314447524c1a5bab00557cc74e9d6` |
-| `.tex` SHA-256 | `fcd6a6e3069309078982a99d0df92864e36f2fe7206289e2b4330b0bed53e7a0` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
+| `.pdf` SHA-256 | `3609e2f16ecc9543ac431c7f2b966cab2d93e40d2e3ad8d82ecf8e15b1b5c692` | `3a02e70ce3bb8034d0ea37076479c976789078abe06840563fdbfb2fd633b7da` |
+| `.tex` SHA-256 | `970c22d576796a56442dbb31fa00928c0cb3d941d4c3dee6d312a4858a6d9352` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,614 bytes / `e2ee968a0fcc06c930b3244b5946f005cfe04c0483f24a731439b2a63aea9840` | 27,275 bytes / `6ec55078d94f928c03d9e10040ab2242cce0b1a0c0b44483e229c52d173b73e5` |
+| `.log` size / SHA-256 | 40,614 bytes / `cb81fd6c1e65f22bd1ac7f5df60cc353a7ab97d4108fae9bd8f7c234f24cd1e3` | 27,275 bytes / `7de4afc756c97c087c2416c3815d53ab86b46cca34bed3cef78ecfe8eb6a53cd` |
 | final-page footer | `Page 39 of 39` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.
@@ -392,9 +392,9 @@ carry no risk of clipping and are not tracked individually.
 
 | document | box | size | located at |
 |---|---|---|---|
-| article | `Overfull \hbox` | 117.08 pt | detected at line 171 |
+| article | `Overfull \hbox` | 117.08 pt | detected at line 172 |
 
-1 of these is the **front-matter** box `cas-sc` emits at `\maketitle` (main.tex line 171, read from the source) out of the author block. Its size is invariant to shortening any single field and it is produced by the class's front-matter assembly rather than by a paragraph of ours; this build carries the real author metadata, so it is that build, and the box did not move: it is the same 117.08 pt under the authors' names, ORCIDs, e-mails, CRediT lists and affiliation as it was under the placeholders, which is the invariance the paragraph above predicts. The title page of both documents was rendered and inspected on this build and carries no overflow, clipping or collision, and its ink clears every physical page edge, so the box is dispositioned as producing no visible overflow rather than tolerated undispositioned.
+1 of these is the **front-matter** box `cas-sc` emits at `\maketitle` (main.tex line 172, read from the source) out of the author block. Its size is invariant to shortening any single field and it is produced by the class's front-matter assembly rather than by a paragraph of ours; this build carries the real author metadata, so it is that build, and the box did not move: it is the same 117.08 pt under the authors' names, ORCIDs, e-mails, CRediT lists and affiliation as it was under the placeholders, which is the invariance the paragraph above predicts. The title page of both documents was rendered and inspected on this build and carries no overflow, clipping or collision, and its ink clears every physical page edge, so the box is dispositioned as producing no visible overflow rather than tolerated undispositioned.
 
 **Placeholder status, read from the source rather than described.** `paper/main.tex` carries **no** placeholder field on a live line: the author names, ORCIDs, e-mail addresses, CRediT role lists and the affiliation are the submission values. The affiliation fields set on live lines are `city`, `country`, `organization`. Fields present only inside comments: `organization`.
 

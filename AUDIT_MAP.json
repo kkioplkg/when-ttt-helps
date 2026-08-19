@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-08-19T15:08:08.051210+00:00",
+ "built_utc": "2026-08-19T17:08:49.977634+00:00",
  "claims": [
   {
    "command_cwd": "experiments/ttt/is_fresh",
@@ -825,17 +825,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 78
+     "line": 75
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 103
+     "line": 100
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 110
+     "line": 107
     },
     {
      "document": "main",
@@ -3824,12 +3824,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 102
+     "line": 99
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 107
+     "line": 104
     },
     {
      "document": "main",
@@ -3947,12 +3947,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 102
+     "line": 99
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 107
+     "line": 104
     },
     {
      "document": "main",
@@ -6329,12 +6329,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 102
+     "line": 99
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 107
+     "line": 104
     },
     {
      "document": "main",
@@ -6452,12 +6452,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 102
+     "line": 99
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 107
+     "line": 104
     },
     {
      "document": "main",
@@ -7652,17 +7652,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 37
+     "line": 34
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 79
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 108
+     "line": 105
     },
     {
      "document": "main",
@@ -8328,12 +8328,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 78
+     "line": 75
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 110
+     "line": 107
     },
     {
      "document": "main",
@@ -8541,7 +8541,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 78
+     "line": 75
     },
     {
      "document": "main",
@@ -8760,7 +8760,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 78
+     "line": 75
     },
     {
      "document": "main",
@@ -10841,7 +10841,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 79
     },
     {
      "document": "supplement",
@@ -14305,12 +14305,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 79
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 104
+     "line": 101
     },
     {
      "document": "main",
@@ -20424,12 +20424,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 79
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 104
+     "line": 101
     },
     {
      "document": "main",
@@ -26578,32 +26578,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 47
+     "line": 44
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 62
+     "line": 59
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 73
+     "line": 70
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 77
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 100
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
      "line": 103
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 106
     },
     {
      "document": "main",
@@ -35019,7 +35019,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 64
+     "line": 61
     },
     {
      "document": "main",
@@ -35094,7 +35094,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 64
+     "line": 61
     },
     {
      "document": "main",
@@ -35252,7 +35252,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 79
     },
     {
      "document": "supplement",
@@ -35300,12 +35300,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 78
+     "line": 75
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 110
+     "line": 107
     },
     {
      "document": "main",
@@ -35513,17 +35513,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 78
+     "line": 75
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 103
+     "line": 100
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 110
+     "line": 107
     },
     {
      "document": "main",
