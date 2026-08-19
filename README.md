@@ -21,7 +21,7 @@ figure and table generators, **and the analysis records behind all of them** (`r
 below). What it deliberately does not contain is the manuscript and the bulk raw record sets:
 the per-instance CIFAR/GPT-2 traces, the closure `.jsonl.gz` records, the E3 replica payloads and
 the source checkpoints are published as **versioned release assets of this repository**
-([release `v1.0.3`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.3)), described
+([release `v1.0.4`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.4)), described
 file by file with sizes and SHA-256 in [`DATA.md`](DATA.md). The split is deliberate and the
 boundary is the useful one — **every printed number has its analysis JSON here**, so checking a
 number needs nothing downloaded; only re-deriving one from raw records does. Stated exactly,
@@ -78,7 +78,7 @@ manuscript is not in this repository; run them against the reproducibility archi
 documents for the same reason and likewise runs from the archive.
 
 **Level 3 — reconstruct from raw records.** Download the
-[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.3), verify each
+[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.4), verify each
 against the per-member manifests that ship inside `release_archive.zip`, and unpack them into the
 paths [`DATA.md`](DATA.md) names. That is enough to re-derive every analysis JSON from the
 per-instance records. Re-running the *original* CIFAR-10/100-C and GPT-2 experiments on top of
@@ -192,7 +192,7 @@ feature-shift dumps (`e5/`, 12 files, 10.2 MB), the E3 replica `.npz` payloads (
 `.jsonl.gz`, 128 MB). Two source checkpoints are held back as well, and are reproducible from
 `ttt/e2_cifar/train_source.py` with the seeds in `SEEDS.md`, and are release assets in their own
 right. Every one of these is inside the five assets of
-[release `v1.0.3`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.3); `DATA.md`
+[release `v1.0.4`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.4); `DATA.md`
 gives each asset's size and SHA-256. There is no DOI, and no archival-preservation claim is
 made.
 Small companions to each held-back set — source gates, progress logs, per-seed summaries,
@@ -305,9 +305,11 @@ that names it, and why it is absent; two consequences are stated there rather th
 inferred.
 
 The first concerns the pretrained language model, and it is **two facts, not one**. The
-*historical* experiment recorded only the model **identifier**: the published E3/E4 runs loaded
-the bare name `gpt2` and logged no revision hash, so those records name a model without fixing
-its weights. The *reproduction* loader is **pinned** — repository `openai-community/gpt2`,
+*historical* experiment left no record of the model at all: the retained per-document JSON has
+**no model field** — each `meta` carries the invocation, the timestamp and the torch and CUDA
+versions, and nothing else — so those records neither fix the weights nor name them. What
+identifies the model is the shipped runner source, which loads the bare name `gpt2`
+(`ttt/e4_gpt2/run_e4.py`). The *reproduction* loader is **pinned** — repository `openai-community/gpt2`,
 revision `607a30d783dfa663caf39e06633721c8d4cfcd7e`, `model.safetensors` 548,105,171 bytes,
 sha256 `248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707` — and the pin is not
 left as an assertion across that gap: the pinned rerun **reproduces the retained records of the

@@ -1,6 +1,14 @@
 # Exact commands, in dependency order
 
-All paths are relative to the extracted archive root.
+> **You are reading the repository copy.** This file originates in the
+> reproducibility archive, where every path below resolves exactly as written.
+> Here it is re-laid-out for the Git tree: five directory prefixes differ (the
+> README's "Layout" note gives the map), the manuscript sources are **not** in
+> this repository, and two things below therefore do not apply — the "Building
+> the two documents" section, and any step that *re-derives* an analysis JSON
+> from raw per-instance records, since those records are release assets rather
+> than Git-tree files. Everything that *checks* a printed number runs from a
+> clean clone. For the archive copy, open `release_archive.zip`.
 
 ## What this archive audits
 
@@ -174,10 +182,13 @@ Two consequences are worth stating rather than leaving to be inferred.
 loader is pinned, and the pin is verified against those runs.**  These are
 two different facts and neither may be written as the other.
 
-* *Historical experiment -- identifier only.*  The published E3/E4 runs
-  loaded the bare name `gpt2` and logged **no revision hash**.  Those records
-  therefore name a model without fixing its weights, and a bare re-fetch
-  obtains whatever that name resolves to at the time it is run.
+* *Historical experiment -- the records do not identify the model at all.*
+  The retained per-document JSON carries **no model field**: each `meta` holds
+  the invocation, the timestamp and the torch and CUDA versions, and nothing
+  about the model.  What identifies it is the shipped runner SOURCE, which
+  loads the bare name `gpt2` (`ttt/e4_gpt2/run_e4.py`).  So the
+  records neither fix the weights nor name them, and a bare re-fetch obtains
+  whatever that name resolves to at the time it is run.
 * *Reproduction loader -- pinned.*  The vector rerun and every loader after
   it pin repository `openai-community/gpt2`, revision
   `607a30d783dfa663caf39e06633721c8d4cfcd7e`, `model.safetensors`
@@ -494,7 +505,7 @@ python r9_reconcile.py                   # 405 CURATED headline claims
 #                                          it as "405 curated headline
 #                                          and repeated numerical claims",
 #                                          never as "every number".
-#                                          It also runs 104
+#                                          It also runs 105
 #                                          CONSTRUCTION checks (PASS 1b):
 #                                          assertions that the E4 brackets are
 #                                          still built by POOLING the five

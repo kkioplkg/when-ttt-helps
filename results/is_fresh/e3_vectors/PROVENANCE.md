@@ -60,9 +60,12 @@ and re-verified against the downloaded file on both machines, so the pin is
 checkable without trusting either download.
 
 **Two facts, stated apart, and the second is what makes the first useful.**
-The *historical* experiment recorded only the model **identifier**: the
-published E3/E4 runs loaded the bare name `gpt2` and logged no revision hash,
-so those records name a model without fixing its weights. The pin above
+The *historical* experiment left **no record of the model at all**: the
+retained per-document JSON carries no model field — each `meta` holds the
+invocation, the timestamp and the torch and CUDA versions. The model is
+identified by the shipped runner source, which loads the bare name `gpt2`
+(`experiments/ttt/e4_gpt2/run_e4.py`), so those records neither fix the
+weights nor name them. The pin above
 belongs to the *reproduction* loader. It is not left as an assertion across
 that gap: §4 check A shows the pinned rerun reproducing the retained records'
 frozen (`t=0`) continuation cross-entropy to **6.2e-06** on all twelve

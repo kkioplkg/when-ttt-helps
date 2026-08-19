@@ -1,6 +1,6 @@
 # Auditability archive -- index
 
-Built 2026-08-19 12:59 UTC for the
+Built 2026-08-19 15:08 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
 Adaptation Help?  An Exact Phase Law in a Solvable Model".
 It exists so that the submission is independently auditable rather than
@@ -124,8 +124,10 @@ row is checkable against.  `COMMANDS.md` prints the same table.
 | source checkpoints (*.pt) | `written by the shipped training scripts` | `experiments/ttt/e2_cifar/train_recon_head.py, experiments/ttt/e2_cifar/train_source.py` | excluded by size; regenerable with the shipped training scripts given the datasets above, but not bit-identically |
 
 Two facts about the pretrained model are distinct and are stated apart.  The
-ORIGINAL runs recorded only the model **identifier**: they loaded the bare
-name `gpt2` and logged no revision hash, so a bare re-fetch obtains whatever
+ORIGINAL runs left **no record of the model at all**: the retained
+per-document JSON has no model field, only the invocation, the timestamp and
+the torch and CUDA versions.  The model is identified by the shipped runner
+source, which loads the bare name `gpt2`, and a bare re-fetch obtains whatever
 that name resolves to when it is run.  The REPRODUCTION loader is **pinned**
 -- repository `openai-community/gpt2`, revision
 `607a30d783dfa663caf39e06633721c8d4cfcd7e`, `model.safetensors` sha256
@@ -233,7 +235,7 @@ release asset of the code repository and is not attached to review
 correspondence**: at 62.5 MB it would put the
 attached pair over the correspondence size limit.  It downloads without an
 account from
-`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.3/e3_vectors_replicas.zip`.
+`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.4/e3_vectors_replicas.zip`.
 Naming it and printing a single whole-archive digest is not enough for a
 reader to check anything, so this archive also ships that archive's own
 per-member manifest:
@@ -316,7 +318,7 @@ reading "verified" anywhere in this archive.
   **This is a statement about rerunning the analyses, not a certificate that
   every printed number is machine-verified.**  The reconciliation
   (`r9_reconcile.py`) binds **405 curated headline and repeated
-  numerical claims** to records of record, with 104 further
+  numerical claims** to records of record, with 105 further
   construction checks; that curated list is not exhaustive and says so, in
   its own docstring and in `FRESH_RESULTS.md`.  Quantities it does not bind
   --- among them the E2 leave-one-corruption-out fold intervals and some E2
@@ -450,7 +452,7 @@ or if a declared exception has become clean and the exemption is therefore
 wider than the facts.
 
 Coverage of this build's run, over all **637** entries:
-**384 JSON members** (130225
+**384 JSON members** (130231
 string leaves **parsed**, not regex-matched); **226 text members**
 scanned line by line; 27 binary members out of scope and listed as
 such; 34 portable `env`-style shebangs excluded by construction
@@ -609,7 +611,7 @@ what it does and does not cover.
 | E2 leave-one-corruption-out sensitivity | `f20_e2gn_loco_sensitivity.py` | `f20_e2gn_loco_sensitivity.json` |
 | E2 entropy sign-separation coverage and excluded group | `f21_e2_coverage.py` | `f21_e2_coverage.json` |
 | E2 identity-level overlap of the cross-fit split | `f27_e2_identity.py` | `f27_e2_identity.json` |
-| every curated number in BOTH documents | `paper/is2/tools/r9_reconcile.py` | exit status; 405 claims, 104 construction checks |
+| every curated number in BOTH documents | `paper/is2/tools/r9_reconcile.py` | exit status; 405 claims, 105 construction checks |
 | dependency-provenance evidence and resolver transcripts | none (captured once, on the build machine) | `experiments/ttt/is_fresh/RESOLVER_TRANSCRIPT.md` |
 
 ## Which defect each fresh artefact answers

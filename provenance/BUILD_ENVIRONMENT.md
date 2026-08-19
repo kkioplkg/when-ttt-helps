@@ -296,14 +296,14 @@ block and the products disagree.
 | property | `paper/main.pdf` (article) | `supplement/supplement.pdf` |
 |---|---|---|
 | pages | **39** | **55** |
-| `.pdf` size | 1,450,919 bytes | 971,414 bytes |
-| `.pdf` SHA-256 | `f1cbb8d6094a0d1c26dad18738a7a06acbf0c7a918bb9eaf4ac4ddc243cfde90` | `ea0d9c29040fab03164c05146b2b8c56f6cfe1a7f0f20986a4b1a62293462080` |
+| `.pdf` size | 1,451,130 bytes | 971,745 bytes |
+| `.pdf` SHA-256 | `36369c9d61985bf1a97f0fb236775bd2e76d2fca523a8a97d0154387e2c9f1ae` | `a203de389b191b6d0f4a9319ef35973fbe5314447524c1a5bab00557cc74e9d6` |
 | `.tex` SHA-256 | `fcd6a6e3069309078982a99d0df92864e36f2fe7206289e2b4330b0bed53e7a0` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,614 bytes / `c4769b6807534881871631a5a20939f5779c51ba74445d689c2b8718815491f4` | 27,275 bytes / `c672d4b644eb337983d339ab48cd37a945310ee84019271673c5a4cc7457cae7` |
+| `.log` size / SHA-256 | 40,614 bytes / `e2ee968a0fcc06c930b3244b5946f005cfe04c0483f24a731439b2a63aea9840` | 27,275 bytes / `6ec55078d94f928c03d9e10040ab2242cce0b1a0c0b44483e229c52d173b73e5` |
 | final-page footer | `Page 39 of 39` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.
@@ -1150,7 +1150,7 @@ item 5 of `verify()` on the extracted tree, and standalone via
      (447/247,260/135 against a gate reporting 449/247,285/140) -->
 
 On the shipped build it reports: **0 absolute paths outside the declared
-exceptions, over 384 JSON members (130,225 string leaves parsed) and 226 text
+exceptions, over 384 JSON members (130,231 string leaves parsed) and 226 text
 members; 27 binary members out of scope, 34 portable shebangs excluded; 6
 declared exceptions holding 757 matching contexts, which contain 772 absolute-path occurrences.**
 
