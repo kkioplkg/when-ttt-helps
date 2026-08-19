@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-08-18T15:45:53.947512+00:00",
+ "built_utc": "2026-08-19T09:31:23.095760+00:00",
  "claims": [
   {
    "command_cwd": "experiments/ttt/is_fresh",
@@ -10,12 +10,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 95
+     "line": 109
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 164
+     "line": 178
     },
     {
      "document": "supplement",
@@ -79,17 +79,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 96
+     "line": 110
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 97
+     "line": 111
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 165
+     "line": 179
     },
     {
      "document": "supplement",
@@ -148,8 +148,13 @@
    "command_cwd": "experiments/ttt/is_fresh",
    "id": "C0005",
    "label": "E1 published-normalisation error (Sec 7.1, T4a, Fig 1 caption)",
-   "location_class": "archive",
+   "location_class": "supplement",
    "locations": [
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 318
+    },
     {
      "document": "release",
      "file": "paper/is2/archive_tables/e1_boundary_ledger.tex",
@@ -289,7 +294,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 117
+     "line": 131
     },
     {
      "document": "supplement",
@@ -333,7 +338,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -411,7 +416,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 117
+     "line": 131
     },
     {
      "document": "supplement",
@@ -820,122 +825,142 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 67
+     "line": 72
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 112
+     "line": 17
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 119
+     "line": 124
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 133
+     "line": 131
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 143
+     "line": 145
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 146
+     "line": 155
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 163
+     "line": 158
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 174
+     "line": 175
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 186
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 374
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 45
+     "line": 59
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 77
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 214
+     "line": 239
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 325
+     "line": 369
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 358
+     "line": 402
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 379
+     "line": 423
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 462
+     "line": 522
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 485
+     "line": 551
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 512
+     "line": 578
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 586
+     "line": 652
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 587
+     "line": 653
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 717
+     "line": 783
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 811
+     "line": 877
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 824
+     "line": 890
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 847
+     "line": 913
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 58
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 66
     },
     {
      "document": "main",
@@ -946,6 +971,11 @@
      "document": "main",
      "file": "paper/is2/paper/sections/nfl.tex",
      "line": 221
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/nfl.tex",
+     "line": 465
     },
     {
      "document": "main",
@@ -1560,27 +1590,27 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 221
+     "line": 233
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 348
+     "line": 360
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 350
+     "line": 362
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 434
+     "line": 446
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 435
+     "line": 447
     },
     {
      "document": "supplement",
@@ -1625,12 +1655,37 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 354
+     "line": 317
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 356
+     "line": 342
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 345
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 357
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 364
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 440
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 442
     },
     {
      "document": "supplement",
@@ -1967,12 +2022,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 249
+     "line": 274
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 365
+     "line": 409
     },
     {
      "document": "supplement",
@@ -2027,7 +2082,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 365
+     "line": 409
     }
    ],
    "manuscript_objects": [
@@ -2067,7 +2122,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 365
+     "line": 409
     }
    ],
    "manuscript_objects": [
@@ -2107,12 +2162,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 251
+     "line": 276
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 367
+     "line": 411
     },
     {
      "document": "supplement",
@@ -2157,12 +2212,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 251
+     "line": 276
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 367
+     "line": 411
     },
     {
      "document": "supplement",
@@ -2207,12 +2262,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 252
+     "line": 277
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     },
     {
      "document": "supplement",
@@ -2256,12 +2311,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 249
+     "line": 274
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 366
+     "line": 410
     },
     {
      "document": "supplement",
@@ -2316,7 +2371,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 366
+     "line": 410
     }
    ],
    "manuscript_objects": [],
@@ -2353,7 +2408,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 366
+     "line": 410
     },
     {
      "document": "supplement",
@@ -2405,22 +2460,22 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 76
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 251
+     "line": 276
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 367
+     "line": 411
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 691
+     "line": 757
     },
     {
      "document": "supplement",
@@ -2487,12 +2542,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 251
+     "line": 276
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 367
+     "line": 411
     },
     {
      "document": "supplement",
@@ -2539,7 +2594,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 251
+     "line": 276
     },
     {
      "document": "supplement",
@@ -2734,22 +2789,22 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 76
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 251
+     "line": 276
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 367
+     "line": 411
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 691
+     "line": 757
     },
     {
      "document": "supplement",
@@ -2969,7 +3024,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 384
+     "line": 428
     },
     {
      "document": "supplement",
@@ -3021,12 +3076,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 49
+     "line": 61
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 371
+     "line": 415
     },
     {
      "document": "supplement",
@@ -3229,12 +3284,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 50
+     "line": 62
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 372
+     "line": 416
     },
     {
      "document": "supplement",
@@ -3447,7 +3502,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 373
+     "line": 417
     },
     {
      "document": "supplement",
@@ -3754,12 +3809,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 391
+     "line": 435
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 436
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/related.tex",
+     "line": 42
     },
     {
      "document": "supplement",
@@ -3774,7 +3834,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 217
+     "line": 229
     },
     {
      "document": "supplement",
@@ -3862,12 +3922,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 391
+     "line": 435
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 436
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/related.tex",
+     "line": 42
     },
     {
      "document": "supplement",
@@ -3882,7 +3947,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 217
+     "line": 229
     },
     {
      "document": "supplement",
@@ -6229,12 +6294,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 391
+     "line": 435
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 436
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/related.tex",
+     "line": 42
     },
     {
      "document": "supplement",
@@ -6249,7 +6319,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 217
+     "line": 229
     },
     {
      "document": "supplement",
@@ -6337,12 +6407,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 391
+     "line": 435
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 436
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/related.tex",
+     "line": 42
     },
     {
      "document": "supplement",
@@ -6357,7 +6432,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 217
+     "line": 229
     },
     {
      "document": "supplement",
@@ -6659,7 +6734,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 201
+     "line": 223
     },
     {
      "document": "supplement",
@@ -6938,7 +7013,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 366
+     "line": 410
     },
     {
      "document": "supplement",
@@ -7021,7 +7096,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 600
+     "line": 666
     },
     {
      "document": "supplement",
@@ -7479,12 +7554,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 214
+     "line": 239
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 216
+     "line": 241
     },
     {
      "document": "supplement",
@@ -7526,43 +7601,68 @@
     },
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 136
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 76
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 18
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 23
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 374
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 213
+     "line": 150
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 215
+     "line": 238
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 286
+     "line": 240
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 390
+     "line": 311
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 423
+     "line": 434
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 593
+     "line": 483
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 599
+     "line": 659
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 665
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 62
     },
     {
      "document": "supplement",
@@ -7772,17 +7872,22 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 222
+     "line": 217
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 346
+     "line": 234
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 357
+     "line": 358
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 369
     },
     {
      "document": "supplement",
@@ -7897,7 +8002,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 368
+     "line": 454
     },
     {
      "document": "supplement",
@@ -8045,12 +8150,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 126
+     "line": 140
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 718
+     "line": 784
     },
     {
      "document": "main",
@@ -8110,7 +8215,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 350
+     "line": 362
     },
     {
      "document": "supplement",
@@ -8153,22 +8258,22 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 325
+     "line": 369
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 328
+     "line": 372
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 436
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 397
+     "line": 441
     },
     {
      "document": "supplement",
@@ -8199,7 +8304,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 386
+     "line": 430
     }
    ],
    "manuscript_objects": [],
@@ -8225,7 +8330,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 387
+     "line": 431
     }
    ],
    "manuscript_objects": [],
@@ -8277,12 +8382,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 325
+     "line": 369
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 397
+     "line": 441
     }
    ],
    "manuscript_objects": [],
@@ -8334,12 +8439,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 328
+     "line": 372
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     }
    ],
    "manuscript_objects": [],
@@ -8393,7 +8498,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 594
+     "line": 660
     },
     {
      "document": "supplement",
@@ -8563,12 +8668,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     },
     {
      "document": "supplement",
@@ -9143,7 +9248,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -9221,7 +9326,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -9355,7 +9460,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -9433,7 +9538,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -9567,7 +9672,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -9645,7 +9750,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -9723,7 +9828,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     },
     {
      "document": "supplement",
@@ -9850,7 +9955,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 117
+     "line": 131
     },
     {
      "document": "supplement",
@@ -9960,7 +10065,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 117
+     "line": 131
     },
     {
      "document": "supplement",
@@ -10027,12 +10132,22 @@
    "command_cwd": "experiments/ttt/is_fresh",
    "id": "C0164",
    "label": "E1 fixed rule, largest |z| of a miss anywhere (Sec S9.4)",
-   "location_class": "supplement",
+   "location_class": "both",
    "locations": [
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 76
+    },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 357
+     "line": 217
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 369
     },
     {
      "document": "supplement",
@@ -10070,7 +10185,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 343
+     "line": 387
     }
    ],
    "manuscript_objects": [
@@ -10098,7 +10213,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 345
+     "line": 389
     }
    ],
    "manuscript_objects": [
@@ -10126,7 +10241,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 342
+     "line": 386
     }
    ],
    "manuscript_objects": [
@@ -10154,7 +10269,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 600
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -10183,7 +10298,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 601
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -10212,7 +10327,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 602
+     "line": 668
     }
    ],
    "manuscript_objects": [
@@ -10241,12 +10356,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     },
     {
      "document": "supplement",
@@ -10280,7 +10395,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     }
    ],
    "manuscript_objects": [
@@ -10309,7 +10424,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     },
     {
      "document": "release",
@@ -10343,7 +10458,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     }
    ],
    "manuscript_objects": [
@@ -10372,7 +10487,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     }
    ],
    "manuscript_objects": [
@@ -10457,7 +10572,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 503
+     "line": 569
     },
     {
      "document": "supplement",
@@ -10742,12 +10857,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 483
+     "line": 549
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 594
+     "line": 660
     }
    ],
    "manuscript_objects": [
@@ -10775,12 +10890,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 483
+     "line": 549
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     }
    ],
    "manuscript_objects": [
@@ -10808,7 +10923,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     },
     {
      "document": "release",
@@ -10841,12 +10956,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     },
     {
      "document": "supplement",
@@ -10879,7 +10994,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 503
+     "line": 569
     },
     {
      "document": "supplement",
@@ -10912,12 +11027,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 503
+     "line": 569
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     }
    ],
    "manuscript_objects": [
@@ -10945,12 +11060,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 328
+     "line": 372
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     }
    ],
    "manuscript_objects": [
@@ -10978,7 +11093,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 504
+     "line": 570
     }
    ],
    "manuscript_objects": [
@@ -11006,7 +11121,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 594
+     "line": 660
     }
    ],
    "manuscript_objects": [
@@ -11034,7 +11149,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 594
+     "line": 660
     }
    ],
    "manuscript_objects": [
@@ -11062,7 +11177,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     }
    ],
    "manuscript_objects": [
@@ -11090,7 +11205,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     },
     {
      "document": "release",
@@ -11123,7 +11238,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     }
    ],
    "manuscript_objects": [
@@ -11151,12 +11266,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 503
+     "line": 569
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     }
    ],
    "manuscript_objects": [
@@ -11184,12 +11299,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     }
    ],
    "manuscript_objects": [
@@ -11217,12 +11332,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     },
     {
      "document": "release",
@@ -11255,7 +11370,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 594
+     "line": 660
     }
    ],
    "manuscript_objects": [
@@ -11283,7 +11398,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 594
+     "line": 660
     },
     {
      "document": "supplement",
@@ -11316,7 +11431,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     },
     {
      "document": "release",
@@ -11349,7 +11464,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     },
     {
      "document": "supplement",
@@ -11392,7 +11507,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     }
    ],
    "manuscript_objects": [
@@ -11420,12 +11535,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 602
+     "line": 668
     }
    ],
    "manuscript_objects": [
@@ -11453,7 +11568,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     }
    ],
    "manuscript_objects": [
@@ -11481,7 +11596,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     }
    ],
    "manuscript_objects": [
@@ -11509,7 +11624,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 197
+     "line": 219
     }
    ],
    "manuscript_objects": [
@@ -11537,17 +11652,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 358
+     "line": 402
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 622
+     "line": 688
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 197
+     "line": 219
     },
     {
      "document": "release",
@@ -11580,7 +11695,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 201
+     "line": 223
     },
     {
      "document": "supplement",
@@ -11623,7 +11738,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 201
+     "line": 223
     },
     {
      "document": "supplement",
@@ -11661,7 +11776,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 600
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11690,7 +11805,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 600
+     "line": 666
     },
     {
      "document": "supplement",
@@ -11724,7 +11839,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 601
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -11753,7 +11868,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 601
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -11782,7 +11897,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 602
+     "line": 668
     }
    ],
    "manuscript_objects": [
@@ -11811,7 +11926,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 602
+     "line": 668
     }
    ],
    "manuscript_objects": [
@@ -11840,12 +11955,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     }
    ],
    "manuscript_objects": [
@@ -11874,12 +11989,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     },
     {
      "document": "release",
@@ -11913,7 +12028,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 600
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11941,7 +12056,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 600
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11969,7 +12084,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 601
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -11997,7 +12112,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 601
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -12025,7 +12140,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 602
+     "line": 668
     }
    ],
    "manuscript_objects": [
@@ -12053,12 +12168,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 602
+     "line": 668
     }
    ],
    "manuscript_objects": [
@@ -12086,7 +12201,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     }
    ],
    "manuscript_objects": [
@@ -12114,7 +12229,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     }
    ],
    "manuscript_objects": [
@@ -12360,7 +12475,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 412
+     "line": 424
     },
     {
      "document": "release",
@@ -12393,7 +12508,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 412
+     "line": 424
     },
     {
      "document": "release",
@@ -12482,7 +12597,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 408
+     "line": 420
     },
     {
      "document": "supplement",
@@ -12520,7 +12635,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 408
+     "line": 420
     },
     {
      "document": "supplement",
@@ -12558,7 +12673,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 409
+     "line": 421
     }
    ],
    "manuscript_objects": [],
@@ -12584,7 +12699,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 409
+     "line": 421
     },
     {
      "document": "supplement",
@@ -12615,17 +12730,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 430
+     "line": 490
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 580
+     "line": 646
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 637
+     "line": 703
     },
     {
      "document": "supplement",
@@ -12635,17 +12750,17 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 397
+     "line": 409
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 427
+     "line": 439
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 463
+     "line": 475
     },
     {
      "document": "supplement",
@@ -12696,7 +12811,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 416
+     "line": 428
     }
    ],
    "manuscript_objects": [],
@@ -12750,7 +12865,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     },
     {
      "document": "release",
@@ -13149,12 +13264,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 597
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 603
+     "line": 669
     },
     {
      "document": "release",
@@ -13329,7 +13444,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 596
+     "line": 662
     },
     {
      "document": "release",
@@ -13362,7 +13477,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 595
+     "line": 661
     },
     {
      "document": "release",
@@ -13451,12 +13566,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 64
+     "line": 73
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 65
+     "line": 74
     },
     {
      "document": "main",
@@ -13485,18 +13600,18 @@
     },
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 21
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 76
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 24
+     "line": 33
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 26
+     "line": 36
     },
     {
      "document": "main",
@@ -13506,32 +13621,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 57
+     "line": 50
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 64
+     "line": 69
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 66
+     "line": 76
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 112
+     "line": 78
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 115
+     "line": 124
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 121
+     "line": 127
     },
     {
      "document": "main",
@@ -13541,42 +13656,42 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 143
+     "line": 145
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 204
+     "line": 155
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 216
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 50
+     "line": 63
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 55
+     "line": 68
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 61
+     "line": 74
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 87
+     "line": 100
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 89
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 90
+     "line": 102
     },
     {
      "document": "main",
@@ -13586,52 +13701,47 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 113
+     "line": 116
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 120
+     "line": 126
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 128
+     "line": 133
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 129
+     "line": 141
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 131
+     "line": 142
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 137
+     "line": 144
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 140
+     "line": 150
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 143
+     "line": 153
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 149
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 154
+     "line": 156
     },
     {
      "document": "main",
@@ -13641,132 +13751,127 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 164
+     "line": 167
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 165
+     "line": 175
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 174
+     "line": 177
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 216
+     "line": 178
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 230
+     "line": 187
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 247
+     "line": 229
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 252
+     "line": 243
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 278
+     "line": 260
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 312
+     "line": 265
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 317
+     "line": 291
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 320
+     "line": 319
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 323
+     "line": 324
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 326
+     "line": 327
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 346
+     "line": 330
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 333
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 353
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 13
+     "line": 26
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 70
+     "line": 84
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 76
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 77
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 97
+     "line": 111
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 101
+     "line": 115
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 105
+     "line": 119
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 118
+     "line": 132
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 122
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 142
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 148
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 152
+     "line": 136
     },
     {
      "document": "main",
@@ -13776,197 +13881,217 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 171
+     "line": 162
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 181
+     "line": 166
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 184
+     "line": 170
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 211
+     "line": 185
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 272
+     "line": 195
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 312
+     "line": 198
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 338
+     "line": 236
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 342
+     "line": 297
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 356
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 387
+     "line": 382
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 423
+     "line": 386
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 427
+     "line": 413
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 431
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 690
+     "line": 483
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 709
+     "line": 487
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 715
+     "line": 493
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 718
+     "line": 756
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 733
+     "line": 775
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 769
+     "line": 781
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 784
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 822
+     "line": 799
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 827
+     "line": 835
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 828
+     "line": 837
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 898
+     "line": 888
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 899
+     "line": 893
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 894
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 909
+     "line": 964
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 911
+     "line": 965
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 974
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 975
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 977
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 58
+     "line": 49
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 66
+     "line": 80
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 68
+     "line": 88
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 69
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 79
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 95
+     "line": 101
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 98
+     "line": 117
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 99
+     "line": 120
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 138
+     "line": 121
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 139
+     "line": 160
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 176
+     "line": 161
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 198
     },
     {
      "document": "main",
@@ -14226,7 +14351,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/related.tex",
-     "line": 65
+     "line": 101
     },
     {
      "document": "main",
@@ -18826,52 +18951,57 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 222
+     "line": 217
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 252
+     "line": 234
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 259
+     "line": 264
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 260
+     "line": 271
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 262
+     "line": 272
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 263
+     "line": 274
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 303
+     "line": 275
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 357
+     "line": 315
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 412
+     "line": 369
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 413
+     "line": 424
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 425
     },
     {
      "document": "supplement",
@@ -19151,12 +19281,57 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 325
+     "line": 318
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 351
+     "line": 326
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 334
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 342
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 358
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 359
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 365
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 381
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 383
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 411
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 437
     },
     {
      "document": "supplement",
@@ -19505,12 +19680,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 64
+     "line": 73
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 65
+     "line": 74
     },
     {
      "document": "main",
@@ -19539,18 +19714,18 @@
     },
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 21
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 76
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 24
+     "line": 33
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 26
+     "line": 36
     },
     {
      "document": "main",
@@ -19560,32 +19735,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 57
+     "line": 50
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 64
+     "line": 69
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 66
+     "line": 76
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 112
+     "line": 78
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 115
+     "line": 124
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 121
+     "line": 127
     },
     {
      "document": "main",
@@ -19595,42 +19770,42 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 143
+     "line": 145
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 204
+     "line": 155
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 216
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 50
+     "line": 63
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 55
+     "line": 68
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 61
+     "line": 74
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 87
+     "line": 100
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 89
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 90
+     "line": 102
     },
     {
      "document": "main",
@@ -19640,52 +19815,47 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 113
+     "line": 116
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 120
+     "line": 126
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 128
+     "line": 133
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 129
+     "line": 141
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 131
+     "line": 142
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 137
+     "line": 144
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 140
+     "line": 150
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 143
+     "line": 153
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 149
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 154
+     "line": 156
     },
     {
      "document": "main",
@@ -19695,132 +19865,127 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 164
+     "line": 167
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 165
+     "line": 175
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 174
+     "line": 177
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 216
+     "line": 178
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 230
+     "line": 187
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 247
+     "line": 229
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 252
+     "line": 243
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 278
+     "line": 260
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 312
+     "line": 265
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 317
+     "line": 291
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 320
+     "line": 319
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 323
+     "line": 324
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 326
+     "line": 327
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 346
+     "line": 330
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 333
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 353
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 13
+     "line": 26
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 70
+     "line": 84
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 76
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 77
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 97
+     "line": 111
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 101
+     "line": 115
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 105
+     "line": 119
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 118
+     "line": 132
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 122
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 142
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 148
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 152
+     "line": 136
     },
     {
      "document": "main",
@@ -19830,197 +19995,217 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 171
+     "line": 162
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 181
+     "line": 166
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 184
+     "line": 170
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 211
+     "line": 185
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 272
+     "line": 195
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 312
+     "line": 198
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 338
+     "line": 236
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 342
+     "line": 297
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 356
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 387
+     "line": 382
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 423
+     "line": 386
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 427
+     "line": 413
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 431
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 690
+     "line": 483
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 709
+     "line": 487
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 715
+     "line": 493
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 718
+     "line": 756
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 733
+     "line": 775
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 769
+     "line": 781
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 784
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 822
+     "line": 799
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 827
+     "line": 835
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 828
+     "line": 837
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 898
+     "line": 888
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 899
+     "line": 893
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 894
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 909
+     "line": 964
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 911
+     "line": 965
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 974
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 975
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 977
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 58
+     "line": 49
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 66
+     "line": 80
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 68
+     "line": 88
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 69
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 79
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 95
+     "line": 101
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 98
+     "line": 117
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 99
+     "line": 120
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 138
+     "line": 121
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 139
+     "line": 160
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 176
+     "line": 161
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 198
     },
     {
      "document": "main",
@@ -20280,7 +20465,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/related.tex",
-     "line": 65
+     "line": 101
     },
     {
      "document": "main",
@@ -24880,52 +25065,57 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 222
+     "line": 217
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 252
+     "line": 234
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 259
+     "line": 264
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 260
+     "line": 271
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 262
+     "line": 272
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 263
+     "line": 274
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 303
+     "line": 275
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 357
+     "line": 315
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 412
+     "line": 369
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 413
+     "line": 424
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 425
     },
     {
      "document": "supplement",
@@ -25205,12 +25395,57 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 325
+     "line": 318
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 351
+     "line": 326
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 334
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 342
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 358
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 359
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 365
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 381
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 383
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 411
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 437
     },
     {
      "document": "supplement",
@@ -25559,32 +25794,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 64
+     "line": 73
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 66
+     "line": 75
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 67
+     "line": 76
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 68
+     "line": 77
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 71
+     "line": 80
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 81
+     "line": 90
     },
     {
      "document": "main",
@@ -25639,32 +25874,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 66
+     "line": 68
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 81
+     "line": 71
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 92
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 26
+     "line": 15
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 28
+     "line": 21
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 29
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 33
+     "line": 38
     },
     {
      "document": "main",
@@ -25674,17 +25909,27 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 47
+     "line": 41
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 48
+     "line": 45
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 68
+     "line": 52
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 59
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 60
     },
     {
      "document": "main",
@@ -25694,37 +25939,22 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 117
+     "line": 92
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 119
+     "line": 129
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 124
+     "line": 131
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 133
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 137
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 138
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 142
+     "line": 136
     },
     {
      "document": "main",
@@ -25734,7 +25964,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 147
+     "line": 149
     },
     {
      "document": "main",
@@ -25744,12 +25974,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 151
+     "line": 154
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 155
+     "line": 157
     },
     {
      "document": "main",
@@ -25759,32 +25989,27 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 162
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
      "line": 163
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 177
+     "line": 167
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 178
+     "line": 171
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 179
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 182
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 186
+     "line": 175
     },
     {
      "document": "main",
@@ -25794,37 +26019,62 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 204
+     "line": 190
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 205
+     "line": 191
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 224
+     "line": 194
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 232
+     "line": 198
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 234
+     "line": 201
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 243
+     "line": 216
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 217
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 236
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 244
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
      "line": 246
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 255
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 258
     },
     {
      "document": "main",
@@ -25839,27 +26089,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 49
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 81
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 82
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 84
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 87
+     "line": 62
     },
     {
      "document": "main",
@@ -25869,7 +26099,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 96
+     "line": 95
     },
     {
      "document": "main",
@@ -25879,17 +26109,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 99
+     "line": 100
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 102
+     "line": 107
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 104
+     "line": 109
     },
     {
      "document": "main",
@@ -25899,17 +26129,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 111
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/entropy.tex",
      "line": 112
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 114
+     "line": 115
     },
     {
      "document": "main",
@@ -25919,27 +26144,47 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 123
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 124
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 125
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
      "line": 127
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 128
+     "line": 130
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 129
+     "line": 140
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 131
+     "line": 141
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 136
+     "line": 142
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 144
     },
     {
      "document": "main",
@@ -25949,92 +26194,87 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 225
+     "line": 162
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 232
+     "line": 238
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 240
+     "line": 245
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 257
+     "line": 253
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 273
+     "line": 270
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 282
+     "line": 286
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 287
+     "line": 296
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 298
+     "line": 305
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 312
+     "line": 319
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 316
+     "line": 323
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 317
+     "line": 324
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 320
+     "line": 327
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 345
+     "line": 352
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 346
+     "line": 353
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 350
+     "line": 357
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/entropy.tex",
-     "line": 364
+     "line": 371
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 21
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 30
+     "line": 14
     },
     {
      "document": "main",
@@ -26044,22 +26284,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 43
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
      "line": 44
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 45
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 53
+     "line": 48
     },
     {
      "document": "main",
@@ -26069,232 +26299,237 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 58
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
      "line": 59
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 77
+     "line": 67
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 95
+     "line": 71
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 96
+     "line": 73
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 97
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 103
+     "line": 109
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 105
+     "line": 110
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 112
+     "line": 111
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 113
+     "line": 117
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 148
+     "line": 119
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 164
+     "line": 126
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 165
+     "line": 127
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 176
+     "line": 162
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 182
+     "line": 178
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 184
+     "line": 179
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 193
+     "line": 190
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 199
+     "line": 196
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 205
+     "line": 198
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 226
+     "line": 207
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 247
+     "line": 213
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 255
+     "line": 220
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 259
+     "line": 251
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 262
+     "line": 272
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 263
+     "line": 280
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 281
+     "line": 284
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 309
+     "line": 287
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 315
+     "line": 288
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 342
+     "line": 306
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 358
+     "line": 334
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 361
+     "line": 359
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 364
+     "line": 386
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 389
+     "line": 402
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 405
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 409
+     "line": 408
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 413
+     "line": 433
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 423
+     "line": 436
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 429
+     "line": 453
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 457
+     "line": 473
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 481
+     "line": 483
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 499
+     "line": 489
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 500
+     "line": 517
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 541
+     "line": 547
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 569
+     "line": 565
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 571
+     "line": 566
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 625
+     "line": 607
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 633
+     "line": 635
     },
     {
      "document": "main",
@@ -26304,47 +26539,37 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 677
+     "line": 691
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 679
+     "line": 699
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 703
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 795
+     "line": 743
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 803
+     "line": 745
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 815
+     "line": 839
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 818
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 824
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 847
+     "line": 861
     },
     {
      "document": "main",
@@ -26354,32 +26579,42 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 876
+     "line": 881
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 877
+     "line": 884
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 890
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 913
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 935
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 942
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 943
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 58
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 62
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 64
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 65
+     "line": 50
     },
     {
      "document": "main",
@@ -26389,62 +26624,87 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 68
+     "line": 80
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 73
+     "line": 84
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 74
+     "line": 86
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 98
+     "line": 87
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 99
+     "line": 88
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 106
+     "line": 90
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 115
+     "line": 95
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 147
+     "line": 96
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 181
+     "line": 120
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 190
+     "line": 121
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 195
+     "line": 128
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/introduction.tex",
-     "line": 196
+     "line": 137
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 169
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 203
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 212
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 217
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 218
     },
     {
      "document": "main",
@@ -26783,8 +27043,13 @@
     },
     {
      "document": "main",
+     "file": "paper/is2/paper/sections/pl_bound.tex",
+     "line": 41
+    },
+    {
+     "document": "main",
      "file": "paper/is2/paper/sections/related.tex",
-     "line": 65
+     "line": 101
     },
     {
      "document": "main",
@@ -31974,57 +32239,47 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 207
+     "line": 209
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 215
+     "line": 227
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 222
+     "line": 234
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 236
+     "line": 248
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 263
+     "line": 275
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 293
+     "line": 305
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 303
+     "line": 315
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 360
+     "line": 372
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 370
-    },
-    {
-     "document": "supplement",
-     "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 390
-    },
-    {
-     "document": "supplement",
-     "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 398
+     "line": 382
     },
     {
      "document": "supplement",
@@ -32034,37 +32289,47 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 451
+     "line": 410
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 453
+     "line": 414
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 454
+     "line": 463
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 457
+     "line": 465
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 458
+     "line": 466
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 460
+     "line": 469
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 481
+     "line": 470
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 472
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 493
     },
     {
      "document": "supplement",
@@ -32314,17 +32579,17 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 321
+     "line": 319
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 322
+     "line": 334
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 330
+     "line": 344
     },
     {
      "document": "supplement",
@@ -32334,27 +32599,47 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 366
+     "line": 407
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 373
+     "line": 408
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 376
+     "line": 416
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 384
+     "line": 451
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 398
+     "line": 452
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 459
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 462
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 470
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 484
     },
     {
      "document": "supplement",
@@ -32627,17 +32912,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 430
+     "line": 490
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 580
+     "line": 646
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 637
+     "line": 703
     },
     {
      "document": "supplement",
@@ -32647,17 +32932,17 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 397
+     "line": 409
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 427
+     "line": 439
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 463
+     "line": 475
     },
     {
      "document": "supplement",
@@ -32734,7 +33019,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 427
+     "line": 487
     }
    ],
    "manuscript_objects": [
@@ -32762,7 +33047,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 427
+     "line": 487
     }
    ],
    "manuscript_objects": [
@@ -32790,7 +33075,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 427
+     "line": 487
     },
     {
      "document": "supplement",
@@ -32823,7 +33108,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 428
+     "line": 488
     },
     {
      "document": "supplement",
@@ -32861,7 +33146,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 493
     },
     {
      "document": "supplement",
@@ -32894,7 +33179,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 493
     },
     {
      "document": "supplement",
@@ -32927,7 +33212,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 493
     },
     {
      "document": "supplement",
@@ -32960,7 +33245,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 493
     },
     {
      "document": "supplement",
@@ -32993,7 +33278,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 493
     },
     {
      "document": "supplement",
@@ -33031,7 +33316,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 493
     },
     {
      "document": "supplement",
@@ -33064,7 +33349,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 434
+     "line": 494
     },
     {
      "document": "supplement",
@@ -33097,7 +33382,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 434
+     "line": 494
     },
     {
      "document": "supplement",
@@ -33130,12 +33415,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 460
+     "line": 520
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 461
+     "line": 521
     }
    ],
    "manuscript_objects": [
@@ -33163,7 +33448,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 460
+     "line": 520
     }
    ],
    "manuscript_objects": [
@@ -33191,7 +33476,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 460
+     "line": 520
     }
    ],
    "manuscript_objects": [
@@ -33219,7 +33504,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 460
+     "line": 520
     }
    ],
    "manuscript_objects": [
@@ -33247,7 +33532,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 461
+     "line": 521
     }
    ],
    "manuscript_objects": [
@@ -33275,12 +33560,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 460
+     "line": 520
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 461
+     "line": 521
     }
    ],
    "manuscript_objects": [
@@ -33308,7 +33593,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 461
+     "line": 521
     }
    ],
    "manuscript_objects": [
@@ -33336,7 +33621,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 461
+     "line": 521
     }
    ],
    "manuscript_objects": [
@@ -33364,7 +33649,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 463
+     "line": 523
     }
    ],
    "manuscript_objects": [
@@ -33392,7 +33677,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 463
+     "line": 523
     }
    ],
    "manuscript_objects": [
@@ -33476,12 +33761,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 450
+     "line": 510
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 705
+     "line": 771
     },
     {
      "document": "supplement",
@@ -33519,7 +33804,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 450
+     "line": 510
     }
    ],
    "manuscript_objects": [
@@ -33547,7 +33832,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 489
+     "line": 555
     }
    ],
    "manuscript_objects": [
@@ -33832,7 +34117,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 736
+     "line": 802
     },
     {
      "document": "supplement",
@@ -33977,7 +34262,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 301
+     "line": 326
     },
     {
      "document": "supplement",
@@ -34020,32 +34305,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 472
+     "line": 538
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 290
+     "line": 302
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 291
+     "line": 303
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 331
+     "line": 343
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 340
+     "line": 352
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 346
+     "line": 358
     },
     {
      "document": "supplement",
@@ -34060,7 +34345,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 382
+     "line": 468
     }
    ],
    "manuscript_objects": [
@@ -34095,32 +34380,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 472
+     "line": 538
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 290
+     "line": 302
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 291
+     "line": 303
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 331
+     "line": 343
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 340
+     "line": 352
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 346
+     "line": 358
     },
     {
      "document": "supplement",
@@ -34135,7 +34420,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 382
+     "line": 468
     }
    ],
    "manuscript_objects": [
@@ -34164,7 +34449,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 346
+     "line": 358
     }
    ],
    "manuscript_objects": [
@@ -34192,7 +34477,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 346
+     "line": 358
     }
    ],
    "manuscript_objects": [
@@ -34220,7 +34505,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 350
+     "line": 362
     }
    ],
    "manuscript_objects": [
@@ -34243,12 +34528,22 @@
    "command_cwd": "experiments/ttt/is_fresh",
    "id": "C0326",
    "label": "E3 fixed-budget ppl@20, rerun vs retained, worst absolute difference over the twelve jobs (S7.3, e3_vectors/PROVENANCE.md)",
-   "location_class": "supplement",
+   "location_class": "both",
    "locations": [
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 76
+    },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 357
+     "line": 217
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 369
     },
     {
      "document": "supplement",
@@ -34286,77 +34581,77 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 67
+     "line": 72
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 325
+     "line": 369
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 328
+     "line": 372
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 392
+     "line": 436
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 397
+     "line": 441
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 486
+     "line": 552
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 490
+     "line": 556
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 512
+     "line": 578
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 588
+     "line": 654
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 623
+     "line": 689
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 628
+     "line": 694
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 717
+     "line": 783
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 759
+     "line": 825
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 795
+     "line": 861
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 847
+     "line": 913
     },
     {
      "document": "main",
@@ -34406,7 +34701,12 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 348
+     "line": 217
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 360
     },
     {
      "document": "supplement",
@@ -34431,7 +34731,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 393
+     "line": 479
     },
     {
      "document": "supplement",
@@ -34484,122 +34784,142 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 67
+     "line": 72
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 112
+     "line": 17
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 119
+     "line": 124
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 133
+     "line": 131
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 143
+     "line": 145
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 146
+     "line": 155
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 163
+     "line": 158
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 174
+     "line": 175
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 186
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 374
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 45
+     "line": 59
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 77
+     "line": 91
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 214
+     "line": 239
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 325
+     "line": 369
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 358
+     "line": 402
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 379
+     "line": 423
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 462
+     "line": 522
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 485
+     "line": 551
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 512
+     "line": 578
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 586
+     "line": 652
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 587
+     "line": 653
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 717
+     "line": 783
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 811
+     "line": 877
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 824
+     "line": 890
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 847
+     "line": 913
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 58
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/introduction.tex",
+     "line": 66
     },
     {
      "document": "main",
@@ -34610,6 +34930,11 @@
      "document": "main",
      "file": "paper/is2/paper/sections/nfl.tex",
      "line": 221
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/nfl.tex",
+     "line": 465
     },
     {
      "document": "main",
@@ -35224,27 +35549,27 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 221
+     "line": 233
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 348
+     "line": 360
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 350
+     "line": 362
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 434
+     "line": 446
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 435
+     "line": 447
     },
     {
      "document": "supplement",
@@ -35289,12 +35614,37 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 354
+     "line": 317
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 356
+     "line": 342
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 345
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 357
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 364
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 440
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 442
     },
     {
      "document": "supplement",
@@ -35522,12 +35872,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 718
+     "line": 784
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 837
     },
     {
      "document": "supplement",
@@ -35542,7 +35892,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 346
+     "line": 358
     },
     {
      "document": "supplement",
@@ -35594,23 +35944,18 @@
    "locations": [
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/abstract.tex",
-     "line": 80
-    },
-    {
-     "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 218
+     "line": 230
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 703
+     "line": 769
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 792
+     "line": 858
     }
    ],
    "manuscript_objects": [
@@ -35639,12 +35984,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 450
+     "line": 510
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 705
+     "line": 771
     },
     {
      "document": "supplement",
@@ -35682,7 +36027,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 712
+     "line": 778
     }
    ],
    "manuscript_objects": [
@@ -35710,7 +36055,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 717
+     "line": 783
     }
    ],
    "manuscript_objects": [
@@ -35738,7 +36083,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 717
+     "line": 783
     },
     {
      "document": "supplement",
@@ -35771,7 +36116,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 718
+     "line": 784
     }
    ],
    "manuscript_objects": [
@@ -35799,7 +36144,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 718
+     "line": 784
     }
    ],
    "manuscript_objects": [
@@ -35827,7 +36172,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 734
+     "line": 800
     }
    ],
    "manuscript_objects": [
@@ -35855,7 +36200,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 734
+     "line": 800
     }
    ],
    "manuscript_objects": [
@@ -35883,7 +36228,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 736
+     "line": 802
     },
     {
      "document": "supplement",
@@ -35916,7 +36261,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 736
+     "line": 802
     }
    ],
    "manuscript_objects": [
@@ -35944,17 +36289,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 742
+     "line": 808
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 744
+     "line": 810
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 745
+     "line": 811
     }
    ],
    "manuscript_objects": [
@@ -35982,7 +36327,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 744
+     "line": 810
     },
     {
      "document": "supplement",
@@ -36015,7 +36360,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 760
+     "line": 826
     }
    ],
    "manuscript_objects": [
@@ -36043,7 +36388,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 837
     }
    ],
    "manuscript_objects": [
@@ -36071,7 +36416,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 837
     }
    ],
    "manuscript_objects": [
@@ -36099,7 +36444,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     }
    ],
    "manuscript_objects": [
@@ -36127,7 +36472,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     }
    ],
    "manuscript_objects": [
@@ -36155,7 +36500,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     }
    ],
    "manuscript_objects": [
@@ -36183,12 +36528,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 252
+     "line": 277
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 773
+     "line": 839
     },
     {
      "document": "supplement",
@@ -36221,7 +36566,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 775
+     "line": 841
     }
    ],
    "manuscript_objects": [
@@ -36249,7 +36594,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 775
+     "line": 841
     }
    ],
    "manuscript_objects": [
@@ -36277,12 +36622,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 734
+     "line": 800
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 793
+     "line": 859
     },
     {
      "document": "supplement",
@@ -36325,12 +36670,17 @@
    "command_cwd": "experiments/ttt/is_fresh",
    "id": "C0353",
    "label": "Closure: worst |delta alpha| on those re-runs (Sec 6.4)",
-   "location_class": "main",
+   "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 795
+     "line": 861
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 319
     }
    ],
    "manuscript_objects": [
@@ -36357,33 +36707,38 @@
    "locations": [
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 808
+     "file": "paper/is2/paper/sections/entropy.tex",
+     "line": 50
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 820
+     "line": 874
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 823
+     "line": 886
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 872
+     "line": 889
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 938
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 897
+     "line": 959
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 963
     }
    ],
    "manuscript_objects": [
@@ -36412,7 +36767,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 819
+     "line": 885
     }
    ],
    "manuscript_objects": [
@@ -36440,7 +36795,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 820
+     "line": 886
     }
    ],
    "manuscript_objects": [
@@ -36468,17 +36823,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 155
+     "line": 167
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 821
+     "line": 887
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 854
+     "line": 920
     },
     {
      "document": "release",
@@ -36512,12 +36867,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 822
+     "line": 888
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 856
+     "line": 922
     }
    ],
    "manuscript_objects": [
@@ -36545,7 +36900,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 822
+     "line": 888
     }
    ],
    "manuscript_objects": [
@@ -36573,17 +36928,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 156
+     "line": 168
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 823
+     "line": 889
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 855
+     "line": 921
     }
    ],
    "manuscript_objects": [
@@ -36612,12 +36967,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 827
+     "line": 893
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 828
+     "line": 894
     }
    ],
    "manuscript_objects": [
@@ -36645,27 +37000,27 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 155
+     "line": 167
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 428
+     "line": 488
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 821
+     "line": 887
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 827
+     "line": 893
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 854
+     "line": 920
     },
     {
      "document": "supplement",
@@ -36748,7 +37103,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 827
+     "line": 893
     },
     {
      "document": "supplement",
@@ -36758,7 +37113,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 252
+     "line": 264
     }
    ],
    "manuscript_objects": [
@@ -36786,7 +37141,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 827
+     "line": 893
     }
    ],
    "manuscript_objects": [
@@ -36814,12 +37169,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/discussion.tex",
-     "line": 156
+     "line": 168
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 828
+     "line": 894
     }
    ],
    "manuscript_objects": [
@@ -36848,7 +37203,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 847
+     "line": 913
     },
     {
      "document": "supplement",
@@ -36886,12 +37241,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 637
+     "line": 703
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 847
+     "line": 913
     },
     {
      "document": "supplement",
@@ -36901,7 +37256,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s6_protocols.tex",
-     "line": 398
+     "line": 410
     },
     {
      "document": "supplement",
@@ -36944,7 +37299,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 849
+     "line": 915
     }
    ],
    "manuscript_objects": [
@@ -36972,7 +37327,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 848
+     "line": 914
     }
    ],
    "manuscript_objects": [
@@ -37000,7 +37355,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 854
+     "line": 920
     }
    ],
    "manuscript_objects": [
@@ -37028,7 +37383,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 855
+     "line": 921
     }
    ],
    "manuscript_objects": [
@@ -37056,7 +37411,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 856
+     "line": 922
     }
    ],
    "manuscript_objects": [
@@ -37084,7 +37439,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 876
+     "line": 942
     }
    ],
    "manuscript_objects": [
@@ -37113,7 +37468,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 878
+     "line": 944
     },
     {
      "document": "supplement",
@@ -37151,7 +37506,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 877
+     "line": 943
     }
    ],
    "manuscript_objects": [
@@ -37179,7 +37534,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 895
+     "line": 961
     },
     {
      "document": "supplement",
@@ -37212,7 +37567,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 908
+     "line": 974
     },
     {
      "document": "supplement",
@@ -37290,7 +37645,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 909
+     "line": 975
     }
    ],
    "manuscript_objects": [
@@ -37318,7 +37673,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 911
+     "line": 977
     }
    ],
    "manuscript_objects": [
@@ -37841,7 +38196,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 109
+     "line": 123
     }
    ],
    "manuscript_objects": [
@@ -37875,7 +38230,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 109
+     "line": 123
     }
    ],
    "manuscript_objects": [
@@ -37902,11 +38257,11 @@
  ],
  "coverage": {
   "by_location_class": {
-   "archive": 77,
-   "both": 87,
-   "main": 112,
+   "archive": 76,
+   "both": 90,
+   "main": 111,
    "orphan": 0,
-   "supplement": 123
+   "supplement": 122
   },
   "claims_located_in_the_tex_corpus": 399,
   "claims_resolved_to_a_record_file": 399,

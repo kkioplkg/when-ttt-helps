@@ -17,10 +17,18 @@ this repository**. Re-deriving those JSONs from scratch needs the raw records;
 | Task | Needs the DOI deposit? |
 |---|---|
 | Read any headline number and trace it to its source JSON | no |
+| Re-run the theorem checks (README Level 1) | no |
 | Re-run the independent closure verifier's report | no — `results/is_fresh/closure/json/VERIFY_FINAL.json` ships here |
-| Regenerate the paper's figures and tables from the analysis JSONs | no |
+| Regenerate main Figs. 4, 5 and 6 from the analysis JSONs (README Level 2) | no |
+| Regenerate main Figs. 7 and 8, and supplement Table S5 | **yes** — they read the per-instance CIFAR/GPT-2 traces |
 | Re-derive the analysis JSONs from the raw per-instance records | **yes** |
 | Re-train the source models and re-measure from scratch | **yes** (plus GPU time) |
+
+Two artefacts need neither the deposit nor a GPU but *do* need the manuscript, which is not in
+this repository: supplement Tables S4 and S7 regenerate from records that ship here, but their
+`--check` mode is a byte comparison against the manuscript's own `.tex` fragment, and
+`tools/r9_reconcile.py` binds curated claims to the text of both documents. Run those three from
+`release_archive.zip`, which carries the manuscript sources, rather than from here.
 
 ## The archives
 
@@ -69,9 +77,9 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,889,179 bytes (60.0 MiB) |
-| sha256 | `0789e924764bedcec32b34555b268c330202504c616083a9a4645b37de928ea8` |
-| contents | 627 files in 637 entries, 233,003,007 bytes uncompressed |
+| size | 62,928,529 bytes (60.0 MiB) |
+| sha256 | `d40602e17e093158f2143a47f120384be30d72d7b8e780a5f0f008adc6b72989` |
+| contents | 637 members, of which 9 are the root files the packager generates at build time (`GENERATED_MANIFEST.json` lists exactly those 9); 234,403,061 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw

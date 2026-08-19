@@ -5,8 +5,8 @@ All paths are relative to the extracted archive root.
 ## What this archive audits
 
 The submission is a PAIR of documents: `paper/is2/paper/main.pdf`
-(37 pp) and
-`paper/is2/supplement/supplement.pdf` (53 pp).  Both ship here with their
+(39 pp) and
+`paper/is2/supplement/supplement.pdf` (54 pp).  Both ship here with their
 sources, their build transcripts and their compiled bibliographies.  The
 experiments they report are E1 (solvable model), E2 (CIFAR-10/100-C) and E4
 (GPT-2 domains), and the records of those three, together with the fresh
@@ -165,15 +165,39 @@ blocks; the "named in" column is the file you can check each row against.
 | dataset (torchvision download) | `CIFAR10` | `ttt/e2_cifar/data.py` | third-party dataset fetched by the runner at first use |
 | dataset (torchvision download) | `CIFAR100` | `ttt/e2_cifar/data.py` | third-party dataset fetched by the runner at first use |
 | distribution absent from the build interpreter | `datasets` | `ttt/e4_gpt2/prepare_data.py` | needed only by the original data-preparation scripts, which ran on separate machines; left unpinned rather than pinned to a version this build never saw |
-| pretrained weights and tokenizer | `gpt2` | `ttt/e4_gpt2/delta_proxy_v2.py, ttt/e4_gpt2/prepare_data.py (+more)` | third-party model weights and tokenizer resolved from the hub by name at run time; the runs recorded the NAME, not a pinned revision hash, so an exact re-fetch of the same weights is not guaranteed |
+| pretrained weights and tokenizer | `gpt2` | `ttt/e4_gpt2/delta_proxy_v2.py, ttt/e4_gpt2/prepare_data.py (+more)` | third-party model weights and tokenizer resolved from the hub by name at run time; the ORIGINAL runs recorded the NAME and no revision hash, so a bare re-fetch is not guaranteed to obtain the same weights.  The REPRODUCTION loader is pinned to revision 607a30d783dfa663caf39e06633721c8d4cfcd7e and the weight digest, and the pinned rerun reproduces the retained records -- see the two-part statement below the table |
 | source checkpoints (*.pt) | `written by the shipped training scripts` | `ttt/e2_cifar/train_recon_head.py, ttt/e2_cifar/train_source.py` | excluded by size; regenerable with the shipped training scripts given the datasets above, but not bit-identically |
 
 Two consequences are worth stating rather than leaving to be inferred.
-**The model and tokenizer are resolved by NAME, not by a pinned revision.**
-The runs recorded which model they asked for; they did not record a
-commit hash for the weights, so a re-fetch obtains whatever that name
-resolves to at the time it is run, and bit-identical weights are not
-guaranteed.  **The recorded GPU and the recorded torch build are part of the
+
+**The model was resolved by NAME in the original runs; the reproduction
+loader is pinned, and the pin is verified against those runs.**  These are
+two different facts and neither may be written as the other.
+
+* *Historical experiment -- identifier only.*  The published E3/E4 runs
+  loaded the bare name `gpt2` and logged **no revision hash**.  Those records
+  therefore name a model without fixing its weights, and a bare re-fetch
+  obtains whatever that name resolves to at the time it is run.
+* *Reproduction loader -- pinned.*  The vector rerun and every loader after
+  it pin repository `openai-community/gpt2`, revision
+  `607a30d783dfa663caf39e06633721c8d4cfcd7e`, `model.safetensors`
+  548,105,171 bytes, sha256
+  `248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707`.  The
+  digest was read from the repository's own git-LFS pointer at that revision
+  and re-verified against the downloaded file.
+* *And the pin is not asserted across the gap -- it is checked.*  The pinned
+  rerun **reproduces the retained records of the original runs**: frozen
+  (`t=0`) continuation cross-entropy agrees to **6.2e-06** on all twelve
+  (domain, seed) jobs -- a quantity with no RNG and no adaptation in it,
+  hence a sharp test of which weights and which documents were seen -- and
+  fixed-budget perplexity at `t=20` agrees to **1.50e-05** absolute
+  (6.5e-07 relative) on all twelve.  That agreement is what makes the pin
+  informative about the historical run rather than only about future ones.
+  The full report is
+  `results/is_fresh/e3_vectors/PROVENANCE.md` (section 2 and
+  section 4) and `VERIFY_SUMMARY.md` (sections A and D) beside it.
+
+**The recorded GPU and the recorded torch build are part of the
 experimental conditions**, not incidental: the archive was packaged on a
 CPU-only interpreter, floating-point reduction order differs across devices,
 and a regeneration on other hardware is a replication rather than a rerun.
@@ -646,7 +670,7 @@ check is the `staging/paper byte-identity` line of the verify output.  They
 import only numpy and matplotlib.
 
 ```
-cd figures
+cd figures/scripts
 python fig_F5.py     # -> figures/F5_batch.pdf   (supplement S9.2, batch mech.)
 python fig_F6.py     # -> figures/F6_calib.pdf   (main Fig. 7, entropy calib.)
 cp ../F5_batch.pdf ../F6_calib.pdf ../../paper/is2/paper/figures/
@@ -654,7 +678,7 @@ cp ../F5_batch.pdf ../F6_calib.pdf ../../paper/is2/paper/figures/
 # (_style.py is an imported module, no command line)
 ```
 
-`figures` also ships `fig_F7.py`, `tab_T2.py`, `k3_baseline.py` and
+`figures/scripts` also ships `fig_F7.py`, `tab_T2.py`, `k3_baseline.py` and
 `bootstrap_ci.py`.  All four read the ImageNet-C record set, which this
 submission does not report and which is therefore not in this archive, so none
 of them runs here and none produces an object either document contains.  They
@@ -685,7 +709,7 @@ one glyph that needed handling.  `make_release_zip.py` asserts, for each of the
 three, that the source ships and that the PDF it converts to is in the payload,
 and the no-collision gate asserts that **no** live generator writes any of the
 three PDF basenames -- a script that did would replace author artwork with a
-plot on the next bulk re-run of `figures`.
+plot on the next bulk re-run of `figures/scripts`.
 
 ## Superseded generators -- do not run
 

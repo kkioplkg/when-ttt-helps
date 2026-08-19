@@ -45,3 +45,6 @@ results/is_fresh/closure/records/
 Thumbs.db
 .vscode/
 .idea/
+
+# scratch output directory used by the README Level 2 command
+repro/

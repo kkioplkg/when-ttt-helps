@@ -59,6 +59,20 @@ The sha256 was taken from the repository's own git-LFS pointer at that revision
 and re-verified against the downloaded file on both machines, so the pin is
 checkable without trusting either download.
 
+**Two facts, stated apart, and the second is what makes the first useful.**
+The *historical* experiment recorded only the model **identifier**: the
+published E3/E4 runs loaded the bare name `gpt2` and logged no revision hash,
+so those records name a model without fixing its weights. The pin above
+belongs to the *reproduction* loader. It is not left as an assertion across
+that gap: §4 check A shows the pinned rerun reproducing the retained records'
+frozen (`t=0`) continuation cross-entropy to **6.2e-06** on all twelve
+(domain, seed) jobs — a quantity with no RNG and no adaptation in it — and
+§4 check D shows fixed-budget perplexity at `t=20` agreeing to **1.50e-05**
+absolute (6.5e-07 relative) on all twelve. Agreement at that magnitude is
+evidence that the pinned weights are the weights the bare name resolved to
+when the original runs ran, which is what makes the pin informative about the
+historical run rather than only about future ones.
+
 ### Domain corpora
 
 `pubmed.jsonl` and `code.jsonl` are the **retained** corpora from

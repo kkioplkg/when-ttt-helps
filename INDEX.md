@@ -1,16 +1,15 @@
 # Auditability archive -- index
 
-Built 2026-08-18 15:45 UTC for the
+Built 2026-08-19 09:31 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
-Adaptation Help?  Exact Phase Laws in a Solvable Model, Class-Level Minimax
-Limits, and an Entropy--Alignment Identity".
+Adaptation Help?  An Exact Phase Law in a Solvable Model".
 It exists so that the submission is independently auditable rather than
 merely re-readable.  Extract it and every path below resolves without
 editing.
 
 **The submission is two documents.**  `paper/is2/paper/main.pdf` is the
-article (37 pp); `paper/is2/supplement/supplement.pdf` is the
-Supplementary Material (53 pp).  Both ship here with their sources,
+article (39 pp); `paper/is2/supplement/supplement.pdf` is the
+Supplementary Material (54 pp).  Both ship here with their sources,
 their build transcripts, their compiled bibliographies and the pinned LaTeX
 environment that produced them.
 
@@ -121,13 +120,25 @@ row is checkable against.  `COMMANDS.md` prints the same table.
 | dataset (torchvision download) | `CIFAR10` | `experiments/ttt/e2_cifar/data.py` | third-party dataset fetched by the runner at first use |
 | dataset (torchvision download) | `CIFAR100` | `experiments/ttt/e2_cifar/data.py` | third-party dataset fetched by the runner at first use |
 | distribution absent from the build interpreter | `datasets` | `experiments/ttt/e4_gpt2/prepare_data.py` | needed only by the original data-preparation scripts, which ran on separate machines; left unpinned rather than pinned to a version this build never saw |
-| pretrained weights and tokenizer | `gpt2` | `experiments/ttt/e4_gpt2/delta_proxy_v2.py, experiments/ttt/e4_gpt2/prepare_data.py (+more)` | third-party model weights and tokenizer resolved from the hub by name at run time; the runs recorded the NAME, not a pinned revision hash, so an exact re-fetch of the same weights is not guaranteed |
+| pretrained weights and tokenizer | `gpt2` | `experiments/ttt/e4_gpt2/delta_proxy_v2.py, experiments/ttt/e4_gpt2/prepare_data.py (+more)` | third-party model weights and tokenizer resolved from the hub by name at run time; the ORIGINAL runs recorded the NAME and no revision hash, so a bare re-fetch is not guaranteed to obtain the same weights.  The REPRODUCTION loader is pinned to revision 607a30d783dfa663caf39e06633721c8d4cfcd7e and the weight digest, and the pinned rerun reproduces the retained records -- see the two-part statement below the table |
 | source checkpoints (*.pt) | `written by the shipped training scripts` | `experiments/ttt/e2_cifar/train_recon_head.py, experiments/ttt/e2_cifar/train_source.py` | excluded by size; regenerable with the shipped training scripts given the datasets above, but not bit-identically |
 
-The model and tokenizer were resolved by NAME, not by a pinned revision hash,
-so a re-fetch obtains whatever that name resolves to when it is run; the
-recorded GPU and torch build are part of the experimental conditions, and a
-regeneration on other hardware is a replication rather than a rerun.
+Two facts about the pretrained model are distinct and are stated apart.  The
+ORIGINAL runs recorded only the model **identifier**: they loaded the bare
+name `gpt2` and logged no revision hash, so a bare re-fetch obtains whatever
+that name resolves to when it is run.  The REPRODUCTION loader is **pinned**
+-- repository `openai-community/gpt2`, revision
+`607a30d783dfa663caf39e06633721c8d4cfcd7e`, `model.safetensors` sha256
+`248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707` -- and the
+pinned rerun **reproduces the retained records of the original runs**: frozen
+(`t=0`) continuation cross-entropy to 6.2e-06 on all twelve (domain, seed)
+jobs, fixed-budget perplexity at `t=20` to 1.50e-05 absolute (6.5e-07
+relative) on all twelve.  That agreement is what makes the pin informative
+about the historical run rather than only about future ones; the report is
+`experiments/results/is_fresh/e3_vectors/PROVENANCE.md` and
+`VERIFY_SUMMARY.md`.  The recorded GPU and torch build are part of the
+experimental conditions, and a regeneration on other hardware is a
+replication rather than a rerun.
 
 ### Two levels of retained record, and which suites have which
 
@@ -386,8 +397,8 @@ itself at build time, not typed into this file**:
 > line by line --- none carries a build-machine or run-machine **absolute**
 > path *of the syntaxes the gate matches*, except for the
 > **6 declared exception files**.  Those files retain
-> **756** matching contexts --- lines, or parsed JSON string leaves
-> --- between them, containing **771** absolute-path occurrences;
+> **757** matching contexts --- lines, or parsed JSON string leaves
+> --- between them, containing **772** absolute-path occurrences;
 > a single context can carry more than one path, which is why the two
 > numbers differ and why each is reported under its own noun.  Each is
 > enumerated and
@@ -436,7 +447,7 @@ or if a declared exception has become clean and the exemption is therefore
 wider than the facts.
 
 Coverage of this build's run, over all **637** entries:
-**384 JSON members** (129771
+**384 JSON members** (129913
 string leaves **parsed**, not regex-matched); **226 text members**
 scanned line by line; 27 binary members out of scope and listed as
 such; 34 portable `env`-style shebangs excluded by construction
@@ -461,9 +472,9 @@ and the number of absolute-path occurrences retained in each:
 | `paper/is2/paper/BUILD_ENVIRONMENT.md` | 7 | 8 |
 | `paper/is2/paper/main.log` | 122 | 128 |
 | `paper/is2/provenance/pip-freeze-full.txt` | 268 | 268 |
-| `paper/is2/supplement/supplement.log` | 90 | 97 |
+| `paper/is2/supplement/supplement.log` | 91 | 98 |
 | `pip-freeze-full.txt` | 268 | 268 |
-| **total** | **756** | **771** in **6** files |
+| **total** | **757** | **772** in **6** files |
 
 The wider statement -- that a repository sweep finds *zero* absolute paths in
 the result JSONs -- is **not** made here, because it is **false** of the

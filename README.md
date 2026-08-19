@@ -28,6 +28,56 @@ nothing from the deposit; only re-deriving one from raw records does.
 > **Paper:** *When Does Single-Instance Test-Time Adaptation Help? An Exact Phase Law in a
 > Solvable Model* (under review). The citation will be finalized on publication.
 
+## Reproduce the paper in 3 levels
+
+Start here. Everything below this section is the audit detail; these are the three things a
+reader actually wants to run, in increasing cost. Install
+`requirements-analysis.txt` first (see [Requirements](#requirements)); Levels 1 and 2 are CPU
+only and need no download, no GPU and no checkpoint.
+
+**Level 1 — check the theorems. Three commands, minutes, no records needed beyond what ships.**
+
+```bash
+cd ttt/is_fresh
+python f18_integer_boundary_check.py     # the integer criterion: "some executable step helps"
+                                         # against "the first step helps", on the shipped grid
+python f36_flow_integer_bridge.py        # the flow curve is not the exact curve, and the
+                                         # exact-criterion repair, closed form only
+python f33_pl_envelope_monotonicity.py   # the local-PL envelope: what is and is not monotone
+```
+
+Each prints its verdict and rewrites its own JSON under `results/is_fresh/`. Those rewrites are
+**byte-identical to the copies committed here**, so `git status` staying clean after a run is
+itself the check.
+
+**Level 2 — regenerate the figures whose inputs ship. One command, minutes.**
+
+```bash
+mkdir -p repro && cd ttt/is_fresh && for f in fig_f1_curves fig_f2_phase fig_f4_e2; do python $f.py --out ../../repro/$f.pdf; done
+```
+
+That is main Fig. 4 (re-simulated from the seeds, and it asserts it replays the committed `f7`
+records cell for cell), main Fig. 5 and main Fig. 6. **Pass `--out`**: their built-in default
+points at the authoring tree, not at this one.
+
+Two more printed figures and two supplement tables are *not* at this level, and the reason is
+stated rather than left to be discovered: main Fig. 7 (`fig_F6.py`) and Fig. 8
+(`fig_f8_domains.py`) read the per-instance CIFAR and GPT-2 traces, and supplement Table S5
+(`tools/tab_s5_e2_batch.py`) reads the CIFAR batch-sweep traces — all three record sets are in
+the DOI deposit, not here (see [`DATA.md`](DATA.md)). Supplement Tables S4 and S7
+(`tools/tab_s4_e1_gates.py`, `tools/tab_s7_e4_proxy.py`) regenerate from records that *do* ship,
+but their `--check` mode compares against the manuscript's own `.tex` fragment, and the
+manuscript is not in this repository; run them against the reproducibility archive instead.
+`tools/r9_reconcile.py`, which binds every curated claim to its evidence file, needs both
+documents for the same reason and likewise runs from the archive.
+
+**Level 3 — reconstruct from raw records.** Needs the DOI deposit
+([`DATA.md`](DATA.md)) for the per-instance traces and the closure records, and a GPU for the
+original CIFAR/GPT-2 runners. [`COMMANDS.md`](COMMANDS.md) gives every command in dependency
+order and names every external input this repository cannot ship.
+
+---
+
 See [`COMMANDS.md`](COMMANDS.md) for the full protocol: every command in dependency order, the
 external inputs a complete regeneration needs, and what each script reads and writes.
 [`INDEX.md`](INDEX.md) is the file-by-file index, with the omissions and the reason for each;
@@ -238,9 +288,25 @@ WikiText-103, `ccdv/pubmed-summarization`, `codeparrot/codeparrot-clean-valid`,
 `pile-of-law/pile-of-law`, and the pretrained `gpt2` — are third-party and are not redistributed
 here. `COMMANDS.md`, "External inputs a complete regeneration needs", names each one, the file
 that names it, and why it is absent; two consequences are stated there rather than left to be
-inferred, namely that the model is resolved by **name and not by a pinned revision**, and that
-the recorded GPU and torch build are part of the experimental conditions, so a rerun on other
-hardware is a replication.
+inferred.
+
+The first concerns the pretrained language model, and it is **two facts, not one**. The
+*historical* experiment recorded only the model **identifier**: the published E3/E4 runs loaded
+the bare name `gpt2` and logged no revision hash, so those records name a model without fixing
+its weights. The *reproduction* loader is **pinned** — repository `openai-community/gpt2`,
+revision `607a30d783dfa663caf39e06633721c8d4cfcd7e`, `model.safetensors` 548,105,171 bytes,
+sha256 `248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707` — and the pin is not
+left as an assertion across that gap: the pinned rerun **reproduces the retained records of the
+original runs**, agreeing to 6.2e-06 in frozen (`t=0`) continuation cross-entropy on all twelve
+(domain, seed) jobs and to 1.50e-05 absolute (6.5e-07 relative) in fixed-budget perplexity at
+`t=20`. That agreement is what makes the pin informative about the historical run rather than
+only about future ones. The report is
+[`results/is_fresh/e3_vectors/PROVENANCE.md`](results/is_fresh/e3_vectors/PROVENANCE.md) §2 and
+§4 and `VERIFY_SUMMARY.md` beside it; the paper states the same two facts in its Data
+availability statement and in supplement §S7.3.
+
+The second is that the recorded GPU and torch build are part of the experimental conditions, so
+a rerun on other hardware is a replication.
 
 The record sets held back from this repository are in [`DATA.md`](DATA.md), with a per-file
 manifest shipping here for the two that have one.
