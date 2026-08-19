@@ -20,10 +20,12 @@ every printed number from the records, the closure measurement and verification 
 figure and table generators, **and the analysis records behind all of them** (`results/`, see
 below). What it deliberately does not contain is the manuscript and the bulk raw record sets:
 the per-instance CIFAR/GPT-2 traces, the closure `.jsonl.gz` records, the E3 replica payloads and
-the source checkpoints are a DOI deposit, described file by file with sizes and SHA-256 in
-[`DATA.md`](DATA.md). The split is deliberate and the boundary is the useful one — **every number
-either document prints is bound to an analysis JSON that ships here**, so checking a number needs
-nothing from the deposit; only re-deriving one from raw records does.
+the source checkpoints are published as **versioned release assets of this repository**
+([release `v1.0.0`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.0)), described
+file by file with sizes and SHA-256 in [`DATA.md`](DATA.md). The split is deliberate and the
+boundary is the useful one — **every number either document prints is bound to an analysis JSON
+that ships here**, so checking a number needs nothing downloaded; only re-deriving one from raw
+records does.
 
 > **Paper:** *When Does Single-Instance Test-Time Adaptation Help? An Exact Phase Law in a
 > Solvable Model* (under review). The citation will be finalized on publication.
@@ -64,17 +66,21 @@ Two more printed figures and two supplement tables are *not* at this level, and 
 stated rather than left to be discovered: main Fig. 7 (`fig_F6.py`) and Fig. 8
 (`fig_f8_domains.py`) read the per-instance CIFAR and GPT-2 traces, and supplement Table S5
 (`tools/tab_s5_e2_batch.py`) reads the CIFAR batch-sweep traces — all three record sets are in
-the DOI deposit, not here (see [`DATA.md`](DATA.md)). Supplement Tables S4 and S7
+the release assets, not in the Git tree (see [`DATA.md`](DATA.md)). Supplement Tables S4 and S7
 (`tools/tab_s4_e1_gates.py`, `tools/tab_s7_e4_proxy.py`) regenerate from records that *do* ship,
 but their `--check` mode compares against the manuscript's own `.tex` fragment, and the
 manuscript is not in this repository; run them against the reproducibility archive instead.
 `tools/r9_reconcile.py`, which binds every curated claim to its evidence file, needs both
 documents for the same reason and likewise runs from the archive.
 
-**Level 3 — reconstruct from raw records.** Needs the DOI deposit
-([`DATA.md`](DATA.md)) for the per-instance traces and the closure records, and a GPU for the
-original CIFAR/GPT-2 runners. [`COMMANDS.md`](COMMANDS.md) gives every command in dependency
-order and names every external input this repository cannot ship.
+**Level 3 — reconstruct from raw records.** Download the
+[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.0), verify each
+against the per-member manifests that ship inside `release_archive.zip`, and unpack them into the
+paths [`DATA.md`](DATA.md) names. That is enough to re-derive every analysis JSON from the
+per-instance records. Re-running the *original* CIFAR-10/100-C and GPT-2 experiments on top of
+that additionally needs a GPU and the third-party datasets and model weights, which are not ours
+to ship; [`COMMANDS.md`](COMMANDS.md) gives every command in dependency order and names each
+external input.
 
 ---
 
@@ -126,7 +132,7 @@ would falsify the record.
 COMMANDS.md            every command, in dependency order -- the entry point
 INDEX.md               file-by-file index, with the omissions and their reasons
 SEEDS.md               every seed used, per experiment
-DATA.md                the DOI deposit: what is held back, with sizes and SHA-256
+DATA.md                the release assets: what is held back, with sizes and SHA-256
 MANIFEST.json          sha256 + size for every archive file
 AUDIT_MAP.json         claim -> evidence-file map for the manuscript
 GENERATED_MANIFEST.json  which shipped files are generated, and by what
@@ -180,15 +186,18 @@ traces (`e2/`, 24 files, 140.1 MB), the GPT-2 per-document traces (`e4/`, 15 fil
 feature-shift dumps (`e5/`, 12 files, 10.2 MB), the E3 replica `.npz` payloads (24 files,
 35.6 MB), the GroupNorm per-instance JSONs (3 files, 17.3 MB) and the closure records (71
 `.jsonl.gz`, 128 MB). Two source checkpoints are held back as well, and are reproducible from
-`ttt/e2_cifar/train_source.py` with the seeds in `SEEDS.md`. **The DOI is not yet assigned**;
-`DATA.md` carries `DOI: TBD` and will carry the resolved DOI when the deposit is registered.
+`ttt/e2_cifar/train_source.py` with the seeds in `SEEDS.md`, and are release assets in their own
+right. Every one of these is inside the five assets of
+[release `v1.0.0`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.0); `DATA.md`
+gives each asset's size and SHA-256. There is no DOI, and no archival-preservation claim is
+made.
 Small companions to each held-back set — source gates, progress logs, per-seed summaries,
 reference files — do ship, so the shape of every set is visible without its payload. The
 manuscript sources and PDFs are not here at all; this is the code repository.
 
 ## Quick start — the closed-form results (run first)
 
-These need no GPU, no dataset and nothing from the deposit. They re-simulate the solvable model
+These need no GPU, no dataset and nothing downloaded. They re-simulate the solvable model
 from fresh seeds and check the integer criterion against the closed forms.
 
 ```bash
@@ -211,7 +220,8 @@ the ordering constraints spelled out (f10 before f18 and f3; f11 before f29 and 
 f31; f17 before f30; f38 before f23; f23 before f24). Two of its sections do not apply to this
 repository: "Building the two documents", because the manuscript sources are not here, and any
 step that *re-derives* an analysis JSON from raw per-instance records, because those records are
-in the deposit. Everything that *checks* a printed number runs from a clean clone.
+in the release assets rather than the Git tree. Everything that *checks* a printed number runs
+from a clean clone.
 
 ```bash
 cd ttt/is_fresh

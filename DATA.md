@@ -1,12 +1,17 @@
 # Data availability
 
 This repository holds **code and the small analysis outputs**. The bulk record
-sets are not stored here: they are large, they are write-once, and Git is the
-wrong tool for them. They will be deposited as a versioned archive with a DOI.
+sets are not stored in the Git tree: they are large, they are write-once, and Git
+is the wrong tool for them. They are **published as versioned release assets of
+this repository**, which is public, so they download with a plain `curl` and no
+account:
 
-> **DOI: TBD** — the deposit has not been made yet. This line will be replaced
-> with the resolved DOI once the archive is registered. Until then, the
-> archives are available from the authors on request.
+> **[Release `v1.0.0`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.0)** — five assets, listed below with their exact
+> sizes and SHA-256s. The release notes carry the same digests, computed from
+> the uploaded files.
+
+This is a versioned publication, not an archival preservation service, and it
+carries **no DOI**; nothing here claims otherwise.
 
 ## What you can do without the large data
 
@@ -14,23 +19,35 @@ Every number printed in the paper is bound to an analysis JSON **that is in
 this repository**. Re-deriving those JSONs from scratch needs the raw records;
 *checking* them does not. Concretely:
 
-| Task | Needs the DOI deposit? |
+| Task | Needs a release asset? |
 |---|---|
 | Read any headline number and trace it to its source JSON | no |
 | Re-run the theorem checks (README Level 1) | no |
 | Re-run the independent closure verifier's report | no — `results/is_fresh/closure/json/VERIFY_FINAL.json` ships here |
 | Regenerate main Figs. 4, 5 and 6 from the analysis JSONs (README Level 2) | no |
-| Regenerate main Figs. 7 and 8, and supplement Table S5 | **yes** — they read the per-instance CIFAR/GPT-2 traces |
+| Regenerate main Figs. 7 and 8, and supplement Table S5 | **yes** — they read the per-instance CIFAR/GPT-2 traces, which are inside `release_archive.zip` |
 | Re-derive the analysis JSONs from the raw per-instance records | **yes** |
 | Re-train the source models and re-measure from scratch | **yes** (plus GPU time) |
 
-Two artefacts need neither the deposit nor a GPU but *do* need the manuscript, which is not in
+Two artefacts need neither a release asset nor a GPU but *do* need the manuscript, which is not in
 this repository: supplement Tables S4 and S7 regenerate from records that ship here, but their
 `--check` mode is a byte comparison against the manuscript's own `.tex` fragment, and
 `tools/r9_reconcile.py` binds curated claims to the text of both documents. Run those three from
 `release_archive.zip`, which carries the manuscript sources, rather than from here.
 
 ## The archives
+
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.0/<name>`. Download and check one
+with:
+
+```bash
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.0/closure_records.zip
+sha256sum closure_records.zip
+```
+
+The two record archives additionally carry a **per-member** manifest inside
+`release_archive.zip`, digesting the decompressed bytes, so either can be checked
+file by file rather than only against its whole-archive digest.
 
 ### 1. `closure_records.zip` — closure-experiment records
 
@@ -77,9 +94,9 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,928,529 bytes (60.0 MiB) |
-| sha256 | `d40602e17e093158f2143a47f120384be30d72d7b8e780a5f0f008adc6b72989` |
-| contents | 637 members, of which 9 are the root files the packager generates at build time (`GENERATED_MANIFEST.json` lists exactly those 9); 234,403,061 bytes uncompressed |
+| size | 62,935,467 bytes (60.0 MiB) |
+| sha256 | `84789459a5b67e33e22360caf6300951a2b515fac95dc110ce34759608ab28c1` |
+| contents | 637 members, of which 9 are the root files the packager generates at build time (`GENERATED_MANIFEST.json` lists exactly those 9); 234,430,596 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw
@@ -90,8 +107,8 @@ be rebuilt.
 ## Raw record sets held back from this repository
 
 Paths below are this repository's, which is where each set unpacks to. The
-deposit and `release_archive.zip` carry the same trees one level down, under
-`experiments/`; the README's "Layout" note gives the full prefix map.
+release assets carry the same trees one level down, under `experiments/`; the
+README's "Layout" note gives the full prefix map.
 
 | Path | Files | Size | What it is |
 |---|---:|---:|---|
@@ -108,11 +125,18 @@ of each set is visible even without the payloads.
 
 ## Model checkpoints
 
-Not deposited in either archive and not in this repository:
+Not in the Git tree, and published as release assets of their own:
 
 - `results/is_fresh/e2_gn/cifar10_resnet26ttt_s20260806.pt` — 2,640,259 bytes
 - `results/is_fresh/e2_gn/f15_train_partial.pt` — 2,638,813 bytes
 
-Both are reproducible from `ttt/e2_cifar/train_source.py` with the
-seeds recorded in `SEEDS.md`. They will be added to the DOI deposit alongside
-the record archives.
+| file | sha256 |
+|---|---|
+| `cifar10_resnet26ttt_s20260806.pt` | `cdf63d2f079f7f3febabd4765824369ba8fffc7bc54e321fcb4f4bd347e19611` |
+| `f15_train_partial.pt` | `7588e5ef3908a54efb6644e6df4b44016d521f8af7bc9f8308a72bdcedbefe01` |
+
+Both are also reproducible from `ttt/e2_cifar/train_source.py` with the seeds
+recorded in `SEEDS.md`, though not bit-identically. **The other eleven source
+checkpoints did not survive and are not recoverable** — no asset substitutes
+for them, and the supplement's clean-accuracy paragraph rests on the retained
+per-seed evaluation records instead.

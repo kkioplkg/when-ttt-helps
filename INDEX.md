@@ -1,6 +1,6 @@
 # Auditability archive -- index
 
-Built 2026-08-19 09:31 UTC for the
+Built 2026-08-19 10:19 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
 Adaptation Help?  An Exact Phase Law in a Solvable Model".
 It exists so that the submission is independently auditable rather than
@@ -9,7 +9,7 @@ editing.
 
 **The submission is two documents.**  `paper/is2/paper/main.pdf` is the
 article (39 pp); `paper/is2/supplement/supplement.pdf` is the
-Supplementary Material (54 pp).  Both ship here with their sources,
+Supplementary Material (55 pp).  Both ship here with their sources,
 their build transcripts, their compiled bibliographies and the pinned LaTeX
 environment that produced them.
 
@@ -228,12 +228,15 @@ the fixed budget, which rests on neither.
 
 Regenerating `pi_bar` and `s` FROM the K = 3 replicas --- as opposed to
 consuming them, which (R) above does --- needs the per-replica trajectories.
-Those are in `e3_vectors_replicas.zip`, which is an **author-side deposit
-held alongside the DOI release and is not attached to review
+Those are in `e3_vectors_replicas.zip`, which is **published as a versioned
+release asset of the code repository and is not attached to review
 correspondence**: at 62.5 MB it would put the
-attached pair over the correspondence size limit.  Saying so and printing a
-single whole-archive digest is not enough for a reader to check anything, so
-this archive also ships that archive's own per-member manifest:
+attached pair over the correspondence size limit.  It downloads without an
+account from
+`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.0/e3_vectors_replicas.zip`.
+Naming it and printing a single whole-archive digest is not enough for a
+reader to check anything, so this archive also ships that archive's own
+per-member manifest:
 
 `experiments/results/is_fresh/e3_vectors/REPLICAS_MANIFEST.json`, generated
 by `experiments/ttt/is_fresh/f40_e3_replicas_manifest.py`, records for each
@@ -312,7 +315,7 @@ reading "verified" anywhere in this archive.
   checkpoint.
   **This is a statement about rerunning the analyses, not a certificate that
   every printed number is machine-verified.**  The reconciliation
-  (`r9_reconcile.py`) binds **399 curated headline and repeated
+  (`r9_reconcile.py`) binds **405 curated headline and repeated
   numerical claims** to records of record, with 100 further
   construction checks; that curated list is not exhaustive and says so, in
   its own docstring and in `FRESH_RESULTS.md`.  Quantities it does not bind
@@ -379,7 +382,7 @@ script's own scan of the `.tex` corpus, and from the command lines in
 and no location that is not in the sources shipped here.
 
 It is **partial in a stated way**, and the file says so in its own `scope`
-field rather than in a document beside it: its rows are the 399
+field rather than in a document beside it: its rows are the 405
 curated headline and repeated claims, which are a curated audit and not an
 exhaustive binding of every number.  The absence of a row is not evidence
 that a value is unsupported; it means that value is outside the curated
@@ -447,7 +450,7 @@ or if a declared exception has become clean and the exemption is therefore
 wider than the facts.
 
 Coverage of this build's run, over all **637** entries:
-**384 JSON members** (129913
+**384 JSON members** (130229
 string leaves **parsed**, not regex-matched); **226 text members**
 scanned line by line; 27 binary members out of scope and listed as
 such; 34 portable `env`-style shebangs excluded by construction
@@ -606,7 +609,7 @@ what it does and does not cover.
 | E2 leave-one-corruption-out sensitivity | `f20_e2gn_loco_sensitivity.py` | `f20_e2gn_loco_sensitivity.json` |
 | E2 entropy sign-separation coverage and excluded group | `f21_e2_coverage.py` | `f21_e2_coverage.json` |
 | E2 identity-level overlap of the cross-fit split | `f27_e2_identity.py` | `f27_e2_identity.json` |
-| every curated number in BOTH documents | `paper/is2/tools/r9_reconcile.py` | exit status; 399 claims, 100 construction checks |
+| every curated number in BOTH documents | `paper/is2/tools/r9_reconcile.py` | exit status; 405 claims, 100 construction checks |
 | dependency-provenance evidence and resolver transcripts | none (captured once, on the build machine) | `experiments/ttt/is_fresh/RESOLVER_TRANSCRIPT.md` |
 
 ## Which defect each fresh artefact answers

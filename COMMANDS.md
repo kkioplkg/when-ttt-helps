@@ -6,7 +6,7 @@ All paths are relative to the extracted archive root.
 
 The submission is a PAIR of documents: `paper/is2/paper/main.pdf`
 (39 pp) and
-`paper/is2/supplement/supplement.pdf` (54 pp).  Both ship here with their
+`paper/is2/supplement/supplement.pdf` (55 pp).  Both ship here with their
 sources, their build transcripts and their compiled bibliographies.  The
 experiments they report are E1 (solvable model), E2 (CIFAR-10/100-C) and E4
 (GPT-2 domains), and the records of those three, together with the fresh
@@ -377,8 +377,8 @@ python f39_e3_vector_selfcheck.py
 # INTO this release so that ONCE THAT ARCHIVE IS OBTAINED its contents can be
 # verified member by member and array by array rather than by one opaque
 # whole-archive digest.  It does not make possession of the archive
-# verifiable -- a manifest of absent bytes proves nothing about them.  It needs the side archive, which is an author-side deposit beside
-# the DOI release and is NOT in this payload, so from a clean extraction it
+# verifiable -- a manifest of absent bytes proves nothing about them.  It needs the side archive, which is published as a versioned
+# release asset of the code repository and is NOT in this payload, so from a clean extraction it
 # is a --check that has nothing to check against; run it where the archive
 # is, or skip it.  Everything else here runs without it.
 python f40_e3_replicas_manifest.py --check   # needs e3_vectors_replicas.zip
@@ -464,7 +464,7 @@ ships.  Run them from that directory.
 ```
 cd tools
 
-python r9_reconcile.py                   # 399 CURATED headline claims
+python r9_reconcile.py                   # 405 CURATED headline claims
 #                                          re-derived from the JSONs above and
 #                                          compared with the token the two
 #                                          documents print, plus a model-free
@@ -491,7 +491,7 @@ python r9_reconcile.py                   # 399 CURATED headline claims
 #                                          purely SEMANTIC error (a correct
 #                                          number under a wrong label) is
 #                                          invisible to a value check.  Report
-#                                          it as "399 curated headline
+#                                          it as "405 curated headline
 #                                          and repeated numerical claims",
 #                                          never as "every number".
 #                                          It also runs 100

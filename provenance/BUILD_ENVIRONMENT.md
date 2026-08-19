@@ -295,15 +295,15 @@ block and the products disagree.
 
 | property | `paper/main.pdf` (article) | `supplement/supplement.pdf` |
 |---|---|---|
-| pages | **39** | **54** |
-| `.pdf` size | 1,449,081 bytes | 968,109 bytes |
-| `.pdf` SHA-256 | `e90206565a3c47b15d9d276a7d393b2a266c03520fd52e1569595cecdcb0a3e9` | `60856d9ea1ed329c600fa155d4b378668846b98b4491b479ca47bedba64d1c2a` |
+| pages | **39** | **55** |
+| `.pdf` size | 1,449,849 bytes | 971,304 bytes |
+| `.pdf` SHA-256 | `259ee0f1e7ea7947e45242573815d07f9257236e1fd5d09dba20da07d6eeacaa` | `9256cf27f8a439d9703ad75b7c67f456f72e0ab338e57e967dbedd2a4ae1115a` |
 | `.tex` SHA-256 | `dcaf6e1cce05b07230af64e3126377f6bcd238a16524d16e6a1edd01597578f8` | `8bc18ba3ce505064049023d63d9bb81956faddad6a46d68c03230351d82058fe` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,614 bytes / `90c48aa0b6a1d8c9e011c0f6cbbf51e84ea7b7ce20ba1207dade7e446288a58a` | 27,140 bytes / `46c5d515f3446090af367a442a1b933895cf5c17c58533ef9299517584ad814e` |
+| `.log` size / SHA-256 | 40,614 bytes / `10e33919f743e9adcb23777d613b0acf3ef19546649f37af9bfee015921ba9b3` | 27,145 bytes / `2835d9a6fed1c3f3bffa5361d8f70d73370e2a46f32d709476f6012f989ac70d` |
 | final-page footer | `Page 39 of 39` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.
@@ -1153,7 +1153,7 @@ item 5 of `verify()` on the extracted tree, and standalone via
      (447/247,260/135 against a gate reporting 449/247,285/140) -->
 
 On the shipped build it reports: **0 absolute paths outside the declared
-exceptions, over 384 JSON members (129,913 string leaves parsed) and 226 text
+exceptions, over 384 JSON members (130,229 string leaves parsed) and 226 text
 members; 27 binary members out of scope, 34 portable shebangs excluded; 6
 declared exceptions holding 757 matching contexts, which contain 772 absolute-path occurrences.**
 

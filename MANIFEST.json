@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-08-19T09:31:23.095760+00:00",
+ "built_utc": "2026-08-19T10:19:51.461315+00:00",
  "files": {
   "experiments/results/e2/cifar100_tent_batch_sweep_s0.json": {
    "bytes": 4445566,
@@ -2223,7 +2223,7 @@
   },
   "paper/is2/paper/BUILD_ENVIRONMENT.md": {
    "bytes": 74743,
-   "sha256": "5e95cc4143010411f79568b4fd4789df02f18e172281f6f1f8f9eb87414cbfd1"
+   "sha256": "5e728f53040a674ef4a8070db531a7e856bf65edf84ecd89526a216149b92345"
   },
   "paper/is2/paper/Highlights.txt": {
    "bytes": 407,
@@ -2291,11 +2291,11 @@
   },
   "paper/is2/paper/main.log": {
    "bytes": 40614,
-   "sha256": "90c48aa0b6a1d8c9e011c0f6cbbf51e84ea7b7ce20ba1207dade7e446288a58a"
+   "sha256": "10e33919f743e9adcb23777d613b0acf3ef19546649f37af9bfee015921ba9b3"
   },
   "paper/is2/paper/main.pdf": {
-   "bytes": 1449081,
-   "sha256": "e90206565a3c47b15d9d276a7d393b2a266c03520fd52e1569595cecdcb0a3e9"
+   "bytes": 1449849,
+   "sha256": "259ee0f1e7ea7947e45242573815d07f9257236e1fd5d09dba20da07d6eeacaa"
   },
   "paper/is2/paper/main.tex": {
    "bytes": 12103,
@@ -2318,8 +2318,8 @@
    "sha256": "e806648011b23a35e2dcac2fc16f6309045e1e18dfd5b4f9a0825a794e677879"
   },
   "paper/is2/paper/sections/declarations.tex": {
-   "bytes": 5680,
-   "sha256": "1d01bbc09048930834f6abe714409354778fa6eadf93220a7cce5fb0adda92cc"
+   "bytes": 6512,
+   "sha256": "dc261ba34a09183f3a5c9616941282115268eb321f3c803590ec5f56fee25722"
   },
   "paper/is2/paper/sections/discussion.tex": {
    "bytes": 18164,
@@ -2330,8 +2330,8 @@
    "sha256": "f7f0f6ad25ce28788f61a8db36a41b99af038bcf0b16ad288d649170ff478f89"
   },
   "paper/is2/paper/sections/experiments.tex": {
-   "bytes": 60445,
-   "sha256": "8911a22af0f0548959f51ea32ac0e023869c6ed937667411dd23b0378b78c0a4"
+   "bytes": 60682,
+   "sha256": "3385bc49bc5ea38c2a9612d4cdd640699282603ff38905c9db0c671a90eddee4"
   },
   "paper/is2/paper/sections/introduction.tex": {
    "bytes": 14683,
@@ -2406,8 +2406,8 @@
    "sha256": "6f8b561d8e2aa1dca4217f16733d68b26753b8efb530233dc4da5cb2a91e8753"
   },
   "paper/is2/supplement/s5_measurement.tex": {
-   "bytes": 13756,
-   "sha256": "65601e52a28d4270edc69dc3ed91931d009f749a0c814d98843bea7828d6e55b"
+   "bytes": 15372,
+   "sha256": "11968e400edbafce42269c5e4055c9b8f55b90fde7ab4f5168aa81e7971ba146"
   },
   "paper/is2/supplement/s6_protocols.tex": {
    "bytes": 30424,
@@ -2418,20 +2418,20 @@
    "sha256": "6b6cf594b24d3a72092c2bc7a305b30e802705a6b84c4f95ce09cffb4c25ff6f"
   },
   "paper/is2/supplement/s8_full_results.tex": {
-   "bytes": 22647,
-   "sha256": "07ba777fa52d2b509e909cebb712617d1d279ccaf07f1645cb21a94c0fb0a711"
+   "bytes": 23366,
+   "sha256": "83affc2623a0e7bf9b8216e16444e87e81f231706dda1184437fed52fa3e7ea6"
   },
   "paper/is2/supplement/supplement.bbl": {
    "bytes": 1292,
    "sha256": "e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb"
   },
   "paper/is2/supplement/supplement.log": {
-   "bytes": 27140,
-   "sha256": "46c5d515f3446090af367a442a1b933895cf5c17c58533ef9299517584ad814e"
+   "bytes": 27145,
+   "sha256": "2835d9a6fed1c3f3bffa5361d8f70d73370e2a46f32d709476f6012f989ac70d"
   },
   "paper/is2/supplement/supplement.pdf": {
-   "bytes": 968109,
-   "sha256": "60856d9ea1ed329c600fa155d4b378668846b98b4491b479ca47bedba64d1c2a"
+   "bytes": 971304,
+   "sha256": "9256cf27f8a439d9703ad75b7c67f456f72e0ab338e57e967dbedd2a4ae1115a"
   },
   "paper/is2/supplement/supplement.tex": {
    "bytes": 24769,
@@ -2462,12 +2462,12 @@
    "sha256": "0a04c642e8f374f9800eb278947e08d4c2d3b6b513a506fe8ea083b8cfa97ec6"
   },
   "paper/is2/tools/make_release_zip.py": {
-   "bytes": 266189,
-   "sha256": "4aab8dffd80461b178ea6f8a2513c1f94bdc6d0fe08ef7d6fe2711f124cbc303"
+   "bytes": 266345,
+   "sha256": "0d9858add7945a39d1b695b4702dd4cbb3b58d9cb5bad77a60afdbb126d75f34"
   },
   "paper/is2/tools/r9_reconcile.py": {
-   "bytes": 176669,
-   "sha256": "bfd604cba3c9f219dddcf13db5b0d5faaa7c5d9340f8094dd968cee9a9dd558b"
+   "bytes": 178914,
+   "sha256": "277335406f2becf93c4dab4e51786b74c8159516616daa943970f562da119de6"
   },
   "paper/is2/tools/source_hygiene.py": {
    "bytes": 7865,
@@ -2512,5 +2512,5 @@
  },
  "n_files": 627,
  "repo_relative_paths": true,
- "total_bytes_uncompressed": 233067348
+ "total_bytes_uncompressed": 233077121
 }

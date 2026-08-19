@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-08-19T09:31:23.095760+00:00",
+ "built_utc": "2026-08-19T10:19:51.461315+00:00",
  "claims": [
   {
    "command_cwd": "experiments/ttt/is_fresh",
@@ -338,7 +338,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -825,7 +825,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 72
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 99
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 106
     },
     {
      "document": "main",
@@ -890,67 +900,67 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 373
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 402
+     "line": 406
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 423
+     "line": 427
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 522
+     "line": 526
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 551
+     "line": 555
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 578
+     "line": 582
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 652
+     "line": 656
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 653
+     "line": 657
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 783
+     "line": 787
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 877
+     "line": 881
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 890
+     "line": 894
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 913
+     "line": 917
     },
     {
      "document": "main",
@@ -2022,12 +2032,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 274
+     "line": 278
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 409
+     "line": 413
     },
     {
      "document": "supplement",
@@ -2082,7 +2092,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 409
+     "line": 413
     }
    ],
    "manuscript_objects": [
@@ -2122,7 +2132,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 409
+     "line": 413
     }
    ],
    "manuscript_objects": [
@@ -2162,12 +2172,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 276
+     "line": 280
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 411
+     "line": 415
     },
     {
      "document": "supplement",
@@ -2212,12 +2222,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 276
+     "line": 280
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 411
+     "line": 415
     },
     {
      "document": "supplement",
@@ -2262,12 +2272,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 277
+     "line": 281
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     },
     {
      "document": "supplement",
@@ -2311,12 +2321,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 274
+     "line": 278
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 410
+     "line": 414
     },
     {
      "document": "supplement",
@@ -2371,7 +2381,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 410
+     "line": 414
     }
    ],
    "manuscript_objects": [],
@@ -2408,7 +2418,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 410
+     "line": 414
     },
     {
      "document": "supplement",
@@ -2465,17 +2475,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 276
+     "line": 280
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 411
+     "line": 415
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 757
+     "line": 761
     },
     {
      "document": "supplement",
@@ -2542,12 +2552,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 276
+     "line": 280
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 411
+     "line": 415
     },
     {
      "document": "supplement",
@@ -2557,7 +2567,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s8_full_results.tex",
-     "line": 392
+     "line": 402
     }
    ],
    "manuscript_objects": [],
@@ -2594,7 +2604,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 276
+     "line": 280
     },
     {
      "document": "supplement",
@@ -2794,17 +2804,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 276
+     "line": 280
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 411
+     "line": 415
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 757
+     "line": 761
     },
     {
      "document": "supplement",
@@ -3024,7 +3034,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 428
+     "line": 432
     },
     {
      "document": "supplement",
@@ -3081,7 +3091,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 415
+     "line": 419
     },
     {
      "document": "supplement",
@@ -3289,7 +3299,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 416
+     "line": 420
     },
     {
      "document": "supplement",
@@ -3502,7 +3512,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 417
+     "line": 421
     },
     {
      "document": "supplement",
@@ -3808,13 +3818,23 @@
    "locations": [
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 435
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 98
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 103
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 439
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 440
     },
     {
      "document": "main",
@@ -3921,13 +3941,23 @@
    "locations": [
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 435
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 98
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 103
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 439
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 440
     },
     {
      "document": "main",
@@ -6293,13 +6323,23 @@
    "locations": [
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 435
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 98
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 103
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 439
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 440
     },
     {
      "document": "main",
@@ -6406,13 +6446,23 @@
    "locations": [
     {
      "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 435
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 98
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 103
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 439
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 440
     },
     {
      "document": "main",
@@ -7013,7 +7063,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 410
+     "line": 414
     },
     {
      "document": "supplement",
@@ -7096,7 +7146,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 666
+     "line": 670
     },
     {
      "document": "supplement",
@@ -7516,7 +7566,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 172
+     "line": 197
     },
     {
      "document": "supplement",
@@ -7602,7 +7652,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 76
+     "line": 78
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 104
     },
     {
      "document": "main",
@@ -7637,27 +7692,27 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 311
+     "line": 315
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 434
+     "line": 438
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 483
+     "line": 487
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 659
+     "line": 663
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 665
+     "line": 669
     },
     {
      "document": "main",
@@ -7992,7 +8047,17 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s8_full_results.tex",
-     "line": 386
+     "line": 389
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 391
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 394
     },
     {
      "document": "supplement",
@@ -8155,7 +8220,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 784
+     "line": 788
     },
     {
      "document": "main",
@@ -8252,28 +8317,662 @@
   {
    "command_cwd": "experiments/ttt/is_fresh",
    "id": "C0112",
+   "label": "E2 delta_feat strictly increasing over severities 1-5, CIFAR-10-C (Sec S9.5): the FIVE-POINT count",
+   "location_class": "both",
+   "locations": [
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 106
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 373
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 376
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 440
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 445
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 556
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 560
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 582
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 658
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 693
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 698
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 787
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 829
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 865
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 917
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/setup_exact.tex",
+     "line": 532
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s1_exact_proofs.tex",
+     "line": 467
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s1_exact_proofs.tex",
+     "line": 470
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s1_exact_proofs.tex",
+     "line": 471
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s1_exact_proofs.tex",
+     "line": 472
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s5_measurement.tex",
+     "line": 46
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 201
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 202
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 205
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 217
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 360
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s7_estimation.tex",
+     "line": 201
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 241
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 255
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 391
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 160
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 479
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/xref_main.tex",
+     "line": 27
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/xref_main.tex",
+     "line": 41
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/xref_main.tex",
+     "line": 55
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/xref_main.tex",
+     "line": 74
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/s7_provenance_ledger.tex",
+     "line": 35
+    }
+   ],
+   "manuscript_objects": [
+    "S9"
+   ],
+   "note": "",
+   "printed_token": "7",
+   "recomputed": "7",
+   "record_pointer": "f14/A_severity_monotonicity/per_corruption, cifar10 triples spanning (1,2,3,4,5)",
+   "record_resolution": "by pointer prefix",
+   "records": [
+    "experiments/results/is_fresh/f14_deltafeat_check.json"
+   ],
+   "regenerating_commands": [
+    "python f14_deltafeat_check.py"
+   ],
+   "rounding": "%.0f"
+  },
+  {
+   "command_cwd": "experiments/ttt/is_fresh",
+   "id": "C0113",
+   "label": "E2 delta_feat five-point triples available, CIFAR-10-C",
+   "location_class": "both",
+   "locations": [
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 106
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 177
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 241
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/inventory_generated.tex",
+     "line": 6
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 28
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 44
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 100
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 201
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 447
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 279
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 391
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 393
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 45
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 47
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 51
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 53
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 57
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 59
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e3_proxy_ledger.tex",
+     "line": 94
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/result_figures.tex",
+     "line": 76
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/paper/figures/S4_e1_gates.tex",
+     "line": 18
+    }
+   ],
+   "manuscript_objects": [],
+   "note": "",
+   "printed_token": "30",
+   "recomputed": "30",
+   "record_pointer": "f14/A_severity_monotonicity/per_corruption, count of the same subset",
+   "record_resolution": "by pointer prefix",
+   "records": [
+    "experiments/results/is_fresh/f14_deltafeat_check.json"
+   ],
+   "regenerating_commands": [
+    "python f14_deltafeat_check.py"
+   ],
+   "rounding": "%.0f"
+  },
+  {
+   "command_cwd": "experiments/ttt/is_fresh",
+   "id": "C0114",
+   "label": "E2 delta_feat increasing from severity 3 to 5, CIFAR-100-C (Sec S9.5): the TWO-POINT count, not a monotonicity test",
+   "location_class": "both",
+   "locations": [
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/discussion.tex",
+     "line": 51
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 787
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 843
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 845
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s1_exact_proofs.tex",
+     "line": 1126
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s5_measurement.tex",
+     "line": 80
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 36
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 106
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 123
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 393
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/result_figures.tex",
+     "line": 26
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/s7_provenance_ledger.tex",
+     "line": 38
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/s7_provenance_ledger.tex",
+     "line": 80
+    }
+   ],
+   "manuscript_objects": [
+    "S9"
+   ],
+   "note": "",
+   "printed_token": "16",
+   "recomputed": "16",
+   "record_pointer": "f14/A_severity_monotonicity/per_corruption, cifar100 triples spanning (3,5)",
+   "record_resolution": "by pointer prefix",
+   "records": [
+    "experiments/results/is_fresh/f14_deltafeat_check.json"
+   ],
+   "regenerating_commands": [
+    "python f14_deltafeat_check.py"
+   ],
+   "rounding": "%.0f"
+  },
+  {
+   "command_cwd": "experiments/ttt/is_fresh",
+   "id": "C0115",
+   "label": "E2 delta_feat two-point triples available, CIFAR-100-C",
+   "location_class": "both",
+   "locations": [
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 106
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 177
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 241
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/inventory_generated.tex",
+     "line": 6
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 28
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 44
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 100
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 201
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 447
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 279
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 391
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 393
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 45
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 47
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 51
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 53
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 57
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e2_severity_grid.tex",
+     "line": 59
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e3_proxy_ledger.tex",
+     "line": 94
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/result_figures.tex",
+     "line": 76
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/paper/figures/S4_e1_gates.tex",
+     "line": 18
+    }
+   ],
+   "manuscript_objects": [],
+   "note": "",
+   "printed_token": "30",
+   "recomputed": "30",
+   "record_pointer": "f14/A_severity_monotonicity/per_corruption, count of the same subset",
+   "record_resolution": "by pointer prefix",
+   "records": [
+    "experiments/results/is_fresh/f14_deltafeat_check.json"
+   ],
+   "regenerating_commands": [
+    "python f14_deltafeat_check.py"
+   ],
+   "rounding": "%.0f"
+  },
+  {
+   "command_cwd": "experiments/ttt/is_fresh",
+   "id": "C0116",
+   "label": "E2 delta_feat episode-level Spearman against severity, median (Sec S9.5)",
+   "location_class": "supplement",
+   "locations": [
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 398
+    }
+   ],
+   "manuscript_objects": [
+    "S9"
+   ],
+   "note": "",
+   "printed_token": "-0.015",
+   "recomputed": "-0.015",
+   "record_pointer": "f14/A_severity_monotonicity/episode_level_rho_severity/median",
+   "record_resolution": "by pointer prefix",
+   "records": [
+    "experiments/results/is_fresh/f14_deltafeat_check.json"
+   ],
+   "regenerating_commands": [
+    "python f14_deltafeat_check.py"
+   ],
+   "rounding": "%.3f"
+  },
+  {
+   "command_cwd": "experiments/ttt/is_fresh",
+   "id": "C0117",
+   "label": "E2 delta_feat triples in all (Sec S9.5)",
+   "location_class": "supplement",
+   "locations": [
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s6_protocols.tex",
+     "line": 52
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 394
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 398
+    },
+    {
+     "document": "release",
+     "file": "paper/is2/archive_tables/e1_boundary_ledger.tex",
+     "line": 19
+    }
+   ],
+   "manuscript_objects": [
+    "S9"
+   ],
+   "note": "",
+   "printed_token": "60",
+   "recomputed": "60",
+   "record_pointer": "f14/A_severity_monotonicity/n_triples_dataset_arch_corruption",
+   "record_resolution": "by pointer prefix",
+   "records": [
+    "experiments/results/is_fresh/f14_deltafeat_check.json"
+   ],
+   "regenerating_commands": [
+    "python f14_deltafeat_check.py"
+   ],
+   "rounding": "%.0f"
+  },
+  {
+   "command_cwd": "experiments/ttt/is_fresh",
+   "id": "C0118",
    "label": "E2 calibration total episodes",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 373
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 372
+     "line": 376
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 440
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 441
+     "line": 445
     },
     {
      "document": "supplement",
@@ -8297,14 +8996,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0113",
+   "id": "C0119",
    "label": "E2 calibration retained confident-right n",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 430
+     "line": 434
     }
    ],
    "manuscript_objects": [],
@@ -8323,14 +9022,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0114",
+   "id": "C0120",
    "label": "E2 calibration retained confident-wrong n",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 431
+     "line": 435
     }
    ],
    "manuscript_objects": [],
@@ -8349,7 +9048,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0115",
+   "id": "C0121",
    "label": "E2 calibration excluded n",
    "location_class": "archive",
    "locations": [
@@ -8375,19 +9074,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0116",
+   "id": "C0122",
    "label": "E2 calibration coverage share",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 373
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 441
+     "line": 445
     }
    ],
    "manuscript_objects": [],
@@ -8406,7 +9105,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0117",
+   "id": "C0123",
    "label": "E2 calibration excluded share",
    "location_class": "archive",
    "locations": [
@@ -8432,19 +9131,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0118",
+   "id": "C0124",
    "label": "E2 all-episode Spearman(alpha_ent, correct)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 372
+     "line": 376
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     }
    ],
    "manuscript_objects": [],
@@ -8463,7 +9162,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0119",
+   "id": "C0125",
    "label": "E2 band [0.0,0.2): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8491,14 +9190,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0120",
+   "id": "C0126",
    "label": "E2 band [0.0,0.2): accuracy (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 660
+     "line": 664
     },
     {
      "document": "supplement",
@@ -8524,7 +9223,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0121",
+   "id": "C0127",
    "label": "E2 band [0.0,0.2): sign-rule accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8567,7 +9266,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0122",
+   "id": "C0128",
    "label": "E2 band [0.0,0.2): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8605,7 +9304,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0123",
+   "id": "C0129",
    "label": "E2 band [0.2,0.3): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8633,7 +9332,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0124",
+   "id": "C0130",
    "label": "E2 band [0.2,0.3): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8661,19 +9360,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0125",
+   "id": "C0131",
    "label": "E2 band [0.2,0.3): sign-rule accuracy (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     },
     {
      "document": "supplement",
@@ -8699,7 +9398,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0126",
+   "id": "C0132",
    "label": "E2 band [0.2,0.3): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8727,7 +9426,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0127",
+   "id": "C0133",
    "label": "E2 band [0.3,0.4): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8755,7 +9454,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0128",
+   "id": "C0134",
    "label": "E2 band [0.3,0.4): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8783,7 +9482,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0129",
+   "id": "C0135",
    "label": "E2 band [0.3,0.4): sign-rule accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8816,7 +9515,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0130",
+   "id": "C0136",
    "label": "E2 band [0.3,0.4): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8849,7 +9548,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0131",
+   "id": "C0137",
    "label": "E2 band [0.4,0.5): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8877,7 +9576,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0132",
+   "id": "C0138",
    "label": "E2 band [0.4,0.5): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8905,7 +9604,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0133",
+   "id": "C0139",
    "label": "E2 band [0.4,0.5): sign-rule accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8933,7 +9632,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0134",
+   "id": "C0140",
    "label": "E2 band [0.4,0.5): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8961,7 +9660,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0135",
+   "id": "C0141",
    "label": "E2 band [0.5,0.6): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -8989,7 +9688,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0136",
+   "id": "C0142",
    "label": "E2 band [0.5,0.6): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9017,7 +9716,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0137",
+   "id": "C0143",
    "label": "E2 band [0.5,0.6): sign-rule accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9045,7 +9744,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0138",
+   "id": "C0144",
    "label": "E2 band [0.5,0.6): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9073,7 +9772,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0139",
+   "id": "C0145",
    "label": "E2 band [0.6,0.7): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9101,7 +9800,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0140",
+   "id": "C0146",
    "label": "E2 band [0.6,0.7): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9129,7 +9828,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0141",
+   "id": "C0147",
    "label": "E2 band [0.6,0.7): sign-rule accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9157,7 +9856,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0142",
+   "id": "C0148",
    "label": "E2 band [0.6,0.7): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9185,7 +9884,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0143",
+   "id": "C0149",
    "label": "E2 band [0.7,0.8): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9213,7 +9912,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0144",
+   "id": "C0150",
    "label": "E2 band [0.7,0.8): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9241,14 +9940,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0145",
+   "id": "C0151",
    "label": "E2 band [0.7,0.8): sign-rule accuracy (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -9319,14 +10018,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0146",
+   "id": "C0152",
    "label": "E2 band [0.7,0.8): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -9397,7 +10096,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0147",
+   "id": "C0153",
    "label": "E2 band [0.8,0.9): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9425,7 +10124,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0148",
+   "id": "C0154",
    "label": "E2 band [0.8,0.9): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9453,14 +10152,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0149",
+   "id": "C0155",
    "label": "E2 band [0.8,0.9): sign-rule accuracy (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -9531,14 +10230,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0150",
+   "id": "C0156",
    "label": "E2 band [0.8,0.9): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -9609,7 +10308,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0151",
+   "id": "C0157",
    "label": "E2 band [0.9,1.0): episodes (Table S, Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9637,7 +10336,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0152",
+   "id": "C0158",
    "label": "E2 band [0.9,1.0): accuracy (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9665,14 +10364,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0153",
+   "id": "C0159",
    "label": "E2 band [0.9,1.0): sign-rule accuracy (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -9743,14 +10442,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0154",
+   "id": "C0160",
    "label": "E2 band [0.9,1.0): P(alpha_ent<0 | wrong) (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -9821,14 +10520,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0155",
+   "id": "C0161",
    "label": "E2 band [0.4,0.5): P(alpha_ent<0 | right) -- the ONLY band where this is nonzero, and the reason the claim is 'near zero' and not 'zero' (Sec S8.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     },
     {
      "document": "supplement",
@@ -9864,7 +10563,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0156",
+   "id": "C0162",
    "label": "E2 confidence-band census: the six sub-threshold bands sum to the excluded count (Sec S8.5)",
    "location_class": "archive",
    "locations": [
@@ -9892,7 +10591,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0157",
+   "id": "C0163",
    "label": "E2 lowest band: alignment range low end (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9920,7 +10619,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0158",
+   "id": "C0164",
    "label": "E2 lowest band: alignment range high end (Sec S8.5)",
    "location_class": "supplement",
    "locations": [
@@ -9948,7 +10647,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0159",
+   "id": "C0165",
    "label": "E1 fixed unfitted rule, holdout accuracy, across-seed mean (Sec 6.1 and Sec S9.4)",
    "location_class": "both",
    "locations": [
@@ -9992,7 +10691,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0160",
+   "id": "C0166",
    "label": "E1 fixed unfitted rule, holdout accuracy, low seed (Sec S9.4)",
    "location_class": "supplement",
    "locations": [
@@ -10025,7 +10724,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0161",
+   "id": "C0167",
    "label": "E1 fixed unfitted rule, holdout accuracy, high seed (Sec S9.4)",
    "location_class": "supplement",
    "locations": [
@@ -10058,7 +10757,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0162",
+   "id": "C0168",
    "label": "E1 FITTED threshold, same holdout, across-seed mean (Sec 6.1 and Sec S9.4)",
    "location_class": "both",
    "locations": [
@@ -10097,7 +10796,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0163",
+   "id": "C0169",
    "label": "E1 fitted rule, largest |z| of a holdout miss, worst seed (Sec S9.4)",
    "location_class": "supplement",
    "locations": [
@@ -10130,14 +10829,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0164",
+   "id": "C0170",
    "label": "E1 fixed rule, largest |z| of a miss anywhere (Sec S9.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 76
+     "line": 78
     },
     {
      "document": "supplement",
@@ -10178,14 +10877,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0165",
+   "id": "C0171",
    "label": "E2 temperature scaling, mean change over steps 1-2 in ABSOLUTE adapted loss (Sec 6.2; printed as a magnitude after \"falls by\")",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 387
+     "line": 391
     }
    ],
    "manuscript_objects": [
@@ -10206,14 +10905,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0166",
+   "id": "C0172",
    "label": "E2 temperature scaling, mean change over steps 1-2 in EXCESS loss over each arm's OWN frozen baseline -- the C4-criterion estimand (Sec 6.2)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 389
+     "line": 393
     }
    ],
    "manuscript_objects": [
@@ -10234,14 +10933,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0167",
+   "id": "C0173",
    "label": "E2 temperature scaling, shift in the mean FROZEN baseline loss it induces -- the difference between the two estimands above (Sec 6.2)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 386
+     "line": 390
     }
    ],
    "manuscript_objects": [
@@ -10262,14 +10961,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0168",
+   "id": "C0174",
    "label": "E3 code alignment-only rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 666
+     "line": 670
     }
    ],
    "manuscript_objects": [
@@ -10291,14 +10990,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0169",
+   "id": "C0175",
    "label": "E3 legal alignment-only rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 667
+     "line": 671
     }
    ],
    "manuscript_objects": [
@@ -10320,14 +11019,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0170",
+   "id": "C0176",
    "label": "E3 pubmed alignment-only rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 668
+     "line": 672
     }
    ],
    "manuscript_objects": [
@@ -10349,19 +11048,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0171",
+   "id": "C0177",
    "label": "E3 wikitext alignment-only rho (Sec 7.4, Fig 8)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     },
     {
      "document": "supplement",
@@ -10388,14 +11087,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0172",
+   "id": "C0178",
    "label": "E3 code full-statistic rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     }
    ],
    "manuscript_objects": [
@@ -10417,14 +11116,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0173",
+   "id": "C0179",
    "label": "E3 legal full-statistic rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     },
     {
      "document": "release",
@@ -10451,14 +11150,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0174",
+   "id": "C0180",
    "label": "E3 pubmed full-statistic rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     }
    ],
    "manuscript_objects": [
@@ -10480,14 +11179,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0175",
+   "id": "C0181",
    "label": "E3 wikitext full-statistic rho (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     }
    ],
    "manuscript_objects": [
@@ -10509,7 +11208,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0176",
+   "id": "C0182",
    "label": "E3 code pooled perplexity improvement (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10537,7 +11236,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0177",
+   "id": "C0183",
    "label": "E3 legal pooled perplexity improvement (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10565,14 +11264,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0178",
+   "id": "C0184",
    "label": "E3 pubmed pooled perplexity improvement (Sec 7.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 569
+     "line": 573
     },
     {
      "document": "supplement",
@@ -10598,7 +11297,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0179",
+   "id": "C0185",
    "label": "E3 wikitext pooled perplexity improvement (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10626,7 +11325,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0180",
+   "id": "C0186",
    "label": "E3 code perplexity-improvement clustered interval, low (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10654,7 +11353,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0181",
+   "id": "C0187",
    "label": "E3 code perplexity-improvement clustered interval, high (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10682,7 +11381,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0182",
+   "id": "C0188",
    "label": "E3 legal perplexity-improvement clustered interval, low (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10710,7 +11409,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0183",
+   "id": "C0189",
    "label": "E3 legal perplexity-improvement clustered interval, high (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10738,7 +11437,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0184",
+   "id": "C0190",
    "label": "E3 pubmed perplexity-improvement clustered interval, low (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10766,7 +11465,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0185",
+   "id": "C0191",
    "label": "E3 pubmed perplexity-improvement clustered interval, high (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10794,7 +11493,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0186",
+   "id": "C0192",
    "label": "E3 wikitext perplexity-improvement clustered interval, low (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10822,7 +11521,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0187",
+   "id": "C0193",
    "label": "E3 wikitext perplexity-improvement clustered interval, high (Sec 7.4)",
    "location_class": "supplement",
    "locations": [
@@ -10850,19 +11549,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0188",
+   "id": "C0194",
    "label": "E3 code alignment-only rho at the FIXED BUDGET (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 549
+     "line": 553
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 660
+     "line": 664
     }
    ],
    "manuscript_objects": [
@@ -10883,19 +11582,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0189",
+   "id": "C0195",
    "label": "E3 legal alignment-only rho at the FIXED BUDGET (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 549
+     "line": 553
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     }
    ],
    "manuscript_objects": [
@@ -10916,14 +11615,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0190",
+   "id": "C0196",
    "label": "E3 pubmed alignment-only rho at the FIXED BUDGET (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     },
     {
      "document": "release",
@@ -10949,19 +11648,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0191",
+   "id": "C0197",
    "label": "E3 wikitext alignment-only rho at the FIXED BUDGET (T7 upper block)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     },
     {
      "document": "supplement",
@@ -10987,14 +11686,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0192",
+   "id": "C0198",
    "label": "E3 code full-statistic rho at the FIXED BUDGET (Sec 7.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 569
+     "line": 573
     },
     {
      "document": "supplement",
@@ -11020,19 +11719,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0193",
+   "id": "C0199",
    "label": "E3 legal full-statistic rho at the FIXED BUDGET (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 569
+     "line": 573
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11053,19 +11752,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0194",
+   "id": "C0200",
    "label": "E3 pubmed full-statistic rho at the FIXED BUDGET (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 372
+     "line": 376
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     }
    ],
    "manuscript_objects": [
@@ -11086,14 +11785,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0195",
+   "id": "C0201",
    "label": "E3 wikitext full-statistic rho at the FIXED BUDGET (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 570
+     "line": 574
     }
    ],
    "manuscript_objects": [
@@ -11114,14 +11813,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0196",
+   "id": "C0202",
    "label": "E3 code fixed-budget alignment interval, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 660
+     "line": 664
     }
    ],
    "manuscript_objects": [
@@ -11142,14 +11841,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0197",
+   "id": "C0203",
    "label": "E3 code fixed-budget alignment interval, high (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 660
+     "line": 664
     }
    ],
    "manuscript_objects": [
@@ -11170,14 +11869,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0198",
+   "id": "C0204",
    "label": "E3 legal fixed-budget alignment interval, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     }
    ],
    "manuscript_objects": [
@@ -11198,14 +11897,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0199",
+   "id": "C0205",
    "label": "E3 legal fixed-budget alignment interval, high (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     },
     {
      "document": "release",
@@ -11231,14 +11930,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0200",
+   "id": "C0206",
    "label": "E3 pubmed fixed-budget alignment interval, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11259,19 +11958,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0201",
+   "id": "C0207",
    "label": "E3 pubmed fixed-budget alignment interval, high (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 569
+     "line": 573
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11292,19 +11991,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0202",
+   "id": "C0208",
    "label": "E3 wikitext fixed-budget alignment interval, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     }
    ],
    "manuscript_objects": [
@@ -11325,19 +12024,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0203",
+   "id": "C0209",
    "label": "E3 wikitext fixed-budget alignment interval, high (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     },
     {
      "document": "release",
@@ -11363,14 +12062,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0204",
+   "id": "C0210",
    "label": "E3 code fixed-budget paired difference, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 660
+     "line": 664
     }
    ],
    "manuscript_objects": [
@@ -11391,14 +12090,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0205",
+   "id": "C0211",
    "label": "E3 code fixed-budget paired difference, high (T7 upper block)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 660
+     "line": 664
     },
     {
      "document": "supplement",
@@ -11424,14 +12123,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0206",
+   "id": "C0212",
    "label": "E3 legal fixed-budget paired difference, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     },
     {
      "document": "release",
@@ -11457,14 +12156,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0207",
+   "id": "C0213",
    "label": "E3 legal fixed-budget paired difference, high (T7 upper block)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     },
     {
      "document": "supplement",
@@ -11500,14 +12199,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0208",
+   "id": "C0214",
    "label": "E3 pubmed fixed-budget paired difference, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     }
    ],
    "manuscript_objects": [
@@ -11528,19 +12227,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0209",
+   "id": "C0215",
    "label": "E3 pubmed fixed-budget paired difference, high (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 668
+     "line": 672
     }
    ],
    "manuscript_objects": [
@@ -11561,14 +12260,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0210",
+   "id": "C0216",
    "label": "E3 wikitext fixed-budget paired difference, low (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -11589,14 +12288,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0211",
+   "id": "C0217",
    "label": "E3 wikitext fixed-budget paired difference, high (T7 upper block)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     }
    ],
    "manuscript_objects": [
@@ -11617,7 +12316,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0212",
+   "id": "C0218",
    "label": "E3 Introduction summary range, PRIMARY fixed-budget endpoint, low (Sec 1; min over the four domains)",
    "location_class": "main",
    "locations": [
@@ -11645,19 +12344,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0213",
+   "id": "C0219",
    "label": "E3 Introduction summary range, PRIMARY fixed-budget endpoint, high (Sec 1; max over the four domains)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 402
+     "line": 406
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 688
+     "line": 692
     },
     {
      "document": "main",
@@ -11688,7 +12387,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0214",
+   "id": "C0220",
    "label": "E3 Introduction summary range, SECONDARY selected-index endpoint, low (Sec 1; min over the four domains)",
    "location_class": "both",
    "locations": [
@@ -11731,7 +12430,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0215",
+   "id": "C0221",
    "label": "E3 Introduction summary range, SECONDARY selected-index endpoint, high (Sec 1; max over the four domains)",
    "location_class": "both",
    "locations": [
@@ -11748,7 +12447,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s8_full_results.tex",
-     "line": 393
+     "line": 403
     }
    ],
    "manuscript_objects": [
@@ -11769,14 +12468,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0216",
+   "id": "C0222",
    "label": "E3 code alignment-only clustered interval, low (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 666
+     "line": 670
     }
    ],
    "manuscript_objects": [
@@ -11798,14 +12497,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0217",
+   "id": "C0223",
    "label": "E3 code alignment-only clustered interval, high (Sec 7.4, Fig 8)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 666
+     "line": 670
     },
     {
      "document": "supplement",
@@ -11832,14 +12531,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0218",
+   "id": "C0224",
    "label": "E3 legal alignment-only clustered interval, low (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 667
+     "line": 671
     }
    ],
    "manuscript_objects": [
@@ -11861,14 +12560,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0219",
+   "id": "C0225",
    "label": "E3 legal alignment-only clustered interval, high (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 667
+     "line": 671
     }
    ],
    "manuscript_objects": [
@@ -11890,14 +12589,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0220",
+   "id": "C0226",
    "label": "E3 pubmed alignment-only clustered interval, low (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 668
+     "line": 672
     }
    ],
    "manuscript_objects": [
@@ -11919,14 +12618,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0221",
+   "id": "C0227",
    "label": "E3 pubmed alignment-only clustered interval, high (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 668
+     "line": 672
     }
    ],
    "manuscript_objects": [
@@ -11948,19 +12647,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0222",
+   "id": "C0228",
    "label": "E3 wikitext alignment-only clustered interval, low (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     }
    ],
    "manuscript_objects": [
@@ -11982,19 +12681,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0223",
+   "id": "C0229",
    "label": "E3 wikitext alignment-only clustered interval, high (Sec 7.4, Fig 8)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     },
     {
      "document": "release",
@@ -12021,14 +12720,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0224",
+   "id": "C0230",
    "label": "E3 code paired difference (align - full) interval, low (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 666
+     "line": 670
     }
    ],
    "manuscript_objects": [
@@ -12049,14 +12748,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0225",
+   "id": "C0231",
    "label": "E3 code paired difference (align - full) interval, high (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 666
+     "line": 670
     }
    ],
    "manuscript_objects": [
@@ -12077,14 +12776,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0226",
+   "id": "C0232",
    "label": "E3 legal paired difference (align - full) interval, low (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 667
+     "line": 671
     }
    ],
    "manuscript_objects": [
@@ -12105,14 +12804,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0227",
+   "id": "C0233",
    "label": "E3 legal paired difference (align - full) interval, high (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 667
+     "line": 671
     }
    ],
    "manuscript_objects": [
@@ -12133,14 +12832,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0228",
+   "id": "C0234",
    "label": "E3 pubmed paired difference (align - full) interval, low (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 668
+     "line": 672
     }
    ],
    "manuscript_objects": [
@@ -12161,19 +12860,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0229",
+   "id": "C0235",
    "label": "E3 pubmed paired difference (align - full) interval, high (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 668
+     "line": 672
     }
    ],
    "manuscript_objects": [
@@ -12194,14 +12893,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0230",
+   "id": "C0236",
    "label": "E3 wikitext paired difference (align - full) interval, low (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     }
    ],
    "manuscript_objects": [
@@ -12222,14 +12921,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0231",
+   "id": "C0237",
    "label": "E3 wikitext paired difference (align - full) interval, high (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     }
    ],
    "manuscript_objects": [
@@ -12250,7 +12949,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0232",
+   "id": "C0238",
    "label": "E3 code design effect, perplexity improvement (App C)",
    "location_class": "archive",
    "locations": [
@@ -12276,7 +12975,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0233",
+   "id": "C0239",
    "label": "E3 legal design effect, perplexity improvement (App C)",
    "location_class": "archive",
    "locations": [
@@ -12307,7 +13006,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0234",
+   "id": "C0240",
    "label": "E3 pubmed design effect, perplexity improvement (App C)",
    "location_class": "archive",
    "locations": [
@@ -12333,7 +13032,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0235",
+   "id": "C0241",
    "label": "E3 wikitext design effect, perplexity improvement (App C)",
    "location_class": "archive",
    "locations": [
@@ -12364,7 +13063,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0236",
+   "id": "C0242",
    "label": "E3 code design effect, correlation (App C)",
    "location_class": "archive",
    "locations": [
@@ -12390,7 +13089,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0237",
+   "id": "C0243",
    "label": "E3 legal design effect, correlation (App C)",
    "location_class": "archive",
    "locations": [
@@ -12416,7 +13115,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0238",
+   "id": "C0244",
    "label": "E3 pubmed design effect, correlation (App C)",
    "location_class": "archive",
    "locations": [
@@ -12442,7 +13141,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0239",
+   "id": "C0245",
    "label": "E3 wikitext design effect, correlation (App C)",
    "location_class": "archive",
    "locations": [
@@ -12468,7 +13167,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0240",
+   "id": "C0246",
    "label": "E3 design-effect range, perplexity improvement, low end (Sec 7.4, App C)",
    "location_class": "supplement",
    "locations": [
@@ -12501,7 +13200,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0241",
+   "id": "C0247",
    "label": "E3 design-effect range, perplexity improvement, high end (Sec 7.4, App C)",
    "location_class": "supplement",
    "locations": [
@@ -12534,7 +13233,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0242",
+   "id": "C0248",
    "label": "E3 design-effect range, correlations, low end (Sec 7.4)",
    "location_class": "archive",
    "locations": [
@@ -12562,7 +13261,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0243",
+   "id": "C0249",
    "label": "E3 design-effect range, correlations, high end (Sec 7.4)",
    "location_class": "archive",
    "locations": [
@@ -12590,7 +13289,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0244",
+   "id": "C0250",
    "label": "E3 per-document gain ICC, low end (Sec 7.4, App C)",
    "location_class": "supplement",
    "locations": [
@@ -12628,7 +13327,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0245",
+   "id": "C0251",
    "label": "E3 per-document gain ICC, high end (Sec 7.4, App C)",
    "location_class": "supplement",
    "locations": [
@@ -12666,7 +13365,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0246",
+   "id": "C0252",
    "label": "E3 phase-statistic ICC, low end (App C)",
    "location_class": "supplement",
    "locations": [
@@ -12692,7 +13391,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0247",
+   "id": "C0253",
    "label": "E3 phase-statistic ICC, high end (App C)",
    "location_class": "supplement",
    "locations": [
@@ -12723,24 +13422,24 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0248",
+   "id": "C0254",
    "label": "E3 pooled bootstrap draws behind every printed endpoint (App C)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 490
+     "line": 494
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 646
+     "line": 650
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 703
+     "line": 707
     },
     {
      "document": "supplement",
@@ -12804,7 +13503,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0249",
+   "id": "C0255",
    "label": "E3 max endpoint gap, i.i.d.-row construction vs the published one (App C)",
    "location_class": "supplement",
    "locations": [
@@ -12830,7 +13529,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0250",
+   "id": "C0256",
    "label": "E3 proxy code partial rho of delta_v2 given alignment (Sec 7.4)",
    "location_class": "archive",
    "locations": [
@@ -12858,14 +13557,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0251",
+   "id": "C0257",
    "label": "E3 proxy legal partial rho of delta_v2 given alignment (Sec 7.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     },
     {
      "document": "release",
@@ -12891,7 +13590,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0252",
+   "id": "C0258",
    "label": "E3 proxy pubmed partial rho of delta_v2 given alignment (Sec 7.4)",
    "location_class": "archive",
    "locations": [
@@ -12919,7 +13618,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0253",
+   "id": "C0259",
    "label": "E3 proxy wikitext partial rho of delta_v2 given alignment (Sec 7.4)",
    "location_class": "archive",
    "locations": [
@@ -12947,7 +13646,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0254",
+   "id": "C0260",
    "label": "E3 proxy code partial-rho pooled interval, low (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -12976,7 +13675,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0255",
+   "id": "C0261",
    "label": "E3 proxy code partial-rho pooled interval, high (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13005,7 +13704,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0256",
+   "id": "C0262",
    "label": "E3 proxy legal partial-rho pooled interval, low (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13034,7 +13733,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0257",
+   "id": "C0263",
    "label": "E3 proxy legal partial-rho pooled interval, high (Sec 7.4, T6)",
    "location_class": "supplement",
    "locations": [
@@ -13068,7 +13767,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0258",
+   "id": "C0264",
    "label": "E3 proxy pubmed partial-rho pooled interval, low (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13102,7 +13801,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0259",
+   "id": "C0265",
    "label": "E3 proxy pubmed partial-rho pooled interval, high (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13136,7 +13835,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0260",
+   "id": "C0266",
    "label": "E3 proxy wikitext partial-rho pooled interval, low (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13165,7 +13864,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0261",
+   "id": "C0267",
    "label": "E3 proxy wikitext partial-rho pooled interval, high (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13194,7 +13893,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0262",
+   "id": "C0268",
    "label": "E3 proxy code held-out rho of the frozen selection (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13223,7 +13922,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0263",
+   "id": "C0269",
    "label": "E3 proxy legal held-out rho of the frozen selection (Sec 7.4, T6)",
    "location_class": "supplement",
    "locations": [
@@ -13257,19 +13956,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0264",
+   "id": "C0270",
    "label": "E3 proxy pubmed held-out rho of the frozen selection (Sec 7.4, T6)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 663
+     "line": 667
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 669
+     "line": 673
     },
     {
      "document": "release",
@@ -13296,7 +13995,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0265",
+   "id": "C0271",
    "label": "E3 proxy wikitext held-out rho of the frozen selection (Sec 7.4, T6)",
    "location_class": "archive",
    "locations": [
@@ -13325,7 +14024,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0266",
+   "id": "C0272",
    "label": "E3 proxy code held-out selected pooled interval, low (T6)",
    "location_class": "archive",
    "locations": [
@@ -13353,7 +14052,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0267",
+   "id": "C0273",
    "label": "E3 proxy code held-out selected pooled interval, high (T6)",
    "location_class": "archive",
    "locations": [
@@ -13381,7 +14080,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0268",
+   "id": "C0274",
    "label": "E3 proxy legal held-out selected pooled interval, low (T6)",
    "location_class": "archive",
    "locations": [
@@ -13409,7 +14108,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0269",
+   "id": "C0275",
    "label": "E3 proxy legal held-out selected pooled interval, high (T6)",
    "location_class": "archive",
    "locations": [
@@ -13437,14 +14136,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0270",
+   "id": "C0276",
    "label": "E3 proxy pubmed held-out selected pooled interval, low (T6)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 662
+     "line": 666
     },
     {
      "document": "release",
@@ -13470,14 +14169,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0271",
+   "id": "C0277",
    "label": "E3 proxy pubmed held-out selected pooled interval, high (T6)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 661
+     "line": 665
     },
     {
      "document": "release",
@@ -13503,7 +14202,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0272",
+   "id": "C0278",
    "label": "E3 proxy wikitext held-out selected pooled interval, low (T6)",
    "location_class": "archive",
    "locations": [
@@ -13531,7 +14230,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0273",
+   "id": "C0279",
    "label": "E3 proxy wikitext held-out selected pooled interval, high (T6)",
    "location_class": "archive",
    "locations": [
@@ -13559,7 +14258,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0274",
+   "id": "C0280",
    "label": "E3 proxy folds whose partial-rho interval excludes zero on the FAVOURABLE side (Sec 7.4, T6)",
    "location_class": "both",
    "locations": [
@@ -13601,7 +14300,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 76
+     "line": 78
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 100
     },
     {
      "document": "main",
@@ -13916,17 +14620,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 297
+     "line": 301
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 356
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 382
+     "line": 360
     },
     {
      "document": "main",
@@ -13936,17 +14635,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 413
+     "line": 390
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 431
+     "line": 417
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 483
+     "line": 435
     },
     {
      "document": "main",
@@ -13956,82 +14655,87 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 491
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 756
+     "line": 497
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 775
+     "line": 760
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 781
+     "line": 779
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 784
+     "line": 785
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 799
+     "line": 788
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 835
+     "line": 803
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 837
+     "line": 839
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 888
+     "line": 841
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 892
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 894
+     "line": 897
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 964
+     "line": 898
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 965
+     "line": 968
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 969
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 975
+     "line": 978
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 977
+     "line": 979
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 981
     },
     {
      "document": "main",
@@ -18876,7 +19580,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 170
+     "line": 195
     },
     {
      "document": "supplement",
@@ -19251,7 +19955,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s8_full_results.tex",
-     "line": 386
+     "line": 391
     },
     {
      "document": "supplement",
@@ -19673,7 +20377,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0275",
+   "id": "C0281",
    "label": "E3 proxy folds whose partial-rho interval excludes zero on the ADVERSE side (Sec 7.4, T6)",
    "location_class": "both",
    "locations": [
@@ -19715,7 +20419,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 76
+     "line": 78
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 100
     },
     {
      "document": "main",
@@ -20030,17 +20739,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 297
+     "line": 301
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 356
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 382
+     "line": 360
     },
     {
      "document": "main",
@@ -20050,17 +20754,17 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 413
+     "line": 390
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 431
+     "line": 417
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 483
+     "line": 435
     },
     {
      "document": "main",
@@ -20070,82 +20774,87 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 491
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 756
+     "line": 497
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 775
+     "line": 760
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 781
+     "line": 779
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 784
+     "line": 785
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 799
+     "line": 788
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 835
+     "line": 803
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 837
+     "line": 839
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 888
+     "line": 841
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 892
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 894
+     "line": 897
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 964
+     "line": 898
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 965
+     "line": 968
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 969
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 975
+     "line": 978
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 977
+     "line": 979
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 981
     },
     {
      "document": "main",
@@ -24990,7 +25699,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 170
+     "line": 195
     },
     {
      "document": "supplement",
@@ -25365,7 +26074,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s8_full_results.tex",
-     "line": 386
+     "line": 391
     },
     {
      "document": "supplement",
@@ -25787,7 +26496,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0276",
+   "id": "C0282",
    "label": "E3 proxy folds selecting a delta_v2-family variant (Sec 7.4)",
    "location_class": "both",
    "locations": [
@@ -25869,22 +26578,27 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 60
+     "line": 62
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 68
+     "line": 70
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 71
+     "line": 73
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 92
+     "line": 99
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 102
     },
     {
      "document": "main",
@@ -26414,12 +27128,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 272
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 280
+     "line": 276
     },
     {
      "document": "main",
@@ -26429,122 +27138,122 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 287
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
      "line": 288
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 306
+     "line": 291
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 334
+     "line": 292
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 359
+     "line": 310
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 386
+     "line": 338
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 402
+     "line": 363
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 405
+     "line": 390
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 408
+     "line": 406
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 433
+     "line": 409
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 412
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 453
+     "line": 437
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 473
+     "line": 440
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 483
+     "line": 457
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 489
+     "line": 477
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 517
+     "line": 487
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 547
+     "line": 493
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 565
+     "line": 521
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 566
+     "line": 551
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 607
+     "line": 569
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 635
+     "line": 570
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 637
+     "line": 611
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 691
+     "line": 639
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 699
+     "line": 641
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 695
     },
     {
      "document": "main",
@@ -26554,62 +27263,67 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 743
+     "line": 707
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 745
+     "line": 747
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 749
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 861
+     "line": 843
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 869
+     "line": 865
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 881
+     "line": 873
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 884
+     "line": 885
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 890
+     "line": 888
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 913
+     "line": 894
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 935
+     "line": 917
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 942
+     "line": 939
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 943
+     "line": 946
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 947
     },
     {
      "document": "main",
@@ -32109,47 +32823,52 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 171
+     "line": 177
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 178
+     "line": 196
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 191
+     "line": 203
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 207
+     "line": 216
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 209
+     "line": 232
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 210
+     "line": 234
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 211
+     "line": 235
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 213
+     "line": 236
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 215
+     "line": 238
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/s5_measurement.tex",
+     "line": 240
     },
     {
      "document": "supplement",
@@ -32905,24 +33624,24 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0277",
+   "id": "C0283",
    "label": "E3 proxy pooled bootstrap draws behind every printed proxy endpoint (App C)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 490
+     "line": 494
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 646
+     "line": 650
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 703
+     "line": 707
     },
     {
      "document": "supplement",
@@ -32986,7 +33705,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0278",
+   "id": "C0284",
    "label": "E3 proxy max endpoint shift, pooled vs the superseded averaged construction (App C)",
    "location_class": "archive",
    "locations": [
@@ -33012,14 +33731,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0279",
+   "id": "C0285",
    "label": "E3 code fixed-budget (t=20) perplexity improvement (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 487
+     "line": 491
     }
    ],
    "manuscript_objects": [
@@ -33040,14 +33759,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0280",
+   "id": "C0286",
    "label": "E3 pubmed fixed-budget (t=20) perplexity improvement (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 487
+     "line": 491
     }
    ],
    "manuscript_objects": [
@@ -33068,14 +33787,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0281",
+   "id": "C0287",
    "label": "E3 wikitext fixed-budget (t=20) perplexity improvement (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 487
+     "line": 491
     },
     {
      "document": "supplement",
@@ -33101,14 +33820,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0282",
+   "id": "C0288",
    "label": "E3 legal fixed-budget (t=20) perplexity improvement (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 488
+     "line": 492
     },
     {
      "document": "supplement",
@@ -33139,14 +33858,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0283",
+   "id": "C0289",
    "label": "E3 code fixed-budget improvement clustered interval, low (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 497
     },
     {
      "document": "supplement",
@@ -33172,14 +33891,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0284",
+   "id": "C0290",
    "label": "E3 code fixed-budget improvement clustered interval, high (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 497
     },
     {
      "document": "supplement",
@@ -33205,14 +33924,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0285",
+   "id": "C0291",
    "label": "E3 pubmed fixed-budget improvement clustered interval, low (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 497
     },
     {
      "document": "supplement",
@@ -33238,14 +33957,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0286",
+   "id": "C0292",
    "label": "E3 pubmed fixed-budget improvement clustered interval, high (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 497
     },
     {
      "document": "supplement",
@@ -33271,14 +33990,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0287",
+   "id": "C0293",
    "label": "E3 wikitext fixed-budget improvement clustered interval, low (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 497
     },
     {
      "document": "supplement",
@@ -33309,14 +34028,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0288",
+   "id": "C0294",
    "label": "E3 wikitext fixed-budget improvement clustered interval, high (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 493
+     "line": 497
     },
     {
      "document": "supplement",
@@ -33342,14 +34061,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0289",
+   "id": "C0295",
    "label": "E3 legal fixed-budget improvement clustered interval, low (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 494
+     "line": 498
     },
     {
      "document": "supplement",
@@ -33375,14 +34094,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0290",
+   "id": "C0296",
    "label": "E3 legal fixed-budget improvement clustered interval, high (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 494
+     "line": 498
     },
     {
      "document": "supplement",
@@ -33408,19 +34127,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0291",
+   "id": "C0297",
    "label": "E3 code paired difference (fixed 20 - selector), low (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 520
+     "line": 524
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 521
+     "line": 525
     }
    ],
    "manuscript_objects": [
@@ -33441,14 +34160,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0292",
+   "id": "C0298",
    "label": "E3 code paired difference (fixed 20 - selector), high (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 520
+     "line": 524
     }
    ],
    "manuscript_objects": [
@@ -33469,14 +34188,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0293",
+   "id": "C0299",
    "label": "E3 legal paired difference (fixed 20 - selector), low (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 520
+     "line": 524
     }
    ],
    "manuscript_objects": [
@@ -33497,14 +34216,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0294",
+   "id": "C0300",
    "label": "E3 legal paired difference (fixed 20 - selector), high (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 520
+     "line": 524
     }
    ],
    "manuscript_objects": [
@@ -33525,14 +34244,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0295",
+   "id": "C0301",
    "label": "E3 pubmed paired difference (fixed 20 - selector), low (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 521
+     "line": 525
     }
    ],
    "manuscript_objects": [
@@ -33553,19 +34272,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0296",
+   "id": "C0302",
    "label": "E3 pubmed paired difference (fixed 20 - selector), high (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 520
+     "line": 524
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 521
+     "line": 525
     }
    ],
    "manuscript_objects": [
@@ -33586,14 +34305,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0297",
+   "id": "C0303",
    "label": "E3 wikitext paired difference (fixed 20 - selector), low (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 521
+     "line": 525
     }
    ],
    "manuscript_objects": [
@@ -33614,14 +34333,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0298",
+   "id": "C0304",
    "label": "E3 wikitext paired difference (fixed 20 - selector), high (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 521
+     "line": 525
     }
    ],
    "manuscript_objects": [
@@ -33642,14 +34361,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0299",
+   "id": "C0305",
    "label": "E3 selector relative shortfall against the fixed budget, low end (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 523
+     "line": 527
     }
    ],
    "manuscript_objects": [
@@ -33670,14 +34389,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0300",
+   "id": "C0306",
    "label": "E3 selector relative shortfall against the fixed budget, high end (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 523
+     "line": 527
     }
    ],
    "manuscript_objects": [
@@ -33698,7 +34417,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0301",
+   "id": "C0307",
    "label": "E3 mean selected index, low end (Sec 6.3)",
    "location_class": "supplement",
    "locations": [
@@ -33726,7 +34445,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0302",
+   "id": "C0308",
    "label": "E3 mean selected index, high end (Sec 6.3)",
    "location_class": "supplement",
    "locations": [
@@ -33754,19 +34473,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0303",
+   "id": "C0309",
    "label": "E3 share of documents whose per-document oracle picks t=20, low (Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 510
+     "line": 514
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 775
     },
     {
      "document": "supplement",
@@ -33797,14 +34516,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0304",
+   "id": "C0310",
    "label": "E3 share of documents whose per-document oracle picks t=20, high (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 510
+     "line": 514
     }
    ],
    "manuscript_objects": [
@@ -33825,14 +34544,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0305",
+   "id": "C0311",
    "label": "E3 rank-robustness: largest rho shift when the gain column changes (Sec 6.3)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 555
+     "line": 559
     }
    ],
    "manuscript_objects": [
@@ -33853,7 +34572,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0306",
+   "id": "C0312",
    "label": "Remark 10 strictness witness: boundary_delta2_P (Sec 3, S1.3)",
    "location_class": "supplement",
    "locations": [
@@ -33882,7 +34601,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0307",
+   "id": "C0313",
    "label": "Remark 10 strictness witness: boundary_delta2_I (Sec 3, S1.3)",
    "location_class": "supplement",
    "locations": [
@@ -33911,7 +34630,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0308",
+   "id": "C0314",
    "label": "Remark 10 strictness witness: boundary_delta2_where_tstar_eq_1 (Sec 3, S1.3)",
    "location_class": "supplement",
    "locations": [
@@ -33940,7 +34659,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0309",
+   "id": "C0315",
    "label": "Remark 10 strictness witness: delta2 (Sec 3, S1.3)",
    "location_class": "supplement",
    "locations": [
@@ -33969,7 +34688,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0310",
+   "id": "C0316",
    "label": "Remark 10 strictness witness: t_star_continuous (Sec 3, S1.3)",
    "location_class": "supplement",
    "locations": [
@@ -33998,7 +34717,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0311",
+   "id": "C0317",
    "label": "Remark 10 strictness witness: (P) margin at the witness (Sec 3)",
    "location_class": "supplement",
    "locations": [
@@ -34026,7 +34745,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0312",
+   "id": "C0318",
    "label": "Remark 10 strictness witness: one-step gain at the witness (Sec 3)",
    "location_class": "supplement",
    "locations": [
@@ -34054,7 +34773,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0313",
+   "id": "C0319",
    "label": "E2 source clean accuracy, wrn2810 on cifar10, seed-range low (S6.1)",
    "location_class": "supplement",
    "locations": [
@@ -34082,7 +34801,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0314",
+   "id": "C0320",
    "label": "E2 source clean accuracy, wrn2810 on cifar10, seed-range high (S6.1)",
    "location_class": "supplement",
    "locations": [
@@ -34110,14 +34829,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0315",
+   "id": "C0321",
    "label": "E2 source clean accuracy, wrn2810 on cifar100, seed-range low (S6.1)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 802
+     "line": 806
     },
     {
      "document": "supplement",
@@ -34143,7 +34862,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0316",
+   "id": "C0322",
    "label": "E2 source clean accuracy, wrn2810 on cifar100, seed-range high (S6.1)",
    "location_class": "supplement",
    "locations": [
@@ -34171,7 +34890,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0317",
+   "id": "C0323",
    "label": "E2 source clean accuracy, resnet26ttt on cifar10, seed-range low (S6.1)",
    "location_class": "supplement",
    "locations": [
@@ -34199,7 +34918,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0318",
+   "id": "C0324",
    "label": "E2 source clean accuracy, resnet26ttt on cifar10, seed-range high (S6.1)",
    "location_class": "supplement",
    "locations": [
@@ -34227,7 +34946,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0319",
+   "id": "C0325",
    "label": "E2 source clean accuracy, resnet26ttt on cifar100, seed-range low (S6.1)",
    "location_class": "supplement",
    "locations": [
@@ -34255,14 +34974,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0320",
+   "id": "C0326",
    "label": "E2 source clean accuracy, resnet26ttt on cifar100, seed-range high (S6.1)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 326
+     "line": 330
     },
     {
      "document": "supplement",
@@ -34293,19 +35012,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0321",
+   "id": "C0327",
    "label": "E3 selector, release-only self-check: documents (S7.3, Sec 6.3, Sec 8, Data availability)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 62
+     "line": 64
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 538
+     "line": 542
     },
     {
      "document": "supplement",
@@ -34368,19 +35087,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0322",
+   "id": "C0328",
    "label": "E3 selector, release-only self-check: documents reproduced (S7.3, Sec 6.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 62
+     "line": 64
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 538
+     "line": 542
     },
     {
      "document": "supplement",
@@ -34442,7 +35161,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0323",
+   "id": "C0329",
    "label": "E3 selector vs the published record: documents agreeing (S7.3)",
    "location_class": "supplement",
    "locations": [
@@ -34470,7 +35189,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0324",
+   "id": "C0330",
    "label": "E3 selector vs the published record: agreement rate (S7.3)",
    "location_class": "supplement",
    "locations": [
@@ -34498,7 +35217,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0325",
+   "id": "C0331",
    "label": "E3 selector: worst |normalised slack| at a disputed step (S7.3)",
    "location_class": "supplement",
    "locations": [
@@ -34526,14 +35245,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0326",
+   "id": "C0332",
    "label": "E3 fixed-budget ppl@20, rerun vs retained, worst absolute difference over the twelve jobs (S7.3, e3_vectors/PROVENANCE.md)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 76
+     "line": 78
     },
     {
      "document": "supplement",
@@ -34574,39 +35293,39 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0327",
+   "id": "C0333",
    "label": "E3 selector disagreements: cases where the rerun ADMITS the disputed step and the published run rejected it (S7.3, e3_vectors/PROVENANCE.md, e3_vectors/README.md)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 72
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 106
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 373
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 372
+     "line": 376
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 436
+     "line": 440
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 441
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 552
+     "line": 445
     },
     {
      "document": "main",
@@ -34616,42 +35335,47 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 578
+     "line": 560
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 654
+     "line": 582
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 689
+     "line": 658
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 694
+     "line": 693
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 783
+     "line": 698
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 825
+     "line": 787
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 861
+     "line": 829
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 913
+     "line": 865
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 917
     },
     {
      "document": "main",
@@ -34725,6 +35449,11 @@
     },
     {
      "document": "supplement",
+     "file": "paper/is2/supplement/s8_full_results.tex",
+     "line": 391
+    },
+    {
+     "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
      "line": 160
     },
@@ -34777,14 +35506,24 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0328",
+   "id": "C0334",
    "label": "E3 selector disagreements: cases where the rerun REJECTS the disputed step and the published run admitted it (S7.3, e3_vectors/PROVENANCE.md, e3_vectors/README.md)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 72
+     "line": 74
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 99
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 106
     },
     {
      "document": "main",
@@ -34849,67 +35588,67 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 369
+     "line": 373
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 402
+     "line": 406
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 423
+     "line": 427
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 522
+     "line": 526
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 551
+     "line": 555
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 578
+     "line": 582
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 652
+     "line": 656
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 653
+     "line": 657
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 783
+     "line": 787
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 877
+     "line": 881
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 890
+     "line": 894
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 913
+     "line": 917
     },
     {
      "document": "main",
@@ -35865,19 +36604,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0329",
+   "id": "C0335",
    "label": "E3 selector disagreements: total (S7.3)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 784
+     "line": 788
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 837
+     "line": 841
     },
     {
      "document": "supplement",
@@ -35887,7 +36626,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/s5_measurement.tex",
-     "line": 172
+     "line": 197
     },
     {
      "document": "supplement",
@@ -35938,7 +36677,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0330",
+   "id": "C0336",
    "label": "Closure: testable (episode, declared-law) rows carrying the sign law (Sec 6.4, Sec 7 ledger (iii))",
    "location_class": "main",
    "locations": [
@@ -35950,12 +36689,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 769
+     "line": 773
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 858
+     "line": 862
     }
    ],
    "manuscript_objects": [
@@ -35977,19 +36716,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0331",
+   "id": "C0337",
    "label": "Closure: rows outside the theorem's own hypotheses, counted and excluded rather than dropped (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 510
+     "line": 514
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 771
+     "line": 775
     },
     {
      "document": "supplement",
@@ -36020,14 +36759,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0332",
+   "id": "C0338",
    "label": "Closure: smallest |alpha_ent| at float64, primary temperature (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 778
+     "line": 782
     }
    ],
    "manuscript_objects": [
@@ -36048,14 +36787,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0333",
+   "id": "C0339",
    "label": "Closure: median relative residual of the entropy-gradient factorization, float64 T = 1 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 783
+     "line": 787
     }
    ],
    "manuscript_objects": [
@@ -36076,14 +36815,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0334",
+   "id": "C0340",
    "label": "Closure: median relative residual of the risk-gradient factorization, float64 T = 1 (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 783
+     "line": 787
     },
     {
      "document": "supplement",
@@ -36109,14 +36848,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0335",
+   "id": "C0341",
    "label": "Closure: maximum relative residual of the entropy-gradient factorization, float64 T = 1 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 784
+     "line": 788
     }
    ],
    "manuscript_objects": [
@@ -36137,14 +36876,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0336",
+   "id": "C0342",
    "label": "Closure: maximum relative residual of the risk-gradient factorization, float64 T = 1 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 784
+     "line": 788
     }
    ],
    "manuscript_objects": [
@@ -36165,14 +36904,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0337",
+   "id": "C0343",
    "label": "Closure: instances where the sign law and modal-label correctness disagree, T = 1 and epsilon = 0.1 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 800
+     "line": 804
     }
    ],
    "manuscript_objects": [
@@ -36193,14 +36932,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0338",
+   "id": "C0344",
    "label": "Closure: instances compared at T = 1 and epsilon = 0.1 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 800
+     "line": 804
     }
    ],
    "manuscript_objects": [
@@ -36221,14 +36960,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0339",
+   "id": "C0345",
    "label": "Closure: share of instances on which the two readings disagree, T = 1 and epsilon = 0.1 (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 802
+     "line": 806
     },
     {
      "document": "supplement",
@@ -36254,14 +36993,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0340",
+   "id": "C0346",
    "label": "Closure: share of instances on which the two readings disagree, T = 1 and epsilon = 0.4 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 802
+     "line": 806
     }
    ],
    "manuscript_objects": [
@@ -36282,24 +37021,24 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0341",
+   "id": "C0347",
    "label": "Closure: q-sweeps, each with exactly one alignment sign flip and a constant modal prediction (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 808
+     "line": 812
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 810
+     "line": 814
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 811
+     "line": 815
     }
    ],
    "manuscript_objects": [
@@ -36320,14 +37059,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0342",
+   "id": "C0348",
    "label": "Closure: largest |q_flip - p| over all sweeps (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 810
+     "line": 814
     },
     {
      "document": "supplement",
@@ -36353,14 +37092,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0343",
+   "id": "C0349",
    "label": "Closure: that resolution limit in units of float32 machine epsilon (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 826
+     "line": 830
     }
    ],
    "manuscript_objects": [
@@ -36381,14 +37120,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0344",
+   "id": "C0350",
    "label": "Closure: batches measured at each batch size (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 837
+     "line": 841
     }
    ],
    "manuscript_objects": [
@@ -36409,14 +37148,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0345",
+   "id": "C0351",
    "label": "Closure: median batch-gradient collinearity at batch size one (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 837
+     "line": 841
     }
    ],
    "manuscript_objects": [
@@ -36437,14 +37176,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0346",
+   "id": "C0352",
    "label": "Closure: median batch-gradient collinearity at batch size 2 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     }
    ],
    "manuscript_objects": [
@@ -36465,14 +37204,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0347",
+   "id": "C0353",
    "label": "Closure: median batch-gradient collinearity at batch size 4 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     }
    ],
    "manuscript_objects": [
@@ -36493,14 +37232,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0348",
+   "id": "C0354",
    "label": "Closure: median batch-gradient collinearity at batch size 8 (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     }
    ],
    "manuscript_objects": [
@@ -36521,19 +37260,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0349",
+   "id": "C0355",
    "label": "Closure: median batch-gradient collinearity at batch size 16 (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 277
+     "line": 281
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 839
+     "line": 843
     },
     {
      "document": "supplement",
@@ -36559,14 +37298,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0350",
+   "id": "C0356",
    "label": "Closure: median collinearity at batch size 16 on sign-MIXED batches (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 841
+     "line": 845
     }
    ],
    "manuscript_objects": [
@@ -36587,14 +37326,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0351",
+   "id": "C0357",
    "label": "Closure: median collinearity at batch size 16 on sign-HOMOGENEOUS batches (Sec 6.4)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 841
+     "line": 845
     }
    ],
    "manuscript_objects": [
@@ -36615,19 +37354,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0352",
+   "id": "C0358",
    "label": "Closure: episodes re-run from scratch out of their own records (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 800
+     "line": 804
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 859
+     "line": 863
     },
     {
      "document": "supplement",
@@ -36668,14 +37407,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0353",
+   "id": "C0359",
    "label": "Closure: worst |delta alpha| on those re-runs (Sec 6.4)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 861
+     "line": 865
     },
     {
      "document": "supplement",
@@ -36701,7 +37440,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0354",
+   "id": "C0360",
    "label": "Closure: single-instance episodes per objective under plain SGD (Sec 6.5, Sec 6.6)",
    "location_class": "main",
    "locations": [
@@ -36713,32 +37452,32 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 874
+     "line": 878
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 886
+     "line": 890
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 889
+     "line": 893
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 938
-    },
-    {
-     "document": "main",
-     "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 959
+     "line": 942
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
      "line": 963
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/experiments.tex",
+     "line": 967
     }
    ],
    "manuscript_objects": [
@@ -36760,14 +37499,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0355",
+   "id": "C0361",
    "label": "Closure: median per-episode minimum alignment, entropy objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 885
+     "line": 889
     }
    ],
    "manuscript_objects": [
@@ -36788,14 +37527,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0356",
+   "id": "C0362",
    "label": "Closure: episodes on which A2's persistence clause is falsified somewhere on the path, entropy objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 886
+     "line": 890
     }
    ],
    "manuscript_objects": [
@@ -36816,7 +37555,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0357",
+   "id": "C0363",
    "label": "Closure: that share, entropy objective (Sec 6.5, Sec 7)",
    "location_class": "main",
    "locations": [
@@ -36828,12 +37567,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 887
+     "line": 891
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 920
+     "line": 924
     },
     {
      "document": "release",
@@ -36860,19 +37599,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0358",
+   "id": "C0364",
    "label": "Closure: median per-episode minimum alignment, rotation objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 888
+     "line": 892
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 922
+     "line": 926
     }
    ],
    "manuscript_objects": [
@@ -36893,14 +37632,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0359",
+   "id": "C0365",
    "label": "Closure: episodes with an on-path A2 falsification, rotation objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 888
+     "line": 892
     }
    ],
    "manuscript_objects": [
@@ -36921,7 +37660,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0360",
+   "id": "C0366",
    "label": "Closure: that share, rotation objective (Sec 6.5, Sec 7)",
    "location_class": "main",
    "locations": [
@@ -36933,12 +37672,12 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 889
+     "line": 893
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 921
+     "line": 925
     }
    ],
    "manuscript_objects": [
@@ -36960,19 +37699,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0361",
+   "id": "C0367",
    "label": "Closure: episodes in the neighbourhood search, per objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 897
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 894
+     "line": 898
     }
    ],
    "manuscript_objects": [
@@ -36993,7 +37732,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0362",
+   "id": "C0368",
    "label": "Closure: episodes whose own path looks favourable but which a shell perturbation falsifies, entropy objective (Sec 6.5)",
    "location_class": "both",
    "locations": [
@@ -37005,22 +37744,22 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 488
+     "line": 492
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 887
+     "line": 891
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 897
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 920
+     "line": 924
     },
     {
      "document": "supplement",
@@ -37068,11 +37807,6 @@
      "line": 232
     },
     {
-     "document": "supplement",
-     "file": "paper/is2/supplement/s8_full_results.tex",
-     "line": 386
-    },
-    {
      "document": "release",
      "file": "paper/is2/archive_tables/e3_proxy_ledger.tex",
      "line": 63
@@ -37096,14 +37830,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0363",
+   "id": "C0369",
    "label": "Closure: that share, entropy objective (Sec 6.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 897
     },
     {
      "document": "supplement",
@@ -37134,14 +37868,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0364",
+   "id": "C0370",
    "label": "Closure: asymmetric episodes, rotation objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 893
+     "line": 897
     }
    ],
    "manuscript_objects": [
@@ -37162,7 +37896,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0365",
+   "id": "C0371",
    "label": "Closure: that share, rotation objective (Sec 6.5, Sec 7)",
    "location_class": "main",
    "locations": [
@@ -37174,7 +37908,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 894
+     "line": 898
     }
    ],
    "manuscript_objects": [
@@ -37196,14 +37930,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0366",
+   "id": "C0372",
    "label": "Closure: median optimistic upper bound on the admissible step cap, entropy objective (Sec 6.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 913
+     "line": 917
     },
     {
      "document": "supplement",
@@ -37234,19 +37968,19 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0367",
+   "id": "C0373",
    "label": "Closure: the same bound, rotation objective (Sec 6.5)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 703
+     "line": 707
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 913
+     "line": 917
     },
     {
      "document": "supplement",
@@ -37292,14 +38026,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0368",
+   "id": "C0374",
    "label": "Closure: episodes whose optimistic cap falls below the step size actually used, entropy objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 915
+     "line": 919
     }
    ],
    "manuscript_objects": [
@@ -37320,14 +38054,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0369",
+   "id": "C0375",
    "label": "Closure: the same share, rotation objective (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 914
+     "line": 918
     }
    ],
    "manuscript_objects": [
@@ -37348,14 +38082,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0370",
+   "id": "C0376",
    "label": "Closure: A2 falsification share under momentum 0.9, entropy objective (Sec 6.5, beyond the envelope)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 920
+     "line": 924
     }
    ],
    "manuscript_objects": [
@@ -37376,14 +38110,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0371",
+   "id": "C0377",
    "label": "Closure: the same share, rotation objective (Sec 6.5, beyond the envelope)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 921
+     "line": 925
     }
    ],
    "manuscript_objects": [
@@ -37404,14 +38138,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0372",
+   "id": "C0378",
    "label": "Closure: median per-episode minimum alignment under momentum 0.9, rotation objective -- negative (Sec 6.5)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 922
+     "line": 926
     }
    ],
    "manuscript_objects": [
@@ -37432,14 +38166,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0373",
+   "id": "C0379",
    "label": "Closure: median logit-Jacobian condition number under Assumption 5.4 as stated, entropy objective, at t = 0 before the first update (Sec 6.6, Sec 7)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 942
+     "line": 946
     }
    ],
    "manuscript_objects": [
@@ -37461,14 +38195,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0374",
+   "id": "C0380",
    "label": "Closure: largest relative move of those medians across the measured steps (Sec 6.6)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 944
+     "line": 948
     },
     {
      "document": "supplement",
@@ -37499,14 +38233,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0375",
+   "id": "C0381",
    "label": "Closure: the same, rotation objective (Sec 6.6)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 943
+     "line": 947
     }
    ],
    "manuscript_objects": [
@@ -37527,14 +38261,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0376",
+   "id": "C0382",
    "label": "Closure: share of instances whose logit-space calibration bracket is favourable, entropy objective at t = 0 (Sec 6.6)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 961
+     "line": 965
     },
     {
      "document": "supplement",
@@ -37560,14 +38294,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0377",
+   "id": "C0383",
    "label": "Closure: median largest condition number at which the certificate would still be positive (Sec 6.6)",
    "location_class": "both",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 974
+     "line": 978
     },
     {
      "document": "supplement",
@@ -37638,14 +38372,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0378",
+   "id": "C0384",
    "label": "Closure: the largest condition number at which the certificate would still fire, over every measured step of both objectives (Sec 6.6)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 975
+     "line": 979
     }
    ],
    "manuscript_objects": [
@@ -37666,14 +38400,14 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0379",
+   "id": "C0385",
    "label": "Closure: the smallest measured condition number over that same range (Sec 6.6)",
    "location_class": "main",
    "locations": [
     {
      "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
-     "line": 977
+     "line": 981
     }
    ],
    "manuscript_objects": [
@@ -37694,7 +38428,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0380",
+   "id": "C0386",
    "label": "E2 cross-share identities per split seed, low end (Sec 7.2, App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37722,7 +38456,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0381",
+   "id": "C0387",
    "label": "E2 cross-share identities per split seed, high end (Sec 7.2, App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37750,7 +38484,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0382",
+   "id": "C0388",
    "label": "E2 cross-share EPISODE RECORDS per split seed, low end (Sec 7.2, App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37778,7 +38512,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0383",
+   "id": "C0389",
    "label": "E2 cross-share EPISODE RECORDS per split seed, high end (Sec 7.2, App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37806,7 +38540,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0384",
+   "id": "C0390",
    "label": "E2 ttt_mask cross-share identities, low end (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37832,7 +38566,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0385",
+   "id": "C0391",
    "label": "E2 ttt_mask cross-share identities, high end (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37858,7 +38592,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0386",
+   "id": "C0392",
    "label": "E2 ttt_rot cross-share identities, low end (App C.2)",
    "location_class": "supplement",
    "locations": [
@@ -37889,7 +38623,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0387",
+   "id": "C0393",
    "label": "E2 ttt_rot cross-share identities, high end (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37915,7 +38649,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0388",
+   "id": "C0394",
    "label": "E2 total episode records (Sec 7.2, App C.2)",
    "location_class": "supplement",
    "locations": [
@@ -37948,7 +38682,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0389",
+   "id": "C0395",
    "label": "E2 identity pruning, ttt_mask feature rho before (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -37974,7 +38708,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0390",
+   "id": "C0396",
    "label": "E2 identity pruning, ttt_mask feature rho after (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38000,7 +38734,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0391",
+   "id": "C0397",
    "label": "E2 identity pruning, ttt_rot feature rho before (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38026,7 +38760,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0392",
+   "id": "C0398",
    "label": "E2 identity pruning, ttt_rot feature rho after (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38052,7 +38786,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0393",
+   "id": "C0399",
    "label": "E2 identity pruning, ttt_mask loss rho before (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38078,7 +38812,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0394",
+   "id": "C0400",
    "label": "E2 identity pruning, ttt_mask loss rho after (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38104,7 +38838,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0395",
+   "id": "C0401",
    "label": "E2 identity pruning, ttt_rot loss rho before (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38130,7 +38864,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0396",
+   "id": "C0402",
    "label": "E2 identity pruning, ttt_rot loss rho after (App C.2)",
    "location_class": "archive",
    "locations": [
@@ -38156,7 +38890,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0397",
+   "id": "C0403",
    "label": "E2 largest absolute rho shift after identity pruning (Sec 7.2, App C.2)",
    "location_class": "supplement",
    "locations": [
@@ -38189,7 +38923,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0398",
+   "id": "C0404",
    "label": "Fig 2 cells with a negative one-step gain, low end (Sec 7.1, Fig 2)",
    "location_class": "main",
    "locations": [
@@ -38223,7 +38957,7 @@
   },
   {
    "command_cwd": "experiments/ttt/is_fresh",
-   "id": "C0399",
+   "id": "C0405",
    "label": "Fig 2 cells with a negative one-step gain, high end",
    "location_class": "main",
    "locations": [
@@ -38258,15 +38992,15 @@
  "coverage": {
   "by_location_class": {
    "archive": 76,
-   "both": 90,
+   "both": 94,
    "main": 111,
    "orphan": 0,
-   "supplement": 122
+   "supplement": 124
   },
-  "claims_located_in_the_tex_corpus": 399,
-  "claims_resolved_to_a_record_file": 399,
-  "claims_resolved_to_a_regenerating_command": 399,
-  "claims_total": 399
+  "claims_located_in_the_tex_corpus": 405,
+  "claims_resolved_to_a_record_file": 405,
+  "claims_resolved_to_a_regenerating_command": 405,
+  "claims_total": 405
  },
  "documents": {
   "main": "paper/is2/paper/main.pdf",
@@ -38281,7 +39015,7 @@
   "records": "the pointer's leading record prefix matched against the is_fresh record set that actually ships",
   "regenerating_commands": "parsed out of this archive's own generated COMMANDS.md, so no command appears here that the archive does not document"
  },
- "n_claims": 399,
+ "n_claims": 405,
  "schema": "ttt-is2-audit-map/1",
  "scope": "PARTIAL, and partial in a stated way.  The rows are the curated headline and repeated numerical claims of paper/is2/tools/r9_reconcile.py, which is a curated audit and not an exhaustive binding of every number: quantities it does not bind -- among them the E2 leave-one-corruption-out fold intervals and some E2 conditional calibration proportions -- are recomputable from the shipped records but have no row here. A row is evidence about one printed value; the absence of a row is not evidence that a value is unsupported.",
  "what_this_is": "A machine-readable map from a value PRINTED in the article or the supplement to the record file it is computed from, the command that regenerates that record, and the source locations where the value appears.  Every field is derived at packaging time; nothing in it is typed."
