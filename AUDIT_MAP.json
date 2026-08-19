@@ -1,5 +1,5 @@
 {
- "built_utc": "2026-08-18T11:41:17.696279+00:00",
+ "built_utc": "2026-08-18T15:45:53.947512+00:00",
  "claims": [
   {
    "command_cwd": "experiments/ttt/is_fresh",
@@ -820,7 +820,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 87
+     "line": 67
     },
     {
      "document": "main",
@@ -1620,17 +1620,17 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 194
+     "line": 203
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 344
+     "line": 354
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 346
+     "line": 356
     },
     {
      "document": "supplement",
@@ -7521,6 +7521,11 @@
    "locations": [
     {
      "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 37
+    },
+    {
+     "document": "main",
      "file": "paper/is2/paper/sections/experiments.tex",
      "line": 136
     },
@@ -7892,7 +7897,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 358
+     "line": 368
     },
     {
      "document": "supplement",
@@ -8115,7 +8120,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 288
+     "line": 298
     },
     {
      "document": "supplement",
@@ -19136,22 +19141,22 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 227
+     "line": 237
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 288
+     "line": 298
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 315
+     "line": 325
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 341
+     "line": 351
     },
     {
      "document": "supplement",
@@ -25190,22 +25195,22 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 227
+     "line": 237
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 288
+     "line": 298
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 315
+     "line": 325
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 341
+     "line": 351
     },
     {
      "document": "supplement",
@@ -25624,17 +25629,22 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 80
+     "line": 47
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 86
+     "line": 60
     },
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 101
+     "line": 66
+    },
+    {
+     "document": "main",
+     "file": "paper/is2/paper/sections/declarations.tex",
+     "line": 81
     },
     {
      "document": "main",
@@ -32274,67 +32284,52 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 191
+     "line": 197
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 192
+     "line": 219
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 209
+     "line": 236
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 226
+     "line": 239
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 229
+     "line": 253
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 243
+     "line": 290
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 280
+     "line": 321
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 311
+     "line": 322
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 312
+     "line": 330
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 320
-    },
-    {
-     "document": "supplement",
-     "file": "paper/is2/supplement/supplement.tex",
-     "line": 355
-    },
-    {
-     "document": "supplement",
-     "file": "paper/is2/supplement/supplement.tex",
-     "line": 356
-    },
-    {
-     "document": "supplement",
-     "file": "paper/is2/supplement/supplement.tex",
-     "line": 363
+     "line": 365
     },
     {
      "document": "supplement",
@@ -32344,12 +32339,22 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 374
+     "line": 373
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 388
+     "line": 376
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 384
+    },
+    {
+     "document": "supplement",
+     "file": "paper/is2/supplement/supplement.tex",
+     "line": 398
     },
     {
      "document": "supplement",
@@ -34010,7 +34015,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 62
     },
     {
      "document": "main",
@@ -34050,12 +34055,12 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 280
+     "line": 290
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 372
+     "line": 382
     }
    ],
    "manuscript_objects": [
@@ -34085,7 +34090,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 82
+     "line": 62
     },
     {
      "document": "main",
@@ -34125,12 +34130,12 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 280
+     "line": 290
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 372
+     "line": 382
     }
    ],
    "manuscript_objects": [
@@ -34281,7 +34286,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 87
+     "line": 67
     },
     {
      "document": "main",
@@ -34426,7 +34431,7 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 383
+     "line": 393
     },
     {
      "document": "supplement",
@@ -34479,7 +34484,7 @@
     {
      "document": "main",
      "file": "paper/is2/paper/sections/declarations.tex",
-     "line": 87
+     "line": 67
     },
     {
      "document": "main",
@@ -35279,17 +35284,17 @@
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 194
+     "line": 203
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 344
+     "line": 354
     },
     {
      "document": "supplement",
      "file": "paper/is2/supplement/supplement.tex",
-     "line": 346
+     "line": 356
     },
     {
      "document": "supplement",

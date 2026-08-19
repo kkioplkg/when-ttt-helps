@@ -1,6 +1,6 @@
 # Auditability archive -- index
 
-Built 2026-08-18 11:41 UTC for the
+Built 2026-08-18 15:45 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
 Adaptation Help?  Exact Phase Laws in a Solvable Model, Class-Level Minimax
 Limits, and an Entropy--Alignment Identity".
@@ -339,7 +339,7 @@ reading "verified" anywhere in this archive.
 **Two manifests, no third category.**  The boundary used to be a sentence a
 reader had to take on trust; it is now machine-checkable.
 
-* `MANIFEST.json` covers the **payload** --- the 625 files
+* `MANIFEST.json` covers the **payload** --- the 627 files
   collected from the repository --- with the size and SHA-256 of each.
 * `GENERATED_MANIFEST.json` covers the **generated root entries**: this
   packager writes 10 of them at package time --- they are not
@@ -385,9 +385,9 @@ itself at build time, not typed into this file**:
 > member, parsed to its string leaves, and every other text member, scanned
 > line by line --- none carries a build-machine or run-machine **absolute**
 > path *of the syntaxes the gate matches*, except for the
-> **18 declared exception files**.  Those files retain
-> **800** matching contexts --- lines, or parsed JSON string leaves
-> --- between them, containing **829** absolute-path occurrences;
+> **6 declared exception files**.  Those files retain
+> **756** matching contexts --- lines, or parsed JSON string leaves
+> --- between them, containing **771** absolute-path occurrences;
 > a single context can carry more than one path, which is why the two
 > numbers differ and why each is reported under its own noun.  Each is
 > enumerated and
@@ -398,7 +398,7 @@ itself at build time, not typed into this file**:
 > Two qualifications are inside that claim, not footnotes to it.  **Binary
 > members are out of scope**: the gate counts them and does not read inside
 > them, so the claim covers 384 + 226 of the
-> 635 ZIP entries and not the 25 binary ones.  **The POSIX
+> 637 ZIP entries and not the 27 binary ones.  **The POSIX
 > recognizer matches a fixed list of machine roots** --- `root`, `home`,
 > `mnt`, `media`, `opt`, `usr`, `var`, `tmp`, `Users`, `autodl-tmp`,
 > `content`, `workspace` --- and not every leading slash, so a path under an
@@ -406,9 +406,9 @@ itself at build time, not typed into this file**:
 > not match.  The Windows branch has no such restriction.
 > `BUILD_ENVIRONMENT.md` section 6.4 states both limits in the same words.
 
-The claim covers the 625 manifested payload files and the
+The claim covers the 627 manifested payload files and the
 10 generated root entries alike; what it does *not* cover is
-the 25 binary members, which is why they are counted and named.
+the 27 binary members, which is why they are counted and named.
 
 This claim must not be **wider than its checker**.  A checker that iterated
 `MANIFEST.json`, i.e. the manifested payload only, while
@@ -435,13 +435,13 @@ coverage, and it fails the build if a single path appears outside the map --
 or if a declared exception has become clean and the exemption is therefore
 wider than the facts.
 
-Coverage of this build's run, over all **635** entries:
-**384 JSON members** (129767
+Coverage of this build's run, over all **637** entries:
+**384 JSON members** (129771
 string leaves **parsed**, not regex-matched); **226 text members**
-scanned line by line; 25 binary members out of scope and listed as
+scanned line by line; 27 binary members out of scope and listed as
 such; 34 portable `env`-style shebangs excluded by construction
-(they name no machine).  384 + 226 + 25 =
-635: every entry is in exactly one of the three categories, none is
+(they name no machine).  384 + 226 + 27 =
+637: every entry is in exactly one of the three categories, none is
 skipped.  The checker matches the twelve enumerated POSIX machine roots listed
 in the claim above, and any Windows drive letter or UNC host/share, so the
 scope of the checker is exactly the scope of the claim --- neither wider nor
@@ -458,24 +458,12 @@ and the number of absolute-path occurrences retained in each:
 | file | matching contexts | path occurrences |
 |---|---|---|
 | `experiments/results/is_fresh/closure/code/common.py` | 1 | 2 |
-| `experiments/ttt/e2_cifar/adapt_cifar.py` | 3 | 3 |
-| `experiments/ttt/e2_cifar/delta_feat.py` | 4 | 4 |
-| `experiments/ttt/e2_cifar/train_recon_head.py` | 1 | 1 |
-| `experiments/ttt/e2_cifar/train_source.py` | 3 | 3 |
-| `experiments/ttt/e4_gpt2/SMOKE.md` | 10 | 14 |
-| `experiments/ttt/e4_gpt2/delta_proxy_v2.py` | 3 | 3 |
-| `experiments/ttt/e4_gpt2/jobs_e4.txt` | 14 | 24 |
-| `experiments/ttt/e4_gpt2/prepare_data.py` | 2 | 2 |
-| `experiments/ttt/e4_gpt2/run_e4.py` | 3 | 3 |
-| `experiments/ttt/e4_gpt2/vec_rerun/finalize_e3.sh` | 2 | 2 |
-| `experiments/ttt/e4_gpt2/vec_rerun/run_all_e3.sh` | 1 | 1 |
-| `experiments/ttt/e4_gpt2/vec_rerun/supervise_lanes.sh` | 1 | 1 |
-| `paper/is2/paper/BUILD_ENVIRONMENT.md` | 4 | 5 |
+| `paper/is2/paper/BUILD_ENVIRONMENT.md` | 7 | 8 |
 | `paper/is2/paper/main.log` | 122 | 128 |
 | `paper/is2/provenance/pip-freeze-full.txt` | 268 | 268 |
 | `paper/is2/supplement/supplement.log` | 90 | 97 |
 | `pip-freeze-full.txt` | 268 | 268 |
-| **total** | **800** | **829** in **18** files |
+| **total** | **756** | **771** in **6** files |
 
 The wider statement -- that a repository sweep finds *zero* absolute paths in
 the result JSONs -- is **not** made here, because it is **false** of the
@@ -485,9 +473,12 @@ prefix, together with build-machine paths in the analysis logs.  Those fields
 were sanitized (the machine prefix replaced by the placeholder `<RUN_ROOT>`,
 every other byte and every numeric value unchanged and asserted so with a
 parser); the log prefixes were stripped and their emitters fixed so
-regeneration cannot reintroduce them; `main.log` was kept verbatim; and the
-original remote-host GPU runners and job files were kept verbatim as the
-record of what was executed.  Every retained case is enumerated with its
+regeneration cannot reintroduce them; the original remote-host GPU runners,
+job list, smoke transcript and vec_rerun drivers had the same run-host prefix
+substituted in the same prefix-only way, so their flags, ordering and path
+suffixes still read as the record of what was executed; and `main.log`, the
+`pip freeze --all` transcript and this document's own build-machine record
+were kept verbatim.  Every retained case is enumerated with its
 reason in `ABS_PATH_EXCEPTIONS`, printed by the gate, and documented in
 `BUILD_ENVIRONMENT.md` section 6.4 together with the proof of
 value-preservation.
@@ -518,7 +509,7 @@ value-preservation.
 | `figures/scripts/k3_baseline.py` | 1 |
 | `figures/scripts/tab_T2.py` | 1 |
 | `paper/is2/archive_tables` | 7 |
-| `paper/is2/paper` | 32 |
+| `paper/is2/paper` | 34 |
 | `paper/is2/provenance` | 5 |
 | `paper/is2/supplement` | 16 |
 | `paper/is2/tools` | 14 |

@@ -75,6 +75,6 @@ correct, unchanged; only the statistic's sign convention changed.  Their
 pre-correction counterparts (`f8*`, `f16*`, `f20*`) ship unmodified as the
 audit trail.
 
-The ORIGINAL records shipped under `experiments/results/{e2,e3,e4,e5}` carry
+The ORIGINAL records shipped under `results/{e2,e3,e4,e5}` carry
 their own seeds inside `meta.argv.seed` of each file; those are the original
 0/1/2 values and are reported as such.

@@ -23,10 +23,10 @@ workdir/
 *.pth
 *.ckpt
 *.safetensors
-experiments/results/e2/
-experiments/results/e4/
-experiments/results/e5/
-experiments/results/is_fresh/closure/records/
+results/e2/
+results/e4/
+results/e5/
+results/is_fresh/closure/records/
 
 # LaTeX build artifacts (the manuscript is not tracked here)
 *.aux
