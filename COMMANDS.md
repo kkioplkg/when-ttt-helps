@@ -13,8 +13,8 @@
 ## What this archive audits
 
 The submission is a PAIR of documents: `paper/is2/paper/main.pdf`
-(39 pp) and
-`paper/is2/supplement/supplement.pdf` (55 pp).  Both ship here with their
+(40 pp) and
+`paper/is2/supplement/supplement.pdf` (59 pp).  Both ship here with their
 sources, their build transcripts and their compiled bibliographies.  The
 experiments they report are E1 (solvable model), E2 (CIFAR-10/100-C) and E4
 (GPT-2 domains), and the records of those three, together with the fresh
@@ -404,6 +404,22 @@ python f40_e3_replicas_manifest.py --check   # needs e3_vectors_replicas.zip
 # printed in either document is recomputed from it; the analysis JSONs it
 # would regenerate all ship in this payload under closure/json/.
 python f41_closure_records_manifest.py --check   # needs closure_records.zip
+# The seed-matched re-measurement's raw per-episode records are the third
+# side archive.  Unlike the closure records these are plain .json, so the
+# exclusion is DECLARED rather than inherited from SKIP_EXT -- see
+# DROPPED_PAYLOAD.  Its manifest ships here at
+# results/is_fresh/seedmatch/SEEDMATCH_RECORDS_MANIFEST.json and hashes each
+# member once, because these members carry no compression of their own and a
+# second digest would be the first one again.  Same standing as above: from a
+# clean extraction this is a --check with nothing to check against.
+python f42_seedmatch_records_manifest.py --check   # needs seedmatch_records.zip
+# The six source networks that suite trained and measured through.  Model
+# weights cannot ship inside this archive at all -- SKIP_EXT drops .pt by
+# construction -- so they are a fourth release asset.  They answer, for that
+# suite, the point the published grid could only concede: its own per-seed
+# source checkpoints were not retained, and these were.  They do not recover
+# the lost ones.
+python f43_seedmatch_checkpoints.py --check        # needs checkpoints_seedmatch.zip
 python f16_e2_gn_analysis.py --out-prefix f23_e2_gn        # matched 45 cells
 python f20_e2gn_loco_sensitivity.py \
        --out-name f24_e2gn_loco_sensitivity.json           # LOCO, after f23
@@ -475,7 +491,7 @@ ships.  Run them from that directory.
 ```
 cd tools
 
-python r9_reconcile.py                   # 405 CURATED headline claims
+python r9_reconcile.py                   # 508 CURATED headline claims
 #                                          re-derived from the JSONs above and
 #                                          compared with the token the two
 #                                          documents print, plus a model-free
@@ -502,10 +518,10 @@ python r9_reconcile.py                   # 405 CURATED headline claims
 #                                          purely SEMANTIC error (a correct
 #                                          number under a wrong label) is
 #                                          invisible to a value check.  Report
-#                                          it as "405 curated headline
+#                                          it as "508 curated headline
 #                                          and repeated numerical claims",
 #                                          never as "every number".
-#                                          It also runs 105
+#                                          It also runs 110
 #                                          CONSTRUCTION checks (PASS 1b):
 #                                          assertions that the E4 brackets are
 #                                          still built by POOLING the five

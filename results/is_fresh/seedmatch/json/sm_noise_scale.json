@@ -1,0 +1,134 @@
+{
+ "per_dataset": {
+  "cifar10": {
+   "cross_realization": {
+    "published_s0_vs_fresh_s0": {
+     "episode_spearman": 0.8974813975280903,
+     "within_cell": {
+      "frac_positive": 1.0,
+      "max": 0.9203817371183476,
+      "mean": 0.8457333893613931,
+      "mean_abs": 0.8457333893613931,
+      "median": 0.8572521095604614,
+      "min": 0.5936475682865342,
+      "n": 75,
+      "name": "within_cell",
+      "q10": 0.8028924366842924,
+      "q25": 0.8258647358826123,
+      "q75": 0.8777903563134066,
+      "q90": 0.888434970676647,
+      "sd": 0.050590562237278106
+     }
+    }
+   },
+   "cross_seed": {
+    "fresh_s1_vs_fresh_s0": {
+     "episode_spearman": 0.8932770851438082,
+     "within_cell": {
+      "frac_positive": 1.0,
+      "max": 0.9107623240051707,
+      "mean": 0.8569759196823272,
+      "mean_abs": 0.8569759196823272,
+      "median": 0.8608854403425816,
+      "min": 0.6578165543499537,
+      "n": 75,
+      "name": "within_cell",
+      "q10": 0.8169795252299035,
+      "q25": 0.8444201476445791,
+      "q75": 0.8825674094131282,
+      "q90": 0.8986838503561527,
+      "sd": 0.03847172386129694
+     }
+    },
+    "fresh_s2_vs_fresh_s0": {
+     "episode_spearman": 0.8626156255977618,
+     "within_cell": {
+      "frac_positive": 1.0,
+      "max": 0.9208929164908621,
+      "mean": 0.8102407993833606,
+      "mean_abs": 0.8102407993833606,
+      "median": 0.8054343960433469,
+      "min": 0.6341048432687062,
+      "n": 75,
+      "name": "within_cell",
+      "q10": 0.7522443132763778,
+      "q25": 0.7768205694535372,
+      "q75": 0.8461576838422034,
+      "q90": 0.88647751549677,
+      "sd": 0.05435217096933401
+     }
+    }
+   },
+   "cross_seed_minus_cross_realization": -0.024092191367497073,
+   "median_within_cell_cross_realization": 0.8572521095604614,
+   "median_within_cell_cross_seed": 0.8331599181929643,
+   "n_keys": 28440
+  },
+  "cifar100": {
+   "cross_realization": {
+    "published_s0_vs_fresh_s0": {
+     "episode_spearman": 0.8954141441635272,
+     "within_cell": {
+      "frac_positive": 1.0,
+      "max": 0.9169367334151971,
+      "mean": 0.85735694396685,
+      "mean_abs": 0.85735694396685,
+      "median": 0.8636091022371286,
+      "min": 0.7829914261689377,
+      "n": 30,
+      "name": "within_cell",
+      "q10": 0.8096327789731018,
+      "q25": 0.8300302232738892,
+      "q75": 0.8907740278796772,
+      "q90": 0.8959418991125079,
+      "sd": 0.03621264951958094
+     }
+    }
+   },
+   "cross_seed": {
+    "fresh_s1_vs_fresh_s0": {
+     "episode_spearman": 0.9172089906539768,
+     "within_cell": {
+      "frac_positive": 1.0,
+      "max": 0.924446845199759,
+      "mean": 0.8800839437291874,
+      "mean_abs": 0.8800839437291874,
+      "median": 0.8890548570206207,
+      "min": 0.8072253744285298,
+      "n": 30,
+      "name": "within_cell",
+      "q10": 0.8293316953696,
+      "q25": 0.8636949006595727,
+      "q75": 0.9043543477373173,
+      "q90": 0.9113252342342585,
+      "sd": 0.03140137339594969
+     }
+    },
+    "fresh_s2_vs_fresh_s0": {
+     "episode_spearman": 0.9092380579636489,
+     "within_cell": {
+      "frac_positive": 1.0,
+      "max": 0.9118049002380465,
+      "mean": 0.8708011313198804,
+      "mean_abs": 0.8708011313198804,
+      "median": 0.8731870209251038,
+      "min": 0.8087413493532722,
+      "n": 30,
+      "name": "within_cell",
+      "q10": 0.8471139620046197,
+      "q25": 0.8561969362482473,
+      "q75": 0.8923218910379587,
+      "q90": 0.9017813820483048,
+      "sd": 0.025678005841391578
+     }
+    }
+   },
+   "cross_seed_minus_cross_realization": 0.017511836735733644,
+   "median_within_cell_cross_realization": 0.8636091022371286,
+   "median_within_cell_cross_seed": 0.8811209389728623,
+   "n_keys": 11355
+  }
+ },
+ "reading": "If the difference is near zero or negative, measuring delta_feat through another SEED's network disagrees no more than two independent training runs of the SAME seed do. Cross-seed measurement is then not a special defect but ordinary training nondeterminism, and no checkpoint-retention discipline could have removed it.",
+ "script": "sm_noise_scale.py"
+}

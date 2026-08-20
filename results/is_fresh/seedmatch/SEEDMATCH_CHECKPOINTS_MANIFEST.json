@@ -1,0 +1,58 @@
+{
+ "archive": "checkpoints_seedmatch.zip",
+ "availability": "checkpoints_seedmatch.zip is published as a versioned release asset of the public code repository and downloads without an account from https://github.com/kkioplkg/when-ttt-helps/releases . There is no DOI and no archival-preservation claim. This file is the manifest of its contents and ships INSIDE release_archive.zip, so a reader who obtains the asset can verify it member by member. Possession of the asset is neither proved nor implied by having this manifest.",
+ "purpose": "These are the six source networks the seed-matched suite trained and measured through, retained so that a reader can RE-MEASURE rather than re-train. They do NOT recover the published grid's own three per-seed source checkpoints, which were not retained; they are fresh realizations of the same nominal recipe under a different execution stack. No number printed in either document is recomputed from this asset.",
+ "why_not_in_the_release_archive": "make_release_zip.py drops .pt by construction (SKIP_EXT), so model weights cannot ship inside release_archive.zip; and at ~16 MB they would consume the correspondence attachment budget the release archive already nearly fills.",
+ "archive_bytes": 15137236,
+ "archive_sha256": "d6ef8edfe32e563481774a8072f3f15981d389f5e3c0c5cfcb32270d4817097f",
+ "n_entries": 9,
+ "n_networks": 6,
+ "total_member_bytes": 16211929,
+ "members": [
+  {
+   "name": "README.md",
+   "bytes": 2615,
+   "sha256": "20ba73fd641eb60d97a763527db99c8226aa5a00c234f3ee1b1261d434f63a37"
+  },
+  {
+   "name": "checkpoints/cifar100_resnet26ttt_s0.pt",
+   "bytes": 2663039,
+   "sha256": "136d5f8f2d9f8deaa06f066182444189cddb2c0c147a426668b21383f2950aa8"
+  },
+  {
+   "name": "checkpoints/cifar100_resnet26ttt_s1.pt",
+   "bytes": 2663039,
+   "sha256": "8e9ef660f6d36e6cf2a0aac30a522c7bac49641bd575bd98ca654deb722f162c"
+  },
+  {
+   "name": "checkpoints/cifar100_resnet26ttt_s2.pt",
+   "bytes": 2663039,
+   "sha256": "fb7f04cdc64bdfd97354e73086c6395a2a6a84a15e3523fbe2a5ac393d19af50"
+  },
+  {
+   "name": "checkpoints/cifar10_resnet26ttt_s0.pt",
+   "bytes": 2639497,
+   "sha256": "0d8780d532dc0dc948f4e138e2b438d83c7da82668342e3537b14e05246a3e5d"
+  },
+  {
+   "name": "checkpoints/cifar10_resnet26ttt_s1.pt",
+   "bytes": 2791511,
+   "sha256": "02b3acef5629bedb0fc387ee514fe1d33dce9ace49e35087b3ba33110fe90f44"
+  },
+  {
+   "name": "checkpoints/cifar10_resnet26ttt_s1_recon.json",
+   "bytes": 146,
+   "sha256": "4d8842e2a8d9b49aa6891192c63626579300c1266d0bf9fc8d623a13890d9ac3"
+  },
+  {
+   "name": "checkpoints/cifar10_resnet26ttt_s2.pt",
+   "bytes": 2791511,
+   "sha256": "e911c58e1d371c2be0c83854bde43b08ca26c796da71dca521310a99404e26f3"
+  },
+  {
+   "name": "checkpoints/cifar10_resnet26ttt_s2_recon.json",
+   "bytes": 147,
+   "sha256": "a07a39b59edb00b6e32a916963da8527c9d808eefb5bccb4c0109171f7e05b44"
+  }
+ ]
+}

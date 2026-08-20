@@ -295,16 +295,16 @@ block and the products disagree.
 
 | property | `paper/main.pdf` (article) | `supplement/supplement.pdf` |
 |---|---|---|
-| pages | **39** | **55** |
-| `.pdf` size | 1,451,130 bytes | 971,745 bytes |
-| `.pdf` SHA-256 | `3609e2f16ecc9543ac431c7f2b966cab2d93e40d2e3ad8d82ecf8e15b1b5c692` | `3a02e70ce3bb8034d0ea37076479c976789078abe06840563fdbfb2fd633b7da` |
+| pages | **40** | **59** |
+| `.pdf` size | 1,455,332 bytes | 1,061,627 bytes |
+| `.pdf` SHA-256 | `a51dce5b6b431d06a21f4b433ca3534da4b16140fb0b6c3e71fe7b9f57742cf1` | `e3b5cf0370a203e57bdc6016ec087adcd15edcd84a9413ad7a0eef1e52e24553` |
 | `.tex` SHA-256 | `970c22d576796a56442dbb31fa00928c0cb3d941d4c3dee6d312a4858a6d9352` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,614 bytes / `cb81fd6c1e65f22bd1ac7f5df60cc353a7ab97d4108fae9bd8f7c234f24cd1e3` | 27,275 bytes / `7de4afc756c97c087c2416c3815d53ab86b46cca34bed3cef78ecfe8eb6a53cd` |
-| final-page footer | `Page 39 of 39` (verify this; see section 1) | none (the supplement carries no journal front matter) |
+| `.log` size / SHA-256 | 40,619 bytes / `c7d9894eaac56856518c06ebdfde2f40e076feef9ce4738f381b4e54833d1539` | 28,127 bytes / `7966a2d21f865ab3e562e323eaaecda02f66c10bdbfb34779a718dc36774edc7` |
+| final-page footer | `Page 40 of 40` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.
 
@@ -1150,9 +1150,9 @@ item 5 of `verify()` on the extracted tree, and standalone via
      (447/247,260/135 against a gate reporting 449/247,285/140) -->
 
 On the shipped build it reports: **0 absolute paths outside the declared
-exceptions, over 384 JSON members (130,231 string leaves parsed) and 226 text
-members; 27 binary members out of scope, 34 portable shebangs excluded; 6
-declared exceptions holding 757 matching contexts, which contain 772 absolute-path occurrences.**
+exceptions, over 399 JSON members (140,031 string leaves parsed) and 246 text
+members; 27 binary members out of scope, 49 portable shebangs excluded; 6
+declared exceptions holding 760 matching contexts, which contain 775 absolute-path occurrences.**
 
 A context is one line of a text member, or one parsed JSON string leaf, and it
 can hold more than one path, so the two counts differ and each is reported under
@@ -1160,13 +1160,13 @@ its own noun. The load-bearing number is neither of them: it is the **zero**
 outside the declared exceptions, and a context count and an occurrence count are
 zero together.
 
-Its scope is **all 637 entries** of the archive: the 627 manifested payload
-files plus the 10 generated root entries. 384 + 226 + 27 = 637, so every entry falls in
+Its scope is **all 672 entries** of the archive: the 662 manifested payload
+files plus the 10 generated root entries. 399 + 246 + 27 = 672, so every entry falls in
 exactly one of the three categories and none is skipped.
 
 > **Why the checker walks every entry.**
 > It once iterated `MANIFEST.json` — the
-> 627 payload files — while the claim above, and the gate's own header
+> 662 payload files — while the claim above, and the gate's own header
 > comment, quantified over every file the ZIP ships. The 10
 > generated root entries were therefore outside the census, and one
 > of them, `pip-freeze-full.txt`, holds 268 path-like strings. Three

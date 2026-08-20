@@ -1,6 +1,6 @@
 # Auditability archive -- index
 
-Built 2026-08-19 17:08 UTC for the
+Built 2026-08-20 09:47 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
 Adaptation Help?  An Exact Phase Law in a Solvable Model".
 It exists so that the submission is independently auditable rather than
@@ -8,8 +8,8 @@ merely re-readable.  Extract it and every path below resolves without
 editing.
 
 **The submission is two documents.**  `paper/is2/paper/main.pdf` is the
-article (39 pp); `paper/is2/supplement/supplement.pdf` is the
-Supplementary Material (55 pp).  Both ship here with their sources,
+article (40 pp); `paper/is2/supplement/supplement.pdf` is the
+Supplementary Material (59 pp).  Both ship here with their sources,
 their build transcripts, their compiled bibliographies and the pinned LaTeX
 environment that produced them.
 
@@ -47,6 +47,8 @@ left to be noticed:
 | `experiments/results/is_fresh/closure/REVIEW_R*.md` | the two adversarial design-audit transcripts the theory-closure suite's DESIGN.md was revised against. They are process records, not measurement records, and a package meant to be read cold does not carry another audit's transcript -- the same rule that keeps every editorial-history file out of both packages, and the leak gate enforces it. What they forced is not lost: DESIGN.md's changelog states every change either audit produced, which is the part that bears on the measurements |
 | `experiments/results/is_fresh/closure/records/*.jsonl.gz` | the theory-closure suite's 71 raw per-episode record files, 127 MB. They are held in the side archive closure_records.zip, whose per-member manifest (size, sha256 of the stored file, sha256 of the decompressed bytes, record count) ships in this archive at experiments/results/is_fresh/closure/CLOSURE_RECORDS_MANIFEST.json. The split is by size and by content, not by relevance: every number printed in either document is bound to an analysis json under closure/json/, which ships here in full, as do the independent verifier's report and the suite's measurement, analysis and verification code. The records are needed only to RE-DERIVE those jsons from scratch. Obtaining the side archive lets a reader verify it member by member; this manifest proves neither possession nor correctness of an archive a reader does not have |
 | `experiments/results/is_fresh/f4_*, f13_*` | the two fresh measurement sets of the label-free RETROSPECTIVE SELECTOR (a rule applied after the fact to per-step measurements, not an online stopping time); the selector is disclosed in the discussion as developed-but-not-claimed and is not a contribution here, so its measurements support nothing in either document |
+| `experiments/results/is_fresh/seedmatch/DESIGN_REVIEW_ROUNDS.md` | the adversarial design-audit transcript the seed-matched suite's DESIGN.md was revised against. Same rule as the closure suite's two below, and the leak gate enforces it: a package meant to be read cold does not carry another audit's transcript. What it forced is not lost --- DESIGN.md section 10, 'What the review changed', states every change it produced, and the scope limits it imposed are section 2 of RESULTS.md, written before any number existed. Both ship |
+| `experiments/results/is_fresh/seedmatch/records/*.json` | the seed-matched re-measurement's 12 raw per-episode record files, 55.4 MB of plain JSON holding 165,465 records: six crossed measurement matrices and six exposed adaptation runs. They are held in the side archive seedmatch_records.zip (10.2 MB), whose per-member manifest (size, sha256, record count) ships in this archive at experiments/results/is_fresh/seedmatch/SEEDMATCH_RECORDS_MANIFEST.json. The split is by size and not by relevance: every number printed in either document is bound to an analysis json under seedmatch/json/, which ships here in full, as do the frozen episode manifest, the six source-model evaluation records, the suite's measurement and analysis code and its design, review and results documents. The records are needed only to RE-DERIVE those jsons from scratch. The six source networks the suite measured through are a separate asset, checkpoints_seedmatch.zip, because the packager drops .pt by construction |
 | `experiments/results/provenance/` | per-(corruption, severity) ImageNet-C image manifests; they were cited by a provenance table that is not in this submission |
 | `experiments/ttt/e3_imagenet/` | the ImageNet-C experiment runner, for the same reason as its records |
 
@@ -235,7 +237,7 @@ release asset of the code repository and is not attached to review
 correspondence**: at 62.5 MB it would put the
 attached pair over the correspondence size limit.  It downloads without an
 account from
-`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.5/e3_vectors_replicas.zip`.
+`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.6/e3_vectors_replicas.zip`.
 Naming it and printing a single whole-archive digest is not enough for a
 reader to check anything, so this archive also ships that archive's own
 per-member manifest:
@@ -317,8 +319,8 @@ reading "verified" anywhere in this archive.
   checkpoint.
   **This is a statement about rerunning the analyses, not a certificate that
   every printed number is machine-verified.**  The reconciliation
-  (`r9_reconcile.py`) binds **405 curated headline and repeated
-  numerical claims** to records of record, with 105 further
+  (`r9_reconcile.py`) binds **508 curated headline and repeated
+  numerical claims** to records of record, with 110 further
   construction checks; that curated list is not exhaustive and says so, in
   its own docstring and in `FRESH_RESULTS.md`.  Quantities it does not bind
   --- among them the E2 leave-one-corruption-out fold intervals and some E2
@@ -355,7 +357,7 @@ reading "verified" anywhere in this archive.
 **Two manifests, no third category.**  The boundary used to be a sentence a
 reader had to take on trust; it is now machine-checkable.
 
-* `MANIFEST.json` covers the **payload** --- the 627 files
+* `MANIFEST.json` covers the **payload** --- the 662 files
   collected from the repository --- with the size and SHA-256 of each.
 * `GENERATED_MANIFEST.json` covers the **generated root entries**: this
   packager writes 10 of them at package time --- they are not
@@ -384,7 +386,7 @@ script's own scan of the `.tex` corpus, and from the command lines in
 and no location that is not in the sources shipped here.
 
 It is **partial in a stated way**, and the file says so in its own `scope`
-field rather than in a document beside it: its rows are the 405
+field rather than in a document beside it: its rows are the 508
 curated headline and repeated claims, which are a curated audit and not an
 exhaustive binding of every number.  The absence of a row is not evidence
 that a value is unsupported; it means that value is outside the curated
@@ -402,8 +404,8 @@ itself at build time, not typed into this file**:
 > line by line --- none carries a build-machine or run-machine **absolute**
 > path *of the syntaxes the gate matches*, except for the
 > **6 declared exception files**.  Those files retain
-> **757** matching contexts --- lines, or parsed JSON string leaves
-> --- between them, containing **772** absolute-path occurrences;
+> **760** matching contexts --- lines, or parsed JSON string leaves
+> --- between them, containing **775** absolute-path occurrences;
 > a single context can carry more than one path, which is why the two
 > numbers differ and why each is reported under its own noun.  Each is
 > enumerated and
@@ -413,8 +415,8 @@ itself at build time, not typed into this file**:
 >
 > Two qualifications are inside that claim, not footnotes to it.  **Binary
 > members are out of scope**: the gate counts them and does not read inside
-> them, so the claim covers 384 + 226 of the
-> 637 ZIP entries and not the 27 binary ones.  **The POSIX
+> them, so the claim covers 399 + 246 of the
+> 672 ZIP entries and not the 27 binary ones.  **The POSIX
 > recognizer matches a fixed list of machine roots** --- `root`, `home`,
 > `mnt`, `media`, `opt`, `usr`, `var`, `tmp`, `Users`, `autodl-tmp`,
 > `content`, `workspace` --- and not every leading slash, so a path under an
@@ -422,7 +424,7 @@ itself at build time, not typed into this file**:
 > not match.  The Windows branch has no such restriction.
 > `BUILD_ENVIRONMENT.md` section 6.4 states both limits in the same words.
 
-The claim covers the 627 manifested payload files and the
+The claim covers the 662 manifested payload files and the
 10 generated root entries alike; what it does *not* cover is
 the 27 binary members, which is why they are counted and named.
 
@@ -451,13 +453,13 @@ coverage, and it fails the build if a single path appears outside the map --
 or if a declared exception has become clean and the exemption is therefore
 wider than the facts.
 
-Coverage of this build's run, over all **637** entries:
-**384 JSON members** (130231
-string leaves **parsed**, not regex-matched); **226 text members**
+Coverage of this build's run, over all **672** entries:
+**399 JSON members** (140031
+string leaves **parsed**, not regex-matched); **246 text members**
 scanned line by line; 27 binary members out of scope and listed as
-such; 34 portable `env`-style shebangs excluded by construction
-(they name no machine).  384 + 226 + 27 =
-637: every entry is in exactly one of the three categories, none is
+such; 49 portable `env`-style shebangs excluded by construction
+(they name no machine).  399 + 246 + 27 =
+672: every entry is in exactly one of the three categories, none is
 skipped.  The checker matches the twelve enumerated POSIX machine roots listed
 in the claim above, and any Windows drive letter or UNC host/share, so the
 scope of the checker is exactly the scope of the claim --- neither wider nor
@@ -477,9 +479,9 @@ and the number of absolute-path occurrences retained in each:
 | `paper/is2/paper/BUILD_ENVIRONMENT.md` | 7 | 8 |
 | `paper/is2/paper/main.log` | 122 | 128 |
 | `paper/is2/provenance/pip-freeze-full.txt` | 268 | 268 |
-| `paper/is2/supplement/supplement.log` | 91 | 98 |
+| `paper/is2/supplement/supplement.log` | 94 | 101 |
 | `pip-freeze-full.txt` | 268 | 268 |
-| **total** | **757** | **772** in **6** files |
+| **total** | **760** | **775** in **6** files |
 
 The wider statement -- that a repository sweep finds *zero* absolute paths in
 the result JSONs -- is **not** made here, because it is **false** of the
@@ -506,14 +508,14 @@ value-preservation.
 | `experiments/results/e2` | 24 |
 | `experiments/results/e4` | 15 |
 | `experiments/results/e5` | 12 |
-| `experiments/results/is_fresh` | 387 |
+| `experiments/results/is_fresh` | 420 |
 | `experiments/results/m0` | 12 |
 | `experiments/ttt/analysis` | 5 |
 | `experiments/ttt/core` | 3 |
 | `experiments/ttt/e1_synthetic` | 2 |
 | `experiments/ttt/e2_cifar` | 6 |
 | `experiments/ttt/e4_gpt2` | 14 |
-| `experiments/ttt/is_fresh` | 52 |
+| `experiments/ttt/is_fresh` | 54 |
 | `figures/F5_batch.pdf` | 1 |
 | `figures/F6_calib.pdf` | 1 |
 | `figures/scripts/_style.py` | 1 |
@@ -537,8 +539,8 @@ value-preservation.
 
 State this precisely, because the two counts are not the same count:
 
-* **384 JSON files in the archive in total**;
-* **381 result JSON files** under `experiments/results/`;
+* **399 JSON files in the archive in total**;
+* **396 result JSON files** under `experiments/results/`;
 * the remaining 3 are the generated root-level JSON entries
   `AUDIT_MAP.json`, `GENERATED_MANIFEST.json`, `MANIFEST.json` --- archive metadata and audit indices, not result
   records.
@@ -550,13 +552,13 @@ The result records break down as:
 | `experiments/results/e2/` | 24 |
 | `experiments/results/e4/` | 15 |
 | `experiments/results/e5/` | 12 |
-| `experiments/results/is_fresh/` | 318 |
+| `experiments/results/is_fresh/` | 333 |
 | `experiments/results/m0/` | 12 |
-| **total** | **381** |
+| **total** | **396** |
 
-Do not write "384 result JSON files"; write
-"381 result JSON files plus the 3 generated
-root-level JSON entries", or "384 JSON files in total".
+Do not write "399 result JSON files"; write
+"396 result JSON files plus the 3 generated
+root-level JSON entries", or "399 JSON files in total".
 
 ## Where each claim comes from
 
@@ -603,6 +605,8 @@ what it does and does not cover.
 | E3 selector, recomputed from the released per-step vectors | `f39_e3_vector_selfcheck.py` | `f39_e3_vector_selfcheck.json` |
 | Side-archive per-member manifest (name/bytes/sha256 per member, plus name/shape/dtype/sha256 per array) | `f40_e3_replicas_manifest.py` | `results/is_fresh/e3_vectors/REPLICAS_MANIFEST.json` |
 | Theory-closure record side archive and its per-member manifest (bytes, sha256 as stored, sha256 of the decompressed bytes, record count) | `f41_closure_records_manifest.py` | `results/is_fresh/closure/CLOSURE_RECORDS_MANIFEST.json` |
+| Seed-matched record side archive and its per-member manifest (bytes, sha256, record count) | `f42_seedmatch_records_manifest.py` | `results/is_fresh/seedmatch/SEEDMATCH_RECORDS_MANIFEST.json` |
+| Seed-matched checkpoint asset and its per-member manifest (bytes, sha256) | `f43_seedmatch_checkpoints.py` | `results/is_fresh/seedmatch/SEEDMATCH_CHECKPOINTS_MANIFEST.json` |
 | integer one-step criterion, measured | `f18_integer_boundary_check.py` | `f18_integer_boundary_check.json` |
 | local-PL envelope monotonicity | `f33_pl_envelope_monotonicity.py` | `f33_pl_envelope_monotonicity.json` |
 | local-PL envelope at zero noise | `f35_pl_zero_noise.py` | `f35_pl_zero_noise.json` |
@@ -611,7 +615,7 @@ what it does and does not cover.
 | E2 leave-one-corruption-out sensitivity | `f20_e2gn_loco_sensitivity.py` | `f20_e2gn_loco_sensitivity.json` |
 | E2 entropy sign-separation coverage and excluded group | `f21_e2_coverage.py` | `f21_e2_coverage.json` |
 | E2 identity-level overlap of the cross-fit split | `f27_e2_identity.py` | `f27_e2_identity.json` |
-| every curated number in BOTH documents | `paper/is2/tools/r9_reconcile.py` | exit status; 405 claims, 105 construction checks |
+| every curated number in BOTH documents | `paper/is2/tools/r9_reconcile.py` | exit status; 508 claims, 110 construction checks |
 | dependency-provenance evidence and resolver transcripts | none (captured once, on the build machine) | `experiments/ttt/is_fresh/RESOLVER_TRANSCRIPT.md` |
 
 ## Which defect each fresh artefact answers

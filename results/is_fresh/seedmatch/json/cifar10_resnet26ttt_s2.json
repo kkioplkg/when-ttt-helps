@@ -1,0 +1,150 @@
+{
+ "meta": {
+  "argv": {
+   "dataset": "cifar10",
+   "arch": "resnet26ttt",
+   "seed": 2,
+   "epochs": 200,
+   "lr": 0.1,
+   "wd": 0.0005,
+   "batch_size": 128,
+   "data_root": "experiments/data",
+   "out_dir": "experiments/results/is_fresh_incoming_gpu3/m0",
+   "ckpt_dir": "experiments/ckpt/seedmatch"
+  },
+  "time": "2026-08-19T22:01:01",
+  "torch": "2.13.0+cu130",
+  "cuda": "NVIDIA GeForce RTX 3080"
+ },
+ "history": [
+  {
+   "epoch": 10,
+   "test_acc": 0.6599,
+   "rot_acc": 0.6237,
+   "minutes": 24.058015418052673
+  },
+  {
+   "epoch": 20,
+   "test_acc": 0.7683,
+   "rot_acc": 0.7349,
+   "minutes": 36.99095563093821
+  },
+  {
+   "epoch": 30,
+   "test_acc": 0.7557,
+   "rot_acc": 0.7319,
+   "minutes": 49.813557521502176
+  },
+  {
+   "epoch": 40,
+   "test_acc": 0.8097,
+   "rot_acc": 0.7655,
+   "minutes": 62.62241276899974
+  },
+  {
+   "epoch": 50,
+   "test_acc": 0.7885,
+   "rot_acc": 0.7529,
+   "minutes": 75.4393231232961
+  },
+  {
+   "epoch": 60,
+   "test_acc": 0.8184,
+   "rot_acc": 0.7915,
+   "minutes": 88.30709274212519
+  },
+  {
+   "epoch": 70,
+   "test_acc": 0.8347,
+   "rot_acc": 0.7891,
+   "minutes": 101.14027953147888
+  },
+  {
+   "epoch": 80,
+   "test_acc": 0.7968,
+   "rot_acc": 0.7598,
+   "minutes": 113.94269181489945
+  },
+  {
+   "epoch": 90,
+   "test_acc": 0.8342,
+   "rot_acc": 0.8297,
+   "minutes": 126.76668427387874
+  },
+  {
+   "epoch": 100,
+   "test_acc": 0.8434,
+   "rot_acc": 0.8208,
+   "minutes": 139.59399644136428
+  },
+  {
+   "epoch": 110,
+   "test_acc": 0.8532,
+   "rot_acc": 0.8198,
+   "minutes": 152.40370320081712
+  },
+  {
+   "epoch": 120,
+   "test_acc": 0.8565,
+   "rot_acc": 0.8263,
+   "minutes": 165.22840522527696
+  },
+  {
+   "epoch": 130,
+   "test_acc": 0.8662,
+   "rot_acc": 0.8585,
+   "minutes": 178.05663590431215
+  },
+  {
+   "epoch": 140,
+   "test_acc": 0.8815,
+   "rot_acc": 0.8601,
+   "minutes": 190.88352281252543
+  },
+  {
+   "epoch": 150,
+   "test_acc": 0.8771,
+   "rot_acc": 0.8658,
+   "minutes": 203.7057047724724
+  },
+  {
+   "epoch": 160,
+   "test_acc": 0.8904,
+   "rot_acc": 0.873,
+   "minutes": 216.52937492132187
+  },
+  {
+   "epoch": 170,
+   "test_acc": 0.8974,
+   "rot_acc": 0.889,
+   "minutes": 229.3343052784602
+  },
+  {
+   "epoch": 180,
+   "test_acc": 0.9162,
+   "rot_acc": 0.9016,
+   "minutes": 242.13195362885793
+  },
+  {
+   "epoch": 190,
+   "test_acc": 0.9193,
+   "rot_acc": 0.9085,
+   "minutes": 254.94429095188778
+  },
+  {
+   "epoch": 200,
+   "test_acc": 0.9208,
+   "rot_acc": 0.9115,
+   "minutes": 267.7605836669604
+  }
+ ],
+ "final": {
+  "epoch": 200,
+  "test_acc": 0.9208,
+  "rot_acc": 0.9115,
+  "minutes": 267.7605836669604
+ },
+ "acc_gate": false,
+ "rot_gate": true,
+ "gate_pass": false
+}

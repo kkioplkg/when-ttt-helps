@@ -1,0 +1,59 @@
+{
+ "all_agree": true,
+ "checks": [
+  {
+   "agree": true,
+   "name": "n_triples",
+   "published": 60,
+   "recomputed": 60
+  },
+  {
+   "agree": true,
+   "name": "n_strictly_increasing",
+   "published": 23,
+   "recomputed": 23
+  },
+  {
+   "agree": true,
+   "name": "median_episode_rho_severity",
+   "published": -0.01455426142998399,
+   "recomputed": -0.01455426142998399
+  },
+  {
+   "agree": true,
+   "name": "n_cells_within",
+   "published": 390,
+   "recomputed": 390
+  },
+  {
+   "agree": true,
+   "name": "median_within_cell_rho",
+   "published": -0.1435679605413497,
+   "recomputed": -0.1435679605413497
+  }
+ ],
+ "pooled_published_figure_split_by_dataset": {
+  "cifar10(5 severity points)": {
+   "n": 30,
+   "severities": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "strict": 7
+  },
+  "cifar100(2 severity points)": {
+   "n": 30,
+   "severities": [
+    3,
+    5
+   ],
+   "strict": 16
+  }
+ },
+ "published_file": "f14_deltafeat_check.json",
+ "purpose": "prove sm_stats reproduces the published f14 audit before any fresh number is computed with it",
+ "script": "sm_equivalence.py"
+}

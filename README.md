@@ -21,12 +21,12 @@ figure and table generators, **and the analysis records behind all of them** (`r
 below). What it deliberately does not contain is the manuscript and the bulk raw record sets:
 the per-instance CIFAR/GPT-2 traces, the closure `.jsonl.gz` records, the E3 replica payloads and
 the source checkpoints are published as **versioned release assets of this repository**
-([release `v1.0.5`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.5)), described
+([release `v1.0.6`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.6)), described
 file by file with sizes and SHA-256 in [`DATA.md`](DATA.md). The split is deliberate and the
 boundary is the useful one — **every printed number has its analysis JSON here**, so checking a
 number needs nothing downloaded; only re-deriving one from raw records does. Stated exactly,
 because "bound" and "traceable" are not the same guarantee: `tools/r9_reconcile.py`
-machine-binds **405 curated claims** to their records and fails on a mismatch or an orphan;
+machine-binds **508 curated claims** to their records and fails on a mismatch or an orphan;
 every other printed number has an analysis JSON it is recomputable from, but is not necessarily
 in that curated binding set. `r9_reconcile.py` says so of itself, and names examples it does not
 bind.
@@ -78,7 +78,7 @@ manuscript is not in this repository; run them against the reproducibility archi
 documents for the same reason and likewise runs from the archive.
 
 **Level 3 — reconstruct from raw records.** Download the
-[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.5), verify each
+[release assets](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.6), verify each
 against the per-member manifests that ship inside `release_archive.zip`, and unpack them into the
 paths [`DATA.md`](DATA.md) names. That is enough to re-derive every analysis JSON from the
 per-instance records. Re-running the *original* CIFAR-10/100-C and GPT-2 experiments on top of
@@ -184,15 +184,17 @@ recomputation can be diffed against the committed copy file by file rather than 
 | `results/is_fresh/e2_gn/` | 3 | the GroupNorm lane's source gate and progress log |
 | `results/m0/` | 12 JSON | source-model evaluation for the two architectures on CIFAR-10/100, three seeds each |
 
-**Not released here.** Six sets are held back and every one of them is described in
+**Not released here.** Seven sets are held back and every one of them is described in
 [`DATA.md`](DATA.md) with its file count, byte size and SHA-256: the per-instance CIFAR-10/100-C
 traces (`e2/`, 24 files, 140.1 MB), the GPT-2 per-document traces (`e4/`, 15 files, 15.9 MB), the
 feature-shift dumps (`e5/`, 12 files, 10.2 MB), the E3 replica `.npz` payloads (24 files,
 35.6 MB), the GroupNorm per-instance JSONs (3 files, 17.3 MB) and the closure records (71
-`.jsonl.gz`, 128 MB). Two source checkpoints are held back as well, and are reproducible from
+`.jsonl.gz`, 128 MB) and the seed-matched re-measurement's per-episode records
+(12 files, 58.1 MB). Two source checkpoints are held back as well, and are reproducible from
 `ttt/e2_cifar/train_source.py` with the seeds in `SEEDS.md`, and are release assets in their own
-right. Every one of these is inside the five assets of
-[release `v1.0.5`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.5); `DATA.md`
+right, as are the 6 seed-matched source networks, which were retained in full and
+recover none of the eleven that were not. Every one of these is inside the seven assets of
+[release `v1.0.6`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.6); `DATA.md`
 gives each asset's size and SHA-256. There is no DOI, and no archival-preservation claim is
 made.
 Small companions to each held-back set — source gates, progress logs, per-seed summaries,

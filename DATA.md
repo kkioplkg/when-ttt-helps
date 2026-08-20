@@ -6,14 +6,14 @@ is the wrong tool for them. They are **published as versioned release assets of
 this repository**, which is public, so they download with a plain `curl` and no
 account:
 
-> **[Release `v1.0.5`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.5)** — five assets, listed below with their exact
+> **[Release `v1.0.6`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.6)** — seven assets, listed below with their exact
 > sizes and SHA-256s. The release notes carry the same digests, computed from
 > the uploaded files.
 
 This is a versioned publication, not an archival preservation service, and it
 carries **no DOI**; nothing here claims otherwise.
 
-> **Cite `v1.0.5`.** Five earlier releases are left in place as a historical
+> **Cite `v1.0.6`.** Six earlier releases are left in place as a historical
 > record and must not be used. `v1.0.0`'s `release_archive.zip` was replaced
 > in place more than once while the surrounding documentation was still being
 > corrected, so that version name never denoted one byte object, and its tag
@@ -26,21 +26,23 @@ carries **no DOI**; nothing here claims otherwise.
 > `e3_vectors_replicas.zip` by the wrong census; `v1.0.4` because two
 > generated documents still carried a superseded one-line description of what
 > the historical runs recorded, and because the reconciler's own
-> cross-environment claim count was one too high. Every one was superseded
+> cross-environment claim count was one too high; and `v1.0.5` because a new
+> experiment --- the seed-matched re-measurement of `delta_feat` --- landed in
+> the archive and brought two further assets with it. Every one was superseded
 > rather than edited, because editing a published release is the defect being
 > avoided — with one narrow exception, stated so it is not mistaken for
 > silence: **release *notes* are corrigible metadata and are corrected in
 > place when they state something false**, with the correction disclosed on
-> the release itself. Assets and tags are never touched. `v1.0.5` is the release whose
+> the release itself. Assets and tags are never touched. `v1.0.6` is the release whose
 > assets, notes, tag snapshot and this file all describe the same bytes. Every
-> digest below is `v1.0.5`'s.
+> digest below is `v1.0.6`'s.
 
 ## What you can do without the large data
 
 Every number printed in the paper has its analysis JSON **in this
 repository**. Re-deriving those JSONs from scratch needs the raw records;
 *checking* them does not. One distinction is worth keeping:
-`tools/r9_reconcile.py` **machine-binds 405 curated claims** and fails on a
+`tools/r9_reconcile.py` **machine-binds 508 curated claims** and fails on a
 mismatch or an orphan, while the remaining printed numbers are recomputable
 from their analysis JSON without being in that curated set — so "traceable"
 is the right word for those, not "bound". Concretely:
@@ -63,17 +65,21 @@ this repository: supplement Tables S4 and S7 regenerate from records that ship h
 
 ## The archives
 
-Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.5/<name>`. Download and check one
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.6/<name>`. Download and check one
 with:
 
 ```bash
-curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.5/closure_records.zip
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.6/closure_records.zip
 sha256sum closure_records.zip
 ```
 
-The two record archives additionally carry a **per-member** manifest inside
-`release_archive.zip`, digesting the decompressed bytes, so either can be checked
-file by file rather than only against its whole-archive digest.
+Every archive additionally carries a **per-member** manifest inside
+`release_archive.zip`, so any of them can be checked file by file rather than
+only against its whole-archive digest. For the two whose members carry
+compression of their own the manifest also digests the decompressed bytes,
+which is the digest that survives a rebuild at a different compression level;
+the seed-matched records are plain JSON, so there a second digest would be the
+first one again.
 
 ### 1. `closure_records.zip` — closure-experiment records
 
@@ -120,15 +126,60 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 62,940,681 bytes (60.0 MiB) |
-| sha256 | `1901d648e873fafcd97664823ee515a3d39ca176701b90da1fba9df39acb3059` |
-| contents | 637 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 234,443,356 bytes uncompressed |
+| size | 63,302,501 bytes (60.0 MiB) |
+| sha256 | `0bed782086fd225e28c7db23d3696fd541d39604dffae1fe906dcf52fad8c1b6` |
+| contents | 672 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 237,047,147 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw
 per-instance result JSONs listed below. The bundle is produced by
 `tools/make_release_zip.py`, which is in this repository, so it can
 be rebuilt.
+
+### 4. `seedmatch_records.zip` — seed-matched re-measurement records
+
+The raw per-episode records behind the seed-matched re-measurement of
+`delta_feat`: the crossed measurement matrix (every episode measured through
+each of three fresh source networks) and the six exposed adaptation runs.
+
+| | |
+|---|---|
+| size | 10,164,095 bytes (9.7 MiB) |
+| sha256 | `aa1701ebe4fbbd609d49388b1a56c7f1d3e051d8b58cdf6b6bd4955b79b5d3fc` |
+| contents | **13 members**: 12 record files holding 165,465 per-episode records (58,128,240 bytes of plain JSON) and one `README.md` |
+| unpacks to | `results/is_fresh/seedmatch/records/` |
+
+This exclusion is **declared, not inherited**, and the distinction is worth
+one sentence. The closure records are `.gz`, which the packager drops by
+construction; these are plain `.json` under `results/is_fresh/`, which the
+packager's recursive walk would otherwise ship. Leaving them out is therefore
+a decision, recorded in `tools/make_release_zip.py` in two places that must
+agree — `RESULT_EXCLUDE_PREFIXES`, which enforces it, and `DROPPED_PAYLOAD`,
+whose reason string is printed into `INDEX.md`. Everything needed to *check*
+a printed number ships here, under `results/is_fresh/seedmatch/`: the analysis
+JSONs, the frozen episode manifest, the six source-model evaluation records,
+the suite's code, its design and results documents and its two hash lists.
+
+### 5. `checkpoints_seedmatch.zip` — the six retained source networks
+
+| | |
+|---|---|
+| size | 15,137,236 bytes (14.4 MiB) |
+| sha256 | `d6ef8edfe32e563481774a8072f3f15981d389f5e3c0c5cfcb32270d4817097f` |
+| contents | **9 members**: 6 ResNet-26+GroupNorm source checkpoints (16,211,929 bytes of weights), the two reconstruction-head records the masking objective needs, and one `README.md` |
+| unpacks to | `experiments/ckpt/seedmatch/` |
+
+These are the networks every seed-matched number was measured through, so that
+experiment can be **re-measured rather than re-trained**. They are published
+separately because model weights cannot ship inside `release_archive.zip` at
+all: the packager drops `.pt` by construction.
+
+**They do not recover the eleven lost source checkpoints.** They belong to a
+family retrained afterwards under a different execution stack — fresh
+realizations of the same nominal recipe, not the weights the published grid
+adapted — so the published grid's seed-resolved measurement stays
+unreconstructible. What they close is narrower and worth having: the suite
+that measured what those lost checkpoints cost did retain its own.
 
 ## Raw record sets held back from this repository
 
@@ -144,6 +195,7 @@ README's "Layout" note gives the full prefix map.
 | `results/is_fresh/e3_vectors/` | 24 | 35.6 MB | the `.npz` + per-example `.json` payloads described above |
 | `results/is_fresh/e2_gn/` | 3 | 17.3 MB | GroupNorm-lane per-instance JSONs (`cifar10_tent_main`, `f15_partial_cells`, `delta_feat_fresh`) |
 | `results/is_fresh/closure/records/` | 71 | 128 MB | the closure records (`closure_records.zip`) |
+| `results/is_fresh/seedmatch/records/` | 12 | 58.1 MB | the seed-matched re-measurement's crossed matrix and exposed adaptation runs (`seedmatch_records.zip`) |
 
 Small companions to each of these — source gates, progress logs, per-seed
 training summaries, reference files — **are** in this repository, so the shape
@@ -181,3 +233,10 @@ recorded in `SEEDS.md`, though not bit-identically. **The other eleven source
 checkpoints did not survive and are not recoverable** — no asset substitutes
 for them, and the supplement's clean-accuracy paragraph rests on the retained
 per-seed evaluation records instead.
+
+A second, later family **was** retained in full: the 6 ResNet-26+GroupNorm
+source networks the seed-matched re-measurement trained, published as
+`checkpoints_seedmatch.zip` (§5 above) with the per-member digests in
+`results/is_fresh/seedmatch/SEEDMATCH_CHECKPOINTS_MANIFEST.json` and in that
+directory's `MANIFEST.md`. Those six are a different family and recover none of
+the eleven.

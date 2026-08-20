@@ -1,0 +1,110 @@
+{
+ "per_dataset": {
+  "cifar10": {
+   "n_matched_keys": 28440,
+   "old_seed0_vs_new_seed0": {
+    "affine_new_on_old": {
+     "intercept": 0.012786816521293433,
+     "slope": 0.8238081232261975
+    },
+    "cell_mean_spearman": 0.9752489331436699,
+    "episode_pearson": 0.9128384504971419,
+    "episode_spearman": 0.8974813975280903,
+    "mean_new": 0.08559072169196254,
+    "mean_old": 0.08837483282582166,
+    "sd_new": 0.04067331543821084,
+    "sd_old": 0.045068948938979295,
+    "within_cell_spearman": {
+     "frac_positive": 1.0,
+     "max": 0.9203817371183476,
+     "mean": 0.8457333893613931,
+     "mean_abs": 0.8457333893613931,
+     "median": 0.8572521095604614,
+     "min": 0.5936475682865342,
+     "n": 75,
+     "name": "within_cell",
+     "q10": 0.8028924366842924,
+     "q25": 0.8258647358826123,
+     "q75": 0.8777903563134066,
+     "q90": 0.888434970676647,
+     "sd": 0.050590562237278106
+    }
+   },
+   "old_vs_fresh_frozen_loss_by_source_seed": {
+    "0": {
+     "mean_fresh": 1.0695818043142773,
+     "mean_old": 1.1024660953907701,
+     "n": 9600,
+     "spearman_old_vs_fresh_frozen_loss": 0.7926120951039864
+    },
+    "1": {
+     "mean_fresh": 0.9753158149569996,
+     "mean_old": 1.0803535993874156,
+     "n": 9600,
+     "spearman_old_vs_fresh_frozen_loss": 0.792611018008994
+    },
+    "2": {
+     "mean_fresh": 0.9594433622209351,
+     "mean_old": 0.9383924058650552,
+     "n": 9600,
+     "spearman_old_vs_fresh_frozen_loss": 0.8043106036421818
+    }
+   },
+   "published_source": "delta_feat_cifar10_resnet26ttt.json"
+  },
+  "cifar100": {
+   "n_matched_keys": 11355,
+   "old_seed0_vs_new_seed0": {
+    "affine_new_on_old": {
+     "intercept": 0.018663403401370487,
+     "slope": 0.8519185740321666
+    },
+    "cell_mean_spearman": 0.9617352614015572,
+    "episode_pearson": 0.8790400376354321,
+    "episode_spearman": 0.8954141441635272,
+    "mean_new": 0.11520949115001489,
+    "mean_old": 0.11332783518463228,
+    "sd_new": 0.04474377314332435,
+    "sd_old": 0.04616822455425649,
+    "within_cell_spearman": {
+     "frac_positive": 1.0,
+     "max": 0.9169367334151971,
+     "mean": 0.85735694396685,
+     "mean_abs": 0.85735694396685,
+     "median": 0.8636091022371286,
+     "min": 0.7829914261689377,
+     "n": 30,
+     "name": "within_cell",
+     "q10": 0.8096327789731018,
+     "q25": 0.8300302232738892,
+     "q75": 0.8907740278796772,
+     "q90": 0.8959418991125079,
+     "sd": 0.03621264951958094
+    }
+   },
+   "old_vs_fresh_frozen_loss_by_source_seed": {
+    "0": {
+     "mean_fresh": 3.0812696141645404,
+     "mean_old": 3.1305747086221896,
+     "n": 3840,
+     "spearman_old_vs_fresh_frozen_loss": 0.7739526198165265
+    },
+    "1": {
+     "mean_fresh": 3.0612303492344797,
+     "mean_old": 2.972239369326743,
+     "n": 3840,
+     "spearman_old_vs_fresh_frozen_loss": 0.783708193987221
+    },
+    "2": {
+     "mean_fresh": 3.3964010214367137,
+     "mean_old": 3.3023678950128743,
+     "n": 3840,
+     "spearman_old_vs_fresh_frozen_loss": 0.7562612699423615
+    }
+   },
+   "published_source": "delta_feat_cifar100_resnet26ttt.json"
+  }
+ },
+ "reading": "If new-seed-0 does not preserve old-seed-0's ordering (episode and within-cell Spearman well below 1), the fresh family is a weak transport vehicle for the published grid and every contrast computed on it is scoped accordingly. These are diagnostics, not gates.",
+ "script": "sm_transport.py"
+}

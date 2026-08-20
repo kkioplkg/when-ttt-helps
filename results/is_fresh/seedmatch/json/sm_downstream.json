@@ -1,0 +1,1053 @@
+{
+ "n_episodes": 46080,
+ "results": {
+  "ttt_mask": {
+   "datasets": [
+    "cifar10"
+   ],
+   "matched_vs_genericwrong__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.01818681654479976,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.024959627957282397,
+     "mean": -0.0022021360702747066,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.0030156472261735233,
+     "max": 0.016411512553582374,
+     "max_abs_deviation_from_full": 0.01339586532740885,
+     "min": -0.00027994051264105255,
+     "per_cluster": {
+      "brightness": 0.003205318869740159,
+      "contrast": 0.007838334353949806,
+      "defocus_blur": 0.016411512553582374,
+      "elastic_transform": 0.011897471787245184,
+      "fog": 0.009559968506692319,
+      "frost": 0.01445192896509484,
+      "gaussian_noise": 0.004213104715247962,
+      "glass_blur": 0.0007558393841308852,
+      "impulse_noise": 0.001231738255620707,
+      "jpeg_compression": 0.0052628816376519725,
+      "motion_blur": 0.0022675181523926224,
+      "pixelate": -0.00027994051264105255,
+      "shot_noise": 0.0016306534861342148,
+      "snow": 0.003499256408013274,
+      "zoom_blur": 0.003282302510716484
+     },
+     "sign_flips": 1
+    },
+    "published_5_splits": {
+     "delta_mean": 0.0030156472261735233,
+     "n_splits": 5,
+     "rho_a_mean": 0.5377581792318634,
+     "rho_a_range": [
+      0.4164153627311522,
+      0.6009388335704124
+     ],
+     "rho_b_mean": 0.5347425320056899,
+     "rho_b_range": [
+      0.4096728307254623,
+      0.5960455192034139
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.0037766714082503572,
+     "n_splits": 100,
+     "rho_a_mean": 0.5890816500711238,
+     "rho_a_range": [
+      0.47945945945945945,
+      0.7157610241820768
+     ],
+     "rho_b_mean": 0.5928583214793741,
+     "rho_b_range": [
+      0.47527738264580366,
+      0.7163584637268847
+     ]
+    }
+   },
+   "matched_vs_genericwrong__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.006305102991741409,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.005630393996247679,
+     "mean": 0.0002643424483510485,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.0032204836415362426,
+     "max": 0.003786195433470363,
+     "max_abs_deviation_from_full": 0.0032904687696965196,
+     "min": -6.998512816027702e-05,
+     "per_cluster": {
+      "brightness": 0.0014346951272854013,
+      "contrast": 0.001273729332516793,
+      "defocus_blur": 1.3997025632050964e-05,
+      "elastic_transform": -6.998512816027702e-05,
+      "fog": 0.0010287813839559012,
+      "frost": 0.0024074884087131876,
+      "gaussian_noise": 0.002659434870090083,
+      "glass_blur": 0.0009727932814276085,
+      "impulse_noise": 0.0008958096404513948,
+      "jpeg_compression": 0.0009028081532673982,
+      "motion_blur": 0.0027434170238824105,
+      "pixelate": 0.00363222815151778,
+      "shot_noise": 0.003786195433470363,
+      "snow": 0.0031773248184760127,
+      "zoom_blur": 0.003583238561805602
+     },
+     "sign_flips": 1
+    },
+    "published_5_splits": {
+     "delta_mean": 0.0032204836415362426,
+     "n_splits": 5,
+     "rho_a_mean": 0.6647852062588904,
+     "rho_a_range": [
+      0.6165860597439544,
+      0.6904978662873399
+     ],
+     "rho_b_mean": 0.6615647226173541,
+     "rho_b_range": [
+      0.6158463726884779,
+      0.6863442389758179
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 1.2802275960175357e-05,
+     "n_splits": 100,
+     "rho_a_mean": 0.6995337126600285,
+     "rho_a_range": [
+      0.5859174964438122,
+      0.8160455192034141
+     ],
+     "rho_b_mean": 0.6995209103840682,
+     "rho_b_range": [
+      0.585348506401138,
+      0.8165576102418207
+     ]
+    }
+   },
+   "matched_vs_published__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.018059318430929682,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.02580063329679699,
+     "mean": -0.0012625618267101074,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.003596017069701274,
+     "max": 0.012471349838159406,
+     "max_abs_deviation_from_full": 0.008875332768458132,
+     "min": 0.0012527337940687166,
+     "per_cluster": {
+      "brightness": 0.0012527337940687166,
+      "contrast": 0.006389642201032353,
+      "defocus_blur": 0.012471349838159406,
+      "elastic_transform": 0.00855918117400054,
+      "fog": 0.004248097279328155,
+      "frost": 0.009720934301460916,
+      "gaussian_noise": 0.0045560318432332995,
+      "glass_blur": 0.003772198407838301,
+      "impulse_noise": 0.004339077945936498,
+      "jpeg_compression": 0.006830548508441936,
+      "motion_blur": 0.003555244510541522,
+      "pixelate": 0.004926953022482727,
+      "shot_noise": 0.0037582013822063053,
+      "snow": 0.004605021432945467,
+      "zoom_blur": 0.0025964482547459087
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": 0.003596017069701274,
+     "n_splits": 5,
+     "rho_a_mean": 0.5377581792318634,
+     "rho_a_range": [
+      0.4164153627311522,
+      0.6009388335704124
+     ],
+     "rho_b_mean": 0.5341621621621622,
+     "rho_b_range": [
+      0.413854907539118,
+      0.5953058321479373
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.0034008534850640077,
+     "n_splits": 100,
+     "rho_a_mean": 0.5890816500711238,
+     "rho_a_range": [
+      0.47945945945945945,
+      0.7157610241820768
+     ],
+     "rho_b_mean": 0.5924825035561877,
+     "rho_b_range": [
+      0.4638122332859175,
+      0.711095305832148
+     ]
+    }
+   },
+   "matched_vs_published__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.007396398559423744,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.005629219019462947,
+     "mean": 0.0007837065608096622,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.00450071123755329,
+     "max": 0.007019508354474624,
+     "max_abs_deviation_from_full": 0.005872419749494507,
+     "min": -0.0013717085119412165,
+     "per_cluster": {
+      "brightness": 7.698364097625809e-05,
+      "contrast": 2.0995538448032036e-05,
+      "defocus_blur": -0.0013717085119412165,
+      "elastic_transform": -0.0008328230251071877,
+      "fog": 0.001091767999300175,
+      "frost": 0.002554457177849723,
+      "gaussian_noise": 0.002575452716297799,
+      "glass_blur": 0.0015326743067098248,
+      "impulse_noise": 0.0028833872802029427,
+      "jpeg_compression": 0.003065348613419605,
+      "motion_blur": 0.004870964919954557,
+      "pixelate": 0.0065716035342489485,
+      "shot_noise": 0.007019508354474624,
+      "snow": 0.00575277753477379,
+      "zoom_blur": 0.00543084594523664
+     },
+     "sign_flips": 2
+    },
+    "published_5_splits": {
+     "delta_mean": 0.00450071123755329,
+     "n_splits": 5,
+     "rho_a_mean": 0.6647852062588904,
+     "rho_a_range": [
+      0.6165860597439544,
+      0.6904978662873399
+     ],
+     "rho_b_mean": 0.6602844950213371,
+     "rho_b_range": [
+      0.6124039829302987,
+      0.6877098150782361
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.00012802275960171027,
+     "n_splits": 100,
+     "rho_a_mean": 0.6995337126600285,
+     "rho_a_range": [
+      0.5859174964438122,
+      0.8160455192034141
+     ],
+     "rho_b_mean": 0.6994056899004265,
+     "rho_b_range": [
+      0.584352773826458,
+      0.8166429587482218
+     ]
+    }
+   },
+   "matched_vs_published_rankcal__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.03129737335834898,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.02353059224268133,
+     "mean": 0.006169493078712146,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.018093883357041228,
+     "max": 0.025677543522001613,
+     "max_abs_deviation_from_full": 0.017603987459919354,
+     "min": 0.0004898958971218725,
+     "per_cluster": {
+      "brightness": 0.0004898958971218725,
+      "contrast": 0.014255970606246105,
+      "defocus_blur": 0.020897559268655396,
+      "elastic_transform": 0.015368734143994357,
+      "fog": 0.0075234012772285915,
+      "frost": 0.011064648762138085,
+      "gaussian_noise": 0.01231738255620679,
+      "glass_blur": 0.012317382556206813,
+      "impulse_noise": 0.020862566704575224,
+      "jpeg_compression": 0.025677543522001613,
+      "motion_blur": 0.023654973318169892,
+      "pixelate": 0.025614556906657295,
+      "shot_noise": 0.024151867728107745,
+      "snow": 0.01815414224477303,
+      "zoom_blur": 0.016852418860992
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": 0.018093883357041228,
+     "n_splits": 5,
+     "rho_a_mean": 0.5286031294452347,
+     "rho_a_range": [
+      0.423556187766714,
+      0.5869985775248933
+     ],
+     "rho_b_mean": 0.5105092460881935,
+     "rho_b_range": [
+      0.4067994310099573,
+      0.5900995732574679
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.0026236130867709783,
+     "n_splits": 100,
+     "rho_a_mean": 0.5716076813655762,
+     "rho_a_range": [
+      0.44207681365576096,
+      0.7262873399715505
+     ],
+     "rho_b_mean": 0.5689840682788051,
+     "rho_b_range": [
+      0.4158179231863442,
+      0.6971834992887624
+     ]
+    }
+   },
+   "matched_vs_published_rankcal__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.010564660385730252,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.010356141666152742,
+     "mean": -0.00010824697930101084,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.005513513513513502,
+     "max": 0.005955734406438595,
+     "max_abs_deviation_from_full": 0.010909366894670036,
+     "min": -0.005395853381156534,
+     "per_cluster": {
+      "brightness": -0.005220890560755831,
+      "contrast": -0.0038701775872627573,
+      "defocus_blur": -0.005395853381156534,
+      "elastic_transform": -0.00333129210042864,
+      "fog": -0.002092555331991974,
+      "frost": -0.000594873589362277,
+      "gaussian_noise": 0.0016446505117662324,
+      "glass_blur": 0.0022885136908406658,
+      "impulse_noise": 0.005101915842883398,
+      "jpeg_compression": 0.0015116787682617262,
+      "motion_blur": 0.003961158253871067,
+      "pixelate": 0.005955734406438595,
+      "shot_noise": 0.004402064561280716,
+      "snow": 0.004989939637826968,
+      "zoom_blur": 0.005738780509141783
+     },
+     "sign_flips": 6
+    },
+    "published_5_splits": {
+     "delta_mean": 0.005513513513513502,
+     "n_splits": 5,
+     "rho_a_mean": 0.6738435277382645,
+     "rho_a_range": [
+      0.6321479374110952,
+      0.7023328591749644
+     ],
+     "rho_b_mean": 0.668330014224751,
+     "rho_b_range": [
+      0.6130298719772403,
+      0.7081650071123755
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.0008415362731152154,
+     "n_splits": 100,
+     "rho_a_mean": 0.7064537695590327,
+     "rho_a_range": [
+      0.5916073968705547,
+      0.8064580369843527
+     ],
+     "rho_b_mean": 0.7056122332859173,
+     "rho_b_range": [
+      0.5875960170697013,
+      0.8084779516358463
+     ]
+    }
+   },
+   "n_cells": 75,
+   "n_episodes": 19200,
+   "published_vs_genericwrong__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.010320527651916857,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.01261152350653939,
+     "mean": -0.0009395742435645995,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": -0.0005803698435277504,
+     "max": 0.005311871227364162,
+     "max_abs_deviation_from_full": 0.0058922410708919125,
+     "min": -0.00520689353512378,
+     "per_cluster": {
+      "brightness": 0.0019525850756714424,
+      "contrast": 0.0014486921529174523,
+      "defocus_blur": 0.003940162715422968,
+      "elastic_transform": 0.0033382906132446433,
+      "fog": 0.005311871227364162,
+      "frost": 0.004730994663633925,
+      "gaussian_noise": -0.0003429271279853374,
+      "glass_blur": -0.0030163590237074155,
+      "impulse_noise": -0.0031073396903157913,
+      "jpeg_compression": -0.0015676668707899633,
+      "motion_blur": -0.0012877263581488995,
+      "pixelate": -0.00520689353512378,
+      "shot_noise": -0.0021275478960720907,
+      "snow": -0.0011057650249321927,
+      "zoom_blur": 0.0006858542559705749
+     },
+     "sign_flips": 7
+    },
+    "published_5_splits": {
+     "delta_mean": -0.0005803698435277504,
+     "n_splits": 5,
+     "rho_a_mean": 0.5341621621621622,
+     "rho_a_range": [
+      0.413854907539118,
+      0.5953058321479373
+     ],
+     "rho_b_mean": 0.5347425320056899,
+     "rho_b_range": [
+      0.4096728307254623,
+      0.5960455192034139
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.00037581792318634955,
+     "n_splits": 100,
+     "rho_a_mean": 0.5924825035561877,
+     "rho_a_range": [
+      0.4638122332859175,
+      0.711095305832148
+     ],
+     "rho_b_mean": 0.5928583214793741,
+     "rho_b_range": [
+      0.47527738264580366,
+      0.7163584637268847
+     ]
+    }
+   },
+   "published_vs_genericwrong__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.003708214392698965,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.004495508506432883,
+     "mean": -0.0005193641124586137,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": -0.0012802275960170472,
+     "max": 0.0013857055375732675,
+     "max_abs_deviation_from_full": 0.0026659331335903147,
+     "min": -0.003233312921004261,
+     "per_cluster": {
+      "brightness": 0.0013577114863091433,
+      "contrast": 0.001252733794068761,
+      "defocus_blur": 0.0013857055375732675,
+      "elastic_transform": 0.0007628378969469108,
+      "fog": -6.298661534427374e-05,
+      "frost": -0.00014696876913653512,
+      "gaussian_noise": 8.398215379228358e-05,
+      "glass_blur": -0.0005598810252822161,
+      "impulse_noise": -0.0019875776397515477,
+      "jpeg_compression": -0.002162540460152207,
+      "motion_blur": -0.002127547896072146,
+      "pixelate": -0.0029393753827311685,
+      "shot_noise": -0.003233312921004261,
+      "snow": -0.002575452716297777,
+      "zoom_blur": -0.001847607383431038
+     },
+     "sign_flips": 5
+    },
+    "published_5_splits": {
+     "delta_mean": -0.0012802275960170472,
+     "n_splits": 5,
+     "rho_a_mean": 0.6602844950213371,
+     "rho_a_range": [
+      0.6124039829302987,
+      0.6877098150782361
+     ],
+     "rho_b_mean": 0.6615647226173541,
+     "rho_b_range": [
+      0.6158463726884779,
+      0.6863442389758179
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.00011522048364153493,
+     "n_splits": 100,
+     "rho_a_mean": 0.6994056899004265,
+     "rho_a_range": [
+      0.584352773826458,
+      0.8166429587482218
+     ],
+     "rho_b_mean": 0.6995209103840682,
+     "rho_b_range": [
+      0.585348506401138,
+      0.8165576102418207
+     ]
+    }
+   },
+   "weight_leverage": {
+    "max_abs_weight": 0.49642666523904366,
+    "median_abs_weight": 0.0019303172650154462,
+    "note": "influence diagnostic; the headline formula is not altered. sigma2_rel>0 is not enough -- a small positive value can amplify a minor delta difference into a dominating change in D",
+    "top_1pct_share_of_abs_dD": 0.2385667702729848,
+    "top_5pct_share_of_abs_dD": 0.5246526288581325
+   }
+  },
+  "ttt_rot": {
+   "datasets": [
+    "cifar10",
+    "cifar100"
+   ],
+   "matched_vs_genericwrong__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.01887958652536336,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.016229445949673457,
+     "mean": 0.0005056757478067895,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.004202778353721759,
+     "max": 0.0075155085464364,
+     "max_abs_deviation_from_full": 0.009453688464720222,
+     "min": -0.005250910110998463,
+     "per_cluster": {
+      "brightness": 0.0018157591058916456,
+      "contrast": -0.004266523854152671,
+      "defocus_blur": -0.005250910110998463,
+      "elastic_transform": -0.0006987612289526934,
+      "fog": -0.0014383260333187043,
+      "frost": 0.000844123966362531,
+      "gaussian_noise": 0.006171540781260953,
+      "glass_blur": 0.006219995027064207,
+      "impulse_noise": 0.0070462674291834945,
+      "jpeg_compression": 0.007380346702879825,
+      "motion_blur": 0.0075155085464364,
+      "pixelate": 0.004230820725666107,
+      "shot_noise": 0.0028103462565907344,
+      "snow": 0.002208493519244614,
+      "zoom_blur": -0.0030653686029238013
+     },
+     "sign_flips": 5
+    },
+    "published_5_splits": {
+     "delta_mean": 0.004202778353721759,
+     "n_splits": 5,
+     "rho_a_mean": 0.511345635496579,
+     "rho_a_range": [
+      0.43133941530167946,
+      0.5941841177690235
+     ],
+     "rho_b_mean": 0.5071428571428571,
+     "rho_b_range": [
+      0.42301472112792865,
+      0.5946195314119843
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.003209931577856116,
+     "n_splits": 100,
+     "rho_a_mean": 0.49671511507360555,
+     "rho_a_range": [
+      0.36552975326560233,
+      0.616877462160481
+     ],
+     "rho_b_mean": 0.49350518349574957,
+     "rho_b_range": [
+      0.362233049968899,
+      0.6127410325523533
+     ]
+    }
+   },
+   "matched_vs_genericwrong__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.009314477821009767,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.009864507960219636,
+     "mean": -0.00025862536162149605,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": -0.0036616222572699144,
+     "max": -0.002408685325388349,
+     "max_abs_deviation_from_full": 0.004982363443849847,
+     "min": -0.008643985701119761,
+     "per_cluster": {
+      "brightness": -0.006944258490650246,
+      "contrast": -0.002408685325388349,
+      "defocus_blur": -0.006444425959447053,
+      "elastic_transform": -0.005346554494271493,
+      "fog": -0.005913980909881789,
+      "frost": -0.0066624717930994,
+      "gaussian_noise": -0.005967531968685658,
+      "glass_blur": -0.006992721695260074,
+      "impulse_noise": -0.008159445763259221,
+      "jpeg_compression": -0.008643985701119761,
+      "motion_blur": -0.007548683864735217,
+      "pixelate": -0.007987320040402545,
+      "shot_noise": -0.005577355485645963,
+      "snow": -0.007835579155060368,
+      "zoom_blur": -0.005855326729516575
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": -0.0036616222572699144,
+     "n_splits": 5,
+     "rho_a_mean": 0.4912196395805042,
+     "rho_a_range": [
+      0.3905929675344021,
+      0.5712834335475844
+     ],
+     "rho_b_mean": 0.49488126183777414,
+     "rho_b_range": [
+      0.39605638621423245,
+      0.5764047273481235
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.000802249303039787,
+     "n_splits": 100,
+     "rho_a_mean": 0.5060624589003815,
+     "rho_a_range": [
+      0.3184739788513374,
+      0.6585216670122329
+     ],
+     "rho_b_mean": 0.5068647082034212,
+     "rho_b_range": [
+      0.32674683806759275,
+      0.662709931577856
+     ]
+    }
+   },
+   "matched_vs_published__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.03447386849901248,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.010670382249329547,
+     "mean": 0.012124042480833958,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.012417582417582429,
+     "max": 0.01738232312606395,
+     "max_abs_deviation_from_full": 0.011938140406476205,
+     "min": 0.00047944201110622364,
+     "per_cluster": {
+      "brightness": 0.009861714132700882,
+      "contrast": 0.002907254748197319,
+      "defocus_blur": 0.00047944201110622364,
+      "elastic_transform": 0.003299989161550265,
+      "fog": 0.004684760502138996,
+      "frost": 0.005309565250655068,
+      "gaussian_noise": 0.011075620501246409,
+      "glass_blur": 0.010030028881280717,
+      "impulse_noise": 0.01296278586411138,
+      "jpeg_compression": 0.015092222455992699,
+      "motion_blur": 0.01738232312606395,
+      "pixelate": 0.014235347372313523,
+      "shot_noise": 0.015268187874962558,
+      "snow": 0.012376234467545178,
+      "zoom_blur": 0.006018527373461091
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": 0.012417582417582429,
+     "n_splits": 5,
+     "rho_a_mean": 0.511345635496579,
+     "rho_a_range": [
+      0.43133941530167946,
+      0.5941841177690235
+     ],
+     "rho_b_mean": 0.49892805307899646,
+     "rho_b_range": [
+      0.4172195728799502,
+      0.5760833506116525
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.016016690856313492,
+     "n_splits": 100,
+     "rho_a_mean": 0.49671511507360555,
+     "rho_a_range": [
+      0.36552975326560233,
+      0.616877462160481
+     ],
+     "rho_b_mean": 0.48069842421729214,
+     "rho_b_range": [
+      0.34244246319718014,
+      0.6015861496993573
+     ]
+    }
+   },
+   "matched_vs_published__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.017186779953917077,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.00659166191388634,
+     "mean": 0.00497818071462511,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.0020070618332301724,
+     "max": 0.007140630965300043,
+     "max_abs_deviation_from_full": 0.0060708369346061716,
+     "min": -0.004063775101375999,
+     "per_cluster": {
+      "brightness": 0.00214218770919804,
+      "contrast": 0.007140630965300043,
+      "defocus_blur": 0.0021817132584221466,
+      "elastic_transform": 0.00025119427553154104,
+      "fog": 0.0025157947027186324,
+      "frost": 0.0013656418802296844,
+      "gaussian_noise": 0.003917146743528999,
+      "glass_blur": -0.0022633230513650184,
+      "impulse_noise": -0.0026458560017934784,
+      "jpeg_compression": -0.004063775101375999,
+      "motion_blur": -0.0017175848637745906,
+      "pixelate": -0.0008148005873371278,
+      "shot_noise": 0.00391969579633159,
+      "snow": -0.000540646414934709,
+      "zoom_blur": 0.0023079551365776663
+     },
+     "sign_flips": 6
+    },
+    "published_5_splits": {
+     "delta_mean": 0.0020070618332301724,
+     "n_splits": 5,
+     "rho_a_mean": 0.4912196395805042,
+     "rho_a_range": [
+      0.3905929675344021,
+      0.5712834335475844
+     ],
+     "rho_b_mean": 0.48921257774727406,
+     "rho_b_range": [
+      0.3772765324409635,
+      0.5744038979888035
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.0036264296367413133,
+     "n_splits": 100,
+     "rho_a_mean": 0.5060624589003815,
+     "rho_a_range": [
+      0.3184739788513374,
+      0.6585216670122329
+     ],
+     "rho_b_mean": 0.5024360292636402,
+     "rho_b_range": [
+      0.3280116110304789,
+      0.6598382749326145
+     ]
+    }
+   },
+   "matched_vs_published_rankcal__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.03296897255969842,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.021907106647599484,
+     "mean": 0.005484987070553885,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.004924320962056828,
+     "max": 0.008869677205465065,
+     "max_abs_deviation_from_full": 0.014485108726084595,
+     "min": -0.009560787764027768,
+     "per_cluster": {
+      "brightness": 0.008869677205465065,
+      "contrast": -0.0008058706144125627,
+      "defocus_blur": -0.004042104189379591,
+      "elastic_transform": -0.005959872233804464,
+      "fog": -0.0033841465358402157,
+      "frost": -0.0022059432957813206,
+      "gaussian_noise": -0.0003213281563797077,
+      "glass_blur": -0.0019687725136914858,
+      "impulse_noise": -0.0005329967038361638,
+      "jpeg_compression": -0.002399760278994423,
+      "motion_blur": 0.0029812112286338845,
+      "pixelate": -0.0015709376534118857,
+      "shot_noise": -0.004144113127912829,
+      "snow": -0.0005891016200294308,
+      "zoom_blur": -0.009560787764027768
+     },
+     "sign_flips": 13
+    },
+    "published_5_splits": {
+     "delta_mean": 0.004924320962056828,
+     "n_splits": 5,
+     "rho_a_mean": 0.5271718847190545,
+     "rho_a_range": [
+      0.45130624092888244,
+      0.5993883475015551
+     ],
+     "rho_b_mean": 0.5222475637569977,
+     "rho_b_range": [
+      0.45115073605639644,
+      0.5972631142442463
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.005742794940908156,
+     "n_splits": 100,
+     "rho_a_mean": 0.5163234501347709,
+     "rho_a_range": [
+      0.395054945054945,
+      0.6234812357453867
+     ],
+     "rho_b_mean": 0.5105806551938626,
+     "rho_b_range": [
+      0.3952622848849263,
+      0.6071428571428571
+     ]
+    }
+   },
+   "matched_vs_published_rankcal__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.02781640775610599,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.008911206934975865,
+     "mean": 0.010288247891753168,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": 0.011076103879357823,
+     "max": 0.029017743915758454,
+     "max_abs_deviation_from_full": 0.01794164003640063,
+     "min": 0.009298117828418783,
+     "per_cluster": {
+      "brightness": 0.014454666590159959,
+      "contrast": 0.015950382817454,
+      "defocus_blur": 0.01829914696001007,
+      "elastic_transform": 0.009298117828418783,
+      "fog": 0.021044460839525835,
+      "frost": 0.02359085980907418,
+      "gaussian_noise": 0.022717408561483764,
+      "glass_blur": 0.01962908804494501,
+      "impulse_noise": 0.023439134321172738,
+      "jpeg_compression": 0.024349561626187,
+      "motion_blur": 0.029017743915758454,
+      "pixelate": 0.015676237839616202,
+      "shot_noise": 0.02011362960872316,
+      "snow": 0.017610587429739942,
+      "zoom_blur": 0.020790724681488747
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": 0.011076103879357823,
+     "n_splits": 5,
+     "rho_a_mean": 0.5138373406130087,
+     "rho_a_range": [
+      0.41149806007306994,
+      0.5860112637674247
+     ],
+     "rho_b_mean": 0.5027612367336509,
+     "rho_b_range": [
+      0.41957396738158587,
+      0.5583313247253998
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": 0.007926871007341548,
+     "n_splits": 100,
+     "rho_a_mean": 0.5198534740369944,
+     "rho_a_range": [
+      0.36966618287373004,
+      0.6522667662258687
+     ],
+     "rho_b_mean": 0.511926603029653,
+     "rho_b_range": [
+      0.3448061372589674,
+      0.6525399129172714
+     ]
+    }
+   },
+   "n_cells": 105,
+   "n_episodes": 26880,
+   "published_vs_genericwrong__mean_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": -0.0012030443530749975,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.022406795463858667,
+     "mean": -0.011618366733027168,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": -0.00821480406386067,
+     "max": -0.00381003385421651,
+     "max_abs_deviation_from_full": 0.004404770209644159,
+     "min": -0.012457841618371823,
+     "per_cluster": {
+      "brightness": -0.008045955026809238,
+      "contrast": -0.00717377860234999,
+      "defocus_blur": -0.005730352122104687,
+      "elastic_transform": -0.003998750390502959,
+      "fog": -0.0061230865354577006,
+      "frost": -0.004465441284292537,
+      "gaussian_noise": -0.0049040797199854545,
+      "glass_blur": -0.00381003385421651,
+      "impulse_noise": -0.005916518434927886,
+      "jpeg_compression": -0.007711875753112873,
+      "motion_blur": -0.009866814579627547,
+      "pixelate": -0.010004526646647416,
+      "shot_noise": -0.012457841618371823,
+      "snow": -0.010167740948300563,
+      "zoom_blur": -0.009083895976384893
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": -0.00821480406386067,
+     "n_splits": 5,
+     "rho_a_mean": 0.49892805307899646,
+     "rho_a_range": [
+      0.4172195728799502,
+      0.5760833506116525
+     ],
+     "rho_b_mean": 0.5071428571428571,
+     "rho_b_range": [
+      0.42301472112792865,
+      0.5946195314119843
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.012806759278457376,
+     "n_splits": 100,
+     "rho_a_mean": 0.48069842421729214,
+     "rho_a_range": [
+      0.34244246319718014,
+      0.6015861496993573
+     ],
+     "rho_b_mean": 0.49350518349574957,
+     "rho_b_range": [
+      0.362233049968899,
+      0.6127410325523533
+     ]
+    }
+   },
+   "published_vs_genericwrong__median_final": {
+    "bootstrap_paired": {
+     "cluster": "corruption",
+     "hi": 0.0033380147662661497,
+     "interpretation": "robustness w.r.t. corruption composition, conditional on the realized networks; NOT uncertainty over network draws",
+     "lo": -0.014662500221783456,
+     "mean": -0.005236806076246607,
+     "n_boot": 1000,
+     "n_clusters": 15
+    },
+    "loco": {
+     "full": -0.005668684090500087,
+     "max": -0.004580210599743761,
+     "max_abs_deviation_from_full": 0.004215994621714569,
+     "min": -0.009884678712214656,
+     "per_cluster": {
+      "brightness": -0.009086446199848285,
+      "contrast": -0.009549316290688392,
+      "defocus_blur": -0.0086261392178692,
+      "elastic_transform": -0.005597748769803035,
+      "fog": -0.00842977561260042,
+      "frost": -0.008028113673329085,
+      "gaussian_noise": -0.009884678712214656,
+      "glass_blur": -0.0047293986438950554,
+      "impulse_noise": -0.005513589761465742,
+      "jpeg_compression": -0.004580210599743761,
+      "motion_blur": -0.005831099000960627,
+      "pixelate": -0.007172519453065418,
+      "shot_noise": -0.009497051281977554,
+      "snow": -0.007294932740125659,
+      "zoom_blur": -0.008163281866094241
+     },
+     "sign_flips": 0
+    },
+    "published_5_splits": {
+     "delta_mean": -0.005668684090500087,
+     "n_splits": 5,
+     "rho_a_mean": 0.48921257774727406,
+     "rho_a_range": [
+      0.3772765324409635,
+      0.5744038979888035
+     ],
+     "rho_b_mean": 0.49488126183777414,
+     "rho_b_range": [
+      0.39605638621423245,
+      0.5764047273481235
+     ]
+    },
+    "stability_100_splits": {
+     "delta_mean": -0.0044286789397811,
+     "n_splits": 100,
+     "rho_a_mean": 0.5024360292636402,
+     "rho_a_range": [
+      0.3280116110304789,
+      0.6598382749326145
+     ],
+     "rho_b_mean": 0.5068647082034212,
+     "rho_b_range": [
+      0.32674683806759275,
+      0.662709931577856
+     ]
+    }
+   },
+   "weight_leverage": {
+    "max_abs_weight": 47.051122928472246,
+    "median_abs_weight": 0.028738599432310042,
+    "note": "influence diagnostic; the headline formula is not altered. sigma2_rel>0 is not enough -- a small positive value can amplify a minor delta difference into a dominating change in D",
+    "top_1pct_share_of_abs_dD": 0.23977164893034145,
+    "top_5pct_share_of_abs_dD": 0.5258350661385883
+   }
+  }
+ },
+ "scope": {
+  "NOT_estimated": "Delta_protocol, the full-grid reproduction-of-protocol effect, which requires fresh seed-0 gains that were not run",
+  "estimand": "Delta_exposed",
+  "source_seeds_present": [
+   1,
+   2
+  ],
+  "stage_b": "EXPOSED-ONLY (source seeds != 0), as approved"
+ },
+ "script": "sm_downstream.py",
+ "wiring_null_alignment_arm_invariant": true
+}

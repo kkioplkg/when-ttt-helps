@@ -27,6 +27,7 @@ results/e2/
 results/e4/
 results/e5/
 results/is_fresh/closure/records/
+results/is_fresh/seedmatch/records/
 
 # LaTeX build artifacts (the manuscript is not tracked here)
 *.aux

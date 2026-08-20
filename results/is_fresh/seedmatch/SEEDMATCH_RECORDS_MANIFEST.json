@@ -1,0 +1,91 @@
+{
+ "archive": "seedmatch_records.zip",
+ "availability": "seedmatch_records.zip is published as a versioned release asset of the public code repository and downloads without an account from https://github.com/kkioplkg/when-ttt-helps/releases . There is no DOI and no archival-preservation claim. It is NOT attached to review correspondence: the release archive and the review package already sit near the 80 MB combined budget. This file is the manifest of its contents and ships INSIDE the attached release, so a reader who obtains the side archive can verify it member by member without trusting a single whole-archive digest. Possession of the side archive is neither proved nor implied by having this manifest.",
+ "purpose": "The side archive is required to RE-DERIVE the released analysis jsons from scratch. It is NOT required to check any number printed in either document: every printed number is bound to an analysis json that ships in the release, under experiments/results/is_fresh/seedmatch/json/.",
+ "hash_note": "sha256 is of the .json file as the run wrote it, after the recorded path transform, and agrees with MANIFEST_staged.sha256 in the results directory. There is no second digest over decompressed bytes because these members carry no compression of their own: unlike the closure suite's .jsonl.gz, the bytes in the archive are the bytes on disk.",
+ "archive_bytes": 10164095,
+ "archive_sha256": "aa1701ebe4fbbd609d49388b1a56c7f1d3e051d8b58cdf6b6bd4955b79b5d3fc",
+ "n_entries": 13,
+ "n_record_files": 12,
+ "total_record_bytes": 58128240,
+ "total_records": 165465,
+ "members": [
+  {
+   "name": "README.md",
+   "bytes": 2042,
+   "sha256": "018ddf91ef9a2631f4659e5579920d49bf7cc31555a90a5b9c90b0fd47ac009a"
+  },
+  {
+   "name": "records/cifar100_ttt_rot_main_s1.json",
+   "bytes": 3074561,
+   "sha256": "5936a7755ad8a2bd704b8b2d35f66ae178f97a88a0915e050bd0bca732ef857b",
+   "records": 3840
+  },
+  {
+   "name": "records/cifar100_ttt_rot_main_s2.json",
+   "bytes": 3070665,
+   "sha256": "b8ba2752215b75e7e80535865a6c5286a43316a7dbded1e87a83ea18088999ff",
+   "records": 3840
+  },
+  {
+   "name": "records/cifar10_ttt_mask_main_s1.json",
+   "bytes": 7790654,
+   "sha256": "bacc7ce0d310c56eab3e7f73f7d6efb0a26586c33e7ad2381f02f0cbad5d58a5",
+   "records": 9600
+  },
+  {
+   "name": "records/cifar10_ttt_mask_main_s2.json",
+   "bytes": 7796119,
+   "sha256": "8db8c018d96b610054684b4c57f99f4f395cb09b69b8802d5515e6b785b0d6aa",
+   "records": 9600
+  },
+  {
+   "name": "records/cifar10_ttt_rot_main_s1.json",
+   "bytes": 7804645,
+   "sha256": "51d8756797a7e5519e693465408adb70a1a37200453375797093765cc705f3b0",
+   "records": 9600
+  },
+  {
+   "name": "records/cifar10_ttt_rot_main_s2.json",
+   "bytes": 7809002,
+   "sha256": "7f53276e8945f544725020da52c99d8516aef3e73af9c00e34a2014023d82016",
+   "records": 9600
+  },
+  {
+   "name": "records/crossed_cifar100_s0.json",
+   "bytes": 1961523,
+   "sha256": "3c76f6f35c747e30ffd43ae6e50326edc00f87c397fddc8dbc37570ed3396738",
+   "records": 11355
+  },
+  {
+   "name": "records/crossed_cifar100_s1.json",
+   "bytes": 1961976,
+   "sha256": "c93fbf4123675692f440caf54e987dde47180fe30554f7adef7698ee101ffbe1",
+   "records": 11355
+  },
+  {
+   "name": "records/crossed_cifar100_s2.json",
+   "bytes": 1961859,
+   "sha256": "0fadce2ad086266f02e34e28c786e34812e1f8f5accd7b369443c6c103f8e3a5",
+   "records": 11355
+  },
+  {
+   "name": "records/crossed_cifar10_s0.json",
+   "bytes": 4965709,
+   "sha256": "2763d2be8800bf74136d57adc5cf970021ca748167a07febba6b09cf6846c7fc",
+   "records": 28440
+  },
+  {
+   "name": "records/crossed_cifar10_s1.json",
+   "bytes": 4965078,
+   "sha256": "4a91fa7cfe5431b265a36022a701144b043e9ca69b501b8c1a7e7bfb1d5d113a",
+   "records": 28440
+  },
+  {
+   "name": "records/crossed_cifar10_s2.json",
+   "bytes": 4966449,
+   "sha256": "31a3c2b5a038ea26a1adb289363272b8798de51f2d554b3fd4b71b74132ea61e",
+   "records": 28440
+  }
+ ]
+}
