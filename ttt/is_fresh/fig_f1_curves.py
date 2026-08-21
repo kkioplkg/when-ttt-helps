@@ -92,8 +92,15 @@ plt.rcParams.update({
     "figure.dpi": 120, "savefig.dpi": 300, "pdf.fonttype": 42,
     "font.family": "sans-serif",
     "font.sans-serif": ["DejaVu Sans", "Arial", "Helvetica"],
-    "font.size": 8.5, "axes.titlesize": 8.5, "axes.labelsize": 8.5,
-    "xtick.labelsize": 7.5, "ytick.labelsize": 7.5, "legend.fontsize": 7,
+    # SIZES ARE AUTHORED FOR THE PRINTED PAGE, NOT FOR THE CANVAS.  This float
+    # is included at width=0.52\textwidth = 3.38 in, so a figure authored 6.6 in
+    # wide is reduced by 0.53 on the page and every one of these sizes prints at
+    # roughly HALF its nominal value: the old 7.5 pt tick labels reached the
+    # reader at 3.98 pt.  The figure is therefore authored at very nearly its
+    # printed width (see `figsize` below, reduction ~0.98), which makes the
+    # numbers here the numbers the reader actually gets.
+    "font.size": 8.2, "axes.titlesize": 8.2, "axes.labelsize": 8.2,
+    "xtick.labelsize": 7.4, "ytick.labelsize": 7.4, "legend.fontsize": 7.4,
     "axes.edgecolor": BASE, "axes.linewidth": 0.8, "axes.labelcolor": INK,
     "text.color": INK, "xtick.color": MUTED, "ytick.color": MUTED,
     "xtick.labelcolor": INK2, "ytick.labelcolor": INK2,
@@ -196,12 +203,18 @@ def main():
                  f", f7 check {checks[-1].get('checked')}"), flush=True)
 
     ts = np.arange(T + 1)
-    # Width/height matter: the figure is included at width=\textwidth in a
-    # single-column cas-sc float.  A portrait aspect ratio makes the float
-    # taller than \topfraction, LaTeX defers it, and every later float
-    # queues behind it and lands after the appendices.  Keep the landscape
-    # shape of the other figures (aspect ~0.7).
-    fig, axes = plt.subplots(2, 2, figsize=(6.6, 4.2), sharex=True)
+    # WIDTH IS THE PRINTED WIDTH.  This float is included at
+    # width=0.52\textwidth in a single-column cas-sc article whose \textwidth is
+    # 469.755 pt = 6.50 in, i.e. at 3.38 in on the page.  Authoring it 6.6 in
+    # wide meant LaTeX scaled it by 0.53 and the text arrived at half size;
+    # nothing can be done about that from the font sizes alone, because the
+    # legend row is what sets the minimum width.  The figure is now authored at
+    # ~3.45 in (the saved bbox is tighter than `figsize`), so the reduction is
+    # ~0.98 and the point sizes above are what the reader sees.  Height still
+    # matters for float placement -- at 0.52\textwidth the printed height is
+    # ~2.9 in, far under \topfraction x \textheight, so the deferral failure
+    # this comment used to warn about cannot occur.
+    fig, axes = plt.subplots(2, 2, figsize=(3.68, 3.22), sharex=True)
     annot = {}
     for ax, (a, r) in zip(axes.ravel(), CELLS):
         delta = r * C.SIGMA
@@ -228,9 +241,16 @@ def main():
         ax.axhline(delta ** 2, color=MUTED, lw=0.8, ls=":", zorder=1,
                    label=r"frozen risk $\delta^2$")
         ax.set_title(rf"$\alpha={a}$,  $\delta/\sigma={r:g}$", pad=3)
+        # UPPER LEFT, NOT LOWER RIGHT.  At the enlarged point size the read-out
+        # no longer fits in the lower-right corner of the two rising cells: in
+        # (alpha=0.25, delta/sigma=4) the simulation band ran straight through
+        # it.  The upper-left corner is empty in all four cells -- the two
+        # rising curves have not climbed that far by 4% of the horizon and the
+        # two decaying ones have already fallen past it -- and the frozen-risk
+        # reference sits above 0.82 in axes fraction wherever it is in view.
         ax.annotate(rf"$\sup_t$ rel. err {pw * 100:.1f}\%".replace("\\%", "%"),
-                    xy=(0.96, 0.08), xycoords="axes fraction",
-                    ha="right", va="bottom", fontsize=6.8, color=INK2)
+                    xy=(0.035, 0.82), xycoords="axes fraction",
+                    ha="left", va="top", fontsize=7.4, color=INK2)
         ax.margins(x=0)
     for ax in axes[1]:
         ax.set_xlabel("adaptation step $t$")
@@ -241,11 +261,16 @@ def main():
              [f"simulation ({len(args.seeds)} seeds)", "across-seed min–max",
               "theory (closed form)", r"frozen risk $\delta^2$"]
              if l in labels]
+    # TWO COLUMNS, NOT FOUR.  The four entries laid out in one row need ~4.6 in
+    # at 7.4 pt, which is wider than the whole printed figure; forcing them onto
+    # one row is what used to require a 6.6 in canvas and hence the 0.53
+    # reduction that halved every point size.  Two rows of two fit the printed
+    # width with room to spare and cost ~0.16 in of height.
     fig.legend([handles[i] for i in order], [labels[i] for i in order],
-               loc="lower center", ncol=4, bbox_to_anchor=(0.5, 1.0),
-               handlelength=1.9, columnspacing=1.4, handletextpad=0.5,
-               labelcolor=INK2)
-    fig.tight_layout(h_pad=0.9, w_pad=1.0)
+               loc="lower center", ncol=2, bbox_to_anchor=(0.5, 1.0),
+               handlelength=1.8, columnspacing=1.1, handletextpad=0.45,
+               labelspacing=0.35, labelcolor=INK2)
+    fig.tight_layout(h_pad=0.7, w_pad=0.8)
     for out in args.out:
         out.parent.mkdir(parents=True, exist_ok=True)
         fig.savefig(out, bbox_inches="tight", pad_inches=0.02)

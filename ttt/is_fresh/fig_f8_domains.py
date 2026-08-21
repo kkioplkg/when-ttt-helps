@@ -69,7 +69,8 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt  # noqa: E402
 import numpy as np  # noqa: E402
-from matplotlib.ticker import SymmetricalLogLocator  # noqa: E402
+from matplotlib.ticker import (FixedLocator, NullFormatter,  # noqa: E402
+                               SymmetricalLogLocator)
 
 import common as C  # noqa: E402
 import f11_e4_cluster_ci as F11  # noqa: E402
@@ -119,8 +120,16 @@ plt.rcParams.update({
     "figure.dpi": 120, "savefig.dpi": 300, "pdf.fonttype": 42,
     "font.family": "sans-serif",
     "font.sans-serif": ["DejaVu Sans", "Arial", "Helvetica"],
+    # AUTHORED AT PRINT SIZE.  Included at width=0.90\textwidth = 5.85 in in a
+    # cas-sc article whose \textwidth is 469.755 pt = 6.50 in.  Authored 6.9 in
+    # wide (saved bbox 6.09 in) the reduction was 0.96, which is close enough
+    # that the axis furniture survived, but the two per-panel read-out lines
+    # were set at 6.6 / 6.4 pt and therefore printed at 6.3 / 6.2 pt -- right on
+    # the floor, and the reason a reader of the built PDF reported them as too
+    # small.  `figsize` below now matches the printed width, and the read-outs
+    # are set at the same size as the rest of the figure's prose.
     "font.size": 8.5, "axes.titlesize": 8.5, "axes.labelsize": 8.5,
-    "xtick.labelsize": 7.5, "ytick.labelsize": 7.5, "legend.fontsize": 7.2,
+    "xtick.labelsize": 7.5, "ytick.labelsize": 7.5, "legend.fontsize": 7.6,
     "axes.edgecolor": BASE, "axes.linewidth": 0.8, "axes.labelcolor": INK,
     "text.color": INK, "xtick.color": MUTED, "ytick.color": MUTED,
     "xtick.labelcolor": INK2, "ytick.labelcolor": INK2,
@@ -145,7 +154,18 @@ def main() -> None:
     assert "no averaging of endpoints" in f30["protocol"], f30["protocol"]
     recs = F11.load_e4()
 
-    fig = plt.figure(figsize=(6.9, 5.45))
+    # The per-panel correlation read-outs of (a)-(d) are set ABOVE the axes,
+    # between the panel title and the top spine, rather than inside the data
+    # box.  Inside they landed on the scatter -- in (d) a document marker fell
+    # between the digits of "0.88" and made it read as "0,88" -- and there is
+    # no corner of these rising clouds that is reliably empty in all four
+    # domains.  HEIGHT IS CAPPED, NOT GROWN, to pay for that band: this float
+    # is included at 0.90\textwidth and \topfraction is 0.7, so a taller
+    # figure gets DEFERRED by LaTeX and drags every later float behind it
+    # (the same failure the Figure 1 generator documents).  The band is
+    # therefore taken out of the panels, which stay well above the size at
+    # which a 500-document scatter stops reading.
+    fig = plt.figure(figsize=(6.62, 5.45))
     gs = fig.add_gridspec(2, 4, height_ratios=[1.0, 1.0],
                           hspace=0.62, wspace=0.42)
 
@@ -164,9 +184,22 @@ def main() -> None:
         ax.scatter(x, y, s=4.5, color=COLORS[dom], alpha=0.32, linewidths=0,
                    rasterized=True)
         ax.set_xscale("symlog", linthresh=1e-2)
-        # two-decade ticks: the panels are 1.5 in wide and 10^k labels collide
-        ax.xaxis.set_major_locator(
-            SymmetricalLogLocator(linthresh=1e-2, base=100))
+        # TICK LABELS ARE PLACED BY ARITHMETIC, NOT BY A LOCATOR.  These panels
+        # are ~1.0 in wide on the page and carry ~5.2 decade-widths, i.e. about
+        # 0.19 in per decade, while "10^0" set at 7.5 pt is 0.19 in wide and
+        # "-10^-2" is 0.35 in: ANY two labels less than two decades apart touch.
+        # The symlog linear window is one decade wide in total, so the locator's
+        # own choice -- 0 together with +/-10^-2 at the window edges -- put three
+        # labels inside 0.19 in and they overprinted each other (at the
+        # published, smaller point size "-10^-2" and "0" already ran together).
+        # The fixed set below is the densest one that clears: -10^-1 is two
+        # decade-widths left of 0 and 10^0 is two and a half to its right.
+        # -10^-1 falls outside the data range in three of the four domains and
+        # simply does not draw there.  Minor ticks keep every decade marked.
+        ax.xaxis.set_major_locator(FixedLocator([-1e-1, 0.0, 1e0]))
+        ax.xaxis.set_minor_locator(
+            SymmetricalLogLocator(linthresh=1e-2, base=10))
+        ax.xaxis.set_minor_formatter(NullFormatter())
         if dom in ("code", "pubmed"):          # heavy-tailed gains
             ax.set_yscale("symlog", linthresh=0.02)
             ax.set_yticks([-0.01, 0, 0.01, 0.1, 1])
@@ -174,14 +207,19 @@ def main() -> None:
         ax.axvline(0, color=MUTED, lw=0.7, ls=":")
         ci = d30["ci_cluster_nested"]["alignment_only"]
         full = d30["rho_pooled_rows"]["phase_v2"]
-        ax.set_title(f"({'abcd'[k]}) {LABEL[dom]}", pad=3)
-        ax.annotate(rf"$\rho_s = {rho:.2f}$" + "\n"
-                    + f"[{ci['lo']:.2f}, {ci['hi']:.2f}]",
-                    xy=(0.04, 0.97), xycoords="axes fraction", va="top",
-                    fontsize=7.4, color=INK)
+        # THE READ-OUT IS STACKED, NOT STRUNG OUT.  On one line at the enlarged
+        # size "rho_s = 0.68  [0.62, 0.73]" is 1.19 in against a 1.0 in panel,
+        # so consecutive panels' read-outs closed to within a hair of touching.
+        # Breaking after the point estimate puts the widest line at 0.65 in,
+        # well inside the panel, and costs one more line of the band.
+        ax.set_title(f"({'abcd'[k]}) {LABEL[dom]}", pad=31)
+        ax.annotate(rf"$\rho_s = {rho:.2f}$"
+                    + f"\n[{ci['lo']:.2f}, {ci['hi']:.2f}]",
+                    xy=(0.5, 1.085), xycoords="axes fraction", ha="center",
+                    va="bottom", fontsize=7.5, color=INK, linespacing=1.15)
         ax.annotate(f"full stat. {full:.2f}",
-                    xy=(0.04, 0.79), xycoords="axes fraction", va="top",
-                    fontsize=6.8, color=GREY)
+                    xy=(0.5, 1.005), xycoords="axes fraction", ha="center",
+                    va="bottom", fontsize=7.3, color=GREY)
         if k == 0:
             ax.set_ylabel("CE gain at the selected index")
         ax.set_xlabel(r"$\alpha_{\rm sgn}|\alpha_{\rm sgn}|/\sigma^2_{\rm rel}$", labelpad=1)
@@ -230,10 +268,19 @@ def main() -> None:
             "cluster_nested"]
         pt = f30["domains"][dom]["paired_diff_alignment_minus_full"][
             "point_pooled_rows"]
-        col = INK if pd["lo"] > 0 else GREY
-        axd.plot([pd["lo"], pd["hi"]], [yv, yv], color=col, lw=1.3,
-                 solid_capstyle="round")
-        axd.plot([pt], [yv], marker="o", ms=4.2, color=col, linestyle="none")
+        # The two classes this panel separates -- interval strictly on the
+        # alignment side vs. interval covering zero -- must not be encoded by
+        # ink colour alone, which is invisible in a grayscale print.  Resolved
+        # rows get a heavier bar and a FILLED marker; unresolved rows get a
+        # lighter bar and a HOLLOW marker.
+        resolved = pd["lo"] > 0
+        col = INK if resolved else GREY
+        axd.plot([pd["lo"], pd["hi"]], [yv, yv], color=col,
+                 lw=1.6 if resolved else 1.0, solid_capstyle="round")
+        axd.plot([pt], [yv], marker="o", ms=4.4 if resolved else 4.8,
+                 color=col, linestyle="none",
+                 markerfacecolor=col if resolved else "white",
+                 markeredgecolor=col, markeredgewidth=1.1)
     axd.axvline(0, color=RED, lw=0.8, ls="--")
     axd.set_yticks(ys)
     axd.set_yticklabels([])

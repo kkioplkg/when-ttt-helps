@@ -6,14 +6,14 @@ is the wrong tool for them. They are **published as versioned release assets of
 this repository**, which is public, so they download with a plain `curl` and no
 account:
 
-> **[Release `v1.0.6`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.6)** — seven assets, listed below with their exact
+> **[Release `v1.0.7`](https://github.com/kkioplkg/when-ttt-helps/releases/tag/v1.0.7)** — seven assets, listed below with their exact
 > sizes and SHA-256s. The release notes carry the same digests, computed from
 > the uploaded files.
 
 This is a versioned publication, not an archival preservation service, and it
 carries **no DOI**; nothing here claims otherwise.
 
-> **Cite `v1.0.6`.** Six earlier releases are left in place as a historical
+> **Cite `v1.0.7`.** Seven earlier releases are left in place as a historical
 > record and must not be used. `v1.0.0`'s `release_archive.zip` was replaced
 > in place more than once while the surrounding documentation was still being
 > corrected, so that version name never denoted one byte object, and its tag
@@ -26,16 +26,19 @@ carries **no DOI**; nothing here claims otherwise.
 > `e3_vectors_replicas.zip` by the wrong census; `v1.0.4` because two
 > generated documents still carried a superseded one-line description of what
 > the historical runs recorded, and because the reconciler's own
-> cross-environment claim count was one too high; and `v1.0.5` because a new
+> cross-environment claim count was one too high; `v1.0.5` because a new
 > experiment --- the seed-matched re-measurement of `delta_feat` --- landed in
-> the archive and brought two further assets with it. Every one was superseded
+> the archive and brought two further assets with it; and `v1.0.6` because the
+> manuscript sources were revised for writing quality and six figures were
+> regenerated, so the archive that carries them was rebuilt. No measurement
+> record changed in that pass, and no number moved. Every one was superseded
 > rather than edited, because editing a published release is the defect being
 > avoided — with one narrow exception, stated so it is not mistaken for
 > silence: **release *notes* are corrigible metadata and are corrected in
 > place when they state something false**, with the correction disclosed on
-> the release itself. Assets and tags are never touched. `v1.0.6` is the release whose
+> the release itself. Assets and tags are never touched. `v1.0.7` is the release whose
 > assets, notes, tag snapshot and this file all describe the same bytes. Every
-> digest below is `v1.0.6`'s.
+> digest below is `v1.0.7`'s.
 
 ## What you can do without the large data
 
@@ -65,11 +68,11 @@ this repository: supplement Tables S4 and S7 regenerate from records that ship h
 
 ## The archives
 
-Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.6/<name>`. Download and check one
+Every asset is at `https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.7/<name>`. Download and check one
 with:
 
 ```bash
-curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.6/closure_records.zip
+curl -sSL -O https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.7/closure_records.zip
 sha256sum closure_records.zip
 ```
 
@@ -126,9 +129,9 @@ The manifests and provenance for this set **do** ship here:
 
 | | |
 |---|---|
-| size | 63,302,501 bytes (60.0 MiB) |
-| sha256 | `0bed782086fd225e28c7db23d3696fd541d39604dffae1fe906dcf52fad8c1b6` |
-| contents | 672 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 237,047,147 bytes uncompressed |
+| size | 64,241,298 bytes (61.3 MiB) |
+| sha256 | `f3b7103041017d4105a47013930eb27fc39409bfba13c0c9983dd72805d7c0a3` |
+| contents | 672 members, of which 10 are root files the packager generates at build time; `GENERATED_MANIFEST.json` hashes the other 9, because it cannot hash itself; 237,632,321 bytes uncompressed |
 
 This repository is a **subset** of that bundle: the code, the operational
 docs, and every analysis output under ~1.1 MB. What the bundle adds is the raw

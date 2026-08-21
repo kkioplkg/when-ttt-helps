@@ -295,16 +295,16 @@ block and the products disagree.
 
 | property | `paper/main.pdf` (article) | `supplement/supplement.pdf` |
 |---|---|---|
-| pages | **40** | **59** |
-| `.pdf` size | 1,455,332 bytes | 1,061,627 bytes |
-| `.pdf` SHA-256 | `a51dce5b6b431d06a21f4b433ca3534da4b16140fb0b6c3e71fe7b9f57742cf1` | `e3b5cf0370a203e57bdc6016ec087adcd15edcd84a9413ad7a0eef1e52e24553` |
-| `.tex` SHA-256 | `970c22d576796a56442dbb31fa00928c0cb3d941d4c3dee6d312a4858a6d9352` | `4d651ad8c908ce404c171056a280e210fd9726f251f31582c59c6501d8f1e6a6` |
+| pages | **42** | **58** |
+| `.pdf` size | 1,626,732 bytes | 1,106,103 bytes |
+| `.pdf` SHA-256 | `a3e8fa85492a69da26a9bc8ef26a6bf5a372691faabf66d95605581184ff7889` | `adfa3750f3cd0f4f18cf449dede734c1fac55fb3ecbc8a9766fcc5d968d5dc14` |
+| `.tex` SHA-256 | `970c22d576796a56442dbb31fa00928c0cb3d941d4c3dee6d312a4858a6d9352` | `338ba59ba6d1c000f45db919e01993c6f36af0d38f976d9d25514717f8feae7b` |
 | `.bbl` SHA-256 | `8637a5ee0f1e699cc11e02e68033b256e40955675e1188da7c98f615d9b016e2` | `e7d1f1f28f9177d96d46e0b7e36a8cbdb325e445f449dec268a811eb924dbecb` |
 | LaTeX errors | 0 | 0 |
 | undefined references / citations | 0 | 0 |
 | multiply-defined labels | 0 | 0 |
-| `.log` size / SHA-256 | 40,619 bytes / `c7d9894eaac56856518c06ebdfde2f40e076feef9ce4738f381b4e54833d1539` | 28,127 bytes / `7966a2d21f865ab3e562e323eaaecda02f66c10bdbfb34779a718dc36774edc7` |
-| final-page footer | `Page 40 of 40` (verify this; see section 1) | none (the supplement carries no journal front matter) |
+| `.log` size / SHA-256 | 41,583 bytes / `83ba1fdde4739c159ed3c4df5daccaea55976daee987d57071d006b2c714cd76` | 28,432 bytes / `ee53858b2d64d5033ea2feb8528300671286b8bf2606ee394b5243ccdb66dd36` |
+| final-page footer | `Page 42 of 42` (verify this; see section 1) | none (the supplement carries no journal front matter) |
 
 The values above are **generated at package time from the two documents' own `.pdf`, `.log`, `.tex` and `.bbl` files**, not transcribed; the error, undefined-reference and multiply-defined censuses are computed by the same tests section 6 runs, so this table and that gate cannot disagree.
 
@@ -388,13 +388,16 @@ carry no risk of clipping and are not tracked individually.
      count that a rebuild had moved, and a `commented out and
      restorable' description of fields the source had active. -->
 
-**A fresh build of this tree emits 1 sized overfull box in the article and 0 in the supplement.**
+**A fresh build of this tree emits 1 sized overfull box in the article and 1 in the supplement.**
 
 | document | box | size | located at |
 |---|---|---|---|
 | article | `Overfull \hbox` | 117.08 pt | detected at line 172 |
+| supplement | `Overfull \hbox` | 21.41 pt | in paragraph at lines 296--300 |
 
 1 of these is the **front-matter** box `cas-sc` emits at `\maketitle` (main.tex line 172, read from the source) out of the author block. Its size is invariant to shortening any single field and it is produced by the class's front-matter assembly rather than by a paragraph of ours; this build carries the real author metadata, so it is that build, and the box did not move: it is the same 117.08 pt under the authors' names, ORCIDs, e-mails, CRediT lists and affiliation as it was under the placeholders, which is the invariance the paragraph above predicts. The title page of both documents was rendered and inspected on this build and carries no overflow, clipping or collision, and its ink clears every physical page edge, so the box is dispositioned as producing no visible overflow rather than tolerated undispositioned.
+
+The remaining 1 box is **not** explained by the front-matter assembly and is listed above with the source lines to fix. An undispositioned sized box means a page may be clipped with nobody having looked.
 
 **Placeholder status, read from the source rather than described.** `paper/main.tex` carries **no** placeholder field on a live line: the author names, ORCIDs, e-mail addresses, CRediT role lists and the affiliation are the submission values. The affiliation fields set on live lines are `city`, `country`, `organization`. Fields present only inside comments: `organization`.
 
@@ -1150,9 +1153,9 @@ item 5 of `verify()` on the extracted tree, and standalone via
      (447/247,260/135 against a gate reporting 449/247,285/140) -->
 
 On the shipped build it reports: **0 absolute paths outside the declared
-exceptions, over 399 JSON members (140,031 string leaves parsed) and 246 text
+exceptions, over 399 JSON members (139,973 string leaves parsed) and 246 text
 members; 27 binary members out of scope, 49 portable shebangs excluded; 6
-declared exceptions holding 760 matching contexts, which contain 775 absolute-path occurrences.**
+declared exceptions holding 759 matching contexts, which contain 773 absolute-path occurrences.**
 
 A context is one line of a text member, or one parsed JSON string leaf, and it
 can hold more than one path, so the two counts differ and each is reported under

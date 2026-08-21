@@ -13,8 +13,8 @@
 ## What this archive audits
 
 The submission is a PAIR of documents: `paper/is2/paper/main.pdf`
-(40 pp) and
-`paper/is2/supplement/supplement.pdf` (59 pp).  Both ship here with their
+(42 pp) and
+`paper/is2/supplement/supplement.pdf` (58 pp).  Both ship here with their
 sources, their build transcripts and their compiled bibliographies.  The
 experiments they report are E1 (solvable model), E2 (CIFAR-10/100-C) and E4
 (GPT-2 domains), and the records of those three, together with the fresh

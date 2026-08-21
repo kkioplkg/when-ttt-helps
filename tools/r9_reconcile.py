@@ -1921,10 +1921,17 @@ con("no .tex quantifies the tie set or the unattained infimum exhaustively",
 # they are described.  Same for the eta < 1 / zero-noise family: the article
 # keeps the consequence ("may not be stated at alpha = 1 alone"), the
 # supplement keeps the derivation.
+# RE-ANCHORED AGAIN (style pass).  Both documents used to write the
+# disclaimer as "We claim \emph{no} exhaustive classification of them, and no
+# statement in the paper needs one" -- a sentence that narrates the authors'
+# claim-making and pre-empts the question "why did you not classify them
+# all?".  The DISCLAIMER ITSELF is what this check exists for and it is
+# unchanged; only its grammar is, from "we claim no X" to the plain statement
+# of what the document contains.  The anchor follows the sentence.
 con("Definition 3.4(c) still disclaims exhaustiveness and names the tie "
     "shapes it declines to classify (article)",
     CORPUS.get("main:sections/setup_exact.tex", ""),
-    ("claim \\emph{no} exhaustive",
+    ("No exhaustive classification of them is",
      "adjacent pairs at any index",
      "constant curves",
      "a whole tail"),
@@ -1933,7 +1940,7 @@ con("Definition 3.4(c) still disclaims exhaustiveness and names the tie "
 con("the moved tie catalogue disclaims exhaustiveness and names the three "
     "tie shapes it describes (supplement)",
     CORPUS.get("supp:s1_exact_proofs.tex", ""),
-    ("claim \\emph{no} exhaustive",
+    ("No exhaustive classification of them is",
      "can sit at any index",
      "A \\emph{constant} curve",
      "\\emph{tail} $\\{1, \\dots, T\\}$",
@@ -2231,7 +2238,14 @@ con("The f34 record states why the two temperature-scaling estimands differ",
 con("The article scopes the isotropy claim to the orthogonal channel, scopes "
     "the necessity to the two-scale family, and claims no minimality",
     CORPUS.get("main:sections/setup_exact.tex", ""),
-    ("we claim no minimality for the isotropic specification",
+    # RE-ANCHORED (style pass).  "we claim no minimality for the isotropic
+    # specification" narrated the authors' claim-making.  What makes the
+    # no-minimality scope true is that NO ORDERING over model modifications is
+    # defined anywhere here, and the article now says that instead of saying
+    # that it declines to claim.  Same content, and a stronger anchor: it
+    # binds the reason rather than the disclaimer.
+    ("This paper defines no",
+     "no specification here is minimal in any sense it fixes",
      "Within the\ntwo-scale family below",
      "that argument establishes that the undamped channel\nmust be",
      "outside that family it establishes no necessity"),

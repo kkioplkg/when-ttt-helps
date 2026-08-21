@@ -1,6 +1,6 @@
 # Auditability archive -- index
 
-Built 2026-08-20 09:47 UTC for the
+Built 2026-08-21 05:57 UTC for the
 Information Sciences submission "When Does Single-Instance Test-Time
 Adaptation Help?  An Exact Phase Law in a Solvable Model".
 It exists so that the submission is independently auditable rather than
@@ -8,8 +8,8 @@ merely re-readable.  Extract it and every path below resolves without
 editing.
 
 **The submission is two documents.**  `paper/is2/paper/main.pdf` is the
-article (40 pp); `paper/is2/supplement/supplement.pdf` is the
-Supplementary Material (59 pp).  Both ship here with their sources,
+article (42 pp); `paper/is2/supplement/supplement.pdf` is the
+Supplementary Material (58 pp).  Both ship here with their sources,
 their build transcripts, their compiled bibliographies and the pinned LaTeX
 environment that produced them.
 
@@ -237,7 +237,7 @@ release asset of the code repository and is not attached to review
 correspondence**: at 62.5 MB it would put the
 attached pair over the correspondence size limit.  It downloads without an
 account from
-`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.6/e3_vectors_replicas.zip`.
+`https://github.com/kkioplkg/when-ttt-helps/releases/download/v1.0.7/e3_vectors_replicas.zip`.
 Naming it and printing a single whole-archive digest is not enough for a
 reader to check anything, so this archive also ships that archive's own
 per-member manifest:
@@ -404,8 +404,8 @@ itself at build time, not typed into this file**:
 > line by line --- none carries a build-machine or run-machine **absolute**
 > path *of the syntaxes the gate matches*, except for the
 > **6 declared exception files**.  Those files retain
-> **760** matching contexts --- lines, or parsed JSON string leaves
-> --- between them, containing **775** absolute-path occurrences;
+> **759** matching contexts --- lines, or parsed JSON string leaves
+> --- between them, containing **773** absolute-path occurrences;
 > a single context can carry more than one path, which is why the two
 > numbers differ and why each is reported under its own noun.  Each is
 > enumerated and
@@ -454,7 +454,7 @@ or if a declared exception has become clean and the exemption is therefore
 wider than the facts.
 
 Coverage of this build's run, over all **672** entries:
-**399 JSON members** (140031
+**399 JSON members** (139973
 string leaves **parsed**, not regex-matched); **246 text members**
 scanned line by line; 27 binary members out of scope and listed as
 such; 49 portable `env`-style shebangs excluded by construction
@@ -477,11 +477,11 @@ and the number of absolute-path occurrences retained in each:
 |---|---|---|
 | `experiments/results/is_fresh/closure/code/common.py` | 1 | 2 |
 | `paper/is2/paper/BUILD_ENVIRONMENT.md` | 7 | 8 |
-| `paper/is2/paper/main.log` | 122 | 128 |
+| `paper/is2/paper/main.log` | 121 | 126 |
 | `paper/is2/provenance/pip-freeze-full.txt` | 268 | 268 |
 | `paper/is2/supplement/supplement.log` | 94 | 101 |
 | `pip-freeze-full.txt` | 268 | 268 |
-| **total** | **760** | **775** in **6** files |
+| **total** | **759** | **773** in **6** files |
 
 The wider statement -- that a repository sweep finds *zero* absolute paths in
 the result JSONs -- is **not** made here, because it is **false** of the

@@ -22,7 +22,20 @@ BNTRAIN = st.RESULTS / "e2" / "cifar10_tent_batch_sweep_s0_bntrain.json"
 BNEVAL = [st.RESULTS / "e2" / f"cifar10_tent_batch_sweep_s{s}.json"
           for s in (0, 1, 2)]
 STEPS = ["1", "2", "5", "10"]
-STEP_COLORS = {"1": st.BLUE, "2": st.AQUA, "5": st.VIOLET, "10": st.ORANGE}
+# TWO-CHANNEL SERIES DISCRIMINATION.  Colour alone does not survive a
+# grayscale print: AQUA (#1baf7a) and ORANGE (#eb6834) sit within 0.02 of each
+# other in relative luminance, so a reader with a monochrome copy -- or with a
+# red-green deficiency -- cannot tell t=2 from t=10.  Each step count therefore
+# carries its own dash pattern AND its own marker in addition to its colour.
+STEP_STYLE = {
+    "1": {"color": st.BLUE, "ls": "-", "marker": "o", "ms": 3.8, "lw": 1.7},
+    "2": {"color": st.AQUA, "ls": (0, (4.2, 1.6)), "marker": "s", "ms": 3.3,
+          "lw": 1.5},
+    "5": {"color": st.VIOLET, "ls": (0, (1.2, 1.4)), "marker": "^", "ms": 4.2,
+          "lw": 1.5},
+    "10": {"color": st.ORANGE, "ls": (0, (5.5, 1.6, 1.2, 1.6)), "marker": "D",
+           "ms": 3.0, "lw": 1.5},
+}
 
 
 def main():
@@ -63,14 +76,26 @@ def main():
     med = [float(np.median(pooled[N])) for N in Nb]
     rho = st.spearman(Nb, med)
 
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(st.SINGLE, 2.7))
+    # AUTHORED AT PRINT SIZE, NOT AT st.SINGLE.  This float is included in the
+    # supplement at width=0.92\textwidth = 5.98 in (cas-sc, \textwidth =
+    # 469.755 pt = 6.50 in).  Saved from st.SINGLE the bbox was 5.32 in, so
+    # LaTeX ENLARGED it by 1.13 and _style's 9/8 pt type landed on the page at
+    # 10.1/9.0 pt -- legible, but visibly heavier than the body face and than
+    # every other figure in the document.  6.17 in of canvas saves a ~5.98 in
+    # bbox, so the reduction is ~1.0 and the figure carries the same 9/8 pt as
+    # its neighbours.  st.SINGLE itself must not be touched: F3 and F7 share it
+    # and are included at different widths again.
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(6.17, 3.02))
 
     for t in STEPS:
-        ax1.plot(Ns, gain[t], color=STEP_COLORS[t], marker="o",
-                 markersize=3.5, lw=1.6, label=f"$t={t}$")
+        s = STEP_STYLE[t]
+        ax1.plot(Ns, gain[t], color=s["color"], ls=s["ls"], marker=s["marker"],
+                 markersize=s["ms"], lw=s["lw"], label=f"$t={t}$")
     ax1.set_xscale("log", base=2)
-    ax1.legend(loc="lower right", handlelength=1.5, labelspacing=0.25,
-               borderaxespad=0.3)
+    # handlelength has to be long enough to show a full dash period, otherwise
+    # the legend key cannot distinguish the four line styles it is there to key
+    ax1.legend(loc="lower right", handlelength=2.8, labelspacing=0.35,
+               borderaxespad=0.3, handletextpad=0.6)
     ax1.axhline(0, color=st.MUTED, lw=0.8, ls=":")
     ax1.set_xlabel("batch size $N$")
     ax1.set_ylabel("accuracy gain over frozen (pp)")
